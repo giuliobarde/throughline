@@ -4,6 +4,8 @@ import hashlib
 import logging
 import os
 import time
+from datetime import datetime
+from email.utils import parsedate_to_datetime
 
 import httpx
 
@@ -30,6 +32,23 @@ def _news_id(url: str) -> str:
     return "news:" + hashlib.sha1(url.encode("utf-8")).hexdigest()[:12]
 
 
+def _iso_date(raw: str) -> str:
+    """Normalize Tavily's RFC-2822 published_date (or ISO) to ISO 8601.
+
+    Falls back to the raw string if it cannot be parsed; empty stays empty.
+    """
+    if not raw:
+        return ""
+    try:
+        return parsedate_to_datetime(raw).isoformat()
+    except (TypeError, ValueError, IndexError):
+        pass
+    try:
+        return datetime.fromisoformat(raw.replace("Z", "+00:00")).isoformat()
+    except ValueError:
+        return raw
+
+
 def parse_tavily_results(payload: dict) -> list[Item]:
     results = payload.get("results") or []
     items: list[Item] = []
@@ -43,7 +62,7 @@ def parse_tavily_results(payload: dict) -> list[Item]:
                 url=url,
                 abstract=r.get("content", ""),
                 authors=[],
-                published_at=r.get("published_date", ""),
+                published_at=_iso_date(r.get("published_date", "")),
                 has_code=False,
                 code_url=None,
             )
@@ -55,7 +74,7 @@ class TavilySource:
     name = "news"
 
     def __init__(
-        self, max_results: int = 10, days: int = 2, timeout: float = 30.0, retries: int = 3
+        self, max_results: int = 10, days: int = 14, timeout: float = 30.0, retries: int = 3
     ) -> None:
         self.max_results = max_results
         self.days = days

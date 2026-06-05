@@ -7,14 +7,14 @@ SAMPLE = {
             "url": "https://www.anthropic.com/news/claude-new-feature",
             "content": "Anthropic announced a new capability for Claude today.",
             "score": 0.9,
-            "published_date": "2026-06-04T10:00:00Z",
+            "published_date": "Thu, 04 Jun 2026 10:00:00 GMT",  # Tavily uses RFC 2822
         },
         {
             "title": "OpenAI ships something",
             "url": "https://openai.com/blog/something",
             "content": "Details about the release.",
             "score": 0.8,
-            "published_date": "2026-06-05T08:00:00Z",
+            "published_date": "Fri, 05 Jun 2026 08:00:00 GMT",
         },
     ]
 }
@@ -29,9 +29,18 @@ def test_parse_maps_fields_to_items():
     assert it.url == "https://www.anthropic.com/news/claude-new-feature"
     assert it.abstract == "Anthropic announced a new capability for Claude today."
     assert it.authors == []
-    assert it.published_at == "2026-06-04T10:00:00Z"
+    assert it.published_at.startswith("2026-06-04")  # RFC 2822 normalized to ISO
     assert it.has_code is False
     assert it.code_url is None
+
+
+def test_iso_date_normalizes_rfc2822_and_passes_iso_through():
+    from pipeline.sources.tavily import _iso_date
+
+    assert _iso_date("Thu, 04 Jun 2026 16:07:30 GMT").startswith("2026-06-04T16:07:30")
+    assert _iso_date("2026-06-04T10:00:00Z").startswith("2026-06-04T10:00:00")
+    assert _iso_date("") == ""
+    assert _iso_date("not a date") == "not a date"  # unparseable kept as-is
 
 
 def test_parse_id_is_stable_and_prefixed():
