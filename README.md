@@ -45,6 +45,7 @@ and if files changed commits them authored as the repo owner using the GitHub no
 | `ANTHROPIC_MODEL` | model id, defaults to `claude-haiku-4-5` | 7 |
 | `SUPABASE_URL` / `SUPABASE_ANON_KEY` / `SUPABASE_SERVICE_ROLE_KEY` | personalization store | 8 |
 | `TAVILY_API_KEY` | AI/ML news source (Tavily Search) | news |
+| `GITHUB_TOKEN` | GitHub trending source rate limit (auto-provided in CI) | news |
 
 Secrets live in GitHub Actions secrets / Vercel env. Never committed.
 ```
