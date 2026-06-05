@@ -28,6 +28,8 @@ jobs:
         run: pip install -r pipeline/requirements.txt
 
       - name: Run pipeline
+        env:
+          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
         run: python -m pipeline.run
 
       - name: Commit digest if changed
