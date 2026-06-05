@@ -45,3 +45,11 @@ def test_parse_id_is_stable_and_prefixed():
 
 def test_parse_missing_results_key_returns_empty():
     assert parse_tavily_results({}) == []
+
+
+from pipeline.sources.tavily import TavilySource
+
+
+def test_fetch_returns_empty_when_key_missing(monkeypatch):
+    monkeypatch.delenv("TAVILY_API_KEY", raising=False)
+    assert TavilySource().fetch() == []
