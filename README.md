@@ -1,5 +1,7 @@
 # Throughline
 
+**Live:** https://throughline-theta.vercel.app
+
 Self-updating AI research & engineering intelligence hub. A daily Python pipeline fetches
 new ML/AI content, writes a dated digest, and a scheduled GitHub Action commits it with a
 real timestamp. A Next.js site renders the digest, archive, and (later) weekly synthesis.
