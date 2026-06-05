@@ -4,6 +4,7 @@ const LABELS: Record<Item["source"], string> = {
   arxiv: "arXiv",
   hackernews: "HN",
   github: "GitHub",
+  news: "NEWS",
 };
 
 export function SourceBadge({ source }: { source: Item["source"] }) {
