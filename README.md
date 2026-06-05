@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Throughline
 
-## Getting Started
+Self-updating AI research & engineering intelligence hub. A daily Python pipeline fetches
+new ML/AI content, writes a dated digest, and a scheduled GitHub Action commits it with a
+real timestamp. A Next.js site renders the digest, archive, and (later) weekly synthesis.
 
-First, run the development server:
+## Architecture
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+```
+sources → fetch → dedupe → embed → cluster → rank → summarize (Claude)
+  → [weekly: synthesize] → write dated JSON/MDX → commit & push → Vercel ISR
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Local setup
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Frontend
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+npm install
+npm run dev
+```
 
-## Learn More
+### Pipeline
 
-To learn more about Next.js, take a look at the following resources:
+```
+python -m venv .venv && source .venv/bin/activate
+pip install -r pipeline/requirements.txt
+python -m pipeline.run --dry-run          # print, don't write
+python -m pipeline.run --date 2026-06-05  # write a specific date
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## How the daily job works
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+`.github/workflows/daily-digest.yml` runs on a cron (`0 12 * * *`), executes the pipeline,
+and if files changed commits them authored as the repo owner using the GitHub noreply email
+(real timestamp, no backdating) and pushes to `main`. Vercel auto-deploys.
 
-## Deploy on Vercel
+## Environment variables
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+| Var | Purpose | Phase |
+|-----|---------|-------|
+| `ANTHROPIC_API_KEY` | Claude summaries + synthesis | 7 |
+| `ANTHROPIC_MODEL` | model id, defaults to `claude-haiku-4-5` | 7 |
+| `SUPABASE_URL` / `SUPABASE_ANON_KEY` / `SUPABASE_SERVICE_ROLE_KEY` | personalization store | 8 |
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Secrets live in GitHub Actions secrets / Vercel env. Never committed.
+```
