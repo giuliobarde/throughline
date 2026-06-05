@@ -46,3 +46,7 @@ __pycache__/
 *.pyc
 .venv/
 .pytest_cache/
+
+# local test artifacts
+.playwright-mcp/
+/*.png
