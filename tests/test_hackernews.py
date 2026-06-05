@@ -62,3 +62,22 @@ def test_filter_keeps_only_ai_ml_titles():
 
 def test_parse_missing_hits_returns_empty():
     assert parse_hn_results({}) == []
+
+
+import httpx
+
+from pipeline.sources.hackernews import HackerNewsSource
+
+
+def test_fetch_parses_and_filters(monkeypatch):
+    def fake_get(url, params=None, timeout=None, headers=None):
+        return httpx.Response(
+            200,
+            json=SAMPLE,
+            request=httpx.Request("GET", url),
+        )
+
+    monkeypatch.setattr(httpx, "get", fake_get)
+    items = HackerNewsSource().fetch()
+    ids = {i.id for i in items}
+    assert ids == {"hn:111", "hn:333"}  # off-topic 222 filtered out
