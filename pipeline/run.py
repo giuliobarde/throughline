@@ -8,12 +8,14 @@ from datetime import date as date_cls
 from pipeline.digest import write_digest
 from pipeline.models import Item
 from pipeline.sources.arxiv import ArxivSource
+from pipeline.sources.github import GitHubSource
+from pipeline.sources.hackernews import HackerNewsSource
 from pipeline.sources.tavily import TavilySource
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
 log = logging.getLogger("throughline")
 
-SOURCES = [ArxivSource(), TavilySource()]
+SOURCES = [ArxivSource(), TavilySource(), HackerNewsSource(), GitHubSource()]
 
 
 def collect() -> list[Item]:
