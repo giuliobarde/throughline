@@ -1,13 +1,15 @@
 from __future__ import annotations
 
 import re
+import time
 
 import feedparser
 import httpx
 
 from pipeline.models import Item
 
-ARXIV_API = "http://export.arxiv.org/api/query"
+ARXIV_API = "https://export.arxiv.org/api/query"
+USER_AGENT = "throughline/0.1 (https://github.com/giuliobarde/throughline)"
 CATEGORIES = ["cs.LG", "cs.CL", "cs.AI", "cs.MA"]
 _ABS_ID = re.compile(r"abs/([^v]+)")
 _CODE_HINT = re.compile(r"\b(code|github|implementation)\b", re.IGNORECASE)
@@ -43,18 +45,39 @@ def parse_arxiv_feed(xml: str) -> list[Item]:
 class ArxivSource:
     name = "arxiv"
 
-    def __init__(self, max_results: int = 50, timeout: float = 30.0) -> None:
+    def __init__(
+        self, max_results: int = 50, timeout: float = 30.0, retries: int = 3
+    ) -> None:
         self.max_results = max_results
         self.timeout = timeout
+        self.retries = retries
 
     def fetch(self) -> list[Item]:
-        query = "+OR+".join(f"cat:{c}" for c in CATEGORIES)
+        query = " OR ".join(f"cat:{c}" for c in CATEGORIES)
         params = {
             "search_query": query,
             "sortBy": "submittedDate",
             "sortOrder": "descending",
             "max_results": str(self.max_results),
         }
-        resp = httpx.get(ARXIV_API, params=params, timeout=self.timeout)
-        resp.raise_for_status()
-        return parse_arxiv_feed(resp.text)
+        last_exc: Exception | None = None
+        for attempt in range(self.retries):
+            try:
+                resp = httpx.get(
+                    ARXIV_API,
+                    params=params,
+                    timeout=self.timeout,
+                    follow_redirects=True,
+                    headers={"User-Agent": USER_AGENT},
+                )
+                resp.raise_for_status()
+                return parse_arxiv_feed(resp.text)
+            except httpx.HTTPStatusError as exc:
+                last_exc = exc
+                transient = exc.response.status_code in (429, 500, 503)
+                if transient and attempt < self.retries - 1:
+                    time.sleep(3 * (attempt + 1))  # polite backoff
+                    continue
+                raise
+        assert last_exc is not None
+        raise last_exc
