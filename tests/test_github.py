@@ -44,3 +44,37 @@ def test_parse_handles_null_description():
 
 def test_parse_missing_items_returns_empty():
     assert parse_github_results({}) == []
+
+
+import httpx
+
+from pipeline.sources.github import GitHubSource
+
+
+def test_fetch_parses_results(monkeypatch):
+    captured = {}
+
+    def fake_get(url, params=None, timeout=None, headers=None):
+        captured["params"] = params
+        captured["headers"] = headers
+        return httpx.Response(200, json=SAMPLE, request=httpx.Request("GET", url))
+
+    monkeypatch.setattr(httpx, "get", fake_get)
+    monkeypatch.delenv("GITHUB_TOKEN", raising=False)
+    items = GitHubSource().fetch()
+    assert {i.id for i in items} == {"gh:acme/awesome-llm", "gh:beta/no-desc"}
+    assert captured["params"]["sort"] == "stars"
+    assert "Authorization" not in captured["headers"]  # no token -> no auth header
+
+
+def test_fetch_adds_auth_header_when_token_set(monkeypatch):
+    captured = {}
+
+    def fake_get(url, params=None, timeout=None, headers=None):
+        captured["headers"] = headers
+        return httpx.Response(200, json={"items": []}, request=httpx.Request("GET", url))
+
+    monkeypatch.setattr(httpx, "get", fake_get)
+    monkeypatch.setenv("GITHUB_TOKEN", "ghtok123")
+    GitHubSource().fetch()
+    assert captured["headers"]["Authorization"] == "Bearer ghtok123"
