@@ -5,7 +5,9 @@ import json
 import logging
 from datetime import date as date_cls
 
+from pipeline.cluster import cluster_items
 from pipeline.digest import write_digest
+from pipeline.embed import embed_items
 from pipeline.models import Item
 from pipeline.sources.arxiv import ArxivSource
 from pipeline.sources.github import GitHubSource
@@ -55,7 +57,17 @@ def main() -> None:
         print(json.dumps([it.to_dict() for it in items], indent=2))
         return
 
-    out = write_digest(args.date, items)
+    topics: list[dict] = []
+    topic_by_key: dict[str, str] = {}
+    if items:
+        try:
+            embeddings = embed_items(items)
+            topics, topic_by_key = cluster_items(items, embeddings)
+            log.info("clustered into %d topics", len(topics))
+        except Exception:  # ML failure must not lose the digest
+            log.exception("embedding/clustering failed; writing without topics")
+
+    out = write_digest(args.date, items, topics=topics, topic_by_key=topic_by_key)
     log.info("wrote %s", out)
 
 
