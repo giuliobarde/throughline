@@ -9,6 +9,9 @@ export function ItemCard({ item }: { item: Item }) {
         {item.has_code && (
           <span className="font-mono text-xs text-emerald-500">code</span>
         )}
+        {item.topic && (
+          <span className="font-mono text-xs text-neutral-600">#{item.topic}</span>
+        )}
         <time className="font-mono text-xs text-neutral-600">
           {item.published_at.slice(0, 10)}
         </time>

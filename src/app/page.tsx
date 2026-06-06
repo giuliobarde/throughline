@@ -1,10 +1,12 @@
 import { ItemCard } from "@/components/ItemCard";
 import { getLatestDigest } from "@/lib/content";
+import type { Item } from "@/lib/types";
 
 export const revalidate = 3600; // ISR: rebuild hourly
 
 export default async function HomePage() {
   const digest = await getLatestDigest();
+  const itemKey = (i: Item) => `${i.source}:${i.id}`;
 
   return (
     <main className="mx-auto max-w-3xl px-6 py-12">
@@ -21,10 +23,32 @@ export default async function HomePage() {
         <p className="text-neutral-500">
           No digest yet. The pipeline runs daily.
         </p>
+      ) : digest.topics.length > 0 ? (
+        <div className="space-y-12">
+          {digest.topics.map((topic) => {
+            const byKey = new Map(digest.items.map((i) => [itemKey(i), i]));
+            const topicItems = topic.item_ids
+              .map((id) => byKey.get(id))
+              .filter((i): i is Item => Boolean(i));
+            if (topicItems.length === 0) return null;
+            return (
+              <section key={topic.tag}>
+                <h2 className="mb-2 font-mono text-xs uppercase tracking-wider text-neutral-500">
+                  {topic.label}
+                </h2>
+                <div>
+                  {topicItems.map((item) => (
+                    <ItemCard key={itemKey(item)} item={item} />
+                  ))}
+                </div>
+              </section>
+            );
+          })}
+        </div>
       ) : (
         <div>
           {digest.items.map((item) => (
-            <ItemCard key={`${item.source}:${item.id}`} item={item} />
+            <ItemCard key={itemKey(item)} item={item} />
           ))}
         </div>
       )}
