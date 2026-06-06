@@ -32,3 +32,13 @@ def test_write_digest_is_idempotent_and_updates_index(tmp_path: Path):
     index = json.loads((content / "index.json").read_text())
     assert len(index) == 1  # not duplicated
     assert index[0] == {"date": "2026-06-05", "item_count": 2, "has_synthesis": False}
+
+
+def test_build_digest_attaches_topics_and_item_topic():
+    items = [_item("1"), _item("2")]
+    topics = [{"tag": "t1", "label": "T1", "item_ids": ["arxiv:1", "arxiv:2"]}]
+    topic_by_key = {"arxiv:1": "t1", "arxiv:2": "t1"}
+    d = build_digest("2026-06-06", items, topics=topics, topic_by_key=topic_by_key)
+    assert d["topics"] == topics
+    assert d["items"][0]["topic"] == "t1"
+    assert d["items"][1]["topic"] == "t1"
