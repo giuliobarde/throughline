@@ -8,6 +8,7 @@ from datetime import date as date_cls
 from pipeline.cluster import cluster_items
 from pipeline.digest import write_digest
 from pipeline.embed import embed_items
+from pipeline.summarize import label_topics, select_for_summary, summarize_items
 from pipeline.models import Item
 from pipeline.sources.arxiv import ArxivSource
 from pipeline.sources.github import GitHubSource
@@ -59,15 +60,26 @@ def main() -> None:
 
     topics: list[dict] = []
     topic_by_key: dict[str, str] = {}
+    summaries: dict[str, dict] = {}
     if items:
         try:
             embeddings = embed_items(items)
             topics, topic_by_key = cluster_items(items, embeddings)
             log.info("clustered into %d topics", len(topics))
-        except Exception:  # ML failure must not lose the digest
-            log.exception("embedding/clustering failed; writing without topics")
+            selected = select_for_summary(items, topic_by_key)
+            summaries = summarize_items(selected)
+            log.info("summarized %d items", len(summaries))
+            topics = label_topics(topics, items)
+        except Exception:  # ML/LLM failure must not lose the digest
+            log.exception("ml/summarize step failed; writing with what we have")
 
-    out = write_digest(args.date, items, topics=topics, topic_by_key=topic_by_key)
+    out = write_digest(
+        args.date,
+        items,
+        topics=topics,
+        topic_by_key=topic_by_key,
+        summaries=summaries,
+    )
     log.info("wrote %s", out)
 
 
