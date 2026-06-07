@@ -9,6 +9,11 @@ export function ItemCard({ item }: { item: Item }) {
         {item.has_code && (
           <span className="font-mono text-xs text-emerald-500">code</span>
         )}
+        {item.repro_difficulty && (
+          <span className="font-mono text-xs text-amber-500">
+            repro: {item.repro_difficulty}
+          </span>
+        )}
         {item.topic && (
           <span className="font-mono text-xs text-neutral-600">#{item.topic}</span>
         )}
