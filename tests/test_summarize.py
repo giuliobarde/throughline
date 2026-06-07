@@ -31,3 +31,56 @@ def test_cap_zero_padding_and_missing_topic_defaults_all():
     items = [_item("arxiv", "x", "2026-06-06T00:00:00Z")]
     selected = select_for_summary(items, {}, cap=5)
     assert [f"{i.source}:{i.id}" for i in selected] == ["arxiv:x"]
+
+
+from pathlib import Path
+
+from pipeline.summarize import summarize_items
+
+
+class CountingLLM:
+    def __init__(self) -> None:
+        self.calls = 0
+
+    def __call__(self, system: str, user: str, schema: dict) -> dict:
+        self.calls += 1
+        return {"summary": "A grounded summary.", "repro_difficulty": "med"}
+
+
+def test_summarize_computes_and_caches(tmp_path: Path):
+    cache = tmp_path / "sum.json"
+    items = [_item("arxiv", "1", "2026-06-06T00:00:00Z")]
+    llm = CountingLLM()
+    out = summarize_items(items, llm=llm, cache_path=cache)
+    assert out["arxiv:1"]["summary"] == "A grounded summary."
+    assert out["arxiv:1"]["repro_difficulty"] == "med"
+    assert llm.calls == 1
+    assert cache.exists()
+
+    llm2 = CountingLLM()
+    out2 = summarize_items(items, llm=llm2, cache_path=cache)
+    assert llm2.calls == 0  # cached
+    assert out2["arxiv:1"]["summary"] == "A grounded summary."
+
+
+def test_summarize_no_llm_returns_cached_only(tmp_path: Path, monkeypatch):
+    monkeypatch.delenv("ANTHROPIC_API_KEY", raising=False)
+    cache = tmp_path / "sum.json"
+    items = [_item("arxiv", "1", "2026-06-06T00:00:00Z")]
+    out = summarize_items(items, llm=None, cache_path=cache)  # no key path
+    assert out == {}
+
+
+def test_summarize_skips_item_on_llm_error(tmp_path: Path):
+    cache = tmp_path / "sum.json"
+    items = [_item("arxiv", "1", "2026-06-06T00:00:00Z"),
+             _item("arxiv", "2", "2026-06-06T00:00:00Z")]
+
+    def flaky(system, user, schema):
+        if "T1" in user:
+            raise RuntimeError("boom")
+        return {"summary": "ok", "repro_difficulty": "low"}
+
+    out = summarize_items(items, llm=flaky, cache_path=cache)
+    assert "arxiv:1" not in out  # errored item skipped
+    assert out["arxiv:2"]["summary"] == "ok"
