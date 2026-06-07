@@ -84,3 +84,40 @@ def test_summarize_skips_item_on_llm_error(tmp_path: Path):
     out = summarize_items(items, llm=flaky, cache_path=cache)
     assert "arxiv:1" not in out  # errored item skipped
     assert out["arxiv:2"]["summary"] == "ok"
+
+
+from pipeline.summarize import label_topics
+
+
+def test_label_topics_replaces_by_tag():
+    topics = [
+        {"tag": "t1", "label": "Old One", "item_ids": ["arxiv:1"]},
+        {"tag": "t2", "label": "Old Two", "item_ids": ["arxiv:2"]},
+    ]
+    items = [_item("arxiv", "1", "2026-06-06T00:00:00Z"),
+             _item("arxiv", "2", "2026-06-06T00:00:00Z")]
+
+    def llm(system, user, schema):
+        return {"labels": [{"tag": "t1", "label": "Diffusion Models"}]}
+
+    out = label_topics(topics, items, llm=llm)
+    by_tag = {t["tag"]: t["label"] for t in out}
+    assert by_tag["t1"] == "Diffusion Models"
+    assert by_tag["t2"] == "Old Two"
+
+
+def test_label_topics_no_llm_unchanged(monkeypatch):
+    monkeypatch.delenv("ANTHROPIC_API_KEY", raising=False)
+    topics = [{"tag": "t1", "label": "Old", "item_ids": ["arxiv:1"]}]
+    out = label_topics(topics, [_item("arxiv", "1", "2026-06-06T00:00:00Z")], llm=None)
+    assert out == topics
+
+
+def test_label_topics_llm_error_unchanged():
+    topics = [{"tag": "t1", "label": "Old", "item_ids": ["arxiv:1"]}]
+
+    def boom(system, user, schema):
+        raise RuntimeError("x")
+
+    out = label_topics(topics, [_item("arxiv", "1", "2026-06-06T00:00:00Z")], llm=boom)
+    assert out == topics

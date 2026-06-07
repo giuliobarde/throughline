@@ -101,6 +101,60 @@ def summarize_items(
     return {_key(it): cache[_key(it)] for it in items if _key(it) in cache}
 
 
+LABEL_SYSTEM = (
+    "You name clusters of AI/ML items with short, specific topic labels of 2-4 "
+    "words in Title Case, based on the member titles. Return one label per tag given."
+)
+
+LABELS_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "labels": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "tag": {"type": "string"},
+                    "label": {"type": "string"},
+                },
+                "required": ["tag", "label"],
+                "additionalProperties": False,
+            },
+        }
+    },
+    "required": ["labels"],
+    "additionalProperties": False,
+}
+
+
+def _labels_prompt(topics: list[dict], items: list[Item]) -> str:
+    by_key = {_key(it): it for it in items}
+    lines: list[str] = []
+    for t in topics:
+        lines.append(f"tag {t['tag']}:")
+        for k in t["item_ids"][:5]:
+            if k in by_key:
+                lines.append(f"  - {by_key[k].title}")
+    return "\n".join(lines)
+
+
+def label_topics(
+    topics: list[dict],
+    items: list[Item],
+    llm: Optional[LLMJson] = None,
+) -> list[dict]:
+    call = llm if llm is not None else _default_llm()
+    if call is None:
+        return topics
+    try:
+        result = call(LABEL_SYSTEM, _labels_prompt(topics, items), LABELS_SCHEMA)
+        new_labels = {x["tag"]: x["label"] for x in result.get("labels", [])}
+    except Exception:
+        log.exception("topic labelling failed; keeping heuristic labels")
+        return topics
+    return [{**t, "label": new_labels.get(t["tag"], t["label"])} for t in topics]
+
+
 def select_for_summary(
     items: list[Item],
     topic_by_key: dict[str, str],
