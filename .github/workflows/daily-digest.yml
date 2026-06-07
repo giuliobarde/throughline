@@ -37,6 +37,8 @@ jobs:
         env:
           TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ANTHROPIC_MODEL: claude-haiku-4-5
         run: python -m pipeline.run
 
       - name: Commit digest if changed
