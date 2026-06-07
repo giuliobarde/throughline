@@ -14,12 +14,17 @@ def build_digest(
     items: list[Item],
     topics: list[dict] | None = None,
     topic_by_key: dict[str, str] | None = None,
+    summaries: dict[str, dict] | None = None,
 ) -> dict:
     item_dicts = []
     for it in items:
         d = it.to_dict()
+        key = f"{it.source}:{it.id}"
         if topic_by_key is not None:
-            d["topic"] = topic_by_key.get(f"{it.source}:{it.id}")
+            d["topic"] = topic_by_key.get(key)
+        if summaries is not None and key in summaries:
+            d["summary"] = summaries[key].get("summary")
+            d["repro_difficulty"] = summaries[key].get("repro_difficulty")
         item_dicts.append(d)
     return {
         "date": date,
@@ -47,10 +52,13 @@ def write_digest(
     has_synthesis: bool = False,
     topics: list[dict] | None = None,
     topic_by_key: dict[str, str] | None = None,
+    summaries: dict[str, dict] | None = None,
 ) -> Path:
     digests_dir = content_dir / "digests"
     digests_dir.mkdir(parents=True, exist_ok=True)
-    digest = build_digest(date, items, topics=topics, topic_by_key=topic_by_key)
+    digest = build_digest(
+        date, items, topics=topics, topic_by_key=topic_by_key, summaries=summaries
+    )
     out = digests_dir / f"{date}.json"
     out.write_text(json.dumps(digest, indent=2) + "\n")
     _update_index(content_dir, date, len(items), has_synthesis)

@@ -42,3 +42,11 @@ def test_build_digest_attaches_topics_and_item_topic():
     assert d["topics"] == topics
     assert d["items"][0]["topic"] == "t1"
     assert d["items"][1]["topic"] == "t1"
+
+
+def test_build_digest_attaches_summaries():
+    items = [_item("1")]
+    summaries = {"arxiv:1": {"summary": "S", "repro_difficulty": "low"}}
+    d = build_digest("2026-06-06", items, summaries=summaries)
+    assert d["items"][0]["summary"] == "S"
+    assert d["items"][0]["repro_difficulty"] == "low"
