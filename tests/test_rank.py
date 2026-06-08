@@ -47,3 +47,19 @@ def test_trained_path_scores_near_positive_higher():
     scores = compute_scores(items, embeddings, feedback)
     assert scores["arxiv:newA"] > scores["arxiv:newB"]
     assert 0.0 <= scores["arxiv:newA"] <= 1.0
+
+
+from pipeline.rank import fetch_feedback
+
+
+def test_fetch_feedback_parses_rows():
+    def stub():
+        return [{"item_id": "arxiv:1", "signal": 1}, {"item_id": "hn:2", "signal": -1}]
+
+    assert fetch_feedback(fetcher=stub) == [("arxiv:1", 1), ("hn:2", -1)]
+
+
+def test_fetch_feedback_missing_env_returns_empty(monkeypatch):
+    monkeypatch.delenv("SUPABASE_URL", raising=False)
+    monkeypatch.delenv("SUPABASE_SERVICE_ROLE_KEY", raising=False)
+    assert fetch_feedback() == []

@@ -1,9 +1,20 @@
 from __future__ import annotations
 
+import logging
+import os
+from typing import Callable, Optional
+
+import httpx
+
 from pipeline.models import Item
 
+log = logging.getLogger("throughline")
+
+USER_AGENT = "throughline/0.1 (https://github.com/giuliobarde/throughline)"
 SOURCE_WEIGHT = {"github": 0.15, "hackernews": 0.10, "news": 0.10, "arxiv": 0.05}
 MIN_PER_CLASS = 3
+
+FeedbackFetcher = Callable[[], list[dict]]
 
 
 def _key(item: Item) -> str:
@@ -63,3 +74,39 @@ def compute_scores(
         else:
             scores[k] = cold[k]
     return scores
+
+
+def _default_fetcher() -> list[dict]:
+    url = os.environ.get("SUPABASE_URL")
+    key = os.environ.get("SUPABASE_SERVICE_ROLE_KEY")
+    if not url or not key:
+        log.warning("Supabase env not set; ranking without feedback")
+        return []
+    resp = httpx.get(
+        f"{url}/rest/v1/feedback",
+        params={"select": "item_id,signal"},
+        headers={
+            "apikey": key,
+            "Authorization": f"Bearer {key}",
+            "User-Agent": USER_AGENT,
+        },
+        timeout=30.0,
+    )
+    resp.raise_for_status()
+    return resp.json()
+
+
+def fetch_feedback(fetcher: Optional[FeedbackFetcher] = None) -> list[tuple[str, int]]:
+    call = fetcher if fetcher is not None else _default_fetcher
+    try:
+        rows = call()
+    except Exception:
+        log.exception("fetch_feedback failed; returning no feedback")
+        return []
+    out: list[tuple[str, int]] = []
+    for r in rows:
+        item_id = r.get("item_id")
+        signal = r.get("signal")
+        if isinstance(item_id, str) and isinstance(signal, int):
+            out.append((item_id, signal))
+    return out
