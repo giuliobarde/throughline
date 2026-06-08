@@ -1,11 +1,13 @@
 import { ItemCard } from "@/components/ItemCard";
 import { getLatestDigest } from "@/lib/content";
+import { getReadStates } from "@/lib/feedback";
 import type { Item } from "@/lib/types";
 
 export const revalidate = 3600; // ISR: rebuild hourly
 
 export default async function HomePage() {
   const digest = await getLatestDigest();
+  const readSet = await getReadStates();
   const itemKey = (i: Item) => `${i.source}:${i.id}`;
 
   return (
@@ -38,7 +40,11 @@ export default async function HomePage() {
                 </h2>
                 <div>
                   {topicItems.map((item) => (
-                    <ItemCard key={itemKey(item)} item={item} />
+                    <ItemCard
+                      key={itemKey(item)}
+                      item={item}
+                      initialRead={readSet.has(itemKey(item))}
+                    />
                   ))}
                 </div>
               </section>
@@ -48,7 +54,11 @@ export default async function HomePage() {
       ) : (
         <div>
           {digest.items.map((item) => (
-            <ItemCard key={itemKey(item)} item={item} />
+            <ItemCard
+              key={itemKey(item)}
+              item={item}
+              initialRead={readSet.has(itemKey(item))}
+            />
           ))}
         </div>
       )}
