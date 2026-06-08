@@ -8,6 +8,7 @@ from datetime import date as date_cls
 from pipeline.cluster import cluster_items
 from pipeline.digest import write_digest
 from pipeline.embed import embed_items
+from pipeline.rank import compute_scores, fetch_feedback
 from pipeline.summarize import label_topics, select_for_summary, summarize_items
 from pipeline.models import Item
 from pipeline.sources.arxiv import ArxivSource
@@ -61,6 +62,7 @@ def main() -> None:
     topics: list[dict] = []
     topic_by_key: dict[str, str] = {}
     summaries: dict[str, dict] = {}
+    scores: dict[str, float] = {}
     if items:
         try:
             embeddings = embed_items(items)
@@ -70,8 +72,10 @@ def main() -> None:
             summaries = summarize_items(selected)
             log.info("summarized %d items", len(summaries))
             topics = label_topics(topics, items)
-        except Exception:  # ML/LLM failure must not lose the digest
-            log.exception("ml/summarize step failed; writing with what we have")
+            scores = compute_scores(items, embeddings, fetch_feedback())
+            log.info("scored %d items", len(scores))
+        except Exception:  # ML/LLM/ranking failure must not lose the digest
+            log.exception("ml/summarize/rank step failed; writing with what we have")
 
     out = write_digest(
         args.date,
@@ -79,6 +83,7 @@ def main() -> None:
         topics=topics,
         topic_by_key=topic_by_key,
         summaries=summaries,
+        scores=scores,
     )
     log.info("wrote %s", out)
 
