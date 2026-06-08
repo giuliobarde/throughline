@@ -35,6 +35,9 @@ export default function RootLayout({
               <a href="/archive" className="hover:text-neutral-100">
                 archive
               </a>
+              <a href="/synthesis" className="hover:text-neutral-100">
+                synthesis
+              </a>
               <a href="/about" className="hover:text-neutral-100">
                 about
               </a>
