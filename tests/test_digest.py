@@ -50,3 +50,9 @@ def test_build_digest_attaches_summaries():
     d = build_digest("2026-06-06", items, summaries=summaries)
     assert d["items"][0]["summary"] == "S"
     assert d["items"][0]["repro_difficulty"] == "low"
+
+
+def test_build_digest_attaches_scores():
+    items = [_item("1")]
+    d = build_digest("2026-06-08", items, scores={"arxiv:1": 0.87})
+    assert d["items"][0]["for_you_score"] == 0.87

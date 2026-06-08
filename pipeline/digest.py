@@ -15,6 +15,7 @@ def build_digest(
     topics: list[dict] | None = None,
     topic_by_key: dict[str, str] | None = None,
     summaries: dict[str, dict] | None = None,
+    scores: dict[str, float] | None = None,
 ) -> dict:
     item_dicts = []
     for it in items:
@@ -25,6 +26,8 @@ def build_digest(
         if summaries is not None and key in summaries:
             d["summary"] = summaries[key].get("summary")
             d["repro_difficulty"] = summaries[key].get("repro_difficulty")
+        if scores is not None and key in scores:
+            d["for_you_score"] = scores[key]
         item_dicts.append(d)
     return {
         "date": date,
@@ -53,11 +56,17 @@ def write_digest(
     topics: list[dict] | None = None,
     topic_by_key: dict[str, str] | None = None,
     summaries: dict[str, dict] | None = None,
+    scores: dict[str, float] | None = None,
 ) -> Path:
     digests_dir = content_dir / "digests"
     digests_dir.mkdir(parents=True, exist_ok=True)
     digest = build_digest(
-        date, items, topics=topics, topic_by_key=topic_by_key, summaries=summaries
+        date,
+        items,
+        topics=topics,
+        topic_by_key=topic_by_key,
+        summaries=summaries,
+        scores=scores,
     )
     out = digests_dir / f"{date}.json"
     out.write_text(json.dumps(digest, indent=2) + "\n")
