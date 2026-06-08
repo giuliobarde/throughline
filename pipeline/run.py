@@ -6,10 +6,11 @@ import logging
 from datetime import date as date_cls
 
 from pipeline.cluster import cluster_items
-from pipeline.digest import write_digest
+from pipeline.digest import DEFAULT_CONTENT_DIR, write_digest
 from pipeline.embed import embed_items
 from pipeline.rank import compute_scores, fetch_feedback
 from pipeline.summarize import label_topics, select_for_summary, summarize_items
+from pipeline.synthesize import recent_summaries, synthesize_week, write_synthesis
 from pipeline.models import Item
 from pipeline.sources.arxiv import ArxivSource
 from pipeline.sources.github import GitHubSource
@@ -50,6 +51,9 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Throughline daily pipeline")
     parser.add_argument("--date", default=date_cls.today().isoformat(), help="YYYY-MM-DD")
     parser.add_argument("--dry-run", action="store_true", help="print, don't write")
+    parser.add_argument(
+        "--synthesize", action="store_true", help="force weekly synthesis"
+    )
     args = parser.parse_args()
 
     items = collect()
@@ -86,6 +90,18 @@ def main() -> None:
         scores=scores,
     )
     log.info("wrote %s", out)
+
+    is_sunday = date_cls.fromisoformat(args.date).weekday() == 6
+    if is_sunday or args.synthesize:
+        try:
+            week_summaries = recent_summaries(DEFAULT_CONTENT_DIR, args.date)
+            essay = synthesize_week(week_summaries)
+            if essay:
+                log.info("wrote synthesis %s", write_synthesis(args.date, essay))
+            else:
+                log.info("no synthesis written (empty essay)")
+        except Exception:
+            log.exception("synthesis step failed; digest already written")
 
 
 if __name__ == "__main__":
