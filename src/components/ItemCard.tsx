@@ -1,9 +1,18 @@
 import type { Item } from "@/lib/types";
 import { SourceBadge } from "./SourceBadge";
+import { ItemActions } from "./ItemActions";
 
-export function ItemCard({ item }: { item: Item }) {
+export function ItemCard({
+  item,
+  initialRead = false,
+}: {
+  item: Item;
+  initialRead?: boolean;
+}) {
   return (
-    <article className="border-b border-neutral-800 py-6">
+    <article
+      className={`border-b border-neutral-800 py-6 ${initialRead ? "opacity-60" : ""}`}
+    >
       <div className="flex items-center gap-3">
         <SourceBadge source={item.source} />
         {item.has_code && (
@@ -40,6 +49,10 @@ export function ItemCard({ item }: { item: Item }) {
           {item.authors.length > 4 ? " et al." : ""}
         </p>
       )}
+      <ItemActions
+        itemId={`${item.source}:${item.id}`}
+        initialRead={initialRead}
+      />
     </article>
   );
 }
