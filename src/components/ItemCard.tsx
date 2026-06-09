@@ -24,7 +24,12 @@ export function ItemCard({
           </span>
         )}
         {item.topic && (
-          <span className="font-mono text-xs text-neutral-600">#{item.topic}</span>
+          <a
+            href={`/topics/${item.topic}`}
+            className="font-mono text-xs text-neutral-600 hover:text-neutral-300"
+          >
+            #{item.topic}
+          </a>
         )}
         <time className="font-mono text-xs text-neutral-600">
           {item.published_at.slice(0, 10)}
