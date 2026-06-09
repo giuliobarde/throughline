@@ -6,8 +6,36 @@
 }
 
 /* Dark is the product default; the bg/text utilities on <body> in layout.tsx
-   drive the palette. Keep only the font here so nothing unlayered overrides
-   Tailwind utility classes. */
+   drive the palette. Keep only the font + atmosphere here so nothing unlayered
+   overrides Tailwind utility classes. */
 body {
   font-family: var(--font-geist-sans), system-ui, sans-serif;
+  /* faint top-down depth so the page isn't a flat slab of #0a0a0a */
+  background-image: radial-gradient(
+    120% 60% at 50% 0%,
+    rgba(255, 255, 255, 0.04),
+    transparent 60%
+  );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+::selection {
+  background: rgba(251, 191, 36, 0.25); /* amber-400 @ 25% */
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid #fbbf24; /* amber-400 */
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
 }
