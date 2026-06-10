@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Throughline",
-  description: "Self-updating AI research & engineering intelligence hub.",
+  description: "The tech wire, ranked daily — AI research & engineering, voted and ranked.",
 };
 
 export default function RootLayout({
@@ -27,7 +27,7 @@ export default function RootLayout({
     >
       <body className="min-h-screen bg-neutral-950 text-neutral-100 antialiased">
         <nav className="sticky top-0 z-10 border-b border-neutral-800 bg-neutral-950/80 backdrop-blur">
-          <div className="mx-auto flex max-w-3xl items-center justify-between px-6 py-4">
+          <div className="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
             <a
               href="/"
               className="group inline-flex items-baseline gap-2 transition-colors"
@@ -36,18 +36,18 @@ export default function RootLayout({
                 throughline
               </span>
               <span className="hidden font-mono text-[10px] uppercase tracking-widest text-amber-500/80 sm:inline">
-                the daily AI throughline
+                the tech wire, ranked daily
               </span>
             </a>
             <div className="flex gap-6 font-mono text-xs text-neutral-400">
+              <a href="/topics" className="transition-colors hover:text-neutral-100">
+                topics
+              </a>
               <a href="/archive" className="transition-colors hover:text-neutral-100">
                 archive
               </a>
-              <a
-                href="/synthesis"
-                className="transition-colors hover:text-neutral-100"
-              >
-                synthesis
+              <a href="/synthesis" className="transition-colors hover:text-neutral-100">
+                weekly
               </a>
               <a href="/about" className="transition-colors hover:text-neutral-100">
                 about
