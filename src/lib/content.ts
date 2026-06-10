@@ -70,3 +70,20 @@ export async function getDigestsBefore(
   const nextBefore = older.length > count ? page[page.length - 1].date : null;
   return { digests, nextBefore };
 }
+
+let allDigestsCache: { key: string; digests: Digest[] } | null = null;
+
+/** Every digest in the archive, newest first. Cached per server instance;
+ *  invalidates when the index head or length changes (new daily digest). */
+export async function getAllDigests(): Promise<Digest[]> {
+  const index = await getIndex();
+  const cacheKey = `${index[0]?.date ?? ""}:${index.length}`;
+  if (allDigestsCache && allDigestsCache.key === cacheKey) {
+    return allDigestsCache.digests;
+  }
+  const digests = (
+    await Promise.all(index.map((e) => getDigest(e.date)))
+  ).filter((d): d is Digest => Boolean(d));
+  allDigestsCache = { key: cacheKey, digests };
+  return digests;
+}
