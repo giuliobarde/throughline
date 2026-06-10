@@ -1,6 +1,6 @@
 export type Item = {
   id: string;
-  source: "arxiv" | "hackernews" | "github" | "news";
+  source: "arxiv" | "hackernews" | "github" | "news" | "blog";
   title: string;
   url: string;
   abstract: string;
