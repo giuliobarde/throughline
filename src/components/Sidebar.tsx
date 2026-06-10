@@ -1,3 +1,4 @@
+import Link from "next/link";
 import type { Digest } from "@/lib/types";
 import { getSyntheses } from "@/lib/synthesis";
 import { trendingTopics } from "@/lib/trending";
@@ -16,14 +17,14 @@ export async function Sidebar({
   return (
     <aside className="space-y-4">
       {synthesis && (
-        <a
+        <Link
           href={`/synthesis/${synthesis.week}`}
           className="block rounded-xl border border-amber-500/30 bg-neutral-900/40 p-4 transition-colors hover:border-amber-500/60"
         >
           <p className="font-mono text-[10px] uppercase tracking-widest text-amber-500">📌 this week</p>
           <p className="mt-1.5 text-sm font-semibold leading-snug">{synthesis.title}</p>
           <p className="mt-1 font-mono text-[10px] text-neutral-500">weekly synthesis · {synthesis.date}</p>
-        </a>
+        </Link>
       )}
 
       {trending.length > 0 && (
@@ -32,12 +33,12 @@ export async function Sidebar({
           <ul className="mt-2 space-y-1.5">
             {trending.map((t) => (
               <li key={t.tag} className="flex items-baseline justify-between gap-2">
-                <a
+                <Link
                   href={`/topics/${t.tag}`}
                   className="truncate font-mono text-xs text-sky-400 transition-colors hover:text-sky-300"
                 >
                   t/{t.tag}
-                </a>
+                </Link>
                 <span className="font-mono text-[10px] text-neutral-500">
                   {t.count}
                   {t.delta > 0 ? ` ↑${t.delta}` : ""}

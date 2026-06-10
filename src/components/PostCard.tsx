@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { itemKey, type FeedItem } from "@/lib/feed";
 import { SaveButton } from "./SaveButton";
 import { ShareButton } from "./ShareButton";
@@ -24,12 +25,12 @@ export function PostCard({ item, initialNet }: { item: FeedItem; initialNet: num
       <div className="min-w-0 flex-1">
         <div className="flex flex-wrap items-center gap-x-3 gap-y-1">
           {item.topic && (
-            <a
+            <Link
               href={`/topics/${item.topic}`}
               className="font-mono text-xs text-sky-400 transition-colors hover:text-sky-300"
             >
               t/{item.topic}
-            </a>
+            </Link>
           )}
           <SourceBadge source={item.source} />
           <span className="font-mono text-xs text-neutral-500">{domain(item.url)}</span>

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { itemKey, type FeedItem } from "@/lib/feed";
 import { domain, postDate } from "./PostCard";
 import { SaveButton } from "./SaveButton";
@@ -25,12 +26,12 @@ export function PostRow({ item, initialNet }: { item: FeedItem; initialNet: numb
         </h2>
         <div className="mt-1 flex flex-wrap items-center gap-x-3 gap-y-1">
           {item.topic && (
-            <a
+            <Link
               href={`/topics/${item.topic}`}
               className="font-mono text-xs text-sky-400 transition-colors hover:text-sky-300"
             >
               t/{item.topic}
-            </a>
+            </Link>
           )}
           <SourceBadge source={item.source} />
           <time className="font-mono text-xs text-neutral-500">{postDate(item)}</time>
