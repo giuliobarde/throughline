@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Feed } from "@/components/Feed";
 import { getLatestDigest, getLatestTopics, getTopic } from "@/lib/content";
@@ -29,9 +30,9 @@ export default async function TopicPage({
 
   return (
     <main className="mx-auto max-w-3xl px-6 py-10">
-      <a href="/topics" className="font-mono text-xs text-neutral-500 hover:text-neutral-300">
+      <Link href="/topics" className="font-mono text-xs text-neutral-500 hover:text-neutral-300">
         ← all topics
-      </a>
+      </Link>
       <h1 className="mt-2 text-2xl font-bold">
         <span className="font-mono text-lg text-sky-400">t/{tag}</span> · {topic.label}
       </h1>

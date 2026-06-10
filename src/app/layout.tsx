@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import Link from "next/link";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -28,7 +29,7 @@ export default function RootLayout({
       <body className="min-h-screen bg-neutral-950 text-neutral-100 antialiased">
         <nav className="sticky top-0 z-10 border-b border-neutral-800 bg-neutral-950/80 backdrop-blur">
           <div className="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
-            <a
+            <Link
               href="/"
               className="group inline-flex items-baseline gap-2 transition-colors"
             >
@@ -38,20 +39,20 @@ export default function RootLayout({
               <span className="hidden font-mono text-[10px] uppercase tracking-widest text-amber-500/80 sm:inline">
                 the tech wire, ranked daily
               </span>
-            </a>
+            </Link>
             <div className="flex gap-6 font-mono text-xs text-neutral-400">
-              <a href="/topics" className="transition-colors hover:text-neutral-100">
+              <Link href="/topics" className="transition-colors hover:text-neutral-100">
                 topics
-              </a>
-              <a href="/archive" className="transition-colors hover:text-neutral-100">
+              </Link>
+              <Link href="/archive" className="transition-colors hover:text-neutral-100">
                 archive
-              </a>
-              <a href="/synthesis" className="transition-colors hover:text-neutral-100">
+              </Link>
+              <Link href="/synthesis" className="transition-colors hover:text-neutral-100">
                 weekly
-              </a>
-              <a href="/about" className="transition-colors hover:text-neutral-100">
+              </Link>
+              <Link href="/about" className="transition-colors hover:text-neutral-100">
                 about
-              </a>
+              </Link>
             </div>
           </div>
         </nav>

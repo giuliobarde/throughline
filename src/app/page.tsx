@@ -14,6 +14,7 @@ export default async function HomePage() {
     getRecentDigests(POOL_DIGESTS),
     getVoteCounts(),
   ]);
+  // eslint-disable-next-line react-hooks/purity
   const nowMs = Date.now();
   const pool = mergeDigests(digests);
   const initialItems = sortFeed(pool, "hot", votes, new Date(nowMs));
