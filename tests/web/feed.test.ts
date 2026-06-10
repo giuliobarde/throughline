@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import type { Digest, Item } from "@/lib/types";
-import { hotScore, itemKey, mergeDigests, sortFeed } from "@/lib/feed";
+import { aggregateVotes, hotScore, itemKey, mergeDigests, sortFeed } from "@/lib/feed";
 
 const base: Omit<Item, "id" | "source"> = {
   title: "t",
@@ -74,5 +74,17 @@ describe("sortFeed", () => {
   it("top: net votes desc, excludes items older than 7 days", () => {
     const out = sortFeed([fresh, popular, stale], "top", { "news:s": 100, "arxiv:p": 5 }, now);
     expect(out.map((i) => i.id)).toEqual(["p", "f"]); // stale excluded despite 100 votes
+  });
+});
+
+describe("aggregateVotes", () => {
+  it("sums signals per item", () => {
+    const rows = [
+      { item_id: "arxiv:1", signal: 1 },
+      { item_id: "arxiv:1", signal: 1 },
+      { item_id: "arxiv:1", signal: -1 },
+      { item_id: "github:2", signal: -1 },
+    ];
+    expect(aggregateVotes(rows)).toEqual({ "arxiv:1": 1, "github:2": -1 });
   });
 });

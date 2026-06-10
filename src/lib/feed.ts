@@ -61,3 +61,9 @@ export function sortFeed(
         .sort((a, b) => net(b) - net(a) || effectiveDate(b) - effectiveDate(a));
   }
 }
+
+export function aggregateVotes(rows: { item_id: string; signal: number }[]): VoteCounts {
+  const out: VoteCounts = {};
+  for (const r of rows) out[r.item_id] = (out[r.item_id] ?? 0) + r.signal;
+  return out;
+}
