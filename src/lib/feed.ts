@@ -25,7 +25,7 @@ export function mergeDigests(digests: Digest[]): FeedItem[] {
 
 /** Gravity-style: votes push up, age pulls down. */
 export function hotScore(net: number, ageHours: number): number {
-  return (1 + net) / Math.pow(ageHours + 2, 1.5);
+  return Math.max(0, 1 + net) / Math.pow(ageHours + 2, 1.5);
 }
 
 function effectiveDate(i: FeedItem): number {

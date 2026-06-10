@@ -42,6 +42,12 @@ describe("hotScore", () => {
     expect(hotScore(10, 1)).toBeGreaterThan(hotScore(10, 24));
     expect(hotScore(10, 5)).toBeGreaterThan(hotScore(0, 5));
   });
+
+  it("floors at zero so downvoted items sink, never invert", () => {
+    expect(hotScore(-100, 0)).toBe(0);
+    expect(hotScore(-2, 0)).toBe(0);
+    expect(hotScore(0, 1000)).toBeGreaterThan(hotScore(-100, 0));
+  });
 });
 
 describe("sortFeed", () => {
