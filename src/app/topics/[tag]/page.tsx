@@ -1,8 +1,8 @@
 import { notFound } from "next/navigation";
-import { ItemCard } from "@/components/ItemCard";
-import { getLatestTopics, getTopic } from "@/lib/content";
-import { getReadStates } from "@/lib/feedback";
-import type { Item } from "@/lib/types";
+import { Feed } from "@/components/Feed";
+import { getLatestDigest, getLatestTopics, getTopic } from "@/lib/content";
+import type { FeedItem } from "@/lib/feed";
+import { getVoteCounts } from "@/lib/votes";
 
 export const revalidate = 3600;
 
@@ -17,32 +17,26 @@ export default async function TopicPage({
   params: Promise<{ tag: string }>;
 }) {
   const { tag } = await params;
-  const topic = await getTopic(tag);
-  if (!topic) notFound();
-  const readSet = await getReadStates();
-  const itemKey = (i: Item) => `${i.source}:${i.id}`;
+  const [topic, digest, votes] = await Promise.all([
+    getTopic(tag),
+    getLatestDigest(),
+    getVoteCounts(),
+  ]);
+  if (!topic || !digest) notFound();
+  const items: FeedItem[] = topic.items.map((i) => ({ ...i, digestDate: digest.date }));
+  // eslint-disable-next-line react-hooks/purity
+  const nowMs = Date.now();
 
   return (
-    <main className="mx-auto max-w-3xl px-6 py-12">
-      <a
-        href="/"
-        className="font-mono text-xs text-neutral-500 hover:text-neutral-300"
-      >
+    <main className="mx-auto max-w-3xl px-6 py-10">
+      <a href="/topics" className="font-mono text-xs text-neutral-500 hover:text-neutral-300">
         ← all topics
       </a>
-      <h1 className="mt-2 text-2xl font-bold">{topic.label}</h1>
-      <p className="mt-1 font-mono text-xs text-neutral-500">
-        {topic.items.length} items
-      </p>
-      <div className="mt-6">
-        {topic.items.map((item) => (
-          <ItemCard
-            key={itemKey(item)}
-            item={item}
-            initialRead={readSet.has(itemKey(item))}
-          />
-        ))}
-      </div>
+      <h1 className="mt-2 text-2xl font-bold">
+        <span className="font-mono text-lg text-sky-400">t/{tag}</span> · {topic.label}
+      </h1>
+      <p className="mb-6 mt-1 font-mono text-xs text-neutral-500">{items.length} posts</p>
+      <Feed initialItems={items} votes={votes} initialBefore={null} nowMs={nowMs} />
     </main>
   );
 }
