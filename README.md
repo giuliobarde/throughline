@@ -2,23 +2,32 @@
 
 **Live:** https://throughline-theta.vercel.app
 
-A self-updating AI research & engineering intelligence hub. Every day a Python pipeline pulls
-new ML/AI content from several sources, clusters it into topics, writes opinionated
-practitioner summaries with Claude, ranks it against your feedback, and a scheduled GitHub
-Action commits the dated digest with a **real timestamp**. On Sundays it also writes a longer
-synthesis essay — the *throughline* of the week. A Next.js site renders it all.
+A self-updating social board for AI and tech. Every day a Python pipeline pulls new content
+from arXiv, Hacker News, GitHub, and Tavily news, then Claude summarizes each item and labels
+it into topics. Anonymous votes rank the **Hot** and **Top** tabs and feed the
+personalization ranker that powers **For You**. A Next.js site renders it all.
+
+## Features
+
+- **Sort tabs** — Hot, New, For You, Top
+- **Vote rails** — anonymous upvote/downvote on every item; counts stored in Supabase
+- **Local saves** — bookmark items client-side; browse them at `/saved`
+- **Density toggle** — switch between card view and compact list view
+- **t/ topic pages** — each Claude-labeled topic gets its own `/topics/[tag]` page
+- **Pinned weekly synthesis** — every Sunday Claude writes a synthesis essay; pinned in the sidebar
+- **Infinite scroll** — load earlier digests progressively from the archive
 
 ## Architecture
 
 ```
  sources                      pipeline (daily, GitHub Actions)                     web
 ┌──────────┐   ┌───────────────────────────────────────────────────────┐   ┌────────────┐
-│ arXiv    │   │ fetch → dedupe → embed → cluster → rank(feedback)      │   │ Next.js    │
+│ arXiv    │   │ fetch → dedupe → embed → cluster → rank(votes)         │   │ Next.js    │
 │ Tavily   │──▶│   → summarize + label (Claude) → [Sun: synthesize]     │──▶│ App Router │
 │ HN       │   │   → write content/digests/YYYY-MM-DD.json (+ MDX)      │   │ ISR, dark  │
-│ GitHub   │   │   → commit (author = you, real timestamp) → push       │   │ editorial  │
+│ GitHub   │   │   → commit (author = you, real timestamp) → push       │   │ social     │
 └──────────┘   └───────────────────────────────────────────────────────┘   └────────────┘
-                          │                                  ▲   feedback (👍/👎, read)
+                          │                                  ▲   votes (👍/👎)
                           └── data/embeddings cache          └── Supabase ◀── /api routes
 ```
 
@@ -29,19 +38,21 @@ synthesis essay — the *throughline* of the week. A Next.js site renders it all
   KMeans + silhouette topics with TF-IDF labels.
 - **Claude** (`summarize.py`, `synthesize.py`): practitioner summaries + `repro_difficulty`,
   Claude-named topic labels, and the weekly synthesis essay (model `claude-haiku-4-5`).
-- **Ranking** (`rank.py`): reads 👍/👎 feedback from Supabase, trains a LogisticRegression on
+- **Ranking** (`rank.py`): reads 👍/👎 votes from Supabase, trains a LogisticRegression on
   cached embeddings → `for_you_score` (cold-start = recency + source + code until enough
-  feedback).
-- **Web** (`src/`): today's digest grouped into topics with a "For You" strip, `/archive`,
-  `/topics/[tag]`, `/synthesis`, `/about`; feedback writes go through server route handlers.
+  votes).
+- **Web** (`src/`): social board home with Hot/New/For You/Top tabs, t/ topic pages,
+  `/saved`, `/archive`, `/synthesis`, `/about`; vote writes go through server route handlers.
 
 ## Pages
 
 | Route | What |
 |-------|------|
-| `/` | Today's digest — For You strip + topic sections, item cards (summary, code/repro tags, 👍/👎, read) |
+| `/` | Social board — Hot/New/For You/Top tabs, vote rails, density toggle, infinite scroll |
+| `/topics` | All Claude-labeled topic tags from the latest digest |
+| `/topics/[tag]` | One topic's items (t/ community view) |
+| `/saved` | Locally bookmarked items |
 | `/archive` | Past digests by date |
-| `/topics/[tag]` | One topic's items from the latest digest |
 | `/synthesis` | Weekly synthesis essays (list + reader) |
 | `/about` | What it is / how it's built |
 
@@ -88,7 +99,7 @@ commits a digest, just with fewer sources / no summaries / cold-start ranking.
 | `ANTHROPIC_API_KEY` | Claude summaries, topic labels, weekly synthesis |
 | `ANTHROPIC_MODEL` | model id (defaults to `claude-haiku-4-5`) |
 | `TAVILY_API_KEY` | AI/ML news source (Tavily Search) |
-| `SUPABASE_URL` / `SUPABASE_ANON_KEY` / `SUPABASE_SERVICE_ROLE_KEY` | feedback + ranking store |
+| `SUPABASE_URL` / `SUPABASE_ANON_KEY` / `SUPABASE_SERVICE_ROLE_KEY` | votes + ranking store |
 | `GITHUB_TOKEN` | GitHub source rate limit (auto-provided in CI) |
 
 Secrets live in GitHub Actions secrets / Vercel env. Never committed (`.env` is gitignored).
