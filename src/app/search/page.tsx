@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { PostCard } from "@/components/PostCard";
-import { getRecentDigests } from "@/lib/content";
+import { getAllDigests } from "@/lib/content";
 import { itemKey, mergeDigests } from "@/lib/feed";
 import { searchItems } from "@/lib/search";
 import { getVoteCounts } from "@/lib/votes";
@@ -12,7 +12,7 @@ export default async function SearchPage({
 }) {
   const { q = "" } = await searchParams;
   const query = q.trim();
-  const [digests, votes] = await Promise.all([getRecentDigests(7), getVoteCounts()]);
+  const [digests, votes] = await Promise.all([getAllDigests(), getVoteCounts()]);
   const pool = mergeDigests(digests);
   const topics = digests[0]?.topics ?? [];
   const { items, topics: matchedTopics } = searchItems(pool, topics, query);
