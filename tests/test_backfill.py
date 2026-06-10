@@ -87,3 +87,28 @@ def test_apply_summaries_to_digest_patches_matching_items():
     assert out["items"][0]["summary"] == "s!"
     assert out["items"][0]["repro_difficulty"] == "low"
     assert "summary" not in out["items"][1]
+
+
+def test_arxiv_range_params_window():
+    from pipeline.sources.arxiv import arxiv_range_params
+
+    p = arxiv_range_params(date(2026, 1, 5), date(2026, 1, 11))
+    assert "submittedDate:[202601050000 TO 202601112359]" in p["search_query"]
+    assert p["search_query"].startswith("(cat:")
+    assert p["max_results"] == "100"
+
+
+def test_hn_range_params_filters():
+    from pipeline.sources.hackernews import hn_range_params
+
+    p = hn_range_params(1000, 2000)
+    assert p["numericFilters"] == "points>=100,created_at_i>=1000,created_at_i<2000"
+    assert p["hitsPerPage"] == "1000"
+
+
+def test_github_range_params_query():
+    from pipeline.sources.github import github_range_params
+
+    p = github_range_params(date(2026, 1, 5), date(2026, 1, 11))
+    assert p["q"] == "machine learning created:2026-01-05..2026-01-11"
+    assert p["sort"] == "stars"

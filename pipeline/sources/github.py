@@ -78,3 +78,27 @@ class GitHubSource:
                 raise
         assert last_exc is not None
         raise last_exc
+
+
+def github_range_params(start: date, end: date, per_page: int = 10) -> dict:
+    return {
+        "q": f"machine learning created:{start.isoformat()}..{end.isoformat()}",
+        "sort": "stars",
+        "order": "desc",
+        "per_page": str(per_page),
+    }
+
+
+def fetch_github_range(start: date, end: date, timeout: float = 30.0) -> list[Item]:
+    headers = {"Accept": "application/vnd.github+json", "User-Agent": USER_AGENT}
+    token = os.environ.get("GITHUB_TOKEN")
+    if token:
+        headers["Authorization"] = f"Bearer {token}"
+    resp = httpx.get(
+        GITHUB_SEARCH_API,
+        params=github_range_params(start, end),
+        timeout=timeout,
+        headers=headers,
+    )
+    resp.raise_for_status()
+    return parse_github_results(resp.json())

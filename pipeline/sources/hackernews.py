@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import time
+from datetime import datetime, timezone
 
 import httpx
 
@@ -91,3 +92,26 @@ class HackerNewsSource:
                 raise
         assert last_exc is not None
         raise last_exc
+
+
+def hn_range_params(start_ts: int, end_ts: int) -> dict:
+    return {
+        "tags": "story",
+        "numericFilters": (
+            f"points>={MIN_POINTS},created_at_i>={start_ts},created_at_i<{end_ts}"
+        ),
+        "hitsPerPage": "1000",
+    }
+
+
+def fetch_hn_range(start, end, timeout: float = 30.0) -> list[Item]:
+    start_ts = int(datetime(start.year, start.month, start.day, tzinfo=timezone.utc).timestamp())
+    end_ts = int(datetime(end.year, end.month, end.day, tzinfo=timezone.utc).timestamp()) + 86400
+    resp = httpx.get(
+        ALGOLIA_API,
+        params=hn_range_params(start_ts, end_ts),
+        timeout=timeout,
+        headers={"User-Agent": USER_AGENT},
+    )
+    resp.raise_for_status()
+    return filter_ai_ml(parse_hn_results(resp.json()))

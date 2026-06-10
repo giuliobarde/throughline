@@ -81,3 +81,29 @@ class ArxivSource:
                 raise
         assert last_exc is not None
         raise last_exc
+
+
+def arxiv_range_params(
+    start, end, start_index: int = 0, max_results: int = 100
+) -> dict:
+    query = " OR ".join(f"cat:{c}" for c in CATEGORIES)
+    window = f"submittedDate:[{start:%Y%m%d}0000 TO {end:%Y%m%d}2359]"
+    return {
+        "search_query": f"({query}) AND {window}",
+        "sortBy": "submittedDate",
+        "sortOrder": "descending",
+        "start": str(start_index),
+        "max_results": str(max_results),
+    }
+
+
+def fetch_arxiv_range(start, end, timeout: float = 30.0) -> list[Item]:
+    resp = httpx.get(
+        ARXIV_API,
+        params=arxiv_range_params(start, end),
+        timeout=timeout,
+        follow_redirects=True,
+        headers={"User-Agent": USER_AGENT},
+    )
+    resp.raise_for_status()
+    return parse_arxiv_feed(resp.text)
