@@ -63,3 +63,22 @@ def test_filter_window_drops_old_and_undated_and_caps_per_publisher():
 
     many = [_blog_item(fresh, url=f"https://x.com/{n}") for n in range(8)]
     assert len(filter_window(many, cap=5)) == 5
+
+
+def test_fetch_tavily_blogs_without_key_returns_empty(monkeypatch):
+    from pipeline.sources.blogs import fetch_tavily_blogs
+
+    monkeypatch.delenv("TAVILY_API_KEY", raising=False)
+    assert fetch_tavily_blogs() == []
+
+
+def test_blog_source_registered_in_pipeline():
+    from pipeline.run import SOURCES
+
+    assert "blog" in [s.name for s in SOURCES]
+
+
+def test_blog_source_weight_set():
+    from pipeline.rank import SOURCE_WEIGHT
+
+    assert SOURCE_WEIGHT["blog"] == 0.12

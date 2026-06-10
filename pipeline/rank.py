@@ -11,7 +11,13 @@ from pipeline.models import Item
 log = logging.getLogger("throughline")
 
 USER_AGENT = "throughline/0.1 (https://github.com/giuliobarde/throughline)"
-SOURCE_WEIGHT = {"github": 0.15, "hackernews": 0.10, "news": 0.10, "arxiv": 0.05}
+SOURCE_WEIGHT = {
+    "github": 0.15,
+    "blog": 0.12,
+    "hackernews": 0.10,
+    "news": 0.10,
+    "arxiv": 0.05,
+}
 MIN_PER_CLASS = 3
 
 FeedbackFetcher = Callable[[], list[dict]]

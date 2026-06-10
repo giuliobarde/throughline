@@ -13,6 +13,7 @@ from pipeline.summarize import label_topics, select_for_summary, summarize_items
 from pipeline.synthesize import recent_summaries, synthesize_week, write_synthesis
 from pipeline.models import Item
 from pipeline.sources.arxiv import ArxivSource
+from pipeline.sources.blogs import BlogSource
 from pipeline.sources.github import GitHubSource
 from pipeline.sources.hackernews import HackerNewsSource
 from pipeline.sources.tavily import TavilySource
@@ -20,7 +21,7 @@ from pipeline.sources.tavily import TavilySource
 logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
 log = logging.getLogger("throughline")
 
-SOURCES = [ArxivSource(), TavilySource(), HackerNewsSource(), GitHubSource()]
+SOURCES = [ArxivSource(), TavilySource(), HackerNewsSource(), GitHubSource(), BlogSource()]
 
 
 def collect() -> list[Item]:
