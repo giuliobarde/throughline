@@ -114,3 +114,106 @@ def select_milestones(items: list[Item], llm: Optional[LLMJson]) -> list[Item]:
             seen.add(key)
             picked.append(by_key[key])
     return picked
+
+
+def fetch_blog_history(since: date, timeout: float = 30.0) -> list[Item]:
+    from pipeline.sources.blogs import FEEDS, USER_AGENT, parse_feed
+
+    items: list[Item] = []
+    for publisher, url in FEEDS:
+        try:
+            resp = httpx.get(
+                url,
+                headers={"User-Agent": USER_AGENT},
+                timeout=timeout,
+                follow_redirects=True,
+            )
+            resp.raise_for_status()
+            items.extend(parse_feed(publisher, resp.text))
+        except Exception:
+            log.exception("blog feed %s failed; skipping", publisher)
+    lo = since.isoformat()
+    return [it for it in items if it.published_at and it.published_at[:10] >= lo]
+
+
+def collect_week(ws: date, we: date) -> list[Item]:
+    from pipeline.sources.arxiv import fetch_arxiv_range
+    from pipeline.sources.github import fetch_github_range
+    from pipeline.sources.hackernews import fetch_hn_range
+
+    items: list[Item] = []
+    for name, fn in (
+        ("arxiv", fetch_arxiv_range),
+        ("hackernews", fetch_hn_range),
+        ("github", fetch_github_range),
+    ):
+        try:
+            fetched = fn(ws, we)
+            log.info("backfill %s %s..%s: %d items", name, ws, we, len(fetched))
+            items.extend(fetched)
+        except Exception:  # one source must not kill the week
+            log.exception("backfill %s failed for %s..%s; skipping", name, ws, we)
+        time.sleep(3)  # API politeness (arXiv especially)
+    return items
+
+
+def main() -> None:
+    logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
+    parser = argparse.ArgumentParser(description="Throughline historical backfill")
+    parser.add_argument("--from", dest="date_from", required=True, help="YYYY-MM-DD")
+    parser.add_argument("--to", dest="date_to", required=True, help="YYYY-MM-DD")
+    parser.add_argument("--dry-run", action="store_true", help="print counts, write nothing")
+    parser.add_argument("--no-summaries", action="store_true", help="skip milestone summaries")
+    args = parser.parse_args()
+
+    start = date.fromisoformat(args.date_from)
+    end = date.fromisoformat(args.date_to)
+
+    all_items: list[Item] = []
+    milestones: list[Item] = []
+    llm = None if (args.no_summaries or args.dry_run) else _default_llm()
+
+    for ws, we in week_chunks(start, end):
+        week_items = collect_week(ws, we)
+        all_items.extend(week_items)
+        if llm is not None and week_items:
+            milestones.extend(select_milestones(week_items, llm))
+
+    all_items.extend(fetch_blog_history(start))
+    buckets = bucket_by_date(all_items, start, end)
+
+    if args.dry_run:
+        for day in sorted(buckets):
+            print(f"{day}: {len(buckets[day])} items")
+        print(f"total: {sum(len(v) for v in buckets.values())} items, {len(milestones)} milestones")
+        return
+
+    summaries = summarize_items(milestones, llm=llm) if milestones else {}
+
+    digests_dir = DEFAULT_CONTENT_DIR / "digests"
+    digests_dir.mkdir(parents=True, exist_ok=True)
+    index_path = DEFAULT_CONTENT_DIR / "index.json"
+    prior_synthesis = {}
+    if index_path.exists():
+        prior_synthesis = {
+            e["date"]: e.get("has_synthesis", False)
+            for e in json.loads(index_path.read_text())
+        }
+
+    for day in sorted(buckets):
+        path = digests_dir / f"{day}.json"
+        existing = json.loads(path.read_text()) if path.exists() else None
+        merged = merge_digest_dict(existing, day, buckets[day])
+        merged = apply_summaries_to_digest(merged, summaries)
+        path.write_text(json.dumps(merged, indent=2) + "\n")
+        _update_index(
+            DEFAULT_CONTENT_DIR,
+            day,
+            len(merged["items"]),
+            prior_synthesis.get(day, False),
+        )
+        log.info("wrote %s (%d items)", path, len(merged["items"]))
+
+
+if __name__ == "__main__":
+    main()
