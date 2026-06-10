@@ -92,4 +92,19 @@ describe("searchItems", () => {
     const { items } = searchItems([bodyHit, hostHit], topics, "huggingface");
     expect(items.map((i) => i.id)).toEqual(["hh", "bb"]);
   });
+
+  it("alias expansions match whole words only — 'llama' must not hit 'metadata'", () => {
+    const metadata = fi("md", "Better metadata schemas for ML pipelines");
+    const llama = fi("ll", "Llama 4 fine-tuning guide");
+    const { items } = searchItems([metadata, llama], topics, "llama");
+    expect(items.map((i) => i.id)).toEqual(["ll"]);
+  });
+
+  it("domain query requires exact host or subdomain — 't.co' must not hit test.com", () => {
+    const testCom = fi("tc", "Anything", { url: "https://test.com/x" });
+    const tco = fi("t", "Anything", { url: "https://t.co/y" });
+    const sub = fi("sub", "Anything", { url: "https://news.anthropic.com/z" });
+    expect(searchItems([testCom, tco], topics, "t.co").items.map((i) => i.id)).toEqual(["t"]);
+    expect(searchItems([sub], topics, "anthropic.com").items.map((i) => i.id)).toEqual(["sub"]);
+  });
 });

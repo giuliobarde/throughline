@@ -19,6 +19,10 @@ function expand(term: string): string[] {
   return [term];
 }
 
+function escapeRegExp(s: string): string {
+  return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
 function hostname(url: string): string {
   try {
     return new URL(url).hostname.replace(/^www\./, "").toLowerCase();
@@ -48,6 +52,14 @@ export function searchItems(
   if (ts.length === 0) return { items: [], topics: [] };
   const labelByTag = new Map(topics.map((t) => [t.tag, t.label.toLowerCase()]));
 
+  const matchers = ts.map((t) => {
+    if (t.includes(".")) return { domain: t, raw: t, aliasRes: [] as RegExp[] };
+    const aliasRes = expand(t)
+      .filter((v) => v !== t)
+      .map((v) => new RegExp(`\\b${escapeRegExp(v)}\\b`));
+    return { domain: null as string | null, raw: t, aliasRes };
+  });
+
   const ranked = items
     .map((item) => {
       const title = item.title.toLowerCase();
@@ -58,13 +70,13 @@ export function searchItems(
         ? `${item.topic.toLowerCase()} ${labelByTag.get(item.topic) ?? ""}`
         : "";
       let score = 0;
-      for (const t of ts) {
-        if (t.includes(".")) {
-          if (host.includes(t)) score += 3;
+      for (const m of matchers) {
+        if (m.domain) {
+          if (host === m.domain || host.endsWith("." + m.domain)) score += 3;
           continue;
         }
-        const variants = expand(t);
-        const hit = (field: string) => variants.some((v) => field.includes(v));
+        const hit = (field: string) =>
+          field.includes(m.raw) || m.aliasRes.some((r) => r.test(field));
         if (hit(title)) score += 3;
         if (hit(host) || hit(authors)) score += 3;
         if (hit(topicText)) score += 2;
