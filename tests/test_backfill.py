@@ -141,3 +141,16 @@ def test_select_milestones_llm_error_returns_empty():
         raise RuntimeError("api down")
 
     assert select_milestones([_item("a", "2026-01-03T00:00:00+00:00")], boom) == []
+
+
+def test_apply_summaries_never_overwrites_existing_summary():
+    digest = {
+        "date": "2026-01-03",
+        "items": [{"id": "a", "source": "arxiv", "title": "t", "summary": "original"}],
+        "topics": [],
+    }
+    out = apply_summaries_to_digest(
+        digest, {"arxiv:a": {"summary": "new", "repro_difficulty": "low"}}
+    )
+    assert out["items"][0]["summary"] == "original"
+    assert "repro_difficulty" not in out["items"][0]

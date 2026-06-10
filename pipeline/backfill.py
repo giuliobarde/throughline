@@ -84,7 +84,7 @@ def merge_digest_dict(
 def apply_summaries_to_digest(digest: dict, summaries: dict[str, dict]) -> dict:
     for d in digest.get("items", []):
         key = f"{d['source']}:{d['id']}"
-        if key in summaries:
+        if key in summaries and not d.get("summary"):
             d["summary"] = summaries[key].get("summary")
             d["repro_difficulty"] = summaries[key].get("repro_difficulty")
     return digest
