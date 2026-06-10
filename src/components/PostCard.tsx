@@ -51,7 +51,7 @@ export function PostCard({ item, initialNet }: { item: FeedItem; initialNet: num
         <div className="mt-2.5 flex flex-wrap items-center gap-4">
           {item.source === "hackernews" && (
             <a
-              href={`https://news.ycombinator.com/item?id=${item.id}`}
+              href={`https://news.ycombinator.com/item?id=${item.id.replace(/^hn:/, "")}`}
               target="_blank"
               rel="noreferrer"
               className="font-mono text-xs text-neutral-500 transition-colors hover:text-neutral-300"

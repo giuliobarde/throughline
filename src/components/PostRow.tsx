@@ -19,7 +19,9 @@ export function PostRow({ item, initialNet }: { item: FeedItem; initialNet: numb
           >
             {item.title}
           </a>{" "}
-          <span className="font-mono text-xs font-normal text-neutral-500">({domain(item.url)})</span>
+          {domain(item.url) && (
+            <span className="font-mono text-xs font-normal text-neutral-500">({domain(item.url)})</span>
+          )}
         </h2>
         <div className="mt-1 flex flex-wrap items-center gap-x-3 gap-y-1">
           {item.topic && (
