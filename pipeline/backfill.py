@@ -88,3 +88,29 @@ def apply_summaries_to_digest(digest: dict, summaries: dict[str, dict]) -> dict:
             d["summary"] = summaries[key].get("summary")
             d["repro_difficulty"] = summaries[key].get("repro_difficulty")
     return digest
+
+
+def week_listing(items: list[Item]) -> str:
+    lines: list[str] = []
+    for it in items:
+        who = it.authors[0] if it.authors else ""
+        lines.append(f"{it.source}:{it.id} | {it.source} | {who} | {it.title}")
+    return "\n".join(lines)
+
+
+def select_milestones(items: list[Item], llm: Optional[LLMJson]) -> list[Item]:
+    if llm is None or not items:
+        return []
+    by_key = {f"{it.source}:{it.id}": it for it in items}
+    try:
+        result = llm(SELECT_SYSTEM, week_listing(items), SELECT_SCHEMA)
+    except Exception:  # selection is optional polish; never block the backfill
+        log.exception("milestone selection failed for week; skipping")
+        return []
+    picked: list[Item] = []
+    seen: set[str] = set()
+    for key in result.get("item_ids", [])[:5]:
+        if key in by_key and key not in seen:
+            seen.add(key)
+            picked.append(by_key[key])
+    return picked

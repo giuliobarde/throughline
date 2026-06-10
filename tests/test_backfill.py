@@ -112,3 +112,32 @@ def test_github_range_params_query():
     p = github_range_params(date(2026, 1, 5), date(2026, 1, 11))
     assert p["q"] == "machine learning created:2026-01-05..2026-01-11"
     assert p["sort"] == "stars"
+
+
+def test_select_milestones_with_injectable_llm_filters_bad_ids():
+    from pipeline.backfill import select_milestones
+
+    items = [_item("a", "2026-01-03T00:00:00+00:00"), _item("b", "2026-01-04T00:00:00+00:00")]
+
+    def llm(system, user, schema):
+        assert "arxiv:a" in user and "arxiv:b" in user
+        return {"item_ids": ["arxiv:a", "bogus:zzz", "arxiv:a"]}
+
+    picked = select_milestones(items, llm)
+    assert [i.id for i in picked] == ["a"]  # bad id dropped, dup collapses
+
+
+def test_select_milestones_no_llm_or_empty():
+    from pipeline.backfill import select_milestones
+
+    assert select_milestones([_item("a", "2026-01-03T00:00:00+00:00")], None) == []
+    assert select_milestones([], lambda s, u, j: {"item_ids": []}) == []
+
+
+def test_select_milestones_llm_error_returns_empty():
+    from pipeline.backfill import select_milestones
+
+    def boom(system, user, schema):
+        raise RuntimeError("api down")
+
+    assert select_milestones([_item("a", "2026-01-03T00:00:00+00:00")], boom) == []
