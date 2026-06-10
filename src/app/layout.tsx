@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import Link from "next/link";
+import { SearchBox } from "@/components/SearchBox";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -41,14 +42,7 @@ export default function RootLayout({
               </span>
             </Link>
             <div className="flex items-center gap-5 font-mono text-xs text-neutral-400">
-              <form action="/search">
-                <input
-                  name="q"
-                  placeholder="search"
-                  aria-label="Search the board"
-                  className="w-24 rounded-md border border-neutral-800 bg-neutral-900/60 px-2.5 py-1 font-mono text-xs text-neutral-200 outline-none transition-all placeholder:text-neutral-600 focus:w-40 focus:border-amber-500/60 sm:w-28 sm:focus:w-48"
-                />
-              </form>
+              <SearchBox />
               <Link href="/topics" className="transition-colors hover:text-neutral-100">
                 topics
               </Link>
