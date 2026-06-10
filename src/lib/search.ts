@@ -3,6 +3,30 @@ import type { Topic } from "./types";
 
 export type SearchResults = { items: FeedItem[]; topics: Topic[] };
 
+/** Bidirectional alias groups: a query term expands to its whole group. */
+const ALIAS_GROUPS: string[][] = [
+  ["claude", "anthropic"],
+  ["gpt", "openai", "chatgpt"],
+  ["gemini", "deepmind"],
+  ["llama", "meta"],
+  ["huggingface", "hf"],
+];
+
+function expand(term: string): string[] {
+  for (const group of ALIAS_GROUPS) {
+    if (group.includes(term)) return group;
+  }
+  return [term];
+}
+
+function hostname(url: string): string {
+  try {
+    return new URL(url).hostname.replace(/^www\./, "").toLowerCase();
+  } catch {
+    return "";
+  }
+}
+
 function terms(q: string): string[] {
   return q.toLowerCase().split(/\s+/).filter(Boolean);
 }
@@ -12,7 +36,8 @@ function itemDate(i: FeedItem): number {
   return Number.isNaN(t) ? Date.parse(i.digestDate) : t;
 }
 
-/** Substring scoring: title x3, topic tag/label x2, summary-or-abstract x1. */
+/** Scoring per term: title x3, hostname/authors x3 (identity), topic x2, body x1.
+ *  Terms containing a dot are domain queries: hostname only. Aliases expand terms. */
 export function searchItems(
   items: FeedItem[],
   topics: Topic[],
@@ -27,14 +52,23 @@ export function searchItems(
     .map((item) => {
       const title = item.title.toLowerCase();
       const body = (item.summary ?? item.abstract).toLowerCase();
+      const host = hostname(item.url);
+      const authors = item.authors.join(" ").toLowerCase();
       const topicText = item.topic
         ? `${item.topic.toLowerCase()} ${labelByTag.get(item.topic) ?? ""}`
         : "";
       let score = 0;
       for (const t of ts) {
-        if (title.includes(t)) score += 3;
-        if (topicText.includes(t)) score += 2;
-        if (body.includes(t)) score += 1;
+        if (t.includes(".")) {
+          if (host.includes(t)) score += 3;
+          continue;
+        }
+        const variants = expand(t);
+        const hit = (field: string) => variants.some((v) => field.includes(v));
+        if (hit(title)) score += 3;
+        if (hit(host) || hit(authors)) score += 3;
+        if (hit(topicText)) score += 2;
+        if (hit(body)) score += 1;
       }
       return { item, score };
     })

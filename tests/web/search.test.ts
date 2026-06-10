@@ -60,4 +60,36 @@ describe("searchItems", () => {
     const { topics: matched } = searchItems([], topics, "training");
     expect(matched.map((t) => t.tag)).toEqual(["training"]);
   });
+
+  it("alias: 'claude' finds anthropic items via hostname and authors", () => {
+    const viaHost = fi("h", "New model drops", { url: "https://www.anthropic.com/news/x" });
+    const viaAuthor = fi("a", "Some announcement", {
+      source: "blog",
+      authors: ["Anthropic"],
+      url: "https://example.org/y",
+    });
+    const miss = fi("m", "Unrelated", { url: "https://other.com/z" });
+    const { items } = searchItems([miss, viaHost, viaAuthor], topics, "claude");
+    expect(items.map((i) => i.id).sort()).toEqual(["a", "h"]);
+  });
+
+  it("alias works in reverse: 'openai' matches gpt in title", () => {
+    const gptTitle = fi("g", "GPT-6 rumors intensify");
+    const { items } = searchItems([gptTitle], topics, "openai");
+    expect(items.map((i) => i.id)).toEqual(["g"]);
+  });
+
+  it("domain query matches hostname only", () => {
+    const fromSite = fi("s", "Anything", { url: "https://anthropic.com/research/q" });
+    const mentions = fi("m", "anthropic.com mentioned in title", { url: "https://other.com/p" });
+    const { items } = searchItems([fromSite, mentions], topics, "anthropic.com");
+    expect(items.map((i) => i.id)).toEqual(["s"]);
+  });
+
+  it("hostname match scores like a title match", () => {
+    const hostHit = fi("hh", "Plain words", { url: "https://huggingface.co/blog/z" });
+    const bodyHit = fi("bb", "Plain words", { abstract: "huggingface release notes" });
+    const { items } = searchItems([bodyHit, hostHit], topics, "huggingface");
+    expect(items.map((i) => i.id)).toEqual(["hh", "bb"]);
+  });
 });
