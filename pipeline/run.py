@@ -4,6 +4,8 @@ import argparse
 import json
 import logging
 from datetime import date as date_cls
+from pathlib import Path
+from typing import Optional
 
 from pipeline.cluster import cluster_items
 from pipeline.digest import DEFAULT_CONTENT_DIR, write_digest
@@ -46,6 +48,47 @@ def dedupe(items: list[Item]) -> list[Item]:
         seen.add(key)
         out.append(it)
     return out
+
+
+def load_existing_digest(date: str, content_dir: Path) -> Optional[dict]:
+    """Today's digest from an earlier run, or None (absent/corrupt → fresh build)."""
+    path = content_dir / "digests" / f"{date}.json"
+    try:
+        return json.loads(path.read_text())
+    except (OSError, ValueError):
+        return None
+
+
+def merge_run_items(
+    existing: Optional[dict], fetched: list[Item]
+) -> tuple[list[Item], dict[str, dict]]:
+    """Union of an earlier same-day run and this fetch.
+
+    Existing items win on duplicate keys (their metadata is already enriched);
+    new keys append. Carried summaries survive even if their item isn't
+    selected for summarization this run.
+    """
+    if not existing:
+        return fetched, {}
+    pool: list[Item] = []
+    carried: dict[str, dict] = {}
+    seen: set[str] = set()
+    for d in existing.get("items", []):
+        key = f"{d['source']}:{d['id']}"
+        seen.add(key)
+        pool.append(Item.from_dict(d))
+        if d.get("summary"):
+            carried[key] = {
+                "summary": d["summary"],
+                "repro_difficulty": d.get("repro_difficulty"),
+            }
+    for it in fetched:
+        key = f"{it.source}:{it.id}"
+        if key in seen:
+            continue
+        seen.add(key)
+        pool.append(it)
+    return pool, carried
 
 
 def main() -> None:
