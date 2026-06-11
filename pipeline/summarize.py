@@ -4,7 +4,6 @@ import json
 import logging
 import os
 from collections import defaultdict
-from pathlib import Path
 from typing import Callable, Optional
 
 from pipeline.models import Item
@@ -12,12 +11,11 @@ from pipeline.models import Item
 log = logging.getLogger("throughline")
 
 LLMJson = Callable[[str, str, dict], dict]
+CacheGet = Callable[[list[str]], dict[str, dict]]
+CachePut = Callable[[dict[str, dict]], None]
 
 SUMMARY_CAP = 20
 MODEL = os.environ.get("ANTHROPIC_MODEL", "claude-haiku-4-5")
-SUMMARIES_CACHE = (
-    Path(__file__).resolve().parent.parent / "data" / "summaries" / "cache.json"
-)
 
 SYSTEM_PROMPT = (
     "You write tight, grounded summaries for an audience of engineers who ship "
@@ -73,32 +71,42 @@ def _summary_prompt(item: Item) -> str:
     )
 
 
-def _load_cache(cache_path: Path) -> dict[str, dict]:
-    if cache_path.exists():
-        return json.loads(cache_path.read_text())
-    return {}
+def _store_get(keys: list[str]) -> dict[str, dict]:
+    from pipeline import store
+
+    return store.cache_get("summaries", keys)
+
+
+def _store_put(entries: dict[str, dict]) -> None:
+    from pipeline import store
+
+    store.cache_put("summaries", entries)
 
 
 def summarize_items(
     items: list[Item],
     llm: Optional[LLMJson] = None,
-    cache_path: Path = SUMMARIES_CACHE,
+    cache_get: Optional[CacheGet] = None,
+    cache_put: Optional[CachePut] = None,
 ) -> dict[str, dict]:
-    cache = _load_cache(cache_path)
+    get = cache_get or _store_get
+    put = cache_put or _store_put
+    keys = [_key(it) for it in items]
+    cache = get(keys)
     missing = [it for it in items if _key(it) not in cache]
+    fresh: dict[str, dict] = {}
     if missing:
         call = llm if llm is not None else _default_llm()
         if call is not None:
             for it in missing:
                 try:
-                    cache[_key(it)] = call(
-                        SYSTEM_PROMPT, _summary_prompt(it), SUMMARY_SCHEMA
-                    )
+                    fresh[_key(it)] = call(SYSTEM_PROMPT, _summary_prompt(it), SUMMARY_SCHEMA)
                 except Exception:  # one bad item must not kill the batch
                     log.exception("summary failed for %s; skipping", _key(it))
-            cache_path.parent.mkdir(parents=True, exist_ok=True)
-            cache_path.write_text(json.dumps(cache))
-    return {_key(it): cache[_key(it)] for it in items if _key(it) in cache}
+            if fresh:
+                put(fresh)
+            cache.update(fresh)
+    return {k: cache[k] for k in keys if k in cache}
 
 
 LABEL_SYSTEM = (

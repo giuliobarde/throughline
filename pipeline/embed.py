@@ -1,16 +1,13 @@
 from __future__ import annotations
 
-import json
-from pathlib import Path
 from typing import Callable, Optional
 
 from pipeline.models import Item
 
 Encoder = Callable[[list[str]], list[list[float]]]
+CacheGet = Callable[[list[str]], dict[str, list[float]]]
+CachePut = Callable[[dict[str, list[float]]], None]
 
-EMBEDDINGS_CACHE = (
-    Path(__file__).resolve().parent.parent / "data" / "embeddings" / "cache.json"
-)
 MODEL_NAME = "all-MiniLM-L6-v2"
 
 
@@ -33,24 +30,33 @@ def _default_encoder() -> Encoder:
     return encode
 
 
-def _load_cache(cache_path: Path) -> dict[str, list[float]]:
-    if cache_path.exists():
-        return json.loads(cache_path.read_text())
-    return {}
+def _store_get(keys: list[str]) -> dict[str, list[float]]:
+    from pipeline import store
+
+    return {k: v["v"] for k, v in store.cache_get("embeddings", keys).items()}
+
+
+def _store_put(entries: dict[str, list[float]]) -> None:
+    from pipeline import store
+
+    store.cache_put("embeddings", {k: {"v": v} for k, v in entries.items()})
 
 
 def embed_items(
     items: list[Item],
     encoder: Optional[Encoder] = None,
-    cache_path: Path = EMBEDDINGS_CACHE,
+    cache_get: Optional[CacheGet] = None,
+    cache_put: Optional[CachePut] = None,
 ) -> dict[str, list[float]]:
-    cache = _load_cache(cache_path)
+    get = cache_get or _store_get
+    put = cache_put or _store_put
+    keys = [_key(it) for it in items]
+    cache = get(keys)
     missing = [it for it in items if _key(it) not in cache]
     if missing:
         enc = encoder or _default_encoder()
         vectors = enc([_text(it) for it in missing])
-        for it, vec in zip(missing, vectors):
-            cache[_key(it)] = list(vec)
-        cache_path.parent.mkdir(parents=True, exist_ok=True)
-        cache_path.write_text(json.dumps(cache))
-    return {_key(it): cache[_key(it)] for it in items}
+        fresh = {_key(it): list(vec) for it, vec in zip(missing, vectors)}
+        cache.update(fresh)
+        put(fresh)
+    return {k: cache[k] for k in keys}

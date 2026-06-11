@@ -33,9 +33,19 @@ def test_cap_zero_padding_and_missing_topic_defaults_all():
     assert [f"{i.source}:{i.id}" for i in selected] == ["arxiv:x"]
 
 
-from pathlib import Path
-
 from pipeline.summarize import summarize_items
+
+
+def _mem_cache():
+    store: dict = {}
+
+    def get(keys):
+        return {k: store[k] for k in keys if k in store}
+
+    def put(entries):
+        store.update(entries)
+
+    return store, get, put
 
 
 class CountingLLM:
@@ -47,32 +57,32 @@ class CountingLLM:
         return {"summary": "A grounded summary.", "repro_difficulty": "med"}
 
 
-def test_summarize_computes_and_caches(tmp_path: Path):
-    cache = tmp_path / "sum.json"
+def test_summarize_computes_and_caches():
+    backing, get, put = _mem_cache()
     items = [_item("arxiv", "1", "2026-06-06T00:00:00Z")]
     llm = CountingLLM()
-    out = summarize_items(items, llm=llm, cache_path=cache)
+    out = summarize_items(items, llm=llm, cache_get=get, cache_put=put)
     assert out["arxiv:1"]["summary"] == "A grounded summary."
     assert out["arxiv:1"]["repro_difficulty"] == "med"
     assert llm.calls == 1
-    assert cache.exists()
+    assert "arxiv:1" in backing  # result persisted to backing dict
 
     llm2 = CountingLLM()
-    out2 = summarize_items(items, llm=llm2, cache_path=cache)
+    out2 = summarize_items(items, llm=llm2, cache_get=get, cache_put=put)
     assert llm2.calls == 0  # cached
     assert out2["arxiv:1"]["summary"] == "A grounded summary."
 
 
-def test_summarize_no_llm_returns_cached_only(tmp_path: Path, monkeypatch):
+def test_summarize_no_llm_returns_cached_only(monkeypatch):
     monkeypatch.delenv("ANTHROPIC_API_KEY", raising=False)
-    cache = tmp_path / "sum.json"
+    backing, get, put = _mem_cache()
     items = [_item("arxiv", "1", "2026-06-06T00:00:00Z")]
-    out = summarize_items(items, llm=None, cache_path=cache)  # no key path
+    out = summarize_items(items, llm=None, cache_get=get, cache_put=put)  # no key path
     assert out == {}
 
 
-def test_summarize_skips_item_on_llm_error(tmp_path: Path):
-    cache = tmp_path / "sum.json"
+def test_summarize_skips_item_on_llm_error():
+    backing, get, put = _mem_cache()
     items = [_item("arxiv", "1", "2026-06-06T00:00:00Z"),
              _item("arxiv", "2", "2026-06-06T00:00:00Z")]
 
@@ -81,7 +91,7 @@ def test_summarize_skips_item_on_llm_error(tmp_path: Path):
             raise RuntimeError("boom")
         return {"summary": "ok", "repro_difficulty": "low"}
 
-    out = summarize_items(items, llm=flaky, cache_path=cache)
+    out = summarize_items(items, llm=flaky, cache_get=get, cache_put=put)
     assert "arxiv:1" not in out  # errored item skipped
     assert out["arxiv:2"]["summary"] == "ok"
 
