@@ -28,7 +28,7 @@ export default async function HomePage() {
       {initialItems.length === 0 ? (
         <p className="text-neutral-500">No posts yet. The pipeline runs daily.</p>
       ) : (
-        <div className="grid gap-8 lg:grid-cols-[minmax(0,1fr)_240px]">
+        <div className="grid min-w-0 gap-8 lg:grid-cols-[minmax(0,1fr)_240px]">
           <Feed
             initialItems={initialItems}
             votes={votes}

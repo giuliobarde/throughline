@@ -71,11 +71,11 @@ export function Feed({
 
   const items = sortFeed(pool, sort, votes, new Date(nowMs));
   const toggle = (active: boolean) =>
-    `px-2.5 py-1 font-mono text-xs transition-colors ${active ? "bg-neutral-800 text-neutral-100" : "text-neutral-500 hover:text-neutral-300"}`;
+    `px-2 py-1 font-mono text-[11px] transition-colors sm:px-2.5 sm:text-xs ${active ? "bg-neutral-800 text-neutral-100" : "text-neutral-500 hover:text-neutral-300"}`;
 
   return (
-    <div>
-      <div className="mb-4 flex items-center gap-2">
+    <div className="min-w-0">
+      <div className="mb-4 flex min-w-0 flex-wrap items-center gap-x-2 gap-y-2">
         <div className="flex gap-1" role="tablist" aria-label="Sort feed">
           {TABS.map((t) => (
             <button
@@ -84,7 +84,7 @@ export function Feed({
               role="tab"
               aria-selected={sort === t.id}
               onClick={() => setSort(t.id)}
-              className={`rounded-full px-3 py-1 font-mono text-xs transition-colors ${
+              className={`whitespace-nowrap rounded-full px-2.5 py-1 font-mono text-[11px] transition-colors sm:px-3 sm:text-xs ${
                 sort === t.id
                   ? "bg-amber-500 font-bold text-neutral-950"
                   : "text-neutral-400 hover:text-neutral-100"

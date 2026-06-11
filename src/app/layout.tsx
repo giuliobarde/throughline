@@ -29,7 +29,7 @@ export default function RootLayout({
     >
       <body className="min-h-screen bg-neutral-950 text-neutral-100 antialiased">
         <nav className="sticky top-0 z-10 border-b border-neutral-800 bg-neutral-950/80 backdrop-blur">
-          <div className="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
+          <div className="mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-y-2 px-4 py-3 sm:px-6 sm:py-4">
             <Link
               href="/"
               className="group inline-flex items-baseline gap-2 transition-colors"
@@ -41,8 +41,10 @@ export default function RootLayout({
                 the tech wire, ranked daily
               </span>
             </Link>
-            <div className="flex items-center gap-5 font-mono text-xs text-neutral-400">
+            <div className="ml-auto">
               <SearchBox />
+            </div>
+            <div className="order-last flex w-full items-center justify-between font-mono text-xs text-neutral-400 sm:order-0 sm:ml-5 sm:w-auto sm:justify-start sm:gap-6">
               <Link href="/topics" className="transition-colors hover:text-neutral-100">
                 topics
               </Link>
