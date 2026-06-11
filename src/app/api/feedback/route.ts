@@ -1,7 +1,17 @@
 import { NextResponse } from "next/server";
+import { clientIp, createRateLimiter } from "@/lib/ratelimit";
 import { getServiceClient } from "@/lib/supabase";
+import { isValidItemId } from "@/lib/validate";
+
+const limiter = createRateLimiter(10, 60_000);
 
 export async function POST(request: Request) {
+  if (!limiter.allow(clientIp(request))) {
+    return NextResponse.json(
+      { error: "rate limited" },
+      { status: 429, headers: { "Retry-After": "60" } },
+    );
+  }
   let body: unknown;
   try {
     body = await request.json();
@@ -12,7 +22,11 @@ export async function POST(request: Request) {
     item_id?: unknown;
     signal?: unknown;
   };
-  if (typeof item_id !== "string" || !item_id || (signal !== 1 && signal !== -1)) {
+  if (
+    typeof item_id !== "string" ||
+    !isValidItemId(item_id) ||
+    (signal !== 1 && signal !== -1)
+  ) {
     return NextResponse.json({ error: "bad request" }, { status: 400 });
   }
 
