@@ -57,24 +57,27 @@ def _existing_digest() -> dict:
 
 
 def test_merge_existing_wins_and_new_appended():
-    pool, carried = merge_run_items(_existing_digest(), [_item("a"), _item("c")])
+    pool, carried, _topics = merge_run_items(_existing_digest(), [_item("a"), _item("c")])
     keys = [f"{i.source}:{i.id}" for i in pool]
     assert keys == ["arxiv:a", "github:b", "arxiv:c"]
     assert pool[0].title == "old title wins"  # existing version kept
 
 
 def test_merge_carries_only_nonempty_summaries():
-    _, carried = merge_run_items(_existing_digest(), [])
+    _, carried, carried_topics = merge_run_items(_existing_digest(), [])
     assert carried == {
         "arxiv:a": {"summary": "carried summary", "repro_difficulty": "low"}
     }
+    # item a has topic "t1"; item b has no topic field — only a should be carried
+    assert carried_topics == {"arxiv:a": "t1"}
 
 
 def test_merge_none_existing_is_passthrough():
     fetched = [_item("x")]
-    pool, carried = merge_run_items(None, fetched)
+    pool, carried, carried_topics = merge_run_items(None, fetched)
     assert pool == fetched
     assert carried == {}
+    assert carried_topics == {}
 
 
 def test_load_existing_digest_roundtrip(tmp_path):

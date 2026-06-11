@@ -61,34 +61,44 @@ def load_existing_digest(date: str, content_dir: Path) -> Optional[dict]:
 
 def merge_run_items(
     existing: Optional[dict], fetched: list[Item]
-) -> tuple[list[Item], dict[str, dict]]:
+) -> tuple[list[Item], dict[str, dict], dict[str, str]]:
     """Union of an earlier same-day run and this fetch.
 
     Existing items win on duplicate keys (their metadata is already enriched);
-    new keys append. Carried summaries survive even if their item isn't
-    selected for summarization this run.
+    new keys append. Carried summaries and carried topics survive even if the
+    ML/cluster step fails this run.
+
+    Returns:
+        pool: merged item list
+        carried_summaries: {source:id -> {"summary": ..., "repro_difficulty": ...}}
+            for items that already have a non-empty summary.
+        carried_topics: {source:id -> topic_label}
+            for items that already have a non-empty topic assignment.
     """
     if not existing:
-        return fetched, {}
+        return fetched, {}, {}
     pool: list[Item] = []
-    carried: dict[str, dict] = {}
+    carried_summaries: dict[str, dict] = {}
+    carried_topics: dict[str, str] = {}
     seen: set[str] = set()
     for d in existing.get("items", []):
         key = f"{d['source']}:{d['id']}"
         seen.add(key)
         pool.append(Item.from_dict(d))
         if d.get("summary"):
-            carried[key] = {
+            carried_summaries[key] = {
                 "summary": d["summary"],
                 "repro_difficulty": d.get("repro_difficulty"),
             }
+        if d.get("topic"):
+            carried_topics[key] = d["topic"]
     for it in fetched:
         key = f"{it.source}:{it.id}"
         if key in seen:
             continue
         seen.add(key)
         pool.append(it)
-    return pool, carried
+    return pool, carried_summaries, carried_topics
 
 
 def main() -> None:
@@ -108,12 +118,12 @@ def main() -> None:
         return
 
     existing = load_existing_digest(args.date, DEFAULT_CONTENT_DIR)
-    items, carried_summaries = merge_run_items(existing, items)
+    items, carried_summaries, carried_topics = merge_run_items(existing, items)
     if existing:
         log.info("merged with earlier run: %d items in pool", len(items))
 
-    topics: list[dict] = []
-    topic_by_key: dict[str, str] = {}
+    topics: list[dict] = (existing or {}).get("topics") or []
+    topic_by_key: dict[str, str] = dict(carried_topics)
     summaries: dict[str, dict] = dict(carried_summaries)
     scores: dict[str, float] = {}
     if items:
