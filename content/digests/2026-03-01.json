@@ -1,0 +1,98 @@
+{
+  "date": "2026-03-01",
+  "generated_at": "2026-06-11T04:11:45.064106+00:00",
+  "items": [
+    {
+      "id": "hn:47211830",
+      "source": "hackernews",
+      "title": "Right-sizes LLM models to your system's RAM, CPU, and GPU",
+      "url": "https://github.com/AlexsJones/llmfit",
+      "abstract": "",
+      "authors": [
+        "bilsbie"
+      ],
+      "published_at": "2026-03-01T23:15:16Z",
+      "has_code": true,
+      "code_url": "https://github.com/AlexsJones/llmfit"
+    },
+    {
+      "id": "hn:47209443",
+      "source": "hackernews",
+      "title": "Claude dethrones ChatGPT as top U.S. app after Pentagon saga",
+      "url": "https://www.axios.com/2026/03/01/anthropic-claude-chatgpt-app-downloads-pentagon",
+      "abstract": "",
+      "authors": [
+        "doener"
+      ],
+      "published_at": "2026-03-01T18:41:03Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47208573",
+      "source": "hackernews",
+      "title": "Inside the M4 Apple Neural Engine, Part 1: Reverse Engineering",
+      "url": "https://maderix.substack.com/p/inside-the-m4-apple-neural-engine",
+      "abstract": "",
+      "authors": [
+        "zdw"
+      ],
+      "published_at": "2026-03-01T17:11:44Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47205208",
+      "source": "hackernews",
+      "title": "Microgpt explained interactively",
+      "url": "https://growingswe.com/blog/microgpt",
+      "abstract": "",
+      "authors": [
+        "growingswe"
+      ],
+      "published_at": "2026-03-01T09:43:43Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47203219",
+      "source": "hackernews",
+      "title": "TorchLean: Formalizing Neural Networks in Lean",
+      "url": "https://leandojo.org/torchlean.html",
+      "abstract": "",
+      "authors": [
+        "matt_d"
+      ],
+      "published_at": "2026-03-01T03:03:46Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47202708",
+      "source": "hackernews",
+      "title": "Microgpt",
+      "url": "http://karpathy.github.io/2026/02/12/microgpt/",
+      "abstract": "",
+      "authors": [
+        "tambourine_man"
+      ],
+      "published_at": "2026-03-01T01:39:26Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "gh:harryabraham11/Dataset_HealthHub",
+      "source": "github",
+      "title": "harryabraham11/Dataset_HealthHub",
+      "url": "https://github.com/harryabraham11/Dataset_HealthHub",
+      "abstract": "Developed an AI-driven data preprocessing platform that automates dataset analysis, identifies data quality issues, and performs one-click cleaning and preparation for machine learning workflows using Python, Pandas, and Gradio",
+      "authors": [
+        "harryabraham11"
+      ],
+      "published_at": "2026-03-01T15:12:11Z",
+      "has_code": true,
+      "code_url": "https://github.com/harryabraham11/Dataset_HealthHub"
+    }
+  ],
+  "topics": []
+}

@@ -1,0 +1,111 @@
+{
+  "date": "2026-05-12",
+  "generated_at": "2026-06-11T04:11:45.128759+00:00",
+  "items": [
+    {
+      "id": "hn:48108778",
+      "source": "hackernews",
+      "title": "Show HN: Statewright \u2013 Visual state machines that make AI agents reliable",
+      "url": "https://github.com/statewright/statewright",
+      "abstract": "",
+      "authors": [
+        "azurewraith"
+      ],
+      "published_at": "2026-05-12T14:24:55Z",
+      "has_code": true,
+      "code_url": "https://github.com/statewright/statewright"
+    },
+    {
+      "id": "hn:48106114",
+      "source": "hackernews",
+      "title": "Unitree GD01: China's $537k rideable transformer robot is now in production",
+      "url": "https://gagadget.com/en/709729-unitree-gd01-chinas-537k-rideable-transformer-robot-is-now-in-production/",
+      "abstract": "",
+      "authors": [
+        "rguiscard"
+      ],
+      "published_at": "2026-05-12T09:49:26Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "gh:imhth/PyTorch",
+      "source": "github",
+      "title": "imhth/PyTorch",
+      "url": "https://github.com/imhth/PyTorch",
+      "abstract": "Elevating enterprise-grade machine learning with highly concurrent, real-time data processing and adaptive distributed intelligence accelerator.",
+      "authors": [
+        "imhth"
+      ],
+      "published_at": "2026-05-12T07:14:29Z",
+      "has_code": true,
+      "code_url": "https://github.com/imhth/PyTorch"
+    },
+    {
+      "id": "blog:7d12c750a4ea",
+      "source": "blog",
+      "title": "How finance teams use Codex",
+      "url": "https://openai.com/academy/how-finance-teams-use-codex",
+      "abstract": "See how finance teams can use Codex to build MBRs, reporting packs, variance bridges, model checks, and planning scenarios from real work inputs.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-05-12T15:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:6498bc3d3050",
+      "source": "blog",
+      "title": "How NVIDIA engineers and researchers build with Codex",
+      "url": "https://openai.com/index/nvidia",
+      "abstract": "Teams use Codex with GPT-5.5 to ship production systems and turn research ideas into runnable experiments.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-05-12T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:c31ba2e9026b",
+      "source": "blog",
+      "title": "What Parameter Golf taught us about AI-assisted research",
+      "url": "https://openai.com/index/what-parameter-golf-taught-us",
+      "abstract": "Parameter Golf brought together 1,000+ participants and 2,000+ submissions to explore AI-assisted machine learning research, coding agents, quantization, and novel model design under strict constraints.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-05-12T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:8a196e8c3ae2",
+      "source": "blog",
+      "title": "AutoScout24 scales engineering with AI-powered workflows",
+      "url": "https://openai.com/index/autoscout24",
+      "abstract": "Learn how AutoScout24 Group uses Codex and ChatGPT to speed development cycles, improve code quality, and expand AI adoption.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-05-12T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:28fd7a886b8b",
+      "source": "blog",
+      "title": "Co-Scientist: A multi-agent AI partner to accelerate research",
+      "url": "https://deepmind.google/blog/co-scientist-a-multi-agent-ai-partner-to-accelerate-research/",
+      "abstract": "Introducing Co-Scientist, a collaborative AI partner built with Gemini to help researchers accelerate scientific breakthroughs.",
+      "authors": [
+        "Google DeepMind"
+      ],
+      "published_at": "2026-05-12T14:40:07+00:00",
+      "has_code": false,
+      "code_url": null
+    }
+  ],
+  "topics": []
+}

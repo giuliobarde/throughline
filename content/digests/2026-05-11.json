@@ -1,0 +1,98 @@
+{
+  "date": "2026-05-11",
+  "generated_at": "2026-06-11T04:11:45.127759+00:00",
+  "items": [
+    {
+      "id": "gh:hazexone/HashPilot",
+      "source": "github",
+      "title": "hazexone/HashPilot",
+      "url": "https://github.com/hazexone/HashPilot",
+      "abstract": "Data-Driven Insights Accelerator for Enterprise Systems, Harnessing Machine-Learning to Optimize Performance. featuring Machine-Learning capabilities",
+      "authors": [
+        "hazexone"
+      ],
+      "published_at": "2026-05-11T19:41:39Z",
+      "has_code": true,
+      "code_url": "https://github.com/hazexone/HashPilot"
+    },
+    {
+      "id": "blog:e13dc335beb0",
+      "source": "blog",
+      "title": "How ChatGPT adoption broadened in early 2026",
+      "url": "https://openai.com/signals/research/2026q1-update",
+      "abstract": "ChatGPT adoption surged in Q1 2026, with fastest growth among users over 35 and more balanced gender usage, signaling broader mainstream AI adoption.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-05-11T15:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:ee5564e4d43f",
+      "source": "blog",
+      "title": "OpenAI Campus Network: Student club interest form",
+      "url": "https://openai.com/index/openai-campus-network-student-club-interest-form",
+      "abstract": "Join the OpenAI Campus Network\u2014connect student clubs worldwide, access AI tools, host events, and build an AI-powered campus community.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-05-11T10:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:4ca12da2ae6a",
+      "source": "blog",
+      "title": "How enterprises are scaling AI",
+      "url": "https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai",
+      "abstract": "How enterprises scale AI: from early experiments to compounding impact through trust, governance, workflow design, and quality at scale.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-05-11T10:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:68e94ee2f13a",
+      "source": "blog",
+      "title": "OpenAI launches DeployCo to help businesses build around intelligence",
+      "url": "https://openai.com/index/openai-launches-the-deployment-company",
+      "abstract": "OpenAI launches DeployCo, a new enterprise deployment company built to help organizations bring frontier AI into production and turn it into measurable business impact.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-05-11T06:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:519f0d44ef23",
+      "source": "blog",
+      "title": "The new AI-powered Google Finance is expanding to Europe.",
+      "url": "https://blog.google/products-and-platforms/products/search/ai-powered-google-finance-in-europe/",
+      "abstract": "A screenshot of the AI-powered experience on Google Finance.",
+      "authors": [
+        "Google AI"
+      ],
+      "published_at": "2026-05-11T06:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:ce49fe8e0cb4",
+      "source": "blog",
+      "title": "Building Blocks for Foundation Model Training and Inference on AWS",
+      "url": "https://huggingface.co/blog/amazon/foundation-model-building-blocks",
+      "abstract": "",
+      "authors": [
+        "Hugging Face"
+      ],
+      "published_at": "2026-05-11T23:18:26+00:00",
+      "has_code": false,
+      "code_url": null
+    }
+  ],
+  "topics": []
+}

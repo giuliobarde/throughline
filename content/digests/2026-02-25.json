@@ -1,0 +1,137 @@
+{
+  "date": "2026-02-25",
+  "generated_at": "2026-06-11T04:11:45.060919+00:00",
+  "items": [
+    {
+      "id": "hn:47158975",
+      "source": "hackernews",
+      "title": "How will OpenAI compete?",
+      "url": "https://www.ben-evans.com/benedictevans/2026/2/19/how-will-openai-compete-nkg2x",
+      "abstract": "",
+      "authors": [
+        "iamskeole"
+      ],
+      "published_at": "2026-02-25T22:29:25Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47154983",
+      "source": "hackernews",
+      "title": "The Pentagon threatens Anthropic",
+      "url": "https://www.astralcodexten.com/p/the-pentagon-threatens-anthropic",
+      "abstract": "",
+      "authors": [
+        "lukeplato"
+      ],
+      "published_at": "2026-02-25T17:49:27Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47154523",
+      "source": "hackernews",
+      "title": "Bcachefs creator insists his custom LLM is female and 'fully conscious'",
+      "url": "https://www.theregister.com/2026/02/25/bcachefs_creator_ai/",
+      "abstract": "",
+      "authors": [
+        "Bender"
+      ],
+      "published_at": "2026-02-25T17:21:29Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47149586",
+      "source": "hackernews",
+      "title": "Show HN: A real-time strategy game that AI agents can play",
+      "url": "https://llmskirmish.com/",
+      "abstract": "",
+      "authors": [
+        "__cayenne__"
+      ],
+      "published_at": "2026-02-25T10:02:45Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47149151",
+      "source": "hackernews",
+      "title": "LLM=True",
+      "url": "https://blog.codemine.be/posts/2026/20260222-be-quiet/",
+      "abstract": "",
+      "authors": [
+        "avh3"
+      ],
+      "published_at": "2026-02-25T09:05:40Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47146487",
+      "source": "hackernews",
+      "title": "Can you reverse engineer our neural network?",
+      "url": "https://blog.janestreet.com/can-you-reverse-engineer-our-neural-network/",
+      "abstract": "",
+      "authors": [
+        "jsomers"
+      ],
+      "published_at": "2026-02-25T02:20:13Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47145963",
+      "source": "hackernews",
+      "title": "Anthropic drops flagship safety pledge",
+      "url": "https://time.com/7380854/exclusive-anthropic-drops-flagship-safety-pledge/",
+      "abstract": "",
+      "authors": [
+        "cwwc"
+      ],
+      "published_at": "2026-02-25T01:08:46Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47145551",
+      "source": "hackernews",
+      "title": "US Military leaders meet with Anthropic to argue against Claude safeguards",
+      "url": "https://www.theguardian.com/us-news/2026/feb/24/anthropic-claude-military-ai",
+      "abstract": "",
+      "authors": [
+        "KnuthIsGod"
+      ],
+      "published_at": "2026-02-25T00:20:50Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "gh:pree871/customer-churn-prediction",
+      "source": "github",
+      "title": "pree871/customer-churn-prediction",
+      "url": "https://github.com/pree871/customer-churn-prediction",
+      "abstract": "Beginner Machine Learning project for customer churn prediction",
+      "authors": [
+        "pree871"
+      ],
+      "published_at": "2026-02-25T20:07:45Z",
+      "has_code": true,
+      "code_url": "https://github.com/pree871/customer-churn-prediction"
+    },
+    {
+      "id": "blog:bc176ad0fcac",
+      "source": "blog",
+      "title": "Disrupting malicious uses of AI | February 2026",
+      "url": "https://openai.com/index/disrupting-malicious-ai-uses",
+      "abstract": "Our latest threat report examines how malicious actors combine AI models with websites and social platforms\u2014and what it means for detection and defense.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-02-25T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    }
+  ],
+  "topics": []
+}

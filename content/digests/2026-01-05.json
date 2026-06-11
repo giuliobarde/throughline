@@ -1,0 +1,72 @@
+{
+  "date": "2026-01-05",
+  "generated_at": "2026-06-11T04:11:45.027803+00:00",
+  "items": [
+    {
+      "id": "hn:46499983",
+      "source": "hackernews",
+      "title": "Murder-suicide case shows OpenAI selectively hides data after users die",
+      "url": "https://arstechnica.com/tech-policy/2025/12/openai-refuses-to-say-where-chatgpt-logs-go-when-users-die/",
+      "abstract": "",
+      "authors": [
+        "randycupertino"
+      ],
+      "published_at": "2026-01-05T15:34:40Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "gh:Chandan-IISc/IISC_PRNN",
+      "source": "github",
+      "title": "Chandan-IISc/IISC_PRNN",
+      "url": "https://github.com/Chandan-IISc/IISC_PRNN",
+      "abstract": "This Repo Contains all the materials of Pattern Recognition and Neural Networks course done at IISc and recorded for NPTEL - Mathematical Foundations of Machine Learning",
+      "authors": [
+        "Chandan-IISc"
+      ],
+      "published_at": "2026-01-05T05:03:28Z",
+      "has_code": true,
+      "code_url": "https://github.com/Chandan-IISc/IISC_PRNN"
+    },
+    {
+      "id": "blog:46cb5e7929c0",
+      "source": "blog",
+      "title": "NVIDIA Cosmos Reason 2 Brings Advanced Reasoning To Physical AI",
+      "url": "https://huggingface.co/blog/nvidia/nvidia-cosmos-reason-2-brings-advanced-reasoning",
+      "abstract": "",
+      "authors": [
+        "Hugging Face"
+      ],
+      "published_at": "2026-01-05T22:56:51+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:dc25f01c9ead",
+      "source": "blog",
+      "title": "Introducing Falcon-H1-Arabic: Pushing the Boundaries of Arabic Language AI with Hybrid Architecture",
+      "url": "https://huggingface.co/blog/tiiuae/falcon-h1-arabic",
+      "abstract": "",
+      "authors": [
+        "Hugging Face"
+      ],
+      "published_at": "2026-01-05T09:16:51+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:a1e1d46195a5",
+      "source": "blog",
+      "title": "NVIDIA brings agents to life with DGX Spark and Reachy Mini",
+      "url": "https://huggingface.co/blog/nvidia-reachy-mini",
+      "abstract": "",
+      "authors": [
+        "Hugging Face"
+      ],
+      "published_at": "2026-01-05T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    }
+  ],
+  "topics": []
+}

@@ -1,6 +1,6 @@
 {
   "date": "2026-06-09",
-  "generated_at": "2026-06-09T15:23:53.216223+00:00",
+  "generated_at": "2026-06-11T04:11:45.162984+00:00",
   "items": [
     {
       "id": "2606.09826",
@@ -1169,6 +1169,279 @@
       "code_url": "https://github.com/Tulikash-09/BAMQuiz",
       "topic": "wadan3-cloud",
       "for_you_score": 0.25
+    },
+    {
+      "id": "hn:48466812",
+      "source": "hackernews",
+      "title": "Grit: Rewriting Git in Rust with agents",
+      "url": "https://blog.gitbutler.com/true-grit",
+      "abstract": "",
+      "authors": [
+        "cbrewster"
+      ],
+      "published_at": "2026-06-09T19:58:21Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:48466277",
+      "source": "hackernews",
+      "title": "Ultrafast machine learning on FPGAs via Kolmogorov-Arnold Networks",
+      "url": "https://aarushgupta.io/posts/kan-fpga/",
+      "abstract": "",
+      "authors": [
+        "ag2718"
+      ],
+      "published_at": "2026-06-09T19:21:45Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:48465269",
+      "source": "hackernews",
+      "title": "GPT-2: Too Dangerous To Release (2019)",
+      "url": "https://naokishibuya.github.io/blog/2022-12-30-gpt-2-2019/",
+      "abstract": "",
+      "authors": [
+        "AbuAssar"
+      ],
+      "published_at": "2026-06-09T18:21:43Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:48464258",
+      "source": "hackernews",
+      "title": "Anthropic requires 30 day data retention for Fable and Mythos",
+      "url": "https://support.claude.com/en/articles/15425996-data-retention-practices-for-mythos-class-models",
+      "abstract": "",
+      "authors": [
+        "lebovic"
+      ],
+      "published_at": "2026-06-09T17:23:40Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:48462062",
+      "source": "hackernews",
+      "title": "Can LLMs Beat Classical Hyperparameter Optimization Algorithms?",
+      "url": "https://arxiv.org/abs/2603.24647",
+      "abstract": "",
+      "authors": [
+        "galsapir"
+      ],
+      "published_at": "2026-06-09T15:01:15Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:48460863",
+      "source": "hackernews",
+      "title": "Is Grep All You Need? How Agent Harnesses Reshape Agentic Search",
+      "url": "https://arxiv.org/abs/2605.15184",
+      "abstract": "",
+      "authors": [
+        "Anon84"
+      ],
+      "published_at": "2026-06-09T13:27:03Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "gh:philtomson/KAN_LUT",
+      "source": "github",
+      "title": "philtomson/KAN_LUT",
+      "url": "https://github.com/philtomson/KAN_LUT",
+      "abstract": "Exploring Ultrafast machine learning on FPGAs via Kolmogorov-Arnold Networks",
+      "authors": [
+        "philtomson"
+      ],
+      "published_at": "2026-06-09T22:12:34Z",
+      "has_code": true,
+      "code_url": "https://github.com/philtomson/KAN_LUT"
+    },
+    {
+      "id": "gh:RisingGhost/Machine-Learning-from-scratch",
+      "source": "github",
+      "title": "RisingGhost/Machine-Learning-from-scratch",
+      "url": "https://github.com/RisingGhost/Machine-Learning-from-scratch",
+      "abstract": "Some ML stuff",
+      "authors": [
+        "RisingGhost"
+      ],
+      "published_at": "2026-06-09T12:22:39Z",
+      "has_code": true,
+      "code_url": "https://github.com/RisingGhost/Machine-Learning-from-scratch"
+    },
+    {
+      "id": "gh:Varunks-21/predictive-maintainence-of-li-ion-Battery",
+      "source": "github",
+      "title": "Varunks-21/predictive-maintainence-of-li-ion-Battery",
+      "url": "https://github.com/Varunks-21/predictive-maintainence-of-li-ion-Battery",
+      "abstract": "**Predictive Maintenance of Li-Ion Battery** is an AI-based battery monitoring system using Raspberry Pi, INA226, and TMP117 sensors. It predicts SOC, SOH, RUL, runtime, and faults in real time using machine learning, enabling early fault detection, improved safety, and reduced maintenance costs.",
+      "authors": [
+        "Varunks-21"
+      ],
+      "published_at": "2026-06-09T04:44:43Z",
+      "has_code": true,
+      "code_url": "https://github.com/Varunks-21/predictive-maintainence-of-li-ion-Battery"
+    },
+    {
+      "id": "gh:Gabriel-Kahen/eshkol-learn",
+      "source": "github",
+      "title": "Gabriel-Kahen/eshkol-learn",
+      "url": "https://github.com/Gabriel-Kahen/eshkol-learn",
+      "abstract": "High-level machine-learning and scientific workflow library for Eshkol",
+      "authors": [
+        "Gabriel-Kahen"
+      ],
+      "published_at": "2026-06-09T17:14:11Z",
+      "has_code": true,
+      "code_url": "https://github.com/Gabriel-Kahen/eshkol-learn"
+    },
+    {
+      "id": "gh:23se02ml110-krija/Online-Product-Forecasting-Using-Machine-Learning",
+      "source": "github",
+      "title": "23se02ml110-krija/Online-Product-Forecasting-Using-Machine-Learning",
+      "url": "https://github.com/23se02ml110-krija/Online-Product-Forecasting-Using-Machine-Learning",
+      "abstract": "Online Product Forecasting Using Machine Learning is a machine learning-based system that predicts future product demand using historical sales data. It helps businesses improve inventory management, reduce stock shortages, optimize resources, and make data-driven decisions through accurate sales forecasting and trend analysis.",
+      "authors": [
+        "23se02ml110-krija"
+      ],
+      "published_at": "2026-06-09T11:20:27Z",
+      "has_code": true,
+      "code_url": "https://github.com/23se02ml110-krija/Online-Product-Forecasting-Using-Machine-Learning"
+    },
+    {
+      "id": "blog:d484de5576e8",
+      "source": "blog",
+      "title": "How engineers at Nextdoor use Codex to build without limits",
+      "url": "https://openai.com/index/nextdoor",
+      "abstract": "How engineers at Nextdoor use Codex with GPT-5.5 to investigate hard-to-reproduce issues, build across platforms, and focus on product outcomes.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-06-09T12:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:e8e11bcb3ae6",
+      "source": "blog",
+      "title": "What Codex unlocks for Notion",
+      "url": "https://openai.com/index/notion",
+      "abstract": "How Notion uses Codex to one-shot specs, build AI Voice Input for the web, and multiply engineering power across small teams.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-06-09T10:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:31f4bff2af38",
+      "source": "blog",
+      "title": "Industrial policy for the Intelligence Age",
+      "url": "https://openai.com/index/industrial-policy-for-the-intelligence-age",
+      "abstract": "Explore our ambitious, people-first industrial policy ideas for the AI era\u2014focused on expanding opportunity, sharing prosperity, and building resilient institutions as advanced intelligence evolves.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-06-09T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:8065dada88d8",
+      "source": "blog",
+      "title": "Fluid, natural voice translation with Gemini 3.5 Live Translate",
+      "url": "https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate/",
+      "abstract": "Gemini 3.5 Live Translate brings near real-time, natural speech translation to Google AI Studio, Google Translate and Google Meet.",
+      "authors": [
+        "Google DeepMind"
+      ],
+      "published_at": "2026-06-09T15:16:25+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:9be096effcbb",
+      "source": "blog",
+      "title": "Introducing Gemma 4 12B: a unified, encoder-free multimodal model",
+      "url": "https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model/",
+      "abstract": "",
+      "authors": [
+        "Google DeepMind"
+      ],
+      "published_at": "2026-06-09T14:10:19+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:89b36a5b3c5b",
+      "source": "blog",
+      "title": "Powering the future of robotics in Europe",
+      "url": "https://deepmind.google/blog/powering-the-future-of-robotics-in-europe/",
+      "abstract": "",
+      "authors": [
+        "Google DeepMind"
+      ],
+      "published_at": "2026-06-09T14:02:33+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:7a24901e2115",
+      "source": "blog",
+      "title": "Can Voice Agents Handle Bilingual Customers? Benchmarking Frontier ASR on Code-Switched Speech",
+      "url": "https://huggingface.co/blog/ServiceNow-AI/code-switching",
+      "abstract": "",
+      "authors": [
+        "Hugging Face"
+      ],
+      "published_at": "2026-06-09T19:38:28+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:3b631680ec0a",
+      "source": "blog",
+      "title": "Introducing North Mini Code: Cohere\u2019s First Model For Developers",
+      "url": "https://huggingface.co/blog/CohereLabs/introducing-north-mini-code",
+      "abstract": "",
+      "authors": [
+        "Hugging Face"
+      ],
+      "published_at": "2026-06-09T15:56:23+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:92ae8342b636",
+      "source": "blog",
+      "title": "How an Agent Built a 3D Paris Gallery by Chaining Two Hugging Face Spaces",
+      "url": "https://huggingface.co/blog/mishig/spaces-agents-md",
+      "abstract": "",
+      "authors": [
+        "Hugging Face"
+      ],
+      "published_at": "2026-06-09T10:46:19+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:eb987eaf1883",
+      "source": "blog",
+      "title": "Migrating Your GitHub CI to Hugging Face Jobs",
+      "url": "https://huggingface.co/blog/github-ci-hf-jobs",
+      "abstract": "",
+      "authors": [
+        "Hugging Face"
+      ],
+      "published_at": "2026-06-09T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
     }
   ],
   "topics": [

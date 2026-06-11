@@ -1,0 +1,111 @@
+{
+  "date": "2026-01-15",
+  "generated_at": "2026-06-11T04:11:45.033289+00:00",
+  "items": [
+    {
+      "id": "hn:46635309",
+      "source": "hackernews",
+      "title": "LLM Structured Outputs Handbook",
+      "url": "https://nanonets.com/cookbooks/structured-llm-outputs",
+      "abstract": "",
+      "authors": [
+        "vitaelabitur"
+      ],
+      "published_at": "2026-01-15T16:46:50Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:46629682",
+      "source": "hackernews",
+      "title": "Raspberry Pi's New AI Hat Adds 8GB of RAM for Local LLMs",
+      "url": "https://www.jeffgeerling.com/blog/2026/raspberry-pi-ai-hat-2/",
+      "abstract": "",
+      "authors": [
+        "ingve"
+      ],
+      "published_at": "2026-01-15T08:23:02Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:46626836",
+      "source": "hackernews",
+      "title": "Bubblewrap: A nimble way to prevent agents from accessing your .env files",
+      "url": "https://patrickmccanna.net/a-better-way-to-limit-claude-code-and-other-coding-agents-access-to-secrets/",
+      "abstract": "",
+      "authors": [
+        "0o_MrPatrick_o0"
+      ],
+      "published_at": "2026-01-15T01:45:22Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:46625918",
+      "source": "hackernews",
+      "title": "Anthropic Explicitly Blocking OpenCode",
+      "url": "https://gist.github.com/R44VC0RP/bd391f6a23185c0fed6c6b5fb2bac50e",
+      "abstract": "",
+      "authors": [
+        "ryanvogel"
+      ],
+      "published_at": "2026-01-15T00:04:24Z",
+      "has_code": true,
+      "code_url": "https://gist.github.com/R44VC0RP/bd391f6a23185c0fed6c6b5fb2bac50e"
+    },
+    {
+      "id": "gh:ucb-info251/spring2026",
+      "source": "github",
+      "title": "ucb-info251/spring2026",
+      "url": "https://github.com/ucb-info251/spring2026",
+      "abstract": "Course materials for the Spring 2026 iteration of INFO 251: Applied Machine Learning at UC Berkeley",
+      "authors": [
+        "ucb-info251"
+      ],
+      "published_at": "2026-01-15T02:46:25Z",
+      "has_code": true,
+      "code_url": "https://github.com/ucb-info251/spring2026"
+    },
+    {
+      "id": "blog:c37941878031",
+      "source": "blog",
+      "title": "Investing in Merge Labs",
+      "url": "https://openai.com/index/investing-in-merge-labs",
+      "abstract": "OpenAI is investing in Merge Labs to support new brain computer interfaces that bridge biological and artificial intelligence to maximize human ability, agency, and experience.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-01-15T07:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:3cea822d9d3c",
+      "source": "blog",
+      "title": "Strengthening the U.S. AI supply chain through domestic manufacturing",
+      "url": "https://openai.com/index/strengthening-the-us-ai-supply-chain",
+      "abstract": "OpenAI launches a new RFP to strengthen the U.S. AI supply chain by accelerating domestic manufacturing, creating jobs, and scaling AI infrastructure.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-01-15T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:0d54849bb01b",
+      "source": "blog",
+      "title": "Open Responses: What you need to know",
+      "url": "https://huggingface.co/blog/open-responses",
+      "abstract": "",
+      "authors": [
+        "Hugging Face"
+      ],
+      "published_at": "2026-01-15T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    }
+  ],
+  "topics": []
+}

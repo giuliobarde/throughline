@@ -1,0 +1,59 @@
+{
+  "date": "2026-03-14",
+  "generated_at": "2026-06-11T04:11:45.074349+00:00",
+  "items": [
+    {
+      "id": "hn:47380714",
+      "source": "hackernews",
+      "title": "Book: The Emerging Science of Machine Learning Benchmarks",
+      "url": "https://mlbenchmarks.org/00-preface.html",
+      "abstract": "",
+      "authors": [
+        "jxmorris12"
+      ],
+      "published_at": "2026-03-14T20:15:03Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47380294",
+      "source": "hackernews",
+      "title": "Head of FCC threatens broadcaster licenses over critical coverage of Iran war",
+      "url": "https://twitter.com/BrendanCarrFCC/status/2032855414233047172",
+      "abstract": "",
+      "authors": [
+        "theahura"
+      ],
+      "published_at": "2026-03-14T19:35:37Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47376584",
+      "source": "hackernews",
+      "title": "Show HN: GitAgent \u2013 An open standard that turns any Git repo into an AI agent",
+      "url": "https://www.gitagent.sh/",
+      "abstract": "",
+      "authors": [
+        "sivasurend"
+      ],
+      "published_at": "2026-03-14T13:41:25Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "gh:xgxgnpu/Physics-informed-vibe-coding",
+      "source": "github",
+      "title": "xgxgnpu/Physics-informed-vibe-coding",
+      "url": "https://github.com/xgxgnpu/Physics-informed-vibe-coding",
+      "abstract": "The first open-source repository for Scientific Machine Learning (PINNs, PIELM, RFM, Neural Operators) via Vibe Coding. JAX-GPU implementations with Chinese tutorials. \u9996\u4e2a\u91c7\u7528 Vibe Coding \u8fdb\u884c\u79d1\u5b66\u673a\u5668\u5b66\u4e60\u7814\u7a76\u7684\u5f00\u6e90\u4ed3\u5e93\u3002",
+      "authors": [
+        "xgxgnpu"
+      ],
+      "published_at": "2026-03-14T04:29:01Z",
+      "has_code": true,
+      "code_url": "https://github.com/xgxgnpu/Physics-informed-vibe-coding"
+    }
+  ],
+  "topics": []
+}

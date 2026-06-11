@@ -1,0 +1,59 @@
+{
+  "date": "2026-05-10",
+  "generated_at": "2026-06-11T04:11:45.126683+00:00",
+  "items": [
+    {
+      "id": "hn:48089289",
+      "source": "hackernews",
+      "title": "An AI coding agent, used to write code, needs to reduce your maintenance costs",
+      "url": "https://www.jamesshore.com/v2/blog/2026/you-need-ai-that-reduces-your-maintenance-costs",
+      "abstract": "",
+      "authors": [
+        "cratermoon"
+      ],
+      "published_at": "2026-05-10T23:39:55Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:48085685",
+      "source": "hackernews",
+      "title": "Training an LLM in Swift, Part 1: Taking matrix mult from Gflop/s to Tflop/s",
+      "url": "https://www.cocoawithlove.com/blog/matrix-multiplications-swift.html",
+      "abstract": "",
+      "authors": [
+        "zdw"
+      ],
+      "published_at": "2026-05-10T17:05:05Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:48084710",
+      "source": "hackernews",
+      "title": "Chrome's AI features may be hogging 4GB of your computer storage",
+      "url": "https://www.theverge.com/tech/924933/google-chrome-4gb-gemini-nano-ai-features",
+      "abstract": "",
+      "authors": [
+        "birdculture"
+      ],
+      "published_at": "2026-05-10T15:22:46Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "gh:sanng1112/cv-nets",
+      "source": "github",
+      "title": "sanng1112/cv-nets",
+      "url": "https://github.com/sanng1112/cv-nets",
+      "abstract": "Anng's machine learning library",
+      "authors": [
+        "sanng1112"
+      ],
+      "published_at": "2026-05-10T12:39:41Z",
+      "has_code": true,
+      "code_url": "https://github.com/sanng1112/cv-nets"
+    }
+  ],
+  "topics": []
+}

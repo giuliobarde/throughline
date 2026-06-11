@@ -1,0 +1,98 @@
+{
+  "date": "2026-03-29",
+  "generated_at": "2026-06-11T04:11:45.087308+00:00",
+  "items": [
+    {
+      "id": "hn:47568028",
+      "source": "hackernews",
+      "title": "Coding agents could make free software matter again",
+      "url": "https://www.gjlondon.com/blog/ai-agents-could-make-free-software-matter-again/",
+      "abstract": "",
+      "authors": [
+        "rogueleaderr"
+      ],
+      "published_at": "2026-03-29T22:21:34Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47566865",
+      "source": "hackernews",
+      "title": "ChatGPT won't let you type until Cloudflare reads your React state",
+      "url": "https://www.buchodi.com/chatgpt-wont-let-you-type-until-cloudflare-reads-your-react-state-i-decrypted-the-program-that-does-it/",
+      "abstract": "",
+      "authors": [
+        "alberto-m"
+      ],
+      "published_at": "2026-03-29T20:21:05Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "gh:dreddnafious/thereisnospoon",
+      "source": "github",
+      "title": "dreddnafious/thereisnospoon",
+      "url": "https://github.com/dreddnafious/thereisnospoon",
+      "abstract": "A machine learning primer built from first principles. For engineers who want to reason about ML systems the way they reason about software systems.",
+      "authors": [
+        "dreddnafious"
+      ],
+      "published_at": "2026-03-29T19:59:07Z",
+      "has_code": true,
+      "code_url": "https://github.com/dreddnafious/thereisnospoon"
+    },
+    {
+      "id": "gh:hanashwanis/SEPSIS-GUARD-AI",
+      "source": "github",
+      "title": "hanashwanis/SEPSIS-GUARD-AI",
+      "url": "https://github.com/hanashwanis/SEPSIS-GUARD-AI",
+      "abstract": "Sepsis Detection System  Developed a predictive machine learning model to detect the early onset of sepsis in hospitalized patients by analyzing real-time clinical data (vital signs, lab results, and demographics). By identifying subtle physiological changes hours before clinical manifestation, the system serves as an early-warning tool to trigger ",
+      "authors": [
+        "hanashwanis"
+      ],
+      "published_at": "2026-03-29T12:44:47Z",
+      "has_code": true,
+      "code_url": "https://github.com/hanashwanis/SEPSIS-GUARD-AI"
+    },
+    {
+      "id": "gh:ironfrown/qml_workshop_intro_v3",
+      "source": "github",
+      "title": "ironfrown/qml_workshop_intro_v3",
+      "url": "https://github.com/ironfrown/qml_workshop_intro_v3",
+      "abstract": "This is the third QML workshop to give an introduction to Quantum Machine Learning using PennyLane and PyTorch, with hands-on exercises and take-home challenges. The workshop includes four practical sessions that cover the QML concepts, models, and techniques. ",
+      "authors": [
+        "ironfrown"
+      ],
+      "published_at": "2026-03-29T04:49:49Z",
+      "has_code": true,
+      "code_url": "https://github.com/ironfrown/qml_workshop_intro_v3"
+    },
+    {
+      "id": "blog:1e6c9d1cec80",
+      "source": "blog",
+      "title": "Helping disaster response teams turn AI into action across Asia",
+      "url": "https://openai.com/index/helping-disaster-response-teams-asia",
+      "abstract": "AI for Disaster Response in Asia: OpenAI Workshop with Gates Foundation",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-03-29T22:15:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:0ebb03b34cbe",
+      "source": "blog",
+      "title": "Reimagining the mouse pointer for the AI era",
+      "url": "https://deepmind.google/blog/ai-pointer/",
+      "abstract": "Google DeepMind is transforming the mouse pointer into a context-aware AI partner. Move beyond the friction of traditional prompting with intuitive AI collaboration in Chrome and beyond.",
+      "authors": [
+        "Google DeepMind"
+      ],
+      "published_at": "2026-03-29T10:50:49+00:00",
+      "has_code": false,
+      "code_url": null
+    }
+  ],
+  "topics": []
+}

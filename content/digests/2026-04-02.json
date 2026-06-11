@@ -1,0 +1,137 @@
+{
+  "date": "2026-04-02",
+  "generated_at": "2026-06-11T04:11:45.090772+00:00",
+  "items": [
+    {
+      "id": "hn:47618223",
+      "source": "hackernews",
+      "title": "We replaced RAG with a virtual filesystem for our AI documentation assistant",
+      "url": "https://www.mintlify.com/blog/how-we-built-a-virtual-filesystem-for-our-assistant",
+      "abstract": "",
+      "authors": [
+        "denssumesh"
+      ],
+      "published_at": "2026-04-02T18:24:29Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47617376",
+      "source": "hackernews",
+      "title": "OpenAI Acquires TBPN",
+      "url": "https://openai.com/index/openai-acquires-tbpn/",
+      "abstract": "",
+      "authors": [
+        "surprisetalk"
+      ],
+      "published_at": "2026-04-02T17:26:49Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47615002",
+      "source": "hackernews",
+      "title": "Qwen3.6-Plus: Towards real world agents",
+      "url": "https://qwen.ai/blog?id=qwen3.6",
+      "abstract": "",
+      "authors": [
+        "pretext"
+      ],
+      "published_at": "2026-04-02T14:28:52Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47612724",
+      "source": "hackernews",
+      "title": "Lemonade by AMD: a fast and open source local LLM server using GPU and NPU",
+      "url": "https://lemonade-server.ai",
+      "abstract": "",
+      "authors": [
+        "AbuAssar"
+      ],
+      "published_at": "2026-04-02T11:04:51Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47610336",
+      "source": "hackernews",
+      "title": "r/programming bans all discussion of LLM programming",
+      "url": "https://old.reddit.com/r/programming/comments/1s9jkzi/announcement_temporary_llm_content_ban/",
+      "abstract": "",
+      "authors": [
+        "cryptoz"
+      ],
+      "published_at": "2026-04-02T05:33:20Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "gh:AravindKumar07012007/Tata-Motors-Stock-Price-Prediction",
+      "source": "github",
+      "title": "AravindKumar07012007/Tata-Motors-Stock-Price-Prediction",
+      "url": "https://github.com/AravindKumar07012007/Tata-Motors-Stock-Price-Prediction",
+      "abstract": "This has resulted in more attention to Tata Group stocks from all over India. But again today, we are witnessing a fall in the prices of Tata Motors\u2019 shares, which can be a negative signal for investors. In this article, I will walk you through the task of Tata Motors stock price prediction with machine learning using Python.",
+      "authors": [
+        "AravindKumar07012007"
+      ],
+      "published_at": "2026-04-02T05:37:49Z",
+      "has_code": true,
+      "code_url": "https://github.com/AravindKumar07012007/Tata-Motors-Stock-Price-Prediction"
+    },
+    {
+      "id": "blog:627413d21cd7",
+      "source": "blog",
+      "title": "OpenAI acquires TBPN",
+      "url": "https://openai.com/index/openai-acquires-tbpn",
+      "abstract": "OpenAI acquires TBPN to accelerate global conversations around AI and support independent media, expanding dialogue with builders, businesses, and the broader tech community.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-04-02T10:30:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:b681370c7a53",
+      "source": "blog",
+      "title": "Codex now offers more flexible pricing for teams",
+      "url": "https://openai.com/index/codex-flexible-pricing-for-teams",
+      "abstract": "Codex now includes pay-as-you-go pricing for ChatGPT Business and Enterprise, providing teams a more flexible option to start and scale adoption.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-04-02T10:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:e43bbdcd6d14",
+      "source": "blog",
+      "title": "Gemma 4: Byte for byte, the most capable open models",
+      "url": "https://deepmind.google/blog/gemma-4-byte-for-byte-the-most-capable-open-models/",
+      "abstract": "Gemma 4: Our most intelligent open models to date, purpose-built for advanced reasoning and agentic workflows.",
+      "authors": [
+        "Google DeepMind"
+      ],
+      "published_at": "2026-04-02T16:00:49+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:ded9bca8355a",
+      "source": "blog",
+      "title": "Welcome Gemma 4: Frontier multimodal intelligence on device",
+      "url": "https://huggingface.co/blog/gemma4",
+      "abstract": "",
+      "authors": [
+        "Hugging Face"
+      ],
+      "published_at": "2026-04-02T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    }
+  ],
+  "topics": []
+}

@@ -1,0 +1,189 @@
+{
+  "date": "2026-04-21",
+  "generated_at": "2026-06-11T04:11:45.107850+00:00",
+  "items": [
+    {
+      "id": "hn:47854477",
+      "source": "hackernews",
+      "title": "Claude Code to be removed from Anthropic's Pro plan?",
+      "url": "https://bsky.app/profile/edzitron.com/post/3mjzxwfx3qs2a",
+      "abstract": "",
+      "authors": [
+        "JamesMcMinn"
+      ],
+      "published_at": "2026-04-21T21:03:04Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47853000",
+      "source": "hackernews",
+      "title": "ChatGPT Images 2.0",
+      "url": "https://openai.com/index/introducing-chatgpt-images-2-0/",
+      "abstract": "",
+      "authors": [
+        "meetpateltech"
+      ],
+      "published_at": "2026-04-21T19:01:14Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47852835",
+      "source": "hackernews",
+      "title": "ChatGPT Images 2.0",
+      "url": "https://openai.com/index/introducing-chatgpt-images-2-0/",
+      "abstract": "",
+      "authors": [
+        "wahnfrieden"
+      ],
+      "published_at": "2026-04-21T18:50:00Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47851613",
+      "source": "hackernews",
+      "title": "Work with the garage door up (2024)",
+      "url": "https://notes.andymatuschak.org/Work_with_the_garage_door_up",
+      "abstract": "",
+      "authors": [
+        "jxmorris12"
+      ],
+      "published_at": "2026-04-21T17:13:29Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47850212",
+      "source": "hackernews",
+      "title": "CrabTrap: An LLM-as-a-judge HTTP proxy to secure agents in production",
+      "url": "https://www.brex.com/crabtrap",
+      "abstract": "",
+      "authors": [
+        "pedrofranceschi"
+      ],
+      "published_at": "2026-04-21T15:29:16Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47848276",
+      "source": "hackernews",
+      "title": "Anthropic takes $5B from Amazon and pledges $100B in cloud spending in return",
+      "url": "https://techcrunch.com/2026/04/20/anthropic-takes-5b-from-amazon-and-pledges-100b-in-cloud-spending-in-return/",
+      "abstract": "",
+      "authors": [
+        "Brajeshwar"
+      ],
+      "published_at": "2026-04-21T13:08:25Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47845429",
+      "source": "hackernews",
+      "title": "Less human AI agents, please",
+      "url": "https://nial.se/blog/less-human-ai-agents-please/",
+      "abstract": "",
+      "authors": [
+        "nialse"
+      ],
+      "published_at": "2026-04-21T06:58:08Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47844269",
+      "source": "hackernews",
+      "title": "Anthropic says OpenClaw-style Claude CLI usage is allowed again",
+      "url": "https://docs.openclaw.ai/providers/anthropic",
+      "abstract": "",
+      "authors": [
+        "jmsflknr"
+      ],
+      "published_at": "2026-04-21T03:43:03Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "gh:ranjiGT/ai-machine-learning-codes",
+      "source": "github",
+      "title": "ranjiGT/ai-machine-learning-codes",
+      "url": "https://github.com/ranjiGT/ai-machine-learning-codes",
+      "abstract": "This Repo will provide you code for Machine Learning and AI from my Youtube channel tutorials ",
+      "authors": [
+        "ranjiGT"
+      ],
+      "published_at": "2026-04-21T19:19:18Z",
+      "has_code": true,
+      "code_url": "https://github.com/ranjiGT/ai-machine-learning-codes"
+    },
+    {
+      "id": "blog:84d8ed5de18a",
+      "source": "blog",
+      "title": "Introducing ChatGPT Images 2.0",
+      "url": "https://openai.com/index/introducing-chatgpt-images-2-0",
+      "abstract": "ChatGPT Images 2.0 introduces a state-of-the-art image generation model with improved text rendering, multilingual support, and advanced visual reasoning.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-04-21T12:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:d9639e2fcb88",
+      "source": "blog",
+      "title": "Scaling Codex to enterprises worldwide",
+      "url": "https://openai.com/index/scaling-codex-to-enterprises-worldwide",
+      "abstract": "OpenAI launches Codex Labs, partners with with Accenture, PwC, Infosys, and others to help enterprises deploy and scale Codex across the software development lifecycle, and hits 4M Codex WAU.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-04-21T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:15929aafa9b3",
+      "source": "blog",
+      "title": "Partnering with industry leaders to accelerate AI transformation",
+      "url": "https://deepmind.google/blog/partnering-with-industry-leaders-to-accelerate-ai-transformation/",
+      "abstract": "Google DeepMind partners with global consultancies to bring the power of frontier AI to organizations around the world.",
+      "authors": [
+        "Google DeepMind"
+      ],
+      "published_at": "2026-04-21T14:54:15+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:24e2166b86b9",
+      "source": "blog",
+      "title": "QIMMA \u0642\u0650\u0645\u0651\u0629 \u26f0: A Quality-First Arabic LLM Leaderboard",
+      "url": "https://huggingface.co/blog/tiiuae/qimma-arabic-leaderboard",
+      "abstract": "",
+      "authors": [
+        "Hugging Face"
+      ],
+      "published_at": "2026-04-21T10:09:58+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:cd40c18e81f2",
+      "source": "blog",
+      "title": "AI and the Future of Cybersecurity: Why Openness Matters",
+      "url": "https://huggingface.co/blog/cybersecurity-openness",
+      "abstract": "",
+      "authors": [
+        "Hugging Face"
+      ],
+      "published_at": "2026-04-21T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    }
+  ],
+  "topics": []
+}

@@ -1,0 +1,111 @@
+{
+  "date": "2026-03-02",
+  "generated_at": "2026-06-11T04:11:45.065009+00:00",
+  "items": [
+    {
+      "id": "hn:47224295",
+      "source": "hackernews",
+      "title": "Show HN: I built a sub-500ms latency voice agent from scratch",
+      "url": "https://www.ntik.me/posts/voice-agent",
+      "abstract": "",
+      "authors": [
+        "nicktikhonov"
+      ],
+      "published_at": "2026-03-02T21:23:40Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47222270",
+      "source": "hackernews",
+      "title": "A case for Go as the best language for AI agents",
+      "url": "https://getbruin.com/blog/go-is-the-best-language-for-agents/",
+      "abstract": "",
+      "authors": [
+        "karakanb"
+      ],
+      "published_at": "2026-03-02T18:48:36Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47218318",
+      "source": "hackernews",
+      "title": "Parallel coding agents with tmux and Markdown specs",
+      "url": "https://schipper.ai/posts/parallel-coding-agents/",
+      "abstract": "",
+      "authors": [
+        "schipperai"
+      ],
+      "published_at": "2026-03-02T14:24:15Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47218288",
+      "source": "hackernews",
+      "title": "Anthropic Cowork feature creates 10GB VM bundle on macOS without warning",
+      "url": "https://github.com/anthropics/claude-code/issues/22543",
+      "abstract": "",
+      "authors": [
+        "mystcb"
+      ],
+      "published_at": "2026-03-02T14:21:19Z",
+      "has_code": true,
+      "code_url": "https://github.com/anthropics/claude-code/issues/22543"
+    },
+    {
+      "id": "hn:47213124",
+      "source": "hackernews",
+      "title": "Claude hits #1 on the App Store as users rally behind Anthropic",
+      "url": "https://9to5mac.com/2026/03/01/claude-hits-1-on-the-app-store-as-users-rally-behind-anthropics-government-standoff/",
+      "abstract": "",
+      "authors": [
+        "doctoboggan"
+      ],
+      "published_at": "2026-03-02T02:23:50Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "gh:ritesh-1918/HELPDESK.AI",
+      "source": "github",
+      "title": "ritesh-1918/HELPDESK.AI",
+      "url": "https://github.com/ritesh-1918/HELPDESK.AI",
+      "abstract": "A full-stack AI helpdesk platform that uses machine learning, NLP, and OCR to automatically analyze support requests, detect similar incidents, and help teams resolve technical issues faster.",
+      "authors": [
+        "ritesh-1918"
+      ],
+      "published_at": "2026-03-02T20:50:12Z",
+      "has_code": true,
+      "code_url": "https://github.com/ritesh-1918/HELPDESK.AI"
+    },
+    {
+      "id": "gh:Agent-A345/GlycoRisk-Engine",
+      "source": "github",
+      "title": "Agent-A345/GlycoRisk-Engine",
+      "url": "https://github.com/Agent-A345/GlycoRisk-Engine",
+      "abstract": "A Machine Learning\u2013based diabetes prediction system built using Python and Logistic Regression. The model analyzes clinical health parameters to classify whether a patient is likely to have diabetes.",
+      "authors": [
+        "Agent-A345"
+      ],
+      "published_at": "2026-03-02T09:30:23Z",
+      "has_code": true,
+      "code_url": "https://github.com/Agent-A345/GlycoRisk-Engine"
+    },
+    {
+      "id": "gh:soga-lab/EGU2026_SC",
+      "source": "github",
+      "title": "soga-lab/EGU2026_SC",
+      "url": "https://github.com/soga-lab/EGU2026_SC",
+      "abstract": "Lecture notes for SC2.28: How to feed Machine Learning algorithms with proper metrics?",
+      "authors": [
+        "soga-lab"
+      ],
+      "published_at": "2026-03-02T11:51:07Z",
+      "has_code": true,
+      "code_url": "https://github.com/soga-lab/EGU2026_SC"
+    }
+  ],
+  "topics": []
+}

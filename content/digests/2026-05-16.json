@@ -1,0 +1,176 @@
+{
+  "date": "2026-05-16",
+  "generated_at": "2026-06-11T04:11:45.132816+00:00",
+  "items": [
+    {
+      "id": "hn:48164287",
+      "source": "hackernews",
+      "title": "Zerostack \u2013 A Unix-inspired coding agent written in pure Rust",
+      "url": "https://crates.io/crates/zerostack/1.0.0",
+      "abstract": "",
+      "authors": [
+        "gidellav"
+      ],
+      "published_at": "2026-05-16T22:23:50Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:48163392",
+      "source": "hackernews",
+      "title": "OpenAI and Government of Malta partner to roll out ChatGPT Plus to all citizens",
+      "url": "https://openai.com/index/malta-chatgpt-plus-partnership/",
+      "abstract": "",
+      "authors": [
+        "bookofjoe"
+      ],
+      "published_at": "2026-05-16T20:14:06Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:48160807",
+      "source": "hackernews",
+      "title": "DeepSeek-V4-Flash means LLM steering is interesting again",
+      "url": "https://www.seangoedecke.com/steering-vectors/",
+      "abstract": "",
+      "authors": [
+        "Brajeshwar"
+      ],
+      "published_at": "2026-05-16T14:58:16Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:48159227",
+      "source": "hackernews",
+      "title": "OpenClaw Creator Spent $1.3M on OpenAI Tokens in 30 Days",
+      "url": "https://twitter.com/steipete/status/2055346265869721905",
+      "abstract": "",
+      "authors": [
+        "eamag"
+      ],
+      "published_at": "2026-05-16T11:34:04Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "gh:Yoas1/ansible-handson",
+      "source": "github",
+      "title": "Yoas1/ansible-handson",
+      "url": "https://github.com/Yoas1/ansible-handson",
+      "abstract": "Ansible-HandsOn: Containerized Learning Environment Ansible-HandsOn is a lightweight, local lab environment designed for learning, testing, and mastering Ansible infrastructure automation. Instead of relying on resource-heavy Virtual Machines (VMs), this project leverages Docker containers to simulate a real-world network infrastructure in seconds.",
+      "authors": [
+        "Yoas1"
+      ],
+      "published_at": "2026-05-16T20:20:19Z",
+      "has_code": true,
+      "code_url": "https://github.com/Yoas1/ansible-handson"
+    },
+    {
+      "id": "blog:f0106247dee4",
+      "source": "blog",
+      "title": "OpenAI and Malta partner to bring ChatGPT Plus to all citizens",
+      "url": "https://openai.com/index/malta-chatgpt-plus-partnership",
+      "abstract": "OpenAI and Malta partner to expand AI access, offering ChatGPT Plus and training to help citizens build practical AI skills and use AI responsibly.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-05-16T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:143dff8f750b",
+      "source": "blog",
+      "title": "Strengthening Singapore\u2019s AI Future: A New National Partnership",
+      "url": "https://deepmind.google/blog/strengthening-singapores-ai-future-a-new-national-partnership/",
+      "abstract": "Google DeepMind and Singapore partner to apply frontier AI to address complex challenges across health, education, and sustainability and more.",
+      "authors": [
+        "Google DeepMind"
+      ],
+      "published_at": "2026-05-16T09:13:34+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:dc51e9439f71",
+      "source": "blog",
+      "title": "Finding the molecular switches behind new infectious diseases",
+      "url": "https://deepmind.google/blog/finding-the-molecular-switches-behind-new-infectious-diseases/",
+      "abstract": "Clare Bryant uses Co-Scientist to identify genetic triggers in emerging infectious diseases.",
+      "authors": [
+        "Google DeepMind"
+      ],
+      "published_at": "2026-05-16T08:16:06+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:35b663b238c5",
+      "source": "blog",
+      "title": "Opening new paths in aging research",
+      "url": "https://deepmind.google/blog/opening-new-paths-in-aging-research/",
+      "abstract": "Calico Life Sciences uses Co-Scientist to connect scattered findings and generate new leads in aging research.",
+      "authors": [
+        "Google DeepMind"
+      ],
+      "published_at": "2026-05-16T08:08:44+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:ec8cac2807cd",
+      "source": "blog",
+      "title": "Accelerating discovery of liver disease mechanisms",
+      "url": "https://deepmind.google/blog/accelerating-discovery-of-liver-disease-mechanisms/",
+      "abstract": "Filippo Menolascina uses Co-Scientist to identify new liver disease treatments and explain why existing drugs only help certain patients.",
+      "authors": [
+        "Google DeepMind"
+      ],
+      "published_at": "2026-05-16T08:00:15+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:d73753090118",
+      "source": "blog",
+      "title": "Uniting biological toolkits for a new approach to ALS",
+      "url": "https://deepmind.google/blog/uniting-biological-toolkits-for-a-new-approach-to-als/",
+      "abstract": "Co-Scientist unites Boston Children\u2019s Hospital and MIT\u2019s labs to explore new RNA-based treatments for ALS.",
+      "authors": [
+        "Google DeepMind"
+      ],
+      "published_at": "2026-05-16T07:53:11+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:d152d91fcce0",
+      "source": "blog",
+      "title": "Uncovering repurposed medicines to fight liver fibrosis",
+      "url": "https://deepmind.google/blog/uncovering-repurposed-medicines-to-fight-liver-fibrosis/",
+      "abstract": "Stanford geneticist uses Co-Scientist to help find new treatments for chronic liver disease and liver fibrosis.",
+      "authors": [
+        "Google DeepMind"
+      ],
+      "published_at": "2026-05-16T07:40:27+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:68b912792fc0",
+      "source": "blog",
+      "title": "How WeatherNext helped the National Hurricane Center better predict Hurricane Melissa\u2019s historic landfall in Jamaica",
+      "url": "https://deepmind.google/blog/how-weathernext-helped-the-national-hurricane-center-better-predict-hurricane-melissas-historic-landfall-in-jamaica/",
+      "abstract": "Learn how our WeatherNext AI model help forecasters give communities unprecedented time to prepare ahead of the historic Hurricane Melissa.",
+      "authors": [
+        "Google DeepMind"
+      ],
+      "published_at": "2026-05-16T03:14:17+00:00",
+      "has_code": false,
+      "code_url": null
+    }
+  ],
+  "topics": []
+}

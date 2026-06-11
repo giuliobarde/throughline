@@ -1,0 +1,137 @@
+{
+  "date": "2026-03-10",
+  "generated_at": "2026-06-11T04:11:45.071212+00:00",
+  "items": [
+    {
+      "id": "hn:47327559",
+      "source": "hackernews",
+      "title": "Agents that run while I sleep",
+      "url": "https://www.claudecodecamp.com/p/i-m-building-agents-that-run-while-i-sleep",
+      "abstract": "",
+      "authors": [
+        "aray07"
+      ],
+      "published_at": "2026-03-10T19:09:46Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47326101",
+      "source": "hackernews",
+      "title": "Launch HN: RunAnywhere (YC W26) \u2013 Faster AI Inference on Apple Silicon",
+      "url": "https://github.com/RunanywhereAI/rcli",
+      "abstract": "",
+      "authors": [
+        "sanchitmonga22"
+      ],
+      "published_at": "2026-03-10T17:14:52Z",
+      "has_code": true,
+      "code_url": "https://github.com/RunanywhereAI/rcli"
+    },
+    {
+      "id": "hn:47322887",
+      "source": "hackernews",
+      "title": "Show HN: How I topped the HuggingFace open LLM leaderboard on two gaming GPUs",
+      "url": "https://dnhkng.github.io/posts/rys/",
+      "abstract": "",
+      "authors": [
+        "dnhkng"
+      ],
+      "published_at": "2026-03-10T13:18:55Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47320661",
+      "source": "hackernews",
+      "title": "Redox OS has adopted a Certificate of Origin policy and a strict no-LLM policy",
+      "url": "https://gitlab.redox-os.org/redox-os/redox/-/blob/master/CONTRIBUTING.md",
+      "abstract": "",
+      "authors": [
+        "pjmlp"
+      ],
+      "published_at": "2026-03-10T08:54:53Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47320614",
+      "source": "hackernews",
+      "title": "Levels of Agentic Engineering",
+      "url": "https://www.bassimeledath.com/blog/levels-of-agentic-engineering",
+      "abstract": "",
+      "authors": [
+        "bombastic311"
+      ],
+      "published_at": "2026-03-10T08:48:40Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "gh:0voice/awesome-2026-AI-Machine-Learning-1000Projects",
+      "source": "github",
+      "title": "0voice/awesome-2026-AI-Machine-Learning-1000Projects",
+      "url": "https://github.com/0voice/awesome-2026-AI-Machine-Learning-1000Projects",
+      "abstract": "Thousands of machine learning projects covering all scenarios: getting started, improvement, graduation projects, and job interviews.",
+      "authors": [
+        "0voice"
+      ],
+      "published_at": "2026-03-10T06:59:30Z",
+      "has_code": true,
+      "code_url": "https://github.com/0voice/awesome-2026-AI-Machine-Learning-1000Projects"
+    },
+    {
+      "id": "blog:458a72f18aa6",
+      "source": "blog",
+      "title": "Improving instruction hierarchy in frontier LLMs",
+      "url": "https://openai.com/index/instruction-hierarchy-challenge",
+      "abstract": "IH-Challenge trains models to prioritize trusted instructions, improving instruction hierarchy, safety steerability, and resistance to prompt injection attacks.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-03-10T11:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:88306bd64ac1",
+      "source": "blog",
+      "title": "New ways to learn math and science in ChatGPT",
+      "url": "https://openai.com/index/new-ways-to-learn-math-and-science-in-chatgpt",
+      "abstract": "ChatGPT introduces interactive visual explanations for math and science, helping students explore formulas, variables, and concepts in real time.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-03-10T10:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:2ae52e2df01b",
+      "source": "blog",
+      "title": "Introducing Storage Buckets on the Hugging Face Hub",
+      "url": "https://huggingface.co/blog/storage-buckets",
+      "abstract": "",
+      "authors": [
+        "Hugging Face"
+      ],
+      "published_at": "2026-03-10T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:cf14fb4125ba",
+      "source": "blog",
+      "title": "Keep the Tokens Flowing: Lessons from 16 Open-Source RL Libraries",
+      "url": "https://huggingface.co/blog/async-rl-training-landscape",
+      "abstract": "",
+      "authors": [
+        "Hugging Face"
+      ],
+      "published_at": "2026-03-10T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    }
+  ],
+  "topics": []
+}

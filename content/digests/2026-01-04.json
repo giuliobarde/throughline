@@ -1,0 +1,72 @@
+{
+  "date": "2026-01-04",
+  "generated_at": "2026-06-11T04:11:45.027290+00:00",
+  "items": [
+    {
+      "id": "hn:46491244",
+      "source": "hackernews",
+      "title": "Agentic Patterns",
+      "url": "https://github.com/nibzard/awesome-agentic-patterns",
+      "abstract": "",
+      "authors": [
+        "PretzelFisch"
+      ],
+      "published_at": "2026-01-04T19:24:47Z",
+      "has_code": true,
+      "code_url": "https://github.com/nibzard/awesome-agentic-patterns"
+    },
+    {
+      "id": "hn:46485090",
+      "source": "hackernews",
+      "title": "Neural Networks: Zero to Hero",
+      "url": "https://karpathy.ai/zero-to-hero.html",
+      "abstract": "",
+      "authors": [
+        "suioir"
+      ],
+      "published_at": "2026-01-04T05:02:16Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "gh:ishwaryaabalakrishnan/Prediction",
+      "source": "github",
+      "title": "ishwaryaabalakrishnan/Prediction",
+      "url": "https://github.com/ishwaryaabalakrishnan/Prediction",
+      "abstract": "This project predicts scholarship eligibility using machine learning. It analyzes student academic performance, family income, and attendance to classify whether a student is eligible or not. A classification model is trained to estimate eligibility probability and support fair, data-driven scholarship decisions.",
+      "authors": [
+        "ishwaryaabalakrishnan"
+      ],
+      "published_at": "2026-01-04T18:17:06Z",
+      "has_code": true,
+      "code_url": "https://github.com/ishwaryaabalakrishnan/Prediction"
+    },
+    {
+      "id": "gh:jayavandhiniMK/Student-grade-prediction",
+      "source": "github",
+      "title": "jayavandhiniMK/Student-grade-prediction",
+      "url": "https://github.com/jayavandhiniMK/Student-grade-prediction",
+      "abstract": "Machine learning project that predicts expected semester grades using internal marks, attendance, and assignment\u00a0scores.",
+      "authors": [
+        "jayavandhiniMK"
+      ],
+      "published_at": "2026-01-04T17:50:47Z",
+      "has_code": true,
+      "code_url": "https://github.com/jayavandhiniMK/Student-grade-prediction"
+    },
+    {
+      "id": "gh:Mohamed2821/Chronic-Kidney-Disease-project",
+      "source": "github",
+      "title": "Mohamed2821/Chronic-Kidney-Disease-project",
+      "url": "https://github.com/Mohamed2821/Chronic-Kidney-Disease-project",
+      "abstract": "A machine learning project that predicts Chronic Kidney Disease using patient medical data. The system applies data preprocessing, feature encoding, and classification models in Python to support early disease detection and healthcare decision-making.",
+      "authors": [
+        "Mohamed2821"
+      ],
+      "published_at": "2026-01-04T07:14:54Z",
+      "has_code": true,
+      "code_url": "https://github.com/Mohamed2821/Chronic-Kidney-Disease-project"
+    }
+  ],
+  "topics": []
+}

@@ -1,0 +1,111 @@
+{
+  "date": "2026-01-28",
+  "generated_at": "2026-06-11T04:11:45.041465+00:00",
+  "items": [
+    {
+      "id": "hn:46801976",
+      "source": "hackernews",
+      "title": "Jellyfin LLM/\"AI\" Development Policy",
+      "url": "https://jellyfin.org/docs/general/contributing/llm-policies/",
+      "abstract": "",
+      "authors": [
+        "mmoogle"
+      ],
+      "published_at": "2026-01-28T21:42:03Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:46799898",
+      "source": "hackernews",
+      "title": "Show HN: A MitM proxy to see what your LLM tools are sending",
+      "url": "https://github.com/jmuncor/sherlock",
+      "abstract": "",
+      "authors": [
+        "jmuncor"
+      ],
+      "published_at": "2026-01-28T18:52:24Z",
+      "has_code": true,
+      "code_url": "https://github.com/jmuncor/sherlock"
+    },
+    {
+      "id": "hn:46794365",
+      "source": "hackernews",
+      "title": "ICE and Palantir: US agents using health data to hunt illegal immigrants",
+      "url": "https://www.bmj.com/content/392/bmj.s168",
+      "abstract": "",
+      "authors": [
+        "dberhane"
+      ],
+      "published_at": "2026-01-28T12:18:12Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "gh:Prasanth-ADS/Anomaly-detection-in-finance-using-QML",
+      "source": "github",
+      "title": "Prasanth-ADS/Anomaly-detection-in-finance-using-QML",
+      "url": "https://github.com/Prasanth-ADS/Anomaly-detection-in-finance-using-QML",
+      "abstract": "Detecting anomalies in quant finance using Quantum machine learning",
+      "authors": [
+        "Prasanth-ADS"
+      ],
+      "published_at": "2026-01-28T04:34:58Z",
+      "has_code": true,
+      "code_url": "https://github.com/Prasanth-ADS/Anomaly-detection-in-finance-using-QML"
+    },
+    {
+      "id": "blog:075fc545e694",
+      "source": "blog",
+      "title": "The next chapter for AI in the EU",
+      "url": "https://openai.com/index/the-next-chapter-for-ai-in-the-eu",
+      "abstract": "OpenAI launches the EU Economic Blueprint 2.0 with new data, partnerships, and initiatives to accelerate AI adoption, skills, and growth across Europe.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-01-28T01:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:cf58b7400fc9",
+      "source": "blog",
+      "title": "EMEA Youth & Wellbeing Grant",
+      "url": "https://openai.com/index/emea-youth-and-wellbeing-grant",
+      "abstract": "Apply for the EMEA Youth & Wellbeing Grant, a \u20ac500,000 program funding NGOs and researchers advancing youth safety and wellbeing in the age of AI.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-01-28T01:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:63508e9ab188",
+      "source": "blog",
+      "title": "Keeping your data safe when an AI agent clicks a link",
+      "url": "https://openai.com/index/ai-agent-link-safety",
+      "abstract": "Learn how OpenAI protects user data when AI agents open links, preventing URL-based data exfiltration and prompt injection with built-in safeguards.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-01-28T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:47a8fa05d40e",
+      "source": "blog",
+      "title": "We Got Claude to Build CUDA Kernels and teach open models!",
+      "url": "https://huggingface.co/blog/upskill",
+      "abstract": "",
+      "authors": [
+        "Hugging Face"
+      ],
+      "published_at": "2026-01-28T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    }
+  ],
+  "topics": []
+}

@@ -1,6 +1,6 @@
 {
   "date": "2026-06-07",
-  "generated_at": "2026-06-07T14:13:34.141582+00:00",
+  "generated_at": "2026-06-11T04:11:45.158040+00:00",
   "items": [
     {
       "id": "2606.06494",
@@ -1172,6 +1172,45 @@
       "has_code": true,
       "code_url": "https://github.com/voidduckcalm/machine-learning-library-784",
       "topic": "learning-machine"
+    },
+    {
+      "id": "hn:48437568",
+      "source": "hackernews",
+      "title": "If LLMs Have Human-Like Attributes, Then So Does Age of Empires II",
+      "url": "https://arxiv.org/abs/2605.31514",
+      "abstract": "",
+      "authors": [
+        "ketchup32613"
+      ],
+      "published_at": "2026-06-07T18:54:55Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:48434436",
+      "source": "hackernews",
+      "title": "Anthropic, please ship an official Claude Desktop for Linux",
+      "url": "https://github.com/anthropics/claude-code/issues/65697",
+      "abstract": "",
+      "authors": [
+        "predkambrij"
+      ],
+      "published_at": "2026-06-07T13:06:52Z",
+      "has_code": true,
+      "code_url": "https://github.com/anthropics/claude-code/issues/65697"
+    },
+    {
+      "id": "hn:48433756",
+      "source": "hackernews",
+      "title": "Show HN: Lathe \u2013 Use LLMs to learn a new domain, not skip past it",
+      "url": "https://github.com/devenjarvis/lathe",
+      "abstract": "",
+      "authors": [
+        "devenjarvis"
+      ],
+      "published_at": "2026-06-07T11:16:46Z",
+      "has_code": true,
+      "code_url": "https://github.com/devenjarvis/lathe"
     }
   ],
   "topics": [

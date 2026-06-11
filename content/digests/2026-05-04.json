@@ -1,0 +1,111 @@
+{
+  "date": "2026-05-04",
+  "generated_at": "2026-06-11T04:11:45.120583+00:00",
+  "items": [
+    {
+      "id": "hn:48015397",
+      "source": "hackernews",
+      "title": "Agent Skills",
+      "url": "https://addyosmani.com/blog/agent-skills/",
+      "abstract": "",
+      "authors": [
+        "BOOSTERHIDROGEN"
+      ],
+      "published_at": "2026-05-04T21:40:42Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:48013919",
+      "source": "hackernews",
+      "title": "How OpenAI delivers low-latency voice AI at scale",
+      "url": "https://openai.com/index/delivering-low-latency-voice-ai-at-scale/",
+      "abstract": "",
+      "authors": [
+        "Sean-Der"
+      ],
+      "published_at": "2026-05-04T19:42:47Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:48011904",
+      "source": "hackernews",
+      "title": "Let's talk about LLMs",
+      "url": "https://www.b-list.org/weblog/2026/apr/09/llms/",
+      "abstract": "",
+      "authors": [
+        "cdrnsf"
+      ],
+      "published_at": "2026-05-04T17:29:39Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:48010774",
+      "source": "hackernews",
+      "title": "OpenAI, Google, and Microsoft Back Bill to Fund 'AI Literacy' in Schools",
+      "url": "https://www.404media.co/literacy-in-future-technologies-artificial-intelligence-act-adam-schiff-mike-rounds/",
+      "abstract": "",
+      "authors": [
+        "cdrnsf"
+      ],
+      "published_at": "2026-05-04T16:21:38Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "gh:GareBear99/awesome-python-audio-science",
+      "source": "github",
+      "title": "GareBear99/awesome-python-audio-science",
+      "url": "https://github.com/GareBear99/awesome-python-audio-science",
+      "abstract": "A curated, public-facing list of Python audio science, scientific audio research, music information retrieval, DSP, machine learning audio, datasets, notebooks, and creator-audio tooling.",
+      "authors": [
+        "GareBear99"
+      ],
+      "published_at": "2026-05-04T05:20:17Z",
+      "has_code": true,
+      "code_url": "https://github.com/GareBear99/awesome-python-audio-science"
+    },
+    {
+      "id": "gh:rihhanna/machine-learning-journey",
+      "source": "github",
+      "title": "rihhanna/machine-learning-journey",
+      "url": "https://github.com/rihhanna/machine-learning-journey",
+      "abstract": "Documenting my daily journey of learning Machine Learning, including notes, concepts, and hands-on practice.",
+      "authors": [
+        "rihhanna"
+      ],
+      "published_at": "2026-05-04T07:59:39Z",
+      "has_code": true,
+      "code_url": "https://github.com/rihhanna/machine-learning-journey"
+    },
+    {
+      "id": "blog:9807ae0752f7",
+      "source": "blog",
+      "title": "OpenAI and PwC collaborate to reimagine the office of the CFO",
+      "url": "https://openai.com/index/openai-pwc-finance-collaboration",
+      "abstract": "OpenAI and PwC are partnering to help enterprises use AI agents to automate finance workflows, improve forecasting, strengthen controls, and modernize the CFO function.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-05-04T21:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:d6581b92c87e",
+      "source": "blog",
+      "title": "How OpenAI delivers low-latency voice AI at scale",
+      "url": "https://openai.com/index/delivering-low-latency-voice-ai-at-scale",
+      "abstract": "How OpenAI rebuilt its WebRTC stack to power real-time Voice AI with low latency, global scale, and seamless conversational turn-taking.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-05-04T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    }
+  ],
+  "topics": []
+}

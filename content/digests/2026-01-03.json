@@ -1,0 +1,59 @@
+{
+  "date": "2026-01-03",
+  "generated_at": "2026-06-11T04:11:45.026791+00:00",
+  "items": [
+    {
+      "id": "hn:46475218",
+      "source": "hackernews",
+      "title": "Tally \u2013 A tool to help agents classify your bank transactions",
+      "url": "https://tallyai.money/",
+      "abstract": "",
+      "authors": [
+        "ahmedatia"
+      ],
+      "published_at": "2026-01-03T11:02:33Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:46472667",
+      "source": "hackernews",
+      "title": "IQuest-Coder: A new open-source code model beats Claude Sonnet 4.5 and GPT 5.1 [pdf]",
+      "url": "https://github.com/IQuestLab/IQuest-Coder-V1/blob/main/papers/IQuest_Coder_Technical_Report.pdf",
+      "abstract": "",
+      "authors": [
+        "shenli3514"
+      ],
+      "published_at": "2026-01-03T04:01:03Z",
+      "has_code": true,
+      "code_url": "https://github.com/IQuestLab/IQuest-Coder-V1/blob/main/papers/IQuest_Coder_Technical_Report.pdf"
+    },
+    {
+      "id": "gh:VarunD27/Personality-Prediction-from-Text",
+      "source": "github",
+      "title": "VarunD27/Personality-Prediction-from-Text",
+      "url": "https://github.com/VarunD27/Personality-Prediction-from-Text",
+      "abstract": "Personality prediction from text using machine learning and NLP .",
+      "authors": [
+        "VarunD27"
+      ],
+      "published_at": "2026-01-03T20:35:05Z",
+      "has_code": true,
+      "code_url": "https://github.com/VarunD27/Personality-Prediction-from-Text"
+    },
+    {
+      "id": "gh:DhanushN2005/Cricket-Dream-Team-Prediction",
+      "source": "github",
+      "title": "DhanushN2005/Cricket-Dream-Team-Prediction",
+      "url": "https://github.com/DhanushN2005/Cricket-Dream-Team-Prediction",
+      "abstract": "A data-driven fantasy cricket team prediction system built using machine learning techniques to analyze historical player statistics and automatically select the best-performing players for a fantasy dream team.",
+      "authors": [
+        "DhanushN2005"
+      ],
+      "published_at": "2026-01-03T08:42:51Z",
+      "has_code": true,
+      "code_url": "https://github.com/DhanushN2005/Cricket-Dream-Team-Prediction"
+    }
+  ],
+  "topics": []
+}

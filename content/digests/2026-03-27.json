@@ -1,0 +1,85 @@
+{
+  "date": "2026-03-27",
+  "generated_at": "2026-06-11T04:11:45.085652+00:00",
+  "items": [
+    {
+      "id": "hn:47547843",
+      "source": "hackernews",
+      "title": "Agents of Chaos",
+      "url": "https://agentsofchaos.baulab.info/report.html",
+      "abstract": "",
+      "authors": [
+        "luu"
+      ],
+      "published_at": "2026-03-27T20:30:05Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47538190",
+      "source": "hackernews",
+      "title": "Agent-to-agent pair programming",
+      "url": "https://axeldelafosse.com/blog/agent-to-agent-pair-programming",
+      "abstract": "",
+      "authors": [
+        "axldelafosse"
+      ],
+      "published_at": "2026-03-27T01:47:55Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "gh:criticaldata/ShortKit-ML",
+      "source": "github",
+      "title": "criticaldata/ShortKit-ML",
+      "url": "https://github.com/criticaldata/ShortKit-ML",
+      "abstract": " A unified framework to detect, benchmark, and mitigate shortcut learning in machine learning   models across medical imaging and beyond.",
+      "authors": [
+        "criticaldata"
+      ],
+      "published_at": "2026-03-27T18:21:13Z",
+      "has_code": true,
+      "code_url": "https://github.com/criticaldata/ShortKit-ML"
+    },
+    {
+      "id": "gh:NotDizzyButFizzy/credit-card-fraud-detection",
+      "source": "github",
+      "title": "NotDizzyButFizzy/credit-card-fraud-detection",
+      "url": "https://github.com/NotDizzyButFizzy/credit-card-fraud-detection",
+      "abstract": "A machine learning system designed to identify fraudulent credit card transactions using Python and statistical analysis.",
+      "authors": [
+        "NotDizzyButFizzy"
+      ],
+      "published_at": "2026-03-27T16:23:26Z",
+      "has_code": true,
+      "code_url": "https://github.com/NotDizzyButFizzy/credit-card-fraud-detection"
+    },
+    {
+      "id": "blog:757698a9a08d",
+      "source": "blog",
+      "title": "STADLER reshapes knowledge work at a 230-year-old company",
+      "url": "https://openai.com/index/stadler",
+      "abstract": "Learn how STADLER uses ChatGPT to transform knowledge work, saving time and accelerating productivity across 650 employees.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-03-27T22:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:51a02dc6c0ff",
+      "source": "blog",
+      "title": "Liberate your OpenClaw",
+      "url": "https://huggingface.co/blog/liberate-your-openclaw",
+      "abstract": "",
+      "authors": [
+        "Hugging Face"
+      ],
+      "published_at": "2026-03-27T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    }
+  ],
+  "topics": []
+}

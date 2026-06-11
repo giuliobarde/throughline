@@ -1,0 +1,124 @@
+{
+  "date": "2026-03-17",
+  "generated_at": "2026-06-11T04:11:45.076722+00:00",
+  "items": [
+    {
+      "id": "hn:47415441",
+      "source": "hackernews",
+      "title": "GPT\u20115.4 Mini and Nano",
+      "url": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano",
+      "abstract": "",
+      "authors": [
+        "meetpateltech"
+      ],
+      "published_at": "2026-03-17T17:07:06Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47414440",
+      "source": "hackernews",
+      "title": "'The Secret Agent': Exploring a Vibrant, yet Violent Brazil (2025)",
+      "url": "https://theasc.com/articles/the-secret-agent-cinematography",
+      "abstract": "",
+      "authors": [
+        "tambourine_man"
+      ],
+      "published_at": "2026-03-17T15:56:09Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "gh:LostBeard/SpawnDev.ILGPU.ML",
+      "source": "github",
+      "title": "LostBeard/SpawnDev.ILGPU.ML",
+      "url": "https://github.com/LostBeard/SpawnDev.ILGPU.ML",
+      "abstract": "Hardware-agnostic machine learning infrastructure for .NET. Implements high-performance neural network layers in C# that are transpiled to run on WebGPU, CUDA, OpenCL, WebGL, CPU, and Wasm via SpawnDev.ILGPU. Optimized for Blazor WebAssembly and native GPU execution.",
+      "authors": [
+        "LostBeard"
+      ],
+      "published_at": "2026-03-17T20:48:57Z",
+      "has_code": true,
+      "code_url": "https://github.com/LostBeard/SpawnDev.ILGPU.ML"
+    },
+    {
+      "id": "blog:c3d41e50070e",
+      "source": "blog",
+      "title": "Introducing GPT-5.4 mini and nano",
+      "url": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano",
+      "abstract": "GPT-5.4 mini and nano are smaller, faster versions of GPT-5.4 optimized for coding, tool use, multimodal reasoning, and high-volume API and sub-agent workloads.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-03-17T10:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:1e673d33f797",
+      "source": "blog",
+      "title": "OpenAI Japan announces Japan Teen Safety Blueprint to put teen safety first",
+      "url": "https://openai.com/index/japan-teen-safety-blueprint",
+      "abstract": "OpenAI Japan announces the Japan Teen Safety Blueprint, introducing stronger age protections, parental controls, and well-being safeguards for teens using generative AI.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-03-17T10:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:e4cbc2849b39",
+      "source": "blog",
+      "title": "Equipping workers with insights about compensation",
+      "url": "https://openai.com/index/equipping-workers-with-insights-about-compensation",
+      "abstract": "New research shows Americans send nearly 3 million daily messages to ChatGPT asking about compensation and earnings, helping close the wage information gap.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-03-17T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:df6a6cb542d3",
+      "source": "blog",
+      "title": "Measuring progress toward AGI: A cognitive framework",
+      "url": "https://deepmind.google/blog/measuring-progress-toward-agi-a-cognitive-framework/",
+      "abstract": "We\u2019re introducing a framework to measure progress toward AGI, and launching a Kaggle hackathon to build the relevant evaluations.",
+      "authors": [
+        "Google DeepMind"
+      ],
+      "published_at": "2026-03-17T16:03:47+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:429881ea07c5",
+      "source": "blog",
+      "title": "State of Open Source on Hugging Face: Spring 2026",
+      "url": "https://huggingface.co/blog/huggingface/state-of-os-hf-spring-2026",
+      "abstract": "",
+      "authors": [
+        "Hugging Face"
+      ],
+      "published_at": "2026-03-17T16:37:55+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:c07825b4f460",
+      "source": "blog",
+      "title": "Holotron-12B - High Throughput Computer Use Agent",
+      "url": "https://huggingface.co/blog/Hcompany/holotron-12b",
+      "abstract": "",
+      "authors": [
+        "Hugging Face"
+      ],
+      "published_at": "2026-03-17T12:33:39+00:00",
+      "has_code": false,
+      "code_url": null
+    }
+  ],
+  "topics": []
+}

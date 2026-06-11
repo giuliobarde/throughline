@@ -1,0 +1,176 @@
+{
+  "date": "2026-04-15",
+  "generated_at": "2026-06-11T04:11:45.102208+00:00",
+  "items": [
+    {
+      "id": "hn:47785397",
+      "source": "hackernews",
+      "title": "ChatGPT for Excel",
+      "url": "https://chatgpt.com/apps/spreadsheets/",
+      "abstract": "",
+      "authors": [
+        "armcat"
+      ],
+      "published_at": "2026-04-15T21:21:05Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47785053",
+      "source": "hackernews",
+      "title": "Does Gas Town 'steal' usage from users' LLM credits to improve itself?",
+      "url": "https://github.com/gastownhall/gastown/issues/3649",
+      "abstract": "",
+      "authors": [
+        "rektomatic"
+      ],
+      "published_at": "2026-04-15T20:49:48Z",
+      "has_code": true,
+      "code_url": "https://github.com/gastownhall/gastown/issues/3649"
+    },
+    {
+      "id": "hn:47781998",
+      "source": "hackernews",
+      "title": "CPUs Aren't Dead. Gemma2B Out Scored GPT-3.5 Turbo on Test That Made It Famous",
+      "url": "https://seqpu.com/CPUsArentDead/",
+      "abstract": "",
+      "authors": [
+        "fredmendoza"
+      ],
+      "published_at": "2026-04-15T17:07:36Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47781950",
+      "source": "hackernews",
+      "title": "Prove you are a robot: CAPTCHAs for agents",
+      "url": "https://browser-use.com/posts/prove-you-are-a-robot",
+      "abstract": "",
+      "authors": [
+        "lukasec"
+      ],
+      "published_at": "2026-04-15T17:03:39Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47778922",
+      "source": "hackernews",
+      "title": "Are the costs of AI agents also rising exponentially? (2025)",
+      "url": "https://www.tobyord.com/writing/hourly-costs-for-ai-agents",
+      "abstract": "",
+      "authors": [
+        "louiereederson"
+      ],
+      "published_at": "2026-04-15T13:47:58Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47774971",
+      "source": "hackernews",
+      "title": "Google Gemma 4 Runs Natively on iPhone with Full Offline AI Inference",
+      "url": "https://www.gizmoweek.com/gemma-4-runs-iphone/",
+      "abstract": "",
+      "authors": [
+        "takumi123"
+      ],
+      "published_at": "2026-04-15T05:19:06Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47773640",
+      "source": "hackernews",
+      "title": "OpenAI's $852B valuation faces investor scrutiny amid strategy shift, FT reports",
+      "url": "https://www.reuters.com/legal/transactional/openai-investors-question-852-billion-valuation-strategy-shifts-ft-reports-2026-04-14/",
+      "abstract": "",
+      "authors": [
+        "abdelhousni"
+      ],
+      "published_at": "2026-04-15T01:36:22Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "gh:soumili-here/Crime-Analysis-Against-Children-in-India",
+      "source": "github",
+      "title": "soumili-here/Crime-Analysis-Against-Children-in-India",
+      "url": "https://github.com/soumili-here/Crime-Analysis-Against-Children-in-India",
+      "abstract": "This project deals with data analysis using a Machine Learning approach on the topic \"Crimes Against Children in India 2017 onwards\".",
+      "authors": [
+        "soumili-here"
+      ],
+      "published_at": "2026-04-15T16:32:38Z",
+      "has_code": true,
+      "code_url": "https://github.com/soumili-here/Crime-Analysis-Against-Children-in-India"
+    },
+    {
+      "id": "gh:Bishanka-prog/crop_yield_prediction",
+      "source": "github",
+      "title": "Bishanka-prog/crop_yield_prediction",
+      "url": "https://github.com/Bishanka-prog/crop_yield_prediction",
+      "abstract": "Crop Yield Prediction using Machine Learning  I built a data-driven project that analyzes the impact of rainfall on agricultural productivity and predicts crop yield using machine learning models.  \ud83d\udd0d Key Highlights: \u2022 Performed EDA, visualization, preprocessing  \u2022 Built regression models (Linear Regression & Random Forest) ",
+      "authors": [
+        "Bishanka-prog"
+      ],
+      "published_at": "2026-04-15T17:32:29Z",
+      "has_code": true,
+      "code_url": "https://github.com/Bishanka-prog/crop_yield_prediction"
+    },
+    {
+      "id": "blog:f5300dfb721c",
+      "source": "blog",
+      "title": "The next evolution of the Agents SDK",
+      "url": "https://openai.com/index/the-next-evolution-of-the-agents-sdk",
+      "abstract": "OpenAI updates the Agents SDK with native sandbox execution and a model-native harness, helping developers build secure, long-running agents across files and tools.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-04-15T10:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:c6cbf678fecc",
+      "source": "blog",
+      "title": "Gemini 3.1 Flash TTS: the next generation of expressive AI speech",
+      "url": "https://deepmind.google/blog/gemini-3-1-flash-tts-the-next-generation-of-expressive-ai-speech/",
+      "abstract": "Our newest audio model introduces granular audio tags that give you precise control to direct AI speech for expressive audio generation.",
+      "authors": [
+        "Google DeepMind"
+      ],
+      "published_at": "2026-04-15T16:03:19+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:b96c649f09f8",
+      "source": "blog",
+      "title": "Inside VAKRA: Reasoning, Tool Use, and Failure Modes of Agents",
+      "url": "https://huggingface.co/blog/ibm-research/vakra-benchmark-analysis",
+      "abstract": "",
+      "authors": [
+        "Hugging Face"
+      ],
+      "published_at": "2026-04-15T12:07:25+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:3977e92d92e9",
+      "source": "blog",
+      "title": "Meet HoloTab by HCompany. Your AI browser companion.",
+      "url": "https://huggingface.co/blog/Hcompany/holotab",
+      "abstract": "",
+      "authors": [
+        "Hugging Face"
+      ],
+      "published_at": "2026-04-15T09:25:20+00:00",
+      "has_code": false,
+      "code_url": null
+    }
+  ],
+  "topics": []
+}

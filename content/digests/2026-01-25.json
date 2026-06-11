@@ -1,0 +1,59 @@
+{
+  "date": "2026-01-25",
+  "generated_at": "2026-06-11T04:11:45.039441+00:00",
+  "items": [
+    {
+      "id": "hn:46750214",
+      "source": "hackernews",
+      "title": "Challenges and Research Directions for Large Language Model Inference Hardware",
+      "url": "https://arxiv.org/abs/2601.05047",
+      "abstract": "",
+      "authors": [
+        "transpute"
+      ],
+      "published_at": "2026-01-25T02:48:36Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "gh:JunaydEco-coder/hairstyle-recommendation-system",
+      "source": "github",
+      "title": "JunaydEco-coder/hairstyle-recommendation-system",
+      "url": "https://github.com/JunaydEco-coder/hairstyle-recommendation-system",
+      "abstract": "An AI-powered hairstyle recommendation system that analyzes face shape from uploaded images and suggests suitable hairstyles using machine learning and computer vision.",
+      "authors": [
+        "JunaydEco-coder"
+      ],
+      "published_at": "2026-01-25T15:12:25Z",
+      "has_code": true,
+      "code_url": "https://github.com/JunaydEco-coder/hairstyle-recommendation-system"
+    },
+    {
+      "id": "gh:vishwa206/Stroke_Prediction_using_Machine_Learning_",
+      "source": "github",
+      "title": "vishwa206/Stroke_Prediction_using_Machine_Learning_",
+      "url": "https://github.com/vishwa206/Stroke_Prediction_using_Machine_Learning_",
+      "abstract": "",
+      "authors": [
+        "vishwa206"
+      ],
+      "published_at": "2026-01-25T13:28:03Z",
+      "has_code": true,
+      "code_url": "https://github.com/vishwa206/Stroke_Prediction_using_Machine_Learning_"
+    },
+    {
+      "id": "gh:SENATOROVAI/stochastic-average-gradient-sag-saga-solver-course",
+      "source": "github",
+      "title": "SENATOROVAI/stochastic-average-gradient-sag-saga-solver-course",
+      "url": "https://github.com/SENATOROVAI/stochastic-average-gradient-sag-saga-solver-course",
+      "abstract": "The SAG (Stochastic Average Gradient) + SAGA (Accelerated) solver is an optimization algorithm used primarily in machine learning, specifically for logistic regression and linear support vector machines (SVMs) within libraries like scikit-learn. It is designed to be highly efficient for large datasets with many samples and features. Solver",
+      "authors": [
+        "SENATOROVAI"
+      ],
+      "published_at": "2026-01-25T00:47:45Z",
+      "has_code": true,
+      "code_url": "https://github.com/SENATOROVAI/stochastic-average-gradient-sag-saga-solver-course"
+    }
+  ],
+  "topics": []
+}

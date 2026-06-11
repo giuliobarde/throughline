@@ -1,0 +1,163 @@
+{
+  "date": "2026-05-17",
+  "generated_at": "2026-06-11T04:11:45.133890+00:00",
+  "items": [
+    {
+      "id": "hn:48172320",
+      "source": "hackernews",
+      "title": "Growing Neural Cellular Automata",
+      "url": "https://distill.pub/2020/growing-ca/",
+      "abstract": "",
+      "authors": [
+        "pulkitsh1234"
+      ],
+      "published_at": "2026-05-17T19:21:09Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:48170007",
+      "source": "hackernews",
+      "title": "Intro to TLA+ for the LLM Era: Prompt Your Way to Victory",
+      "url": "https://emptysqua.re/blog/intro-to-tla-plus-for-the-llm-era/",
+      "abstract": "",
+      "authors": [
+        "zdw"
+      ],
+      "published_at": "2026-05-17T15:52:21Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:48169874",
+      "source": "hackernews",
+      "title": "Show HN: Semble \u2013 Code search for agents that uses 98% fewer tokens than grep",
+      "url": "https://github.com/MinishLab/semble",
+      "abstract": "",
+      "authors": [
+        "Bibabomas"
+      ],
+      "published_at": "2026-05-17T15:37:07Z",
+      "has_code": true,
+      "code_url": "https://github.com/MinishLab/semble"
+    },
+    {
+      "id": "gh:rajchandran006-ops/RFD-Classification-Machine-Learning-Project",
+      "source": "github",
+      "title": "rajchandran006-ops/RFD-Classification-Machine-Learning-Project",
+      "url": "https://github.com/rajchandran006-ops/RFD-Classification-Machine-Learning-Project",
+      "abstract": "RFD Classification Machine Learning project developed using Python and Jupyter Notebook. This project includes data preprocessing, exploratory data analysis, feature engineering, and implementation of multiple classification algorithms such as Logistic Regression, Random Forest, SVM, KNN, and Naive Bayes for prediction and accuracy evaluation.",
+      "authors": [
+        "rajchandran006-ops"
+      ],
+      "published_at": "2026-05-17T07:21:43Z",
+      "has_code": true,
+      "code_url": "https://github.com/rajchandran006-ops/RFD-Classification-Machine-Learning-Project"
+    },
+    {
+      "id": "gh:bb1nfosec/vaathi",
+      "source": "github",
+      "title": "bb1nfosec/vaathi",
+      "url": "https://github.com/bb1nfosec/vaathi",
+      "abstract": "\ud83d\udee1\ufe0f Vaathi \u2014 India's Open Source Cybersecurity Learning OS. From zero to ethical hacker \u2014 in your language, at your pace, on your machine.",
+      "authors": [
+        "bb1nfosec"
+      ],
+      "published_at": "2026-05-17T11:17:25Z",
+      "has_code": true,
+      "code_url": "https://github.com/bb1nfosec/vaathi"
+    },
+    {
+      "id": "gh:flarecentury/mlpcopilot",
+      "source": "github",
+      "title": "flarecentury/mlpcopilot",
+      "url": "https://github.com/flarecentury/mlpcopilot",
+      "abstract": "A vertical agent runtime for machine-learning-potential training.",
+      "authors": [
+        "flarecentury"
+      ],
+      "published_at": "2026-05-17T17:06:58Z",
+      "has_code": true,
+      "code_url": "https://github.com/flarecentury/mlpcopilot"
+    },
+    {
+      "id": "gh:dharshiyan/Real-Time-Multi-Emotion-Detection-System",
+      "source": "github",
+      "title": "dharshiyan/Real-Time-Multi-Emotion-Detection-System",
+      "url": "https://github.com/dharshiyan/Real-Time-Multi-Emotion-Detection-System",
+      "abstract": "artificial-intelligence computer-vision deep-learning emotion-detection facial-expression-recognition tensorflow opencv cnn machine-learning python real-time-ai",
+      "authors": [
+        "dharshiyan"
+      ],
+      "published_at": "2026-05-17T03:07:05Z",
+      "has_code": true,
+      "code_url": "https://github.com/dharshiyan/Real-Time-Multi-Emotion-Detection-System"
+    },
+    {
+      "id": "blog:c120575d799b",
+      "source": "blog",
+      "title": "Simulate real-world places with Project Genie and Street View",
+      "url": "https://deepmind.google/blog/simulate-real-world-places-with-project-genie-and-street-view/",
+      "abstract": "We\u2019re expanding access to Google AI Ultra subscribers globally and introducing a new capability powered by Street View.",
+      "authors": [
+        "Google DeepMind"
+      ],
+      "published_at": "2026-05-17T19:53:18+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:6ff85c3103b9",
+      "source": "blog",
+      "title": "Introducing Gemini Omni",
+      "url": "https://deepmind.google/blog/introducing-gemini-omni/",
+      "abstract": "",
+      "authors": [
+        "Google DeepMind"
+      ],
+      "published_at": "2026-05-17T19:50:57+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:c24549cf8179",
+      "source": "blog",
+      "title": "Introducing Google Antigravity 2.0",
+      "url": "https://deepmind.google/blog/introducing-google-antigravity-2-0/",
+      "abstract": "",
+      "authors": [
+        "Google DeepMind"
+      ],
+      "published_at": "2026-05-17T19:43:45+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:548bdf100a67",
+      "source": "blog",
+      "title": "Gemini for Science: AI experiments and tools for a new era of discovery",
+      "url": "https://deepmind.google/blog/gemini-for-science-ai-experiments-and-tools-for-a-new-era-of-discovery/",
+      "abstract": "A collection of science tools and experiments to expand the scale and precision of scientific exploration.",
+      "authors": [
+        "Google DeepMind"
+      ],
+      "published_at": "2026-05-17T13:50:34+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:ce11f0ad142d",
+      "source": "blog",
+      "title": "Making it easier to understand how content was created and edited",
+      "url": "https://deepmind.google/blog/making-it-easier-to-understand-how-content-was-created-and-edited/",
+      "abstract": "We're expanding our tools to help you understand how content was created and edited across the web.",
+      "authors": [
+        "Google DeepMind"
+      ],
+      "published_at": "2026-05-17T13:43:50+00:00",
+      "has_code": false,
+      "code_url": null
+    }
+  ],
+  "topics": []
+}

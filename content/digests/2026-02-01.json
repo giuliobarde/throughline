@@ -1,0 +1,98 @@
+{
+  "date": "2026-02-01",
+  "generated_at": "2026-06-11T04:11:45.044093+00:00",
+  "items": [
+    {
+      "id": "hn:46849258",
+      "source": "hackernews",
+      "title": "My iPhone 16 Pro Max produces garbage output when running MLX LLMs",
+      "url": "https://journal.rafaelcosta.me/my-thousand-dollar-iphone-cant-do-math/",
+      "abstract": "",
+      "authors": [
+        "rafaelcosta"
+      ],
+      "published_at": "2026-02-01T20:51:56Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:46847958",
+      "source": "hackernews",
+      "title": "Towards a science of scaling agent systems: When and why agent systems work",
+      "url": "https://research.google/blog/towards-a-science-of-scaling-agent-systems-when-and-why-agent-systems-work/",
+      "abstract": "",
+      "authors": [
+        "gmays"
+      ],
+      "published_at": "2026-02-01T18:00:30Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:46844822",
+      "source": "hackernews",
+      "title": "What I learned building an opinionated and minimal coding agent",
+      "url": "https://mariozechner.at/posts/2025-11-30-pi-coding-agent/",
+      "abstract": "",
+      "authors": [
+        "SatvikBeri"
+      ],
+      "published_at": "2026-02-01T09:33:46Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:46844410",
+      "source": "hackernews",
+      "title": "Coding Agent VMs on NixOS with Microvm.nix",
+      "url": "https://michael.stapelberg.ch/posts/2026-02-01-coding-agent-microvm-nix/",
+      "abstract": "",
+      "authors": [
+        "secure"
+      ],
+      "published_at": "2026-02-01T08:02:46Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "gh:hangli-hl/Machine-Learning-Book",
+      "source": "github",
+      "title": "hangli-hl/Machine-Learning-Book",
+      "url": "https://github.com/hangli-hl/Machine-Learning-Book",
+      "abstract": "Materials related to Hang Li's book \"Machine Learning Methods\", in both Chinese and English",
+      "authors": [
+        "hangli-hl"
+      ],
+      "published_at": "2026-02-01T01:56:28Z",
+      "has_code": true,
+      "code_url": "https://github.com/hangli-hl/Machine-Learning-Book"
+    },
+    {
+      "id": "gh:Jamessfks/mace",
+      "source": "github",
+      "title": "Jamessfks/mace",
+      "url": "https://github.com/Jamessfks/mace",
+      "abstract": "SimpleAtom, a web interface for MACE(Message Passing Atomic Cluster Expansion) a machine-learning-based interatomic potential",
+      "authors": [
+        "Jamessfks"
+      ],
+      "published_at": "2026-02-01T20:26:58Z",
+      "has_code": true,
+      "code_url": "https://github.com/Jamessfks/mace"
+    },
+    {
+      "id": "gh:kcieslik/eq-insar",
+      "source": "github",
+      "title": "kcieslik/eq-insar",
+      "url": "https://github.com/kcieslik/eq-insar",
+      "abstract": "Generate synthetic InSAR deformation data from earthquake sources for Machine/Deep Learning training",
+      "authors": [
+        "kcieslik"
+      ],
+      "published_at": "2026-02-01T09:32:52Z",
+      "has_code": true,
+      "code_url": "https://github.com/kcieslik/eq-insar"
+    }
+  ],
+  "topics": []
+}

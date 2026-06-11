@@ -1,0 +1,111 @@
+{
+  "date": "2026-01-22",
+  "generated_at": "2026-06-11T04:11:45.037636+00:00",
+  "items": [
+    {
+      "id": "hn:46725632",
+      "source": "hackernews",
+      "title": "Anthropic Economic Index report: economic primitives",
+      "url": "https://www.anthropic.com/research/anthropic-economic-index-january-2026-report",
+      "abstract": "",
+      "authors": [
+        "malshe"
+      ],
+      "published_at": "2026-01-22T21:54:02Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:46725300",
+      "source": "hackernews",
+      "title": "Scaling PostgreSQL to power 800M ChatGPT users",
+      "url": "https://openai.com/index/scaling-postgresql/",
+      "abstract": "",
+      "authors": [
+        "mustaphah"
+      ],
+      "published_at": "2026-01-22T21:24:23Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:46720395",
+      "source": "hackernews",
+      "title": "GPTZero finds 100 new hallucinations in NeurIPS 2025 accepted papers",
+      "url": "https://gptzero.me/news/neurips/",
+      "abstract": "",
+      "authors": [
+        "segmenta"
+      ],
+      "published_at": "2026-01-22T15:20:48Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:46719704",
+      "source": "hackernews",
+      "title": "Palantir, Meta, OpenAI Execs Appointed Lieutenant Colonels in US Army (2025)",
+      "url": "https://twitter.com/SecArmy/status/1933693585183965372",
+      "abstract": "",
+      "authors": [
+        "alexmorley"
+      ],
+      "published_at": "2026-01-22T14:32:52Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "gh:Bavatharanivethamani/-EmotionSense-AI-Multimodal-Human-Emotion-and-Stress-Detection-Using-Computer-Vision-and-NLP-",
+      "source": "github",
+      "title": "Bavatharanivethamani/-EmotionSense-AI-Multimodal-Human-Emotion-and-Stress-Detection-Using-Computer-Vision-and-NLP-",
+      "url": "https://github.com/Bavatharanivethamani/-EmotionSense-AI-Multimodal-Human-Emotion-and-Stress-Detection-Using-Computer-Vision-and-NLP-",
+      "abstract": "An AI-based multimodal emotion and stress detection system leveraging computer vision for facial expression recognition and natural language processing for text analysis. Designed for real-time applications using Python, deep learning, and machine learning techniques.",
+      "authors": [
+        "Bavatharanivethamani"
+      ],
+      "published_at": "2026-01-22T16:23:34Z",
+      "has_code": true,
+      "code_url": "https://github.com/Bavatharanivethamani/-EmotionSense-AI-Multimodal-Human-Emotion-and-Stress-Detection-Using-Computer-Vision-and-NLP-"
+    },
+    {
+      "id": "blog:0e9e0157f373",
+      "source": "blog",
+      "title": "Scaling PostgreSQL to power 800 million ChatGPT users",
+      "url": "https://openai.com/index/scaling-postgresql",
+      "abstract": "An inside look at how OpenAI scaled PostgreSQL to millions of queries per second using replicas, caching, rate limiting, and workload isolation.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-01-22T12:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:a3ce7a8e25fd",
+      "source": "blog",
+      "title": "Inside GPT-5 for Work: How Businesses Use GPT-5",
+      "url": "https://openai.com/business/guides-and-resources/chatgpt-usage-and-adoption-patterns-at-work",
+      "abstract": "A data-driven report on how workers across industries use ChatGPT\u2014covering adoption trends, top tasks, departmental patterns, and the future of AI at work.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-01-22T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:27ae54dbecf4",
+      "source": "blog",
+      "title": "Inside Praktika's conversational approach to language learning",
+      "url": "https://openai.com/index/praktika",
+      "abstract": "How Praktika uses GPT-4.1 and GPT-5.2 to build adaptive AI tutors that personalize lessons, track progress, and help learners achieve real-world language fluency",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-01-22T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    }
+  ],
+  "topics": []
+}

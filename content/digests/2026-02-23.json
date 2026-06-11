@@ -1,0 +1,98 @@
+{
+  "date": "2026-02-23",
+  "generated_at": "2026-06-11T04:11:45.059400+00:00",
+  "items": [
+    {
+      "id": "hn:47129727",
+      "source": "hackernews",
+      "title": "Making Wolfram tech available as a foundation tool for LLM systems",
+      "url": "https://writings.stephenwolfram.com/2026/02/making-wolfram-tech-available-as-a-foundation-tool-for-llm-systems/",
+      "abstract": "",
+      "authors": [
+        "surprisetalk"
+      ],
+      "published_at": "2026-02-23T22:11:34Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47128907",
+      "source": "hackernews",
+      "title": "IBM Plunges After Anthropic's Latest Update Takes on COBOL",
+      "url": "https://www.zerohedge.com/markets/ibm-plunges-after-anthropics-latest-update-takes-cobol",
+      "abstract": "",
+      "authors": [
+        "gradus_ad"
+      ],
+      "published_at": "2026-02-23T21:11:24Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47126614",
+      "source": "hackernews",
+      "title": "Anthropic announces proof of distillation at scale by MiniMax, DeepSeek,Moonshot",
+      "url": "https://twitter.com/anthropicai/status/2025997928242811253",
+      "abstract": "",
+      "authors": [
+        "Jimmc414"
+      ],
+      "published_at": "2026-02-23T18:33:38Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47119871",
+      "source": "hackernews",
+      "title": "Show HN: AI Timeline \u2013 171 LLMs from Transformer (2017) to GPT-5.3 (2026)",
+      "url": "https://llm-timeline.com/",
+      "abstract": "",
+      "authors": [
+        "ai_bot"
+      ],
+      "published_at": "2026-02-23T09:07:44Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "gh:nileshhadalgi016/Awesome-ML-AI-Tutorial",
+      "source": "github",
+      "title": "nileshhadalgi016/Awesome-ML-AI-Tutorial",
+      "url": "https://github.com/nileshhadalgi016/Awesome-ML-AI-Tutorial",
+      "abstract": "A comprehensive mathematics tutorial for Machine Learning and AI",
+      "authors": [
+        "nileshhadalgi016"
+      ],
+      "published_at": "2026-02-23T04:57:55Z",
+      "has_code": true,
+      "code_url": "https://github.com/nileshhadalgi016/Awesome-ML-AI-Tutorial"
+    },
+    {
+      "id": "blog:b958e58176b7",
+      "source": "blog",
+      "title": "Why we no longer evaluate SWE-bench Verified",
+      "url": "https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified",
+      "abstract": "SWE-bench Verified is increasingly contaminated and mismeasures frontier coding progress. Our analysis shows flawed tests and training leakage. We recommend SWE-bench Pro.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-02-23T11:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:4526d33ef1a2",
+      "source": "blog",
+      "title": "OpenAI announces Frontier Alliance Partners",
+      "url": "https://openai.com/index/frontier-alliance-partners",
+      "abstract": "OpenAI announces Frontier Alliance Partners to help enterprises move from AI pilots to production with secure, scalable agent deployments.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-02-23T05:30:00+00:00",
+      "has_code": false,
+      "code_url": null
+    }
+  ],
+  "topics": []
+}

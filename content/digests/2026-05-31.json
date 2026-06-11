@@ -1,0 +1,46 @@
+{
+  "date": "2026-05-31",
+  "generated_at": "2026-06-11T04:11:45.148670+00:00",
+  "items": [
+    {
+      "id": "hn:48349487",
+      "source": "hackernews",
+      "title": "ChatGPT for Google Sheets exfiltrates workbooks",
+      "url": "https://www.promptarmor.com/resources/gpt-for-google-sheets-data-exfiltration",
+      "abstract": "",
+      "authors": [
+        "hackerBanana"
+      ],
+      "published_at": "2026-05-31T20:35:38Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "gh:shayan-shojaei/open-tutor",
+      "source": "github",
+      "title": "shayan-shojaei/open-tutor",
+      "url": "https://github.com/shayan-shojaei/open-tutor",
+      "abstract": "A self-hosted, interactive learning environment. Run courses, flashcards, and quizzes entirely on your own machine.",
+      "authors": [
+        "shayan-shojaei"
+      ],
+      "published_at": "2026-05-31T13:36:50Z",
+      "has_code": true,
+      "code_url": "https://github.com/shayan-shojaei/open-tutor"
+    },
+    {
+      "id": "gh:hwl668/Scientific-learning-skills-",
+      "source": "github",
+      "title": "hwl668/Scientific-learning-skills-",
+      "url": "https://github.com/hwl668/Scientific-learning-skills-",
+      "abstract": "Diagnosis-first Agent Skills that turn AI from answer machine into   learning tutor.",
+      "authors": [
+        "hwl668"
+      ],
+      "published_at": "2026-05-31T08:19:06Z",
+      "has_code": true,
+      "code_url": "https://github.com/hwl668/Scientific-learning-skills-"
+    }
+  ],
+  "topics": []
+}

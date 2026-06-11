@@ -1,0 +1,150 @@
+{
+  "date": "2026-02-26",
+  "generated_at": "2026-06-11T04:11:45.061659+00:00",
+  "items": [
+    {
+      "id": "hn:47170174",
+      "source": "hackernews",
+      "title": "Launch HN: Cardboard (YC W26) \u2013 Agentic video editor",
+      "url": "https://www.usecardboard.com/",
+      "abstract": "",
+      "authors": [
+        "sxmawl"
+      ],
+      "published_at": "2026-02-26T18:38:38Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47170030",
+      "source": "hackernews",
+      "title": "Smallest transformer that can add two 10-digit numbers",
+      "url": "https://github.com/anadim/AdderBoard",
+      "abstract": "",
+      "authors": [
+        "ks2048"
+      ],
+      "published_at": "2026-02-26T18:29:56Z",
+      "has_code": true,
+      "code_url": "https://github.com/anadim/AdderBoard"
+    },
+    {
+      "id": "hn:47165648",
+      "source": "hackernews",
+      "title": "Just-bash: Bash for Agents",
+      "url": "https://github.com/vercel-labs/just-bash",
+      "abstract": "",
+      "authors": [
+        "tosh"
+      ],
+      "published_at": "2026-02-26T13:16:30Z",
+      "has_code": true,
+      "code_url": "https://github.com/vercel-labs/just-bash"
+    },
+    {
+      "id": "hn:47165397",
+      "source": "hackernews",
+      "title": "Anthropic ditches its core safety promise",
+      "url": "https://www.cnn.com/2026/02/25/tech/anthropic-safety-policy-change",
+      "abstract": "",
+      "authors": [
+        "motbus3"
+      ],
+      "published_at": "2026-02-26T12:52:50Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47163167",
+      "source": "hackernews",
+      "title": "From Noise to Image \u2013 interactive guide to diffusion",
+      "url": "https://lighthousesoftware.co.uk/projects/from-noise-to-image/",
+      "abstract": "",
+      "authors": [
+        "simedw"
+      ],
+      "published_at": "2026-02-26T07:52:29Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "gh:sanjay22-s/ai-ticket-system",
+      "source": "github",
+      "title": "sanjay22-s/ai-ticket-system",
+      "url": "https://github.com/sanjay22-s/ai-ticket-system",
+      "abstract": "AI-powered ticket creation and categorization system with FastAPI, React, PostgreSQL, and machine learning.",
+      "authors": [
+        "sanjay22-s"
+      ],
+      "published_at": "2026-02-26T16:07:34Z",
+      "has_code": true,
+      "code_url": "https://github.com/sanjay22-s/ai-ticket-system"
+    },
+    {
+      "id": "gh:SubiSamayasundaram/PrepGenius",
+      "source": "github",
+      "title": "SubiSamayasundaram/PrepGenius",
+      "url": "https://github.com/SubiSamayasundaram/PrepGenius",
+      "abstract": "An AI-powered Interview Preparation Toolkit that analyzes resume-job match, generates mock interview questions, and helps students improve ATS score using NLP and Machine Learning.",
+      "authors": [
+        "SubiSamayasundaram"
+      ],
+      "published_at": "2026-02-26T14:03:14Z",
+      "has_code": true,
+      "code_url": "https://github.com/SubiSamayasundaram/PrepGenius"
+    },
+    {
+      "id": "blog:5087a3cf6418",
+      "source": "blog",
+      "title": "Pacific Northwest National Laboratory and OpenAI partner to accelerate federal permitting",
+      "url": "https://openai.com/index/pacific-northwest-national-laboratory",
+      "abstract": "OpenAI and Pacific Northwest National Laboratory introduce DraftNEPABench, a new benchmark evaluating how AI coding agents can accelerate federal permitting\u2014showing potential to reduce NEPA drafting time by up to 15% and modernize infrastructure reviews.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-02-26T10:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:32604a90d1ae",
+      "source": "blog",
+      "title": "OpenAI Codex and Figma launch seamless code-to-design experience",
+      "url": "https://openai.com/index/figma-partnership",
+      "abstract": "OpenAI and Figma launch a new Codex integration that connects code and design, enabling teams to move between implementation and the Figma canvas to iterate and ship faster.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-02-26T06:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:1faf160a50f7",
+      "source": "blog",
+      "title": "Nano Banana 2: Combining Pro capabilities with lightning-fast speed",
+      "url": "https://deepmind.google/blog/nano-banana-2-combining-pro-capabilities-with-lightning-fast-speed/",
+      "abstract": "Our latest image generation model offers advanced world knowledge, production ready specs, subject consistency and more, all at Flash speed.",
+      "authors": [
+        "Google DeepMind"
+      ],
+      "published_at": "2026-02-26T16:01:50+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:e44d72287f61",
+      "source": "blog",
+      "title": "Mixture of Experts (MoEs) in Transformers",
+      "url": "https://huggingface.co/blog/moe-transformers",
+      "abstract": "",
+      "authors": [
+        "Hugging Face"
+      ],
+      "published_at": "2026-02-26T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    }
+  ],
+  "topics": []
+}

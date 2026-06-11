@@ -1,0 +1,85 @@
+{
+  "date": "2026-01-19",
+  "generated_at": "2026-06-11T04:11:45.035753+00:00",
+  "items": [
+    {
+      "id": "hn:46684958",
+      "source": "hackernews",
+      "title": "Nanolang: A tiny experimental language designed to be targeted by coding LLMs",
+      "url": "https://github.com/jordanhubbard/nanolang",
+      "abstract": "",
+      "authors": [
+        "Scramblejams"
+      ],
+      "published_at": "2026-01-19T21:48:07Z",
+      "has_code": true,
+      "code_url": "https://github.com/jordanhubbard/nanolang"
+    },
+    {
+      "id": "hn:46684708",
+      "source": "hackernews",
+      "title": "The assistant axis: situating and stabilizing the character of LLMs",
+      "url": "https://www.anthropic.com/research/assistant-axis",
+      "abstract": "",
+      "authors": [
+        "mfiguiere"
+      ],
+      "published_at": "2026-01-19T21:25:16Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:46676081",
+      "source": "hackernews",
+      "title": "The coming industrialisation of exploit generation with LLMs",
+      "url": "https://sean.heelan.io/2026/01/18/on-the-coming-industrialisation-of-exploit-generation-with-llms/",
+      "abstract": "",
+      "authors": [
+        "long"
+      ],
+      "published_at": "2026-01-19T07:57:04Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:46674416",
+      "source": "hackernews",
+      "title": "The Code-Only Agent",
+      "url": "https://rijnard.com/blog/the-code-only-agent",
+      "abstract": "",
+      "authors": [
+        "emersonmacro"
+      ],
+      "published_at": "2026-01-19T02:27:07Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "gh:Akkii88/SentinelPay",
+      "source": "github",
+      "title": "Akkii88/SentinelPay",
+      "url": "https://github.com/Akkii88/SentinelPay",
+      "abstract": "SentinelPay is a comprehensive fraud detection system that interfaces with a machine learning backend to identify suspicious transactions in real-time. The application consists of a React frontend and a FastAPI backend, designed for scalability and ease of use.",
+      "authors": [
+        "Akkii88"
+      ],
+      "published_at": "2026-01-19T19:51:09Z",
+      "has_code": true,
+      "code_url": "https://github.com/Akkii88/SentinelPay"
+    },
+    {
+      "id": "gh:kyunghyuncho/CSCI-UA-473-Fundamentals-of-MachineLearning-Spring-2026",
+      "source": "github",
+      "title": "kyunghyuncho/CSCI-UA-473-Fundamentals-of-MachineLearning-Spring-2026",
+      "url": "https://github.com/kyunghyuncho/CSCI-UA-473-Fundamentals-of-MachineLearning-Spring-2026",
+      "abstract": "",
+      "authors": [
+        "kyunghyuncho"
+      ],
+      "published_at": "2026-01-19T14:42:52Z",
+      "has_code": true,
+      "code_url": "https://github.com/kyunghyuncho/CSCI-UA-473-Fundamentals-of-MachineLearning-Spring-2026"
+    }
+  ],
+  "topics": []
+}

@@ -1,0 +1,46 @@
+{
+  "date": "2026-03-22",
+  "generated_at": "2026-06-11T04:11:45.080565+00:00",
+  "items": [
+    {
+      "id": "gh:MuhammadZaidSaqib/SentinelX-Real-Time-Fraud-Intelligence",
+      "source": "github",
+      "title": "MuhammadZaidSaqib/SentinelX-Real-Time-Fraud-Intelligence",
+      "url": "https://github.com/MuhammadZaidSaqib/SentinelX-Real-Time-Fraud-Intelligence",
+      "abstract": "SentinelX is an AI-powered real-time fraud detection system that combines machine learning, deep learning autoencoders, and graph-based analysis to identify fraudulent transactions. Using Kafka streaming and SHAP explainability, it delivers fast, transparent risk scoring through an interactive web dashboard.",
+      "authors": [
+        "MuhammadZaidSaqib"
+      ],
+      "published_at": "2026-03-22T19:20:02Z",
+      "has_code": true,
+      "code_url": "https://github.com/MuhammadZaidSaqib/SentinelX-Real-Time-Fraud-Intelligence"
+    },
+    {
+      "id": "gh:nvikou/Machine-learning-notebooks-collection",
+      "source": "github",
+      "title": "nvikou/Machine-learning-notebooks-collection",
+      "url": "https://github.com/nvikou/Machine-learning-notebooks-collection",
+      "abstract": "",
+      "authors": [
+        "nvikou"
+      ],
+      "published_at": "2026-03-22T08:54:17Z",
+      "has_code": true,
+      "code_url": "https://github.com/nvikou/Machine-learning-notebooks-collection"
+    },
+    {
+      "id": "gh:Navin0245/pinnlab",
+      "source": "github",
+      "title": "Navin0245/pinnlab",
+      "url": "https://github.com/Navin0245/pinnlab",
+      "abstract": "Physics-Informed Neural Networks for scientific machine learning",
+      "authors": [
+        "Navin0245"
+      ],
+      "published_at": "2026-03-22T15:03:53Z",
+      "has_code": true,
+      "code_url": "https://github.com/Navin0245/pinnlab"
+    }
+  ],
+  "topics": []
+}

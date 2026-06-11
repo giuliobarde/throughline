@@ -1,6 +1,6 @@
 {
   "date": "2026-06-06",
-  "generated_at": "2026-06-06T14:02:49.349711+00:00",
+  "generated_at": "2026-06-11T04:11:45.155725+00:00",
   "items": [
     {
       "id": "2606.06494",
@@ -1172,6 +1172,32 @@
       "has_code": true,
       "code_url": "https://github.com/Tulikash-09/BAMQuiz",
       "topic": null
+    },
+    {
+      "id": "hn:48428763",
+      "source": "hackernews",
+      "title": "New U.S. college grads now have higher unemployment than the average worker",
+      "url": "https://www.randalolson.com/2026/06/04/recent-grad-unemployment-flip/",
+      "abstract": "",
+      "authors": [
+        "davidbarker"
+      ],
+      "published_at": "2026-06-06T20:35:40Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "gh:Noor-Sabah05/CodeRush-GDC-ITU-2026-Machine-Learning-Competition",
+      "source": "github",
+      "title": "Noor-Sabah05/CodeRush-GDC-ITU-2026-Machine-Learning-Competition",
+      "url": "https://github.com/Noor-Sabah05/CodeRush-GDC-ITU-2026-Machine-Learning-Competition",
+      "abstract": "Economic class classification (lower/middle/upper) from bag-structured demographic data. Multi-seed 5-fold ensemble of LightGBM & XGBoost with OOF threshold tuning. Top 5 \u00b7 Coderush 2026",
+      "authors": [
+        "Noor-Sabah05"
+      ],
+      "published_at": "2026-06-06T06:43:28Z",
+      "has_code": true,
+      "code_url": "https://github.com/Noor-Sabah05/CodeRush-GDC-ITU-2026-Machine-Learning-Competition"
     }
   ],
   "topics": []

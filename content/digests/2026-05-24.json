@@ -1,0 +1,124 @@
+{
+  "date": "2026-05-24",
+  "generated_at": "2026-06-11T04:11:45.141293+00:00",
+  "items": [
+    {
+      "id": "hn:48257410",
+      "source": "hackernews",
+      "title": "DeepSeek to Make Permanent 75% Discount on Flagship AI Model",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-23/deepseek-to-make-permanent-75-discount-on-flagship-ai-model",
+      "abstract": "",
+      "authors": [
+        "moh_maya"
+      ],
+      "published_at": "2026-05-24T14:09:33Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:48256953",
+      "source": "hackernews",
+      "title": "DeepSeek reasonix, DeepSeek native coding agent with high caching and low cost",
+      "url": "https://esengine.github.io/DeepSeek-Reasonix/",
+      "abstract": "",
+      "authors": [
+        "Alifatisk"
+      ],
+      "published_at": "2026-05-24T13:02:06Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:48256912",
+      "source": "hackernews",
+      "title": "Constraint Decay: The Fragility of LLM Agents in Back End Code Generation",
+      "url": "https://arxiv.org/abs/2605.06445",
+      "abstract": "",
+      "authors": [
+        "wek"
+      ],
+      "published_at": "2026-05-24T12:55:53Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "gh:madhusundar240/Smart-AI-Healthcare",
+      "source": "github",
+      "title": "madhusundar240/Smart-AI-Healthcare",
+      "url": "https://github.com/madhusundar240/Smart-AI-Healthcare",
+      "abstract": "A real-time AI and Machine Learning based healthcare application that predicts diseases from user symptoms using text, voice, and image inputs. The system supports multilingual communication, severity analysis, diet recommendations, PDF report generation, and nearby hospital navigation for smart medical assistance.",
+      "authors": [
+        "madhusundar240"
+      ],
+      "published_at": "2026-05-24T05:32:34Z",
+      "has_code": true,
+      "code_url": "https://github.com/madhusundar240/Smart-AI-Healthcare"
+    },
+    {
+      "id": "gh:Mohana05245/CopBot-AI-",
+      "source": "github",
+      "title": "Mohana05245/CopBot-AI-",
+      "url": "https://github.com/Mohana05245/CopBot-AI-",
+      "abstract": "AI-powered multilingual FIR drafting assistant using Flask, NLP, and Machine Learning.",
+      "authors": [
+        "Mohana05245"
+      ],
+      "published_at": "2026-05-24T15:42:16Z",
+      "has_code": true,
+      "code_url": "https://github.com/Mohana05245/CopBot-AI-"
+    },
+    {
+      "id": "gh:f4roukb/open-data-sci",
+      "source": "github",
+      "title": "f4roukb/open-data-sci",
+      "url": "https://github.com/f4roukb/open-data-sci",
+      "abstract": "Data science and Machine Learning AI agent",
+      "authors": [
+        "f4roukb"
+      ],
+      "published_at": "2026-05-24T16:59:39Z",
+      "has_code": true,
+      "code_url": "https://github.com/f4roukb/open-data-sci"
+    },
+    {
+      "id": "gh:chrisrichardf/Smart-Lecture-Notes-Generator",
+      "source": "github",
+      "title": "chrisrichardf/Smart-Lecture-Notes-Generator",
+      "url": "https://github.com/chrisrichardf/Smart-Lecture-Notes-Generator",
+      "abstract": "The proposed system uses Natural Language Processing, Machine Learning, and Text Summarization techniques to generate concise lecture notes from educational videos quickly and accurately.  It automates transcript extraction, text preprocessing, keyword identification, and sentence ranking using TF-IDF and LexRank Algorithms. ",
+      "authors": [
+        "chrisrichardf"
+      ],
+      "published_at": "2026-05-24T14:40:05Z",
+      "has_code": true,
+      "code_url": "https://github.com/chrisrichardf/Smart-Lecture-Notes-Generator"
+    },
+    {
+      "id": "gh:akshh27/Agnostic-chatbot",
+      "source": "github",
+      "title": "akshh27/Agnostic-chatbot",
+      "url": "https://github.com/akshh27/Agnostic-chatbot",
+      "abstract": "A Language Agnostic Chatbot that supports multilingual communication using NLP and machine learning. It detects user language automatically and provides real-time responses, enabling seamless interaction across different languages on a single platform",
+      "authors": [
+        "akshh27"
+      ],
+      "published_at": "2026-05-24T10:57:52Z",
+      "has_code": true,
+      "code_url": "https://github.com/akshh27/Agnostic-chatbot"
+    },
+    {
+      "id": "gh:wlejon/brosoundml",
+      "source": "github",
+      "title": "wlejon/brosoundml",
+      "url": "https://github.com/wlejon/brosoundml",
+      "abstract": "sound machine learning for bro engine",
+      "authors": [
+        "wlejon"
+      ],
+      "published_at": "2026-05-24T17:05:11Z",
+      "has_code": true,
+      "code_url": "https://github.com/wlejon/brosoundml"
+    }
+  ],
+  "topics": []
+}

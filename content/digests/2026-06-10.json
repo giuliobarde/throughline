@@ -1,6 +1,6 @@
 {
   "date": "2026-06-10",
-  "generated_at": "2026-06-10T15:59:15.350611+00:00",
+  "generated_at": "2026-06-11T04:11:45.165534+00:00",
   "items": [
     {
       "id": "2606.11190",
@@ -1466,6 +1466,123 @@
       "code_url": null,
       "topic": "ai-data",
       "for_you_score": 0.245
+    },
+    {
+      "id": "hn:48480852",
+      "source": "hackernews",
+      "title": "Anthropic's model naming, extrapolated",
+      "url": "https://samwilkinson.io/posts/2026-06-09-anthropics-model-naming-extrapolated",
+      "abstract": "",
+      "authors": [
+        "sammycdubs"
+      ],
+      "published_at": "2026-06-10T18:45:20Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:48478969",
+      "source": "hackernews",
+      "title": "Cybersecurity researchers aren't happy about the guardrails on Anthropic's Fable",
+      "url": "https://techcrunch.com/2026/06/10/cybersecurity-researchers-arent-happy-about-the-guardrails-on-anthropics-fable/",
+      "abstract": "",
+      "authors": [
+        "speckx"
+      ],
+      "published_at": "2026-06-10T16:42:00Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:48478471",
+      "source": "hackernews",
+      "title": "DiffusionGemma: 4x Faster Text Generation",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/",
+      "abstract": "",
+      "authors": [
+        "meetpateltech"
+      ],
+      "published_at": "2026-06-10T16:09:37Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:48477400",
+      "source": "hackernews",
+      "title": "Apache Burr: Build reliable AI agents and applications",
+      "url": "https://burr.apache.org/",
+      "abstract": "",
+      "authors": [
+        "anhldbk"
+      ],
+      "published_at": "2026-06-10T15:01:06Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:48476136",
+      "source": "hackernews",
+      "title": "A \u20ac0.01 bank transfer could compromise a banking AI agent",
+      "url": "https://blue41.com/blog/how-we-helped-bunq-secure-their-financial-ai-assistant/",
+      "abstract": "",
+      "authors": [
+        "tvissers"
+      ],
+      "published_at": "2026-06-10T13:39:11Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "gh:wncc/Machine-Learning-LS-26",
+      "source": "github",
+      "title": "wncc/Machine-Learning-LS-26",
+      "url": "https://github.com/wncc/Machine-Learning-LS-26",
+      "abstract": "Official GitHub repository for WnCC's course: Introduction to Machine Learning and NLP ",
+      "authors": [
+        "wncc"
+      ],
+      "published_at": "2026-06-10T00:30:12Z",
+      "has_code": true,
+      "code_url": "https://github.com/wncc/Machine-Learning-LS-26"
+    },
+    {
+      "id": "blog:4600462b11c1",
+      "source": "blog",
+      "title": "Access OpenAI models and Codex through your Oracle cloud commitment",
+      "url": "https://openai.com/index/openai-on-oracle-cloud",
+      "abstract": "Access OpenAI models and Codex through Oracle Cloud, using existing commitments to build and deploy AI with enterprise security and governance.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-06-10T20:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:c71f854be1a8",
+      "source": "blog",
+      "title": "PRC-linked influence operations are targeting AI debates in the US",
+      "url": "https://openai.com/index/prc-linked-influence-operations-ai-debates",
+      "abstract": "A new report from OpenAI details PRC-linked influence operations using AI to target U.S. tech debates, data center narratives, tariffs, and false claims about ChatGPT.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-06-10T12:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:d9665153cdf2",
+      "source": "blog",
+      "title": "DiffusionGemma: 4x faster text generation",
+      "url": "https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/",
+      "abstract": "",
+      "authors": [
+        "Google DeepMind"
+      ],
+      "published_at": "2026-06-10T16:24:11+00:00",
+      "has_code": false,
+      "code_url": null
     }
   ],
   "topics": [

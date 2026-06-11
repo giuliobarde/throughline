@@ -1,0 +1,111 @@
+{
+  "date": "2026-02-12",
+  "generated_at": "2026-06-11T04:11:45.051511+00:00",
+  "items": [
+    {
+      "id": "hn:46993345",
+      "source": "hackernews",
+      "title": "Anthropic raises $30B in Series G funding at $380B post-money valuation",
+      "url": "https://www.anthropic.com/news/anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation",
+      "abstract": "",
+      "authors": [
+        "ryanhn"
+      ],
+      "published_at": "2026-02-12T18:58:56Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:46992553",
+      "source": "hackernews",
+      "title": "GPT\u20115.3\u2011Codex\u2011Spark",
+      "url": "https://openai.com/index/introducing-gpt-5-3-codex-spark/",
+      "abstract": "",
+      "authors": [
+        "meetpateltech"
+      ],
+      "published_at": "2026-02-12T18:06:09Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:46990729",
+      "source": "hackernews",
+      "title": "An AI agent published a hit piece on me",
+      "url": "https://theshamblog.com/an-ai-agent-published-a-hit-piece-on-me/",
+      "abstract": "",
+      "authors": [
+        "scottshambaugh"
+      ],
+      "published_at": "2026-02-12T16:23:24Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:46988596",
+      "source": "hackernews",
+      "title": "Improving 15 LLMs at Coding in One Afternoon. Only the Harness Changed",
+      "url": "http://blog.can.ac/2026/02/12/the-harness-problem/",
+      "abstract": "",
+      "authors": [
+        "kachapopopow"
+      ],
+      "published_at": "2026-02-12T13:30:20Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:46987559",
+      "source": "hackernews",
+      "title": "AI agent opens a PR write a blogpost to shames the maintainer who closes it",
+      "url": "https://github.com/matplotlib/matplotlib/pull/31132",
+      "abstract": "",
+      "authors": [
+        "wrxd"
+      ],
+      "published_at": "2026-02-12T11:46:01Z",
+      "has_code": true,
+      "code_url": "https://github.com/matplotlib/matplotlib/pull/31132"
+    },
+    {
+      "id": "blog:8c59d007b8cb",
+      "source": "blog",
+      "title": "Introducing GPT-5.3-Codex-Spark",
+      "url": "https://openai.com/index/introducing-gpt-5-3-codex-spark",
+      "abstract": "Introducing GPT-5.3-Codex-Spark\u2014our first real-time coding model. 15x faster generation, 128k context, now in research preview for ChatGPT Pro users.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-02-12T10:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:09fc1b54fabb",
+      "source": "blog",
+      "title": "Gemini 3 Deep Think: Advancing science, research and engineering",
+      "url": "https://deepmind.google/blog/gemini-3-deep-think-advancing-science-research-and-engineering/",
+      "abstract": "Our most specialized reasoning mode is now updated to solve modern science, research and engineering challenges.",
+      "authors": [
+        "Google DeepMind"
+      ],
+      "published_at": "2026-02-12T16:15:09+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:4ca3f118d865",
+      "source": "blog",
+      "title": "OpenEnv in Practice: Evaluating Tool-Using Agents in Real-World Environments",
+      "url": "https://huggingface.co/blog/openenv-turing",
+      "abstract": "",
+      "authors": [
+        "Hugging Face"
+      ],
+      "published_at": "2026-02-12T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    }
+  ],
+  "topics": []
+}

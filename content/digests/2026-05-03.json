@@ -1,0 +1,98 @@
+{
+  "date": "2026-05-03",
+  "generated_at": "2026-06-11T04:11:45.119620+00:00",
+  "items": [
+    {
+      "id": "hn:48002442",
+      "source": "hackernews",
+      "title": "Agentic Coding Is a Trap",
+      "url": "https://larsfaye.com/articles/agentic-coding-is-a-trap",
+      "abstract": "",
+      "authors": [
+        "ayoisaiah"
+      ],
+      "published_at": "2026-05-03T22:52:07Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:48002136",
+      "source": "hackernews",
+      "title": "DeepClaude \u2013 Claude Code agent loop with DeepSeek V4 Pro",
+      "url": "https://github.com/aattaran/deepclaude",
+      "abstract": "",
+      "authors": [
+        "alattaran"
+      ],
+      "published_at": "2026-05-03T22:13:20Z",
+      "has_code": true,
+      "code_url": "https://github.com/aattaran/deepclaude"
+    },
+    {
+      "id": "hn:47999520",
+      "source": "hackernews",
+      "title": "LLMs Are Not a Higher Level of Abstraction",
+      "url": "https://www.lelanthran.com/chap15/content.html",
+      "abstract": "",
+      "authors": [
+        "lelanthran"
+      ],
+      "published_at": "2026-05-03T17:51:58Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47997915",
+      "source": "hackernews",
+      "title": "Wiki Builder: Skill to Build LLM Knowledge Bases",
+      "url": "https://academy.dair.ai/blog/wiki-builder-claude-code-plugin",
+      "abstract": "",
+      "authors": [
+        "omarsar"
+      ],
+      "published_at": "2026-05-03T15:28:48Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47993235",
+      "source": "hackernews",
+      "title": "Kimi K2.6 just beat Claude, GPT-5.5, and Gemini in a coding challenge",
+      "url": "https://thinkpol.ca/2026/04/30/an-open-weights-chinese-model-just-beat-claude-gpt-5-5-and-gemini-in-a-programming-challenge/",
+      "abstract": "",
+      "authors": [
+        "bazlightyear"
+      ],
+      "published_at": "2026-05-03T04:05:28Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47991981",
+      "source": "hackernews",
+      "title": "OpenAI\u2019s o1 correctly diagnosed 67% of ER patients vs. 50-55% by triage doctors",
+      "url": "https://www.theguardian.com/technology/2026/apr/30/ai-outperforms-doctors-in-harvard-trial-of-emergency-triage-diagnoses",
+      "abstract": "",
+      "authors": [
+        "donsupreme"
+      ],
+      "published_at": "2026-05-03T00:30:50Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "gh:mrexodia/microvm",
+      "source": "github",
+      "title": "mrexodia/microvm",
+      "url": "https://github.com/mrexodia/microvm",
+      "abstract": "MicroVM is a self-guided path for learning how computers work by building a tiny virtual machine.",
+      "authors": [
+        "mrexodia"
+      ],
+      "published_at": "2026-05-03T13:26:48Z",
+      "has_code": true,
+      "code_url": "https://github.com/mrexodia/microvm"
+    }
+  ],
+  "topics": []
+}

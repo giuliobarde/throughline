@@ -1,0 +1,228 @@
+{
+  "date": "2026-04-23",
+  "generated_at": "2026-06-11T04:11:45.109875+00:00",
+  "items": [
+    {
+      "id": "hn:47881786",
+      "source": "hackernews",
+      "title": "TorchTPU: Running PyTorch Natively on TPUs at Google Scale",
+      "url": "https://developers.googleblog.com/torchtpu-running-pytorch-natively-on-tpus-at-google-scale/",
+      "abstract": "",
+      "authors": [
+        "mji"
+      ],
+      "published_at": "2026-04-23T20:53:27Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47880697",
+      "source": "hackernews",
+      "title": "Anthropic's Claude Desktop App Installs Undisclosed Native Messaging Bridge",
+      "url": "https://letsdatascience.com/news/claude-desktop-installs-preauthorized-browser-extension-mani-4064fb1a",
+      "abstract": "",
+      "authors": [
+        "CGMthrowaway"
+      ],
+      "published_at": "2026-04-23T19:43:08Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47879092",
+      "source": "hackernews",
+      "title": "GPT-5.5",
+      "url": "https://openai.com/index/introducing-gpt-5-5/",
+      "abstract": "",
+      "authors": [
+        "rd"
+      ],
+      "published_at": "2026-04-23T18:01:39Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47871077",
+      "source": "hackernews",
+      "title": "OpenAI's response to the Axios developer tool compromise",
+      "url": "https://openai.com/index/axios-developer-tool-compromise/",
+      "abstract": "",
+      "authors": [
+        "shpat"
+      ],
+      "published_at": "2026-04-23T00:45:01Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47870901",
+      "source": "hackernews",
+      "title": "OpenAI Privacy Filter",
+      "url": "https://openai.com/index/introducing-openai-privacy-filter/",
+      "abstract": "",
+      "authors": [
+        "tanelpoder"
+      ],
+      "published_at": "2026-04-23T00:14:55Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "gh:student-Arijit/machine-learning-workbench",
+      "source": "github",
+      "title": "student-Arijit/machine-learning-workbench",
+      "url": "https://github.com/student-Arijit/machine-learning-workbench",
+      "abstract": "#python #machine-learning #ML",
+      "authors": [
+        "student-Arijit"
+      ],
+      "published_at": "2026-04-23T07:59:03Z",
+      "has_code": true,
+      "code_url": "https://github.com/student-Arijit/machine-learning-workbench"
+    },
+    {
+      "id": "blog:6e6cdaf0d601",
+      "source": "blog",
+      "title": "Introducing GPT-5.5",
+      "url": "https://openai.com/index/introducing-gpt-5-5",
+      "abstract": "Introducing GPT-5.5, our smartest model yet\u2014faster, more capable, and built for complex tasks like coding, research, and data analysis across tools.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-04-23T11:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:cfbb97f4e142",
+      "source": "blog",
+      "title": "GPT-5.5 System Card",
+      "url": "https://openai.com/index/gpt-5-5-system-card",
+      "abstract": "",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-04-23T11:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:eff960ba78f2",
+      "source": "blog",
+      "title": "How to get started with Codex",
+      "url": "https://openai.com/academy/codex-how-to-start",
+      "abstract": "Learn how to get started with Codex by setting up projects, creating threads, and completing your first tasks with step-by-step guidance.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-04-23T10:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:b2acc3c294f3",
+      "source": "blog",
+      "title": "Automations",
+      "url": "https://openai.com/academy/codex-automations",
+      "abstract": "Learn how to automate tasks in Codex using schedules and triggers to create reports, summaries, and recurring workflows without manual effort.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-04-23T10:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:99a0fa5d4a49",
+      "source": "blog",
+      "title": "Codex settings",
+      "url": "https://openai.com/academy/codex-settings",
+      "abstract": "Learn how to configure Codex settings, including personalization, detail level, and permissions, to run tasks smoothly and customize your workflow.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-04-23T10:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:bb94101d8671",
+      "source": "blog",
+      "title": "Plugins and skills",
+      "url": "https://openai.com/academy/codex-plugins-and-skills",
+      "abstract": "Learn how to use Codex plugins and skills to connect tools, access data, and follow repeatable workflows to automate tasks and improve results.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-04-23T10:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:f253c3936cd2",
+      "source": "blog",
+      "title": "How to use Codex for everyday work",
+      "url": "https://openai.com/academy/how-to-use-codex-for-everyday-work",
+      "abstract": "Explore 10 practical ChatGPT Codex use cases to automate tasks, create deliverables, and turn real inputs into outputs across tools, files, and workflows.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-04-23T10:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:8a79aaeb639a",
+      "source": "blog",
+      "title": "What is Codex?",
+      "url": "https://openai.com/academy/what-is-codex",
+      "abstract": "Learn how Codex helps you go beyond chat by automating tasks, connecting tools, and producing real outputs like docs and dashboards.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-04-23T10:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:7fbf7b2c45e9",
+      "source": "blog",
+      "title": "Working with Codex",
+      "url": "https://openai.com/academy/working-with-codex",
+      "abstract": "Learn how to set up your Codex workspace, create threads and projects, manage files, and start completing tasks with step-by-step guidance.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-04-23T10:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:c366c2c39bd5",
+      "source": "blog",
+      "title": "GPT-5.5 Bio Bug Bounty",
+      "url": "https://openai.com/index/gpt-5-5-bio-bug-bounty",
+      "abstract": "Explore the GPT-5.5 Bio Bug Bounty: a red-teaming challenge to find universal jailbreaks for bio safety risks, with rewards up to $25,000.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-04-23T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:4a3a5411219d",
+      "source": "blog",
+      "title": "How to Use Transformers.js in a Chrome Extension",
+      "url": "https://huggingface.co/blog/transformersjs-chrome-extension",
+      "abstract": "",
+      "authors": [
+        "Hugging Face"
+      ],
+      "published_at": "2026-04-23T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    }
+  ],
+  "topics": []
+}

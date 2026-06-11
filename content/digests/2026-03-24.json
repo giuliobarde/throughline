@@ -1,0 +1,189 @@
+{
+  "date": "2026-03-24",
+  "generated_at": "2026-06-11T04:11:45.082260+00:00",
+  "items": [
+    {
+      "id": "hn:47509234",
+      "source": "hackernews",
+      "title": "Disney Exits OpenAI Deal After AI Giant Shutters Sora",
+      "url": "https://www.hollywoodreporter.com/business/digital/openai-shutting-down-sora-ai-video-app-1236546187/",
+      "abstract": "",
+      "authors": [
+        "timpera"
+      ],
+      "published_at": "2026-03-24T21:01:21Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47505670",
+      "source": "hackernews",
+      "title": "HyperAgents: Self-referential self-improving agents",
+      "url": "https://github.com/facebookresearch/hyperagents",
+      "abstract": "",
+      "authors": [
+        "andyg_blog"
+      ],
+      "published_at": "2026-03-24T16:54:10Z",
+      "has_code": true,
+      "code_url": "https://github.com/facebookresearch/hyperagents"
+    },
+    {
+      "id": "hn:47504695",
+      "source": "hackernews",
+      "title": "Hypura \u2013 A storage-tier-aware LLM inference scheduler for Apple Silicon",
+      "url": "https://github.com/t8/hypura",
+      "abstract": "",
+      "authors": [
+        "tatef"
+      ],
+      "published_at": "2026-03-24T16:02:22Z",
+      "has_code": true,
+      "code_url": "https://github.com/t8/hypura"
+    },
+    {
+      "id": "hn:47501840",
+      "source": "hackernews",
+      "title": "NanoClaw Adopts OneCLI Agent Vault",
+      "url": "https://nanoclaw.dev/blog/nanoclaw-agent-vault/",
+      "abstract": "",
+      "authors": [
+        "turntable_pride"
+      ],
+      "published_at": "2026-03-24T12:48:04Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47501729",
+      "source": "hackernews",
+      "title": "Malicious litellm_init.pth in litellm 1.82.8 PyPI package \u2013 credential stealer",
+      "url": "https://github.com/BerriAI/litellm/issues/24512",
+      "abstract": "",
+      "authors": [
+        "theanonymousone"
+      ],
+      "published_at": "2026-03-24T12:36:20Z",
+      "has_code": true,
+      "code_url": "https://github.com/BerriAI/litellm/issues/24512"
+    },
+    {
+      "id": "hn:47501426",
+      "source": "hackernews",
+      "title": "Tell HN: Litellm 1.82.7 and 1.82.8 on PyPI are compromised",
+      "url": "https://github.com/BerriAI/litellm/issues/24512",
+      "abstract": "",
+      "authors": [
+        "dot_treo"
+      ],
+      "published_at": "2026-03-24T12:06:29Z",
+      "has_code": true,
+      "code_url": "https://github.com/BerriAI/litellm/issues/24512"
+    },
+    {
+      "id": "hn:47500709",
+      "source": "hackernews",
+      "title": "LLM Neuroanatomy II: Modern LLM Hacking and Hints of a Universal Language?",
+      "url": "https://dnhkng.github.io/posts/rys-ii/",
+      "abstract": "",
+      "authors": [
+        "realberkeaslan"
+      ],
+      "published_at": "2026-03-24T10:33:54Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47499672",
+      "source": "hackernews",
+      "title": "Show HN: ProofShot \u2013 Give AI coding agents eyes to verify the UI they build",
+      "url": "https://github.com/AmElmo/proofshot",
+      "abstract": "",
+      "authors": [
+        "jberthom"
+      ],
+      "published_at": "2026-03-24T07:46:46Z",
+      "has_code": true,
+      "code_url": "https://github.com/AmElmo/proofshot"
+    },
+    {
+      "id": "hn:47499356",
+      "source": "hackernews",
+      "title": "From zero to a RAG system: successes and failures",
+      "url": "https://en.andros.dev/blog/aa31d744/from-zero-to-a-rag-system-successes-and-failures/",
+      "abstract": "",
+      "authors": [
+        "andros"
+      ],
+      "published_at": "2026-03-24T06:53:30Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47497757",
+      "source": "hackernews",
+      "title": "Epoch confirms GPT5.4 Pro solved a frontier math open problem",
+      "url": "https://epoch.ai/frontiermath/open-problems/ramsey-hypergraphs",
+      "abstract": "",
+      "authors": [
+        "in-silico"
+      ],
+      "published_at": "2026-03-24T01:53:09Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:5aac17e98eb6",
+      "source": "blog",
+      "title": "Helping developers build safer AI experiences for teens",
+      "url": "https://openai.com/index/teen-safety-policies-gpt-oss-safeguard",
+      "abstract": "OpenAI releases prompt-based teen safety policies for developers using gpt-oss-safeguard, helping moderate age-specific risks in AI systems.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-03-24T11:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:49a9730ea52b",
+      "source": "blog",
+      "title": "Powering product discovery in ChatGPT",
+      "url": "https://openai.com/index/powering-product-discovery-in-chatgpt",
+      "abstract": "ChatGPT introduces richer, visually immersive shopping powered by the Agentic Commerce Protocol, enabling product discovery, side-by-side comparisons, and merchant integration.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-03-24T09:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:508e5e593345",
+      "source": "blog",
+      "title": "Update on the OpenAI Foundation",
+      "url": "https://openai.com/index/update-on-the-openai-foundation",
+      "abstract": "The OpenAI Foundation announces plans to invest at least $1 billion in curing diseases, economic opportunity, AI resilience, and community programs.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-03-24T09:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:05345d1651b6",
+      "source": "blog",
+      "title": "A New Framework for Evaluating Voice Agents (EVA)",
+      "url": "https://huggingface.co/blog/ServiceNow-AI/eva",
+      "abstract": "",
+      "authors": [
+        "Hugging Face"
+      ],
+      "published_at": "2026-03-24T02:01:52+00:00",
+      "has_code": false,
+      "code_url": null
+    }
+  ],
+  "topics": []
+}

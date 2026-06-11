@@ -1,0 +1,111 @@
+{
+  "date": "2026-02-20",
+  "generated_at": "2026-06-11T04:11:45.057336+00:00",
+  "items": [
+    {
+      "id": "hn:47088037",
+      "source": "hackernews",
+      "title": "Ggml.ai joins Hugging Face to ensure the long-term progress of Local AI",
+      "url": "https://github.com/ggml-org/llama.cpp/discussions/19759",
+      "abstract": "",
+      "authors": [
+        "lairv"
+      ],
+      "published_at": "2026-02-20T13:51:04Z",
+      "has_code": true,
+      "code_url": "https://github.com/ggml-org/llama.cpp/discussions/19759"
+    },
+    {
+      "id": "hn:47086980",
+      "source": "hackernews",
+      "title": "Nvidia and OpenAI abandon unfinished $100B deal in favour of $30B investment",
+      "url": "https://www.ft.com/content/dea24046-0a73-40b2-8246-5ac7b7a54323",
+      "abstract": "",
+      "authors": [
+        "zerosizedweasle"
+      ],
+      "published_at": "2026-02-20T12:04:35Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47086557",
+      "source": "hackernews",
+      "title": "Minions \u2013 Stripe's Coding Agents Part 2",
+      "url": "https://stripe.dev/blog/minions-stripes-one-shot-end-to-end-coding-agents-part-2",
+      "abstract": "",
+      "authors": [
+        "ludovicianul"
+      ],
+      "published_at": "2026-02-20T11:20:02Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47083648",
+      "source": "hackernews",
+      "title": "Consistency diffusion language models: Up to 14x faster, no quality loss",
+      "url": "https://www.together.ai/blog/consistency-diffusion-language-models",
+      "abstract": "",
+      "authors": [
+        "zagwdt"
+      ],
+      "published_at": "2026-02-20T04:15:58Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47083145",
+      "source": "hackernews",
+      "title": "An AI Agent Published a Hit Piece on Me \u2013 The Operator Came Forward",
+      "url": "https://theshamblog.com/an-ai-agent-wrote-a-hit-piece-on-me-part-4/",
+      "abstract": "",
+      "authors": [
+        "scottshambaugh"
+      ],
+      "published_at": "2026-02-20T03:05:08Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:198248560f4d",
+      "source": "blog",
+      "title": "Our First Proof submissions",
+      "url": "https://openai.com/index/first-proof-submissions",
+      "abstract": "We share our AI model\u2019s proof attempts for the First Proof math challenge, testing research-grade reasoning on expert-level problems.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-02-20T14:30:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:ca4b92433d4b",
+      "source": "blog",
+      "title": "GGML and llama.cpp join HF to ensure the long-term progress of Local AI",
+      "url": "https://huggingface.co/blog/ggml-joins-hf",
+      "abstract": "",
+      "authors": [
+        "Hugging Face"
+      ],
+      "published_at": "2026-02-20T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:921e5a859005",
+      "source": "blog",
+      "title": "Train AI models with Unsloth and Hugging Face Jobs for FREE",
+      "url": "https://huggingface.co/blog/unsloth-jobs",
+      "abstract": "",
+      "authors": [
+        "Hugging Face"
+      ],
+      "published_at": "2026-02-20T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    }
+  ],
+  "topics": []
+}

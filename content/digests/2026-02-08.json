@@ -1,0 +1,137 @@
+{
+  "date": "2026-02-08",
+  "generated_at": "2026-06-11T04:11:45.048744+00:00",
+  "items": [
+    {
+      "id": "hn:46938903",
+      "source": "hackernews",
+      "title": "Shifts in U.S. Social Media Use, 2020\u20132024: Decline, Fragmentation, Polarization (2025)",
+      "url": "https://arxiv.org/abs/2510.25417",
+      "abstract": "",
+      "authors": [
+        "vinnyglennon"
+      ],
+      "published_at": "2026-02-08T21:52:28Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:46936920",
+      "source": "hackernews",
+      "title": "Experts Have World Models. LLMs Have Word Models",
+      "url": "https://www.latent.space/p/adversarial-reasoning",
+      "abstract": "",
+      "authors": [
+        "aaronng91"
+      ],
+      "published_at": "2026-02-08T18:13:48Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:46936105",
+      "source": "hackernews",
+      "title": "Billing can be bypassed using a combo of subagents with an agent definition",
+      "url": "https://github.com/microsoft/vscode/issues/292452",
+      "abstract": "",
+      "authors": [
+        "napolux"
+      ],
+      "published_at": "2026-02-08T16:56:08Z",
+      "has_code": true,
+      "code_url": "https://github.com/microsoft/vscode/issues/292452"
+    },
+    {
+      "id": "hn:46934248",
+      "source": "hackernews",
+      "title": "The Little Learner: A Straight Line to Deep Learning (2023)",
+      "url": "https://mitpress.mit.edu/9780262546379/the-little-learner/",
+      "abstract": "",
+      "authors": [
+        "AlexeyBrin"
+      ],
+      "published_at": "2026-02-08T14:01:11Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:46934107",
+      "source": "hackernews",
+      "title": "GitHub Agentic Workflows",
+      "url": "https://github.github.io/gh-aw/",
+      "abstract": "",
+      "authors": [
+        "mooreds"
+      ],
+      "published_at": "2026-02-08T13:40:56Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:46933515",
+      "source": "hackernews",
+      "title": "Show HN: Fine-tuned Qwen2.5-7B on 100 films for probabilistic story graphs",
+      "url": "https://cinegraphs.ai/",
+      "abstract": "",
+      "authors": [
+        "graphpilled"
+      ],
+      "published_at": "2026-02-08T12:00:02Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:46933223",
+      "source": "hackernews",
+      "title": "Eight more months of agents",
+      "url": "https://crawshaw.io/blog/eight-more-months-of-agents",
+      "abstract": "",
+      "authors": [
+        "arrowsmith"
+      ],
+      "published_at": "2026-02-08T11:00:32Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:46932343",
+      "source": "hackernews",
+      "title": "Matchlock \u2013 Secures AI agent workloads with a Linux-based sandbox",
+      "url": "https://github.com/jingkaihe/matchlock",
+      "abstract": "",
+      "authors": [
+        "jingkai_he"
+      ],
+      "published_at": "2026-02-08T08:07:55Z",
+      "has_code": true,
+      "code_url": "https://github.com/jingkaihe/matchlock"
+    },
+    {
+      "id": "hn:46930565",
+      "source": "hackernews",
+      "title": "Beyond agentic coding",
+      "url": "https://haskellforall.com/2026/02/beyond-agentic-coding",
+      "abstract": "",
+      "authors": [
+        "RebelPotato"
+      ],
+      "published_at": "2026-02-08T01:55:09Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:46930391",
+      "source": "hackernews",
+      "title": "Show HN: LocalGPT \u2013 A local-first AI assistant in Rust with persistent memory",
+      "url": "https://github.com/localgpt-app/localgpt",
+      "abstract": "",
+      "authors": [
+        "yi_wang"
+      ],
+      "published_at": "2026-02-08T01:26:38Z",
+      "has_code": true,
+      "code_url": "https://github.com/localgpt-app/localgpt"
+    }
+  ],
+  "topics": []
+}

@@ -1,0 +1,137 @@
+{
+  "date": "2026-03-25",
+  "generated_at": "2026-06-11T04:11:45.084019+00:00",
+  "items": [
+    {
+      "id": "hn:47523169",
+      "source": "hackernews",
+      "title": "Health NZ staff told to stop using ChatGPT to write clinical notes",
+      "url": "https://www.rnz.co.nz/news/national/590645/health-nz-staff-told-to-stop-using-chatgpt-to-write-clinical-notes",
+      "abstract": "",
+      "authors": [
+        "billybuckwheat"
+      ],
+      "published_at": "2026-03-25T20:58:43Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47518568",
+      "source": "hackernews",
+      "title": "Paper Tape Is All You Need \u2013 Training a Transformer on a 1976 Minicomputer",
+      "url": "https://github.com/dbrll/ATTN-11",
+      "abstract": "",
+      "authors": [
+        "rahen"
+      ],
+      "published_at": "2026-03-25T15:20:08Z",
+      "has_code": true,
+      "code_url": "https://github.com/dbrll/ATTN-11"
+    },
+    {
+      "id": "hn:47518121",
+      "source": "hackernews",
+      "title": "How to Keep ICE Agents Out of Your Devices at Airports",
+      "url": "https://theintercept.com/2026/03/25/ice-airports-phone-security-privacy-safety/",
+      "abstract": "",
+      "authors": [
+        "cdrnsf"
+      ],
+      "published_at": "2026-03-25T14:52:30Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47516650",
+      "source": "hackernews",
+      "title": "Ensu \u2013 Ente\u2019s Local LLM app",
+      "url": "https://ente.com/blog/ensu/",
+      "abstract": "",
+      "authors": [
+        "matthiaswh"
+      ],
+      "published_at": "2026-03-25T12:49:14Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "gh:the-palindrome/ml-knowledge-graph",
+      "source": "github",
+      "title": "the-palindrome/ml-knowledge-graph",
+      "url": "https://github.com/the-palindrome/ml-knowledge-graph",
+      "abstract": "Knowledge graph explorer for machine learning",
+      "authors": [
+        "the-palindrome"
+      ],
+      "published_at": "2026-03-25T19:43:18Z",
+      "has_code": true,
+      "code_url": "https://github.com/the-palindrome/ml-knowledge-graph"
+    },
+    {
+      "id": "gh:vverky/IPSec-VPN-Classification",
+      "source": "github",
+      "title": "vverky/IPSec-VPN-Classification",
+      "url": "https://github.com/vverky/IPSec-VPN-Classification",
+      "abstract": "A machine learning-based IPSec VPN encrypted traffic classification system",
+      "authors": [
+        "vverky"
+      ],
+      "published_at": "2026-03-25T10:22:35Z",
+      "has_code": true,
+      "code_url": "https://github.com/vverky/IPSec-VPN-Classification"
+    },
+    {
+      "id": "blog:d046884ba608",
+      "source": "blog",
+      "title": "Inside our approach to the Model Spec",
+      "url": "https://openai.com/index/our-approach-to-the-model-spec",
+      "abstract": "Learn how OpenAI\u2019s Model Spec serves as a public framework for model behavior, balancing safety, user freedom, and accountability as AI systems advance.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-03-25T10:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:741461776470",
+      "source": "blog",
+      "title": "Introducing the OpenAI Safety Bug Bounty program",
+      "url": "https://openai.com/index/safety-bug-bounty",
+      "abstract": "OpenAI launches a Safety Bug Bounty program to identify AI abuse and safety risks, including agentic vulnerabilities, prompt injection, and data exfiltration.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-03-25T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:00bfbe617a50",
+      "source": "blog",
+      "title": "Protecting people from harmful manipulation",
+      "url": "https://deepmind.google/blog/protecting-people-from-harmful-manipulation/",
+      "abstract": "Google DeepMind researches AI's harmful manipulation risks across areas like finance and health, leading to new safety measures.",
+      "authors": [
+        "Google DeepMind"
+      ],
+      "published_at": "2026-03-25T16:46:20+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:d6550951b6db",
+      "source": "blog",
+      "title": "Lyria 3 Pro: Create longer tracks in more",
+      "url": "https://deepmind.google/blog/lyria-3-pro-create-longer-tracks-in-more/",
+      "abstract": "Introducing Lyria 3 Pro, which unlocks longer tracks with structural awareness. We\u2019re also bringing Lyria to more Google products and surfaces.",
+      "authors": [
+        "Google DeepMind"
+      ],
+      "published_at": "2026-03-25T16:01:39+00:00",
+      "has_code": false,
+      "code_url": null
+    }
+  ],
+  "topics": []
+}

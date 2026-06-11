@@ -1,0 +1,137 @@
+{
+  "date": "2026-03-11",
+  "generated_at": "2026-06-11T04:11:45.072017+00:00",
+  "items": [
+    {
+      "id": "hn:47340071",
+      "source": "hackernews",
+      "title": "I'm glad the Anthropic fight is happening now",
+      "url": "https://www.dwarkesh.com/p/dow-anthropic",
+      "abstract": "",
+      "authors": [
+        "emschwartz"
+      ],
+      "published_at": "2026-03-11T19:28:59Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47336171",
+      "source": "hackernews",
+      "title": "Show HN: Open-source browser for AI agents",
+      "url": "https://github.com/theredsix/agent-browser-protocol",
+      "abstract": "",
+      "authors": [
+        "theredsix"
+      ],
+      "published_at": "2026-03-11T14:39:30Z",
+      "has_code": true,
+      "code_url": "https://github.com/theredsix/agent-browser-protocol"
+    },
+    {
+      "id": "hn:47334694",
+      "source": "hackernews",
+      "title": "BitNet: Inference framework for 1-bit LLMs",
+      "url": "https://github.com/microsoft/BitNet",
+      "abstract": "",
+      "authors": [
+        "redm"
+      ],
+      "published_at": "2026-03-11T12:27:15Z",
+      "has_code": true,
+      "code_url": "https://github.com/microsoft/BitNet"
+    },
+    {
+      "id": "gh:gensyn-ai/ree",
+      "source": "github",
+      "title": "gensyn-ai/ree",
+      "url": "https://github.com/gensyn-ai/ree",
+      "abstract": "Gensyn Reproducible Execution Environment (REE) enables fully reproducible execution of machine-learning workloads.",
+      "authors": [
+        "gensyn-ai"
+      ],
+      "published_at": "2026-03-11T02:24:14Z",
+      "has_code": true,
+      "code_url": "https://github.com/gensyn-ai/ree"
+    },
+    {
+      "id": "gh:Hazrat-Ali9/Customer-Churn-Prediction-with-Machine-Learning",
+      "source": "github",
+      "title": "Hazrat-Ali9/Customer-Churn-Prediction-with-Machine-Learning",
+      "url": "https://github.com/Hazrat-Ali9/Customer-Churn-Prediction-with-Machine-Learning",
+      "abstract": "\ud83e\udda7 Customer \ud83e\udd81 Churn \ud83d\udc2f Prediction \ud83d\udc38 Machine \ud83d\udc33 Learning \ud83d\udc32 is \ud83c\udf3a a \ud83c\udff5 data \ud83e\udeb0 science \ud83d\udc20 focused \ud83d\udc0a on \ud83e\udda5 predicting \ud83c\udfd8 whether \ud83c\udfed customers \ud83c\udfea are \ud83c\udfdf likely \ud83c\udfe3 to \ud83c\udfe5 leave \ud83c\udfe6 a \ud83c\udfe8 service \ud83d\udd4c algorithms \ud83d\udd4d analyzing \ud83d\ude84 historical \ud83d\ude8b customer \ud83d\ude9f data \ud83d\udea0 the \ud83d\ude81 system \ud83d\udef8 identifies \ud83d\ude9d patterns \ud83c\udfdc behaviors \u26bd that \u26be indicate \ud83c\udfc0 potential \ud83c\udfd0",
+      "authors": [
+        "Hazrat-Ali9"
+      ],
+      "published_at": "2026-03-11T05:21:46Z",
+      "has_code": true,
+      "code_url": "https://github.com/Hazrat-Ali9/Customer-Churn-Prediction-with-Machine-Learning"
+    },
+    {
+      "id": "gh:Hazrat-Ali9/Laptop-Price-Predictor-with-Machine-Learning",
+      "source": "github",
+      "title": "Hazrat-Ali9/Laptop-Price-Predictor-with-Machine-Learning",
+      "url": "https://github.com/Hazrat-Ali9/Laptop-Price-Predictor-with-Machine-Learning",
+      "abstract": "\ud83c\udfe6 Laptop \ud83c\udfda Price \ud83d\udd4c Predictor \ud83c\udfe1 Machine \ud83c\udfe5 Learning \ud83d\udd4d is \ud83c\udfef a \ud83c\udfea data \ud83d\ude82 science \ud83d\ude83 that \ud83d\ude8b applies \ud83d\ude9f algorithms \ud83d\udea0 to \ud83d\ude92 predict \u2708 laptop \ud83d\ude80 prices \ud83d\udeec based \ud83d\ude81 on \ud83d\ude88 hardware \u26f1 specifications \ud83d\udef8 brand \ud83d\udea2 features \u26f4 such \ud83d\udee5 as \ud83d\udef3 processor \ud83c\udfdf type \ud83c\udfdb RAM \ud83c\udfdc storage \ud83c\udfe6 screen \ud83e\udd81 GPU \ud83d\udc38 brand \ud83d\udc33 to estimate the expected market price of a laptop",
+      "authors": [
+        "Hazrat-Ali9"
+      ],
+      "published_at": "2026-03-11T05:19:01Z",
+      "has_code": true,
+      "code_url": "https://github.com/Hazrat-Ali9/Laptop-Price-Predictor-with-Machine-Learning"
+    },
+    {
+      "id": "blog:86852cb22192",
+      "source": "blog",
+      "title": "Designing AI agents to resist prompt injection",
+      "url": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
+      "abstract": "How ChatGPT defends against prompt injection and social engineering by constraining risky actions and protecting sensitive data in agent workflows.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-03-11T11:30:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:d4732a41e5a2",
+      "source": "blog",
+      "title": "From model to agent: Equipping the Responses API with a computer environment",
+      "url": "https://openai.com/index/equip-responses-api-computer-environment",
+      "abstract": "How OpenAI built an agent runtime using the Responses API, shell tool, and hosted containers to run secure, scalable agents with files, tools, and state.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-03-11T11:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:34e6351b3e4d",
+      "source": "blog",
+      "title": "Rakuten fixes issues twice as fast with Codex",
+      "url": "https://openai.com/index/rakuten",
+      "abstract": "",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-03-11T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:69f2b5ec7d18",
+      "source": "blog",
+      "title": "Wayfair boosts catalog accuracy and support speed with OpenAI",
+      "url": "https://openai.com/index/wayfair",
+      "abstract": "Wayfair uses OpenAI models to improve ecommerce support and product catalog accuracy, automating ticket triage and enhancing millions of product attributes at scale.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-03-11T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    }
+  ],
+  "topics": []
+}

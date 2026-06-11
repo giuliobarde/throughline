@@ -1,0 +1,111 @@
+{
+  "date": "2026-01-14",
+  "generated_at": "2026-06-11T04:11:45.032718+00:00",
+  "items": [
+    {
+      "id": "hn:46620673",
+      "source": "hackernews",
+      "title": "Native ZFS VDEV for Object Storage (OpenZFS Summit)",
+      "url": "https://www.zettalane.com/blog/openzfs-summit-2025-mayanas-objbacker.html",
+      "abstract": "",
+      "authors": [
+        "suprasam"
+      ],
+      "published_at": "2026-01-14T18:49:37Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:46620358",
+      "source": "hackernews",
+      "title": "Show HN: Tabstack \u2013 Browser infrastructure for AI agents (by Mozilla)",
+      "url": "https://news.ycombinator.com/item?id=46620358",
+      "abstract": "",
+      "authors": [
+        "MrTravisB"
+      ],
+      "published_at": "2026-01-14T18:33:56Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:46616529",
+      "source": "hackernews",
+      "title": "Ask HN: How are you doing RAG locally?",
+      "url": "https://news.ycombinator.com/item?id=46616529",
+      "abstract": "",
+      "authors": [
+        "tmaly"
+      ],
+      "published_at": "2026-01-14T14:38:29Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:46616481",
+      "source": "hackernews",
+      "title": "Show HN: Webctl \u2013 Browser automation for agents based on CLI instead of MCP",
+      "url": "https://github.com/cosinusalpha/webctl",
+      "abstract": "",
+      "authors": [
+        "cosinusalpha"
+      ],
+      "published_at": "2026-01-14T14:34:40Z",
+      "has_code": true,
+      "code_url": "https://github.com/cosinusalpha/webctl"
+    },
+    {
+      "id": "hn:46613997",
+      "source": "hackernews",
+      "title": "LLMs are a 400-year-long confidence trick",
+      "url": "https://tomrenner.com/posts/400-year-confidence-trick/",
+      "abstract": "",
+      "authors": [
+        "Growtika"
+      ],
+      "published_at": "2026-01-14T09:20:19Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:46611348",
+      "source": "hackernews",
+      "title": "Show HN: OSS AI agent that indexes and searches the Epstein files",
+      "url": "https://epstein.trynia.ai/",
+      "abstract": "",
+      "authors": [
+        "jellyotsiro"
+      ],
+      "published_at": "2026-01-14T01:56:52Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "gh:Sreenithy22/Machine-Learning-Projects",
+      "source": "github",
+      "title": "Sreenithy22/Machine-Learning-Projects",
+      "url": "https://github.com/Sreenithy22/Machine-Learning-Projects",
+      "abstract": "",
+      "authors": [
+        "Sreenithy22"
+      ],
+      "published_at": "2026-01-14T15:50:53Z",
+      "has_code": true,
+      "code_url": "https://github.com/Sreenithy22/Machine-Learning-Projects"
+    },
+    {
+      "id": "blog:8566227622a6",
+      "source": "blog",
+      "title": "OpenAI partners with Cerebras",
+      "url": "https://openai.com/index/cerebras-partnership",
+      "abstract": "OpenAI partners with Cerebras to add 750MW of high-speed AI compute, reducing inference latency and making ChatGPT faster for real-time AI workloads.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-01-14T14:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    }
+  ],
+  "topics": []
+}

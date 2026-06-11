@@ -1,0 +1,33 @@
+{
+  "date": "2026-04-12",
+  "generated_at": "2026-06-11T04:11:45.099604+00:00",
+  "items": [
+    {
+      "id": "hn:47739305",
+      "source": "hackernews",
+      "title": "Tell HN: OpenAI silently removed Study Mode from ChatGPT",
+      "url": "https://news.ycombinator.com/item?id=47739305",
+      "abstract": "",
+      "authors": [
+        "smokel"
+      ],
+      "published_at": "2026-04-12T13:20:58Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47736476",
+      "source": "hackernews",
+      "title": "Anthropic downgraded cache TTL on March 6th",
+      "url": "https://github.com/anthropics/claude-code/issues/46829",
+      "abstract": "",
+      "authors": [
+        "lsdmtme"
+      ],
+      "published_at": "2026-04-12T05:45:52Z",
+      "has_code": true,
+      "code_url": "https://github.com/anthropics/claude-code/issues/46829"
+    }
+  ],
+  "topics": []
+}

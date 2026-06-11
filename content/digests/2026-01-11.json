@@ -1,0 +1,72 @@
+{
+  "date": "2026-01-11",
+  "generated_at": "2026-06-11T04:11:45.031005+00:00",
+  "items": [
+    {
+      "id": "hn:46580326",
+      "source": "hackernews",
+      "title": "CLI agents make self-hosting on a home server easier and fun",
+      "url": "https://fulghum.io/self-hosting",
+      "abstract": "",
+      "authors": [
+        "websku"
+      ],
+      "published_at": "2026-01-11T21:29:57Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:46580136",
+      "source": "hackernews",
+      "title": "FUSE is All You Need \u2013 Giving agents access to anything via filesystems",
+      "url": "https://jakobemmerling.de/posts/fuse-is-all-you-need/",
+      "abstract": "",
+      "authors": [
+        "jakobem"
+      ],
+      "published_at": "2026-01-11T21:12:45Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:46578701",
+      "source": "hackernews",
+      "title": "Anthropic: Developing a Claude Code competitor using Claude Code is banned",
+      "url": "https://twitter.com/SIGKITTEN/status/2009697031422652461",
+      "abstract": "",
+      "authors": [
+        "behnamoh"
+      ],
+      "published_at": "2026-01-11T19:07:08Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "gh:softcane/KubeAttention",
+      "source": "github",
+      "title": "softcane/KubeAttention",
+      "url": "https://github.com/softcane/KubeAttention",
+      "abstract": "KubeAttention is a residency-aware scheduler plugin that uses machine learning to detect and avoid noisy neighbor interference. ",
+      "authors": [
+        "softcane"
+      ],
+      "published_at": "2026-01-11T15:03:46Z",
+      "has_code": true,
+      "code_url": "https://github.com/softcane/KubeAttention"
+    },
+    {
+      "id": "gh:Hazrat-Ali9/Gender-and-Age-Detection-With-Machine-Learning",
+      "source": "github",
+      "title": "Hazrat-Ali9/Gender-and-Age-Detection-With-Machine-Learning",
+      "url": "https://github.com/Hazrat-Ali9/Gender-and-Age-Detection-With-Machine-Learning",
+      "abstract": "\u2708 Gender \ud83d\ude81 Age \ud83d\ude80 Detection \ud83d\udef8 is an AI \ud83d\ude81 powered \ud83d\udea2 computer \ud83d\udeec vision \u26f4 project \ud83d\ude9f that \ud83d\udea0 predicts \ud83d\ude9e a person\u2019s \ud83d\ude8b gender \ud83c\udfe6 age \ud83c\udfdf group \ud83c\udfd5 from \ud83c\udfdb facial \ud83c\udfea images \ud83d\udd4c using \ud83d\ude8c machine \ud83c\udfb3 learning \u26bd deep \u26be learning \ud83e\udd4e techniques \ud83c\udfc0 system \ud83c\udfd0 performs \ud83c\udfc8 real \ud83c\udfc6 time \ud83d\udcd9 image \ud83d\udcd7 based \ud83d\udcd8 analysis making it suitable analytics human centered AI",
+      "authors": [
+        "Hazrat-Ali9"
+      ],
+      "published_at": "2026-01-11T16:30:25Z",
+      "has_code": true,
+      "code_url": "https://github.com/Hazrat-Ali9/Gender-and-Age-Detection-With-Machine-Learning"
+    }
+  ],
+  "topics": []
+}

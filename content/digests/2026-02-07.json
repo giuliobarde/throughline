@@ -1,0 +1,85 @@
+{
+  "date": "2026-02-07",
+  "generated_at": "2026-06-11T04:11:45.048049+00:00",
+  "items": [
+    {
+      "id": "hn:46924426",
+      "source": "hackernews",
+      "title": "Software factories and the agentic moment",
+      "url": "https://factory.strongdm.ai/",
+      "abstract": "",
+      "authors": [
+        "mellosouls"
+      ],
+      "published_at": "2026-02-07T15:05:56Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:46923543",
+      "source": "hackernews",
+      "title": "Coding agents have replaced every framework I used",
+      "url": "https://blog.alaindichiappari.dev/p/software-engineering-is-back",
+      "abstract": "",
+      "authors": [
+        "alainrk"
+      ],
+      "published_at": "2026-02-07T13:07:09Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:46920487",
+      "source": "hackernews",
+      "title": "Why I Joined OpenAI",
+      "url": "https://www.brendangregg.com/blog/2026-02-07/why-i-joined-openai.html",
+      "abstract": "",
+      "authors": [
+        "SerCe"
+      ],
+      "published_at": "2026-02-07T01:45:04Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "gh:Aswini-P22/Fake-News-detection-knowledge-graph",
+      "source": "github",
+      "title": "Aswini-P22/Fake-News-detection-knowledge-graph",
+      "url": "https://github.com/Aswini-P22/Fake-News-detection-knowledge-graph",
+      "abstract": "Fake News Detection system using Machine Learning, NLP, Named Entity Recognition,  Relation Extraction, Knowledge Graphs, and Community/Centrality Analysis with Streamlit UI.",
+      "authors": [
+        "Aswini-P22"
+      ],
+      "published_at": "2026-02-07T05:35:16Z",
+      "has_code": true,
+      "code_url": "https://github.com/Aswini-P22/Fake-News-detection-knowledge-graph"
+    },
+    {
+      "id": "gh:fraisasghar/Machine-Learning-Classification-using-Python",
+      "source": "github",
+      "title": "fraisasghar/Machine-Learning-Classification-using-Python",
+      "url": "https://github.com/fraisasghar/Machine-Learning-Classification-using-Python",
+      "abstract": "This project applies machine learning techniques in Python to analyze data, visualize feature relationships, and perform classification using models such as Decision Tree and Support Vector Machine. Model performance is evaluated through confusion matrices and graphical analysis.",
+      "authors": [
+        "fraisasghar"
+      ],
+      "published_at": "2026-02-07T06:49:50Z",
+      "has_code": true,
+      "code_url": "https://github.com/fraisasghar/Machine-Learning-Classification-using-Python"
+    },
+    {
+      "id": "gh:romolaroy2918/Mobility-Session-Drop-Prediction-Using-Machine-Learning",
+      "source": "github",
+      "title": "romolaroy2918/Mobility-Session-Drop-Prediction-Using-Machine-Learning",
+      "url": "https://github.com/romolaroy2918/Mobility-Session-Drop-Prediction-Using-Machine-Learning",
+      "abstract": "A complete machine learning workflow to analyze and predict mobility session drops using network performance data. Includes data preprocessing, feature scaling, train-test split, model training with Random Forest, and evaluation using confusion matrix and classification metrics.",
+      "authors": [
+        "romolaroy2918"
+      ],
+      "published_at": "2026-02-07T12:35:10Z",
+      "has_code": true,
+      "code_url": "https://github.com/romolaroy2918/Mobility-Session-Drop-Prediction-Using-Machine-Learning"
+    }
+  ],
+  "topics": []
+}

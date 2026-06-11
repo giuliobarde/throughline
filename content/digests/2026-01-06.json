@@ -1,0 +1,59 @@
+{
+  "date": "2026-01-06",
+  "generated_at": "2026-06-11T04:11:45.028280+00:00",
+  "items": [
+    {
+      "id": "hn:46518996",
+      "source": "hackernews",
+      "title": "Comparing AI agents to cybersecurity professionals in real-world pen testing",
+      "url": "https://arxiv.org/abs/2512.09882",
+      "abstract": "",
+      "authors": [
+        "littlexsparkee"
+      ],
+      "published_at": "2026-01-06T21:23:07Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:46515696",
+      "source": "hackernews",
+      "title": "Opus 4.5 is not the normal AI agent experience that I have had thus far",
+      "url": "https://burkeholland.github.io/posts/opus-4-5-change-everything/",
+      "abstract": "",
+      "authors": [
+        "tbassetto"
+      ],
+      "published_at": "2026-01-06T17:45:37Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "gh:nayonahmedjoy/Spam-Email-Classification-Web-App",
+      "source": "github",
+      "title": "nayonahmedjoy/Spam-Email-Classification-Web-App",
+      "url": "https://github.com/nayonahmedjoy/Spam-Email-Classification-Web-App",
+      "abstract": "A machine learning\u2013powered Flask web app that classifies email or SMS messages as Spam or Ham using TF-IDF and Naive Bayes.",
+      "authors": [
+        "nayonahmedjoy"
+      ],
+      "published_at": "2026-01-06T16:12:44Z",
+      "has_code": true,
+      "code_url": "https://github.com/nayonahmedjoy/Spam-Email-Classification-Web-App"
+    },
+    {
+      "id": "gh:ksr-ocean/goflow",
+      "source": "github",
+      "title": "ksr-ocean/goflow",
+      "url": "https://github.com/ksr-ocean/goflow",
+      "abstract": "Geostrationary SST to velocity fields using machine learning",
+      "authors": [
+        "ksr-ocean"
+      ],
+      "published_at": "2026-01-06T16:24:29Z",
+      "has_code": true,
+      "code_url": "https://github.com/ksr-ocean/goflow"
+    }
+  ],
+  "topics": []
+}

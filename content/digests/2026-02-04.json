@@ -1,0 +1,33 @@
+{
+  "date": "2026-02-04",
+  "generated_at": "2026-06-11T04:11:45.046083+00:00",
+  "items": [
+    {
+      "id": "blog:a45c7ee6fc08",
+      "source": "blog",
+      "title": "Unlocking the Codex harness: how we built the App Server",
+      "url": "https://openai.com/index/unlocking-the-codex-harness",
+      "abstract": "Learn how to embed the Codex agent using the Codex App Server, a bidirectional JSON-RPC API powering streaming progress, tool use, approvals, and diffs.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-02-04T13:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:427732ac3009",
+      "source": "blog",
+      "title": "Community Evals: Because we're done trusting black-box leaderboards over the community",
+      "url": "https://huggingface.co/blog/community-evals",
+      "abstract": "",
+      "authors": [
+        "Hugging Face"
+      ],
+      "published_at": "2026-02-04T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    }
+  ],
+  "topics": []
+}

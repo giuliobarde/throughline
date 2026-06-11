@@ -1,0 +1,111 @@
+{
+  "date": "2026-06-02",
+  "generated_at": "2026-06-11T04:11:45.150914+00:00",
+  "items": [
+    {
+      "id": "hn:48372239",
+      "source": "hackernews",
+      "title": "How we index images for RAG",
+      "url": "https://www.kapa.ai/blog/how-we-index-images-for-rag",
+      "abstract": "",
+      "authors": [
+        "mooreds"
+      ],
+      "published_at": "2026-06-02T16:13:41Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:48368187",
+      "source": "hackernews",
+      "title": "Michael Burry says neither SpaceX nor Anthropic is worth $1T",
+      "url": "https://www.businessinsider.com/big-short-michael-burry-spacex-anthropic-ipo-ai-bubble-claude-2026-6",
+      "abstract": "",
+      "authors": [
+        "mgh2"
+      ],
+      "published_at": "2026-06-02T10:09:21Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "gh:Aviral-P/California-House-Price-Prediction",
+      "source": "github",
+      "title": "Aviral-P/California-House-Price-Prediction",
+      "url": "https://github.com/Aviral-P/California-House-Price-Prediction",
+      "abstract": "Machine Learning project that predicts California housing prices using data preprocessing and a Random Forest Regressor built with Scikit-Learn.",
+      "authors": [
+        "Aviral-P"
+      ],
+      "published_at": "2026-06-02T20:56:54Z",
+      "has_code": true,
+      "code_url": "https://github.com/Aviral-P/California-House-Price-Prediction"
+    },
+    {
+      "id": "blog:6421a7340260",
+      "source": "blog",
+      "title": "Travelers deploys AI-powered claims countrywide with OpenAI",
+      "url": "https://openai.com/index/travelers",
+      "abstract": "Travelers built an AI-powered Claim Assistant with OpenAI to guide customers through filing claims, provide 24/7 support, and scale operations during peak demand.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-06-02T12:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:597005b4447f",
+      "source": "blog",
+      "title": "Codex for every role, tool, and workflow",
+      "url": "https://openai.com/index/codex-for-every-role-tool-workflow",
+      "abstract": "Discover new Codex plugins, sites, and annotations that help analysts, marketers, designers, investors, and other teams get more done with AI.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-06-02T09:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:00e733aa1592",
+      "source": "blog",
+      "title": "Advancing youth safety and opportunity through global leadership",
+      "url": "https://openai.com/index/advancing-youth-safety-and-opportunity-through-global-leadership",
+      "abstract": "OpenAI calls for global action on youth AI safety, proposing an international institute to strengthen safeguards, standards, and opportunities for young people.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-06-02T07:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:8c810ea5d0c7",
+      "source": "blog",
+      "title": "Codex is becoming a productivity tool for everyone",
+      "url": "https://openai.com/index/codex-for-knowledge-work",
+      "abstract": "The Next Era of Knowledge Work report explores how Codex is transforming productivity through AI-powered research, data analysis, workflow automation, and content creation.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-06-02T02:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:440b7646f576",
+      "source": "blog",
+      "title": "Holo3.1: Fast & Local Computer Use Agents",
+      "url": "https://huggingface.co/blog/Hcompany/holo31",
+      "abstract": "",
+      "authors": [
+        "Hugging Face"
+      ],
+      "published_at": "2026-06-02T14:13:23+00:00",
+      "has_code": false,
+      "code_url": null
+    }
+  ],
+  "topics": []
+}

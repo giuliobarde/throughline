@@ -1,0 +1,150 @@
+{
+  "date": "2026-05-28",
+  "generated_at": "2026-06-11T04:11:45.145441+00:00",
+  "items": [
+    {
+      "id": "hn:48313810",
+      "source": "hackernews",
+      "title": "Various LLM Smells",
+      "url": "https://shvbsle.in/various-llm-smells/",
+      "abstract": "",
+      "authors": [
+        "speckx"
+      ],
+      "published_at": "2026-05-28T19:02:18Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:48313048",
+      "source": "hackernews",
+      "title": "Anthropic raises $65B in Series H funding at $965B post-money valuation",
+      "url": "https://www.anthropic.com/news/series-h",
+      "abstract": "",
+      "authors": [
+        "meetpateltech"
+      ],
+      "published_at": "2026-05-28T18:09:44Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:48308376",
+      "source": "hackernews",
+      "title": "Show HN: Continue? Y/N: A 60-second game about AI agent permission fatigue",
+      "url": "https://llmgame.scalex.dev",
+      "abstract": "",
+      "authors": [
+        "Wirbelwind"
+      ],
+      "published_at": "2026-05-28T13:02:00Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:48307887",
+      "source": "hackernews",
+      "title": "Disagreement among frontier LLMs on real-world fact-checks",
+      "url": "https://lenz.io/research/llm-disagreement",
+      "abstract": "",
+      "authors": [
+        "kostaj"
+      ],
+      "published_at": "2026-05-28T12:20:19Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "gh:ATOM00blue/machine-learning-library",
+      "source": "github",
+      "title": "ATOM00blue/machine-learning-library",
+      "url": "https://github.com/ATOM00blue/machine-learning-library",
+      "abstract": "A hand-curated, topic-organized library of the best ML education \u2014 923 docs (391 arXiv papers, 474 Stanford/MIT/Karpathy/fast.ai lectures, 58 explainer articles), normalized to Markdown with full provenance. Open it in Obsidian or point your agent at it. A clean ML corpus for learning, RAG & fine-tuning.",
+      "authors": [
+        "ATOM00blue"
+      ],
+      "published_at": "2026-05-28T03:03:04Z",
+      "has_code": true,
+      "code_url": "https://github.com/ATOM00blue/machine-learning-library"
+    },
+    {
+      "id": "gh:VectorSpaceLab/Auto-ML-Skills",
+      "source": "github",
+      "title": "VectorSpaceLab/Auto-ML-Skills",
+      "url": "https://github.com/VectorSpaceLab/Auto-ML-Skills",
+      "abstract": "A Skill Library for Automated Machine Learning",
+      "authors": [
+        "VectorSpaceLab"
+      ],
+      "published_at": "2026-05-28T03:32:59Z",
+      "has_code": true,
+      "code_url": "https://github.com/VectorSpaceLab/Auto-ML-Skills"
+    },
+    {
+      "id": "gh:LuisaGroup/LuisaML",
+      "source": "github",
+      "title": "LuisaGroup/LuisaML",
+      "url": "https://github.com/LuisaGroup/LuisaML",
+      "abstract": "High-Performance Machine-Learning Framework based on LuisaCompute",
+      "authors": [
+        "LuisaGroup"
+      ],
+      "published_at": "2026-05-28T07:26:36Z",
+      "has_code": true,
+      "code_url": "https://github.com/LuisaGroup/LuisaML"
+    },
+    {
+      "id": "blog:c4a9a577612d",
+      "source": "blog",
+      "title": "How Endava builds an agentic organization with Codex",
+      "url": "https://openai.com/index/endava",
+      "abstract": "Learn how Endava uses Codex to build an agentic organization, accelerating software delivery and reducing requirements analysis from weeks to hours.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-05-28T12:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:3e9dde27d098",
+      "source": "blog",
+      "title": "OpenAI\u2019s Frontier Governance Framework",
+      "url": "https://openai.com/index/openai-frontier-governance-framework",
+      "abstract": "Explore OpenAI\u2019s Frontier Governance Framework and how our AI safety, security, and risk practices align with emerging EU and California regulations.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-05-28T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:cb031b5cf3e3",
+      "source": "blog",
+      "title": "MUFG aims to become AI-native with OpenAI",
+      "url": "https://openai.com/index/mufg",
+      "abstract": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-05-28T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:52646498064e",
+      "source": "blog",
+      "title": "Catch up on 12 major I/O 2026 moments",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-keynote-moment-videos/",
+      "abstract": "The colorful I/O logo against a black background, surrounded by stills from the I/O keynote",
+      "authors": [
+        "Google AI"
+      ],
+      "published_at": "2026-05-28T15:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    }
+  ],
+  "topics": []
+}

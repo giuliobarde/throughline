@@ -1,0 +1,137 @@
+{
+  "date": "2026-04-24",
+  "generated_at": "2026-06-11T04:11:45.110916+00:00",
+  "items": [
+    {
+      "id": "hn:47897140",
+      "source": "hackernews",
+      "title": "Agentic AI systems violate the implicit assumptions of database design",
+      "url": "https://arpitbhayani.me/blogs/defensive-databases/",
+      "abstract": "",
+      "authors": [
+        "mooreds"
+      ],
+      "published_at": "2026-04-24T23:41:38Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47895080",
+      "source": "hackernews",
+      "title": "Google to invest up to $40B in Anthropic in cash and compute",
+      "url": "https://techcrunch.com/2026/04/24/google-to-invest-up-to-40b-in-anthropic-in-cash-and-compute/",
+      "abstract": "",
+      "authors": [
+        "elpakal"
+      ],
+      "published_at": "2026-04-24T20:00:30Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47894000",
+      "source": "hackernews",
+      "title": "OpenAI releases GPT-5.5 and GPT-5.5 Pro in the API",
+      "url": "https://developers.openai.com/api/docs/changelog",
+      "abstract": "",
+      "authors": [
+        "arabicalories"
+      ],
+      "published_at": "2026-04-24T18:23:32Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47893779",
+      "source": "hackernews",
+      "title": "There Will Be a Scientific Theory of Deep Learning",
+      "url": "https://arxiv.org/abs/2604.21691",
+      "abstract": "",
+      "authors": [
+        "jamie-simon"
+      ],
+      "published_at": "2026-04-24T18:06:05Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47892074",
+      "source": "hackernews",
+      "title": "Google plans to invest up to $40B in Anthropic",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-24/google-plans-to-invest-up-to-40-billion-in-anthropic",
+      "abstract": "",
+      "authors": [
+        "elffjs"
+      ],
+      "published_at": "2026-04-24T16:04:41Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47890841",
+      "source": "hackernews",
+      "title": "Show HN: Browser Harness \u2013 Gives LLM freedom to complete any browser task",
+      "url": "https://github.com/browser-use/browser-harness",
+      "abstract": "",
+      "authors": [
+        "gregpr07"
+      ],
+      "published_at": "2026-04-24T14:31:38Z",
+      "has_code": true,
+      "code_url": "https://github.com/browser-use/browser-harness"
+    },
+    {
+      "id": "hn:47888465",
+      "source": "hackernews",
+      "title": "Hear your agent suffer through your code",
+      "url": "https://github.com/AndrewVos/endless-toil",
+      "abstract": "",
+      "authors": [
+        "AndrewVos"
+      ],
+      "published_at": "2026-04-24T10:58:45Z",
+      "has_code": true,
+      "code_url": "https://github.com/AndrewVos/endless-toil"
+    },
+    {
+      "id": "hn:47886517",
+      "source": "hackernews",
+      "title": "Show HN: How LLMs Work \u2013 Interactive visual guide based on Karpathy's lecture",
+      "url": "https://ynarwal.github.io/how-llms-work/",
+      "abstract": "",
+      "authors": [
+        "ynarwal__"
+      ],
+      "published_at": "2026-04-24T06:48:53Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "gh:Theos7383/Fake-News-Detection",
+      "source": "github",
+      "title": "Theos7383/Fake-News-Detection",
+      "url": "https://github.com/Theos7383/Fake-News-Detection",
+      "abstract": "This project develops a machine learning model to classify news articles as fake or real. Using a diverse dataset and four different techniques, the system analyzes news content and predicts authenticity, helping reduce misinformation and support reliable information sharing.",
+      "authors": [
+        "Theos7383"
+      ],
+      "published_at": "2026-04-24T15:04:34Z",
+      "has_code": true,
+      "code_url": "https://github.com/Theos7383/Fake-News-Detection"
+    },
+    {
+      "id": "blog:b2ff62f993e1",
+      "source": "blog",
+      "title": "DeepSeek-V4: a million-token context that agents can actually use",
+      "url": "https://huggingface.co/blog/deepseekv4",
+      "abstract": "",
+      "authors": [
+        "Hugging Face"
+      ],
+      "published_at": "2026-04-24T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    }
+  ],
+  "topics": []
+}

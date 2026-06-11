@@ -1,0 +1,46 @@
+{
+  "date": "2026-05-23",
+  "generated_at": "2026-06-11T04:11:45.140276+00:00",
+  "items": [
+    {
+      "id": "hn:48246889",
+      "source": "hackernews",
+      "title": "Making deep learning go brrrr from first principles (2022)",
+      "url": "https://horace.io/brrr_intro.html",
+      "abstract": "",
+      "authors": [
+        "tosh"
+      ],
+      "published_at": "2026-05-23T11:50:22Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "gh:Keerthik1622/truck-delay-prediction",
+      "source": "github",
+      "title": "Keerthik1622/truck-delay-prediction",
+      "url": "https://github.com/Keerthik1622/truck-delay-prediction",
+      "abstract": "End-to-end Machine Learning pipeline for Truck Delay Prediction using XGBoost, Flask API, MLflow, and Lightning AI deployment.",
+      "authors": [
+        "Keerthik1622"
+      ],
+      "published_at": "2026-05-23T14:39:50Z",
+      "has_code": true,
+      "code_url": "https://github.com/Keerthik1622/truck-delay-prediction"
+    },
+    {
+      "id": "gh:davidlang422/NBA-betting-ML",
+      "source": "github",
+      "title": "davidlang422/NBA-betting-ML",
+      "url": "https://github.com/davidlang422/NBA-betting-ML",
+      "abstract": "NBA Machine Learning Tools",
+      "authors": [
+        "davidlang422"
+      ],
+      "published_at": "2026-05-23T10:37:31Z",
+      "has_code": true,
+      "code_url": "https://github.com/davidlang422/NBA-betting-ML"
+    }
+  ],
+  "topics": []
+}

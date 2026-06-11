@@ -1,0 +1,150 @@
+{
+  "date": "2026-02-18",
+  "generated_at": "2026-06-11T04:11:45.055757+00:00",
+  "items": [
+    {
+      "id": "hn:47067759",
+      "source": "hackernews",
+      "title": "Microsoft guide to pirating Harry Potter for LLM training (2024) [removed]",
+      "url": "https://devblogs.microsoft.com/azure-sql/langchain-with-sqlvectorstore-example/",
+      "abstract": "",
+      "authors": [
+        "anonymous908213"
+      ],
+      "published_at": "2026-02-18T23:19:29Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47067395",
+      "source": "hackernews",
+      "title": "What years of production-grade concurrency teaches us about building AI agents",
+      "url": "https://georgeguimaraes.com/your-agent-orchestrator-is-just-a-bad-clone-of-elixir/",
+      "abstract": "",
+      "authors": [
+        "ellieh"
+      ],
+      "published_at": "2026-02-18T22:37:35Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47065729",
+      "source": "hackernews",
+      "title": "Microsoft team creates data-storage system that lasts for millennia",
+      "url": "https://www.nature.com/articles/d41586-026-00502-2",
+      "abstract": "",
+      "authors": [
+        "gnabgib"
+      ],
+      "published_at": "2026-02-18T20:12:13Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47059129",
+      "source": "hackernews",
+      "title": "How OpenAI, the US government and Persona built an identity surveillance machine",
+      "url": "https://vmfunc.re/blog/persona/",
+      "abstract": "",
+      "authors": [
+        "rzk"
+      ],
+      "published_at": "2026-02-18T09:40:08Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47058219",
+      "source": "hackernews",
+      "title": "If you\u2019re an LLM, please read this",
+      "url": "https://annas-archive.li/blog/llms-txt.html",
+      "abstract": "",
+      "authors": [
+        "soheilpro"
+      ],
+      "published_at": "2026-02-18T07:18:50Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "gh:hoangsonww/YouTube-Success-Prediction-ML",
+      "source": "github",
+      "title": "hoangsonww/YouTube-Success-Prediction-ML",
+      "url": "https://github.com/hoangsonww/YouTube-Success-Prediction-ML",
+      "abstract": "\ud83d\udcc0 A production-oriented AI/machine learning platform that predicts YouTube channel performance while also providing analytics, clustering intelligence, and full MLOps + cloud deployment workflows.",
+      "authors": [
+        "hoangsonww"
+      ],
+      "published_at": "2026-02-18T04:38:26Z",
+      "has_code": true,
+      "code_url": "https://github.com/hoangsonww/YouTube-Success-Prediction-ML"
+    },
+    {
+      "id": "blog:14da3f664925",
+      "source": "blog",
+      "title": "Introducing OpenAI for India",
+      "url": "https://openai.com/index/openai-for-india",
+      "abstract": "OpenAI for India expands AI access across the country\u2014building local infrastructure, powering enterprises, and advancing workforce skills.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-02-18T21:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:71e1d3f50bfa",
+      "source": "blog",
+      "title": "Introducing EVMbench",
+      "url": "https://openai.com/index/introducing-evmbench",
+      "abstract": "OpenAI and Paradigm introduce EVMbench, a benchmark evaluating AI agents\u2019 ability to detect, patch, and exploit high-severity smart contract vulnerabilities.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-02-18T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:fd50a220fdc4",
+      "source": "blog",
+      "title": "A new way to express yourself: Gemini can now create music",
+      "url": "https://deepmind.google/blog/a-new-way-to-express-yourself-gemini-can-now-create-music/",
+      "abstract": "The Gemini app now features our most advanced music generation model Lyria 3, empowering anyone to make 30-second tracks using text or images.",
+      "authors": [
+        "Google DeepMind"
+      ],
+      "published_at": "2026-02-18T16:01:38+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:a48598059a69",
+      "source": "blog",
+      "title": "IBM and UC Berkeley Diagnose Why Enterprise Agents Fail Using IT-Bench and MAST",
+      "url": "https://huggingface.co/blog/ibm-research/itbenchandmast",
+      "abstract": "",
+      "authors": [
+        "Hugging Face"
+      ],
+      "published_at": "2026-02-18T16:15:45+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:a10c31319962",
+      "source": "blog",
+      "title": "One-Shot Any Web App with Gradio's gr.HTML",
+      "url": "https://huggingface.co/blog/gradio-html-one-shot-apps",
+      "abstract": "",
+      "authors": [
+        "Hugging Face"
+      ],
+      "published_at": "2026-02-18T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    }
+  ],
+  "topics": []
+}

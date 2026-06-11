@@ -1,0 +1,397 @@
+{
+  "date": "2026-04-10",
+  "generated_at": "2026-06-11T04:11:45.097677+00:00",
+  "items": [
+    {
+      "id": "hn:47718114",
+      "source": "hackernews",
+      "title": "US summons bank bosses over cyber risks from Anthropic's latest AI model",
+      "url": "https://www.theguardian.com/technology/2026/apr/10/us-summoned-bank-bosses-to-discuss-cyber-risks-posed-by-anthropic-latest-ai-model",
+      "abstract": "",
+      "authors": [
+        "ascold"
+      ],
+      "published_at": "2026-04-10T13:47:17Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47717587",
+      "source": "hackernews",
+      "title": "OpenAI backs Illinois bill that would limit when AI labs can be held liable",
+      "url": "https://www.wired.com/story/openai-backs-bill-exempt-ai-firms-model-harm-lawsuits/",
+      "abstract": "",
+      "authors": [
+        "smurda"
+      ],
+      "published_at": "2026-04-10T13:08:43Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "gh:Arayana-sood/health-risk-predictor-ai",
+      "source": "github",
+      "title": "Arayana-sood/health-risk-predictor-ai",
+      "url": "https://github.com/Arayana-sood/health-risk-predictor-ai",
+      "abstract": "AI-powered web application that predicts Heart Disease, Diabetes, and Kidney Disease risk using Machine Learning, with interactive dashboard, chatbot support, family profiles, and personalized health recommendations.",
+      "authors": [
+        "Arayana-sood"
+      ],
+      "published_at": "2026-04-10T19:01:52Z",
+      "has_code": true,
+      "code_url": "https://github.com/Arayana-sood/health-risk-predictor-ai"
+    },
+    {
+      "id": "gh:Premkumar282/india-crop-production-analysis-ml-python",
+      "source": "github",
+      "title": "Premkumar282/india-crop-production-analysis-ml-python",
+      "url": "https://github.com/Premkumar282/india-crop-production-analysis-ml-python",
+      "abstract": "Machine learning-based analysis of crop production using data science techniques, including EDA, feature engineering, regression, and classification.",
+      "authors": [
+        "Premkumar282"
+      ],
+      "published_at": "2026-04-10T06:59:50Z",
+      "has_code": true,
+      "code_url": "https://github.com/Premkumar282/india-crop-production-analysis-ml-python"
+    },
+    {
+      "id": "gh:Ishika5209/groundwater-analysis-ml",
+      "source": "github",
+      "title": "Ishika5209/groundwater-analysis-ml",
+      "url": "https://github.com/Ishika5209/groundwater-analysis-ml",
+      "abstract": "Groundwater Data Analysis and Prediction using Machine Learning",
+      "authors": [
+        "Ishika5209"
+      ],
+      "published_at": "2026-04-10T19:37:44Z",
+      "has_code": true,
+      "code_url": "https://github.com/Ishika5209/groundwater-analysis-ml"
+    },
+    {
+      "id": "blog:a73b17417ccc",
+      "source": "blog",
+      "title": "ChatGPT for finance teams",
+      "url": "https://openai.com/academy/finance",
+      "abstract": "Learn how finance teams use ChatGPT to streamline reporting, analyze data, improve forecasts, and communicate insights more clearly.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-04-10T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:bc7e7f5c918d",
+      "source": "blog",
+      "title": "Applications of AI at OpenAI",
+      "url": "https://openai.com/academy/applications-of-ai",
+      "abstract": "Explore how OpenAI products like ChatGPT, Codex, and APIs bring AI into real-world use for work, development, and everyday tasks.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-04-10T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:6bccb64e94d4",
+      "source": "blog",
+      "title": "Creating images with ChatGPT",
+      "url": "https://openai.com/academy/image-generation",
+      "abstract": "Learn how to create and refine images with ChatGPT using clear prompts, iterate on designs, and generate high-quality visuals in minutes.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-04-10T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:11c496abc34e",
+      "source": "blog",
+      "title": "Financial services",
+      "url": "https://openai.com/academy/financial-services",
+      "abstract": "Explore AI resources for financial services, including prompt packs, GPTs, guides, and tools to help institutions deploy and scale AI securely.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-04-10T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:6ee77fd75198",
+      "source": "blog",
+      "title": "ChatGPT for managers",
+      "url": "https://openai.com/academy/managers",
+      "abstract": "Learn how managers use ChatGPT to prepare for conversations, write clear feedback, stay organized, and improve team effectiveness.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-04-10T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:e626cbb736ce",
+      "source": "blog",
+      "title": "Research with ChatGPT",
+      "url": "https://openai.com/academy/search-and-deep-research",
+      "abstract": "Learn how to research with ChatGPT using search and deep research to find up-to-date information, analyze sources, and generate structured insights.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-04-10T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:e7ee83693ccb",
+      "source": "blog",
+      "title": "Responsible and safe use of AI",
+      "url": "https://openai.com/academy/responsible-and-safe-use",
+      "abstract": "Learn how to use AI responsibly with best practices for safety, accuracy, and transparency when using tools like ChatGPT.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-04-10T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:4dbb1c1ec2be",
+      "source": "blog",
+      "title": "Writing with ChatGPT",
+      "url": "https://openai.com/academy/writing",
+      "abstract": "Learn how to use ChatGPT for writing to draft, revise, and refine content with clear structure, tone, and intent.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-04-10T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:534a735927e0",
+      "source": "blog",
+      "title": "Brainstorming with ChatGPT",
+      "url": "https://openai.com/academy/brainstorming",
+      "abstract": "Learn how to use ChatGPT to brainstorm ideas, organize thinking, and turn rough concepts into structured, actionable plans.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-04-10T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:42d64f92ad88",
+      "source": "blog",
+      "title": "Our response to the Axios developer tool compromise",
+      "url": "https://openai.com/index/axios-developer-tool-compromise",
+      "abstract": "OpenAI responds to the Axios supply chain attack by rotating macOS code signing certificates, updating apps, and confirming no user data was compromised.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-04-10T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:4914e2b88332",
+      "source": "blog",
+      "title": "ChatGPT for research",
+      "url": "https://openai.com/academy/research",
+      "abstract": "Learn how to use ChatGPT for research to gather sources, analyze information, and create structured, citation-backed insights.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-04-10T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:c792fea6548e",
+      "source": "blog",
+      "title": "Healthcare",
+      "url": "https://openai.com/academy/healthcare",
+      "abstract": "Explore how clinicians use ChatGPT to support diagnosis, documentation, and patient care with secure, HIPAA-compliant AI tools.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-04-10T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:183d0cc9c6c9",
+      "source": "blog",
+      "title": "ChatGPT for sales teams",
+      "url": "https://openai.com/academy/sales",
+      "abstract": "Learn how sales teams use ChatGPT to research accounts, personalize outreach, manage deals, and improve pipeline and conversion.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-04-10T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:15f4dca3d35a",
+      "source": "blog",
+      "title": "ChatGPT for customer success teams",
+      "url": "https://openai.com/academy/customer-success",
+      "abstract": "Learn how customer success teams use ChatGPT to manage accounts, improve communication, reduce churn, and drive adoption and renewals.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-04-10T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:67274246ea9f",
+      "source": "blog",
+      "title": "Using projects in ChatGPT",
+      "url": "https://openai.com/academy/projects",
+      "abstract": "Learn how to use projects in ChatGPT to organize chats, files, and instructions, manage ongoing work, and collaborate more effectively.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-04-10T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:a018ae9534a7",
+      "source": "blog",
+      "title": "Prompting fundamentals",
+      "url": "https://openai.com/academy/prompting",
+      "abstract": "Learn prompting fundamentals and how to write clear, effective prompts to get better, more useful responses from ChatGPT.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-04-10T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:2c539797fe26",
+      "source": "blog",
+      "title": "Getting started with ChatGPT",
+      "url": "https://openai.com/academy/getting-started",
+      "abstract": "Learn how to use ChatGPT, start your first conversation, and discover simple ways to write, brainstorm, and solve problems with AI.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-04-10T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:f670b81480b3",
+      "source": "blog",
+      "title": "ChatGPT for operations teams",
+      "url": "https://openai.com/academy/operations",
+      "abstract": "Learn how operations teams use ChatGPT to streamline workflows, improve coordination, standardize processes, and drive faster execution.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-04-10T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:e781bd1ce513",
+      "source": "blog",
+      "title": "Analyzing data with ChatGPT",
+      "url": "https://openai.com/academy/data-analysis",
+      "abstract": "Learn how to analyze data with ChatGPT by exploring datasets, generating insights, creating visualizations, and turning findings into actionable decisions.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-04-10T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:909c28a2bf07",
+      "source": "blog",
+      "title": "AI fundamentals",
+      "url": "https://openai.com/academy/what-is-ai",
+      "abstract": "Learn what AI is, how it works, and how tools like ChatGPT use large language models. A clear, beginner-friendly guide to understanding artificial intelligence.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-04-10T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:51ce8504ce13",
+      "source": "blog",
+      "title": "ChatGPT for marketing teams",
+      "url": "https://openai.com/academy/marketing",
+      "abstract": "Learn how marketing teams use ChatGPT to plan campaigns, generate content, analyze performance, and move from ideas to execution faster.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-04-10T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:4c2fa33ea84f",
+      "source": "blog",
+      "title": "Working with files in ChatGPT",
+      "url": "https://openai.com/academy/working-with-files",
+      "abstract": "Learn how to upload and work with files in ChatGPT to analyze data, summarize documents, and generate content from PDFs, spreadsheets, and more.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-04-10T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:64e3c6b3c0f5",
+      "source": "blog",
+      "title": "Using custom GPTs",
+      "url": "https://openai.com/academy/custom-gpts",
+      "abstract": "Learn how to build and use custom GPTs to automate workflows, maintain consistent outputs, and create purpose-built AI assistants.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-04-10T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:bab5fd7819ac",
+      "source": "blog",
+      "title": "Personalizing ChatGPT",
+      "url": "https://openai.com/academy/personalization",
+      "abstract": "Learn how to personalize ChatGPT using custom instructions and memory to get more relevant, consistent, and tailored responses.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-04-10T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:39c29e13e298",
+      "source": "blog",
+      "title": "Using skills",
+      "url": "https://openai.com/academy/skills",
+      "abstract": "Learn how to create and use ChatGPT skills to build reusable workflows, automate recurring tasks, and ensure consistent, high-quality outputs.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-04-10T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    }
+  ],
+  "topics": []
+}

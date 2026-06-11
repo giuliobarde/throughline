@@ -1,6 +1,124 @@
 {
   "date": "2026-06-05",
-  "generated_at": "2026-06-05T14:22:18.891845+00:00",
-  "items": [],
+  "generated_at": "2026-06-11T04:11:45.154313+00:00",
+  "items": [
+    {
+      "id": "hn:48416635",
+      "source": "hackernews",
+      "title": "Transformers are inherently succinct",
+      "url": "https://openreview.net/pdf?id=Yxz92UuPLQ",
+      "abstract": "",
+      "authors": [
+        "brandonb"
+      ],
+      "published_at": "2026-06-05T18:50:26Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:48416264",
+      "source": "hackernews",
+      "title": "Harness engineering: Leveraging Codex in an agent-first world",
+      "url": "https://openai.com/index/harness-engineering/",
+      "abstract": "",
+      "authors": [
+        "pramodbiligiri"
+      ],
+      "published_at": "2026-06-05T18:20:06Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:48414027",
+      "source": "hackernews",
+      "title": "Conventional Commits encourages focus on the wrong things",
+      "url": "https://sumnerevans.com/posts/software-engineering/stop-using-conventional-commits/",
+      "abstract": "",
+      "authors": [
+        "jsve"
+      ],
+      "published_at": "2026-06-05T15:39:38Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:48410427",
+      "source": "hackernews",
+      "title": "Arithmetic Without Numbers \u2013 How LLMs Do Math",
+      "url": "https://alvaro-videla.com/llm-arithmetic-internals/article_interactive/article.html",
+      "abstract": "",
+      "authors": [
+        "old_sound"
+      ],
+      "published_at": "2026-06-05T10:19:39Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:48409955",
+      "source": "hackernews",
+      "title": "Show HN: Lowfat \u2013 pluggable CLI filter that saved 91.8% of my LLM tokens",
+      "url": "https://github.com/zdk/lowfat",
+      "abstract": "",
+      "authors": [
+        "zdkaster"
+      ],
+      "published_at": "2026-06-05T09:10:42Z",
+      "has_code": true,
+      "code_url": "https://github.com/zdk/lowfat"
+    },
+    {
+      "id": "hn:48408442",
+      "source": "hackernews",
+      "title": "Fine-tuning an LLM to write docs like it's 1995",
+      "url": "https://passo.uno/fine-tuning-docs-llm/",
+      "abstract": "",
+      "authors": [
+        "taubek"
+      ],
+      "published_at": "2026-06-05T05:46:06Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "gh:saileaxh/iida-dfs",
+      "source": "github",
+      "title": "saileaxh/iida-dfs",
+      "url": "https://github.com/saileaxh/iida-dfs",
+      "abstract": "Machine-learning-based function similarity analysis that helps you quickly locate matching functions across different versions of x64 binaries.",
+      "authors": [
+        "saileaxh"
+      ],
+      "published_at": "2026-06-05T09:03:33Z",
+      "has_code": true,
+      "code_url": "https://github.com/saileaxh/iida-dfs"
+    },
+    {
+      "id": "gh:LiboniX-2/Retail-Commerce-ML",
+      "source": "github",
+      "title": "LiboniX-2/Retail-Commerce-ML",
+      "url": "https://github.com/LiboniX-2/Retail-Commerce-ML",
+      "abstract": "A curated collection of Machine Learning and Deep Learning projects for retail and commerce, covering customer analytics, demand forecasting, recommendation systems, sales prediction, and business intelligence applications.",
+      "authors": [
+        "LiboniX-2"
+      ],
+      "published_at": "2026-06-05T08:48:14Z",
+      "has_code": true,
+      "code_url": "https://github.com/LiboniX-2/Retail-Commerce-ML"
+    },
+    {
+      "id": "blog:7707fdb288e4",
+      "source": "blog",
+      "title": "The latest AI news we announced in May 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
+      "abstract": "May AI recap",
+      "authors": [
+        "Google AI"
+      ],
+      "published_at": "2026-06-05T14:45:00+00:00",
+      "has_code": false,
+      "code_url": null
+    }
+  ],
   "topics": []
 }

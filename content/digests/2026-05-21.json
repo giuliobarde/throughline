@@ -1,0 +1,85 @@
+{
+  "date": "2026-05-21",
+  "generated_at": "2026-06-11T04:11:45.138186+00:00",
+  "items": [
+    {
+      "id": "hn:48227923",
+      "source": "hackernews",
+      "title": "Multi-Stream LLMs: new paper on parallelizing/separating prompts, thinking, I/O",
+      "url": "https://arxiv.org/abs/2605.12460",
+      "abstract": "",
+      "authors": [
+        "atomicthumbs"
+      ],
+      "published_at": "2026-05-21T19:37:26Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:48225040",
+      "source": "hackernews",
+      "title": "Launch HN: Runtime (YC P26) \u2013 Sandboxed coding agents for everyone on a team",
+      "url": "https://www.runtm.com/",
+      "abstract": "",
+      "authors": [
+        "gustrigos"
+      ],
+      "published_at": "2026-05-21T16:07:13Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:48217052",
+      "source": "hackernews",
+      "title": "OpenAI to confidentially file for IPO as soon as Friday",
+      "url": "https://www.cnbc.com/2026/05/20/openai-ipo-filing.html",
+      "abstract": "",
+      "authors": [
+        "doppp"
+      ],
+      "published_at": "2026-05-21T02:24:35Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "gh:Sara12-2/Sentiment_Analysis_project",
+      "source": "github",
+      "title": "Sara12-2/Sentiment_Analysis_project",
+      "url": "https://github.com/Sara12-2/Sentiment_Analysis_project",
+      "abstract": "This project builds an NLP-based sentiment analysis model to classify tweets into Positive, Negative, and Neutral categories using TF-IDF vectorization and machine learning algorithms. ",
+      "authors": [
+        "Sara12-2"
+      ],
+      "published_at": "2026-05-21T12:51:14Z",
+      "has_code": true,
+      "code_url": "https://github.com/Sara12-2/Sentiment_Analysis_project"
+    },
+    {
+      "id": "blog:85a3fdb43c80",
+      "source": "blog",
+      "title": "AdventHealth advances whole-person care with OpenAI",
+      "url": "https://openai.com/index/adventhealth",
+      "abstract": "AdventHealth is using ChatGPT for Healthcare to streamline workflows, reduce administrative burden, and return more time to patient care.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-05-21T12:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:cf9e5a542f53",
+      "source": "blog",
+      "title": "We\u2019re launching the Google DeepMind Accelerator program in Asia Pacific to tackle environmental risks",
+      "url": "https://deepmind.google/blog/were-launching-the-google-deepmind-accelerator-program-in-asia-pacific-to-tackle-environmental-risks/",
+      "abstract": "",
+      "authors": [
+        "Google DeepMind"
+      ],
+      "published_at": "2026-05-21T19:46:42+00:00",
+      "has_code": false,
+      "code_url": null
+    }
+  ],
+  "topics": []
+}

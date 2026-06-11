@@ -1,0 +1,150 @@
+{
+  "date": "2026-04-09",
+  "generated_at": "2026-06-11T04:11:45.096642+00:00",
+  "items": [
+    {
+      "id": "hn:47710149",
+      "source": "hackernews",
+      "title": "Microsoft is employing dark patterns to goad users into paying for storage?",
+      "url": "https://lzon.ca/posts/other/microsoft-user-abuse/",
+      "abstract": "",
+      "authors": [
+        "jpmitchell"
+      ],
+      "published_at": "2026-04-09T21:09:12Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47707253",
+      "source": "hackernews",
+      "title": "ChatGPT Pro now starts at $100/month",
+      "url": "https://chatgpt.com/pricing/",
+      "abstract": "",
+      "authors": [
+        "strongpigeon"
+      ],
+      "published_at": "2026-04-09T18:09:19Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47706141",
+      "source": "hackernews",
+      "title": "Research-Driven Agents: When an agent reads before it codes",
+      "url": "https://blog.skypilot.co/research-driven-agents/",
+      "abstract": "",
+      "authors": [
+        "hopechong"
+      ],
+      "published_at": "2026-04-09T16:58:49Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47702196",
+      "source": "hackernews",
+      "title": "Show HN: CSS Studio. Design by hand, code by agent",
+      "url": "https://cssstudio.ai",
+      "abstract": "",
+      "authors": [
+        "SirHound"
+      ],
+      "published_at": "2026-04-09T11:23:31Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "gh:tentime/implementations",
+      "source": "github",
+      "title": "tentime/implementations",
+      "url": "https://github.com/tentime/implementations",
+      "abstract": "Historic machine learning implementations",
+      "authors": [
+        "tentime"
+      ],
+      "published_at": "2026-04-09T06:05:15Z",
+      "has_code": true,
+      "code_url": "https://github.com/tentime/implementations"
+    },
+    {
+      "id": "gh:vishvesharma/urbanscope",
+      "source": "github",
+      "title": "vishvesharma/urbanscope",
+      "url": "https://github.com/vishvesharma/urbanscope",
+      "abstract": "UrbanScope is a multi-domain data fusion system that combines diverse government datasets to simulate and predict environmental, safety, and development patterns. Using machine learning, it generates risk scores and actionable insights for smarter urban planning and policy analysis.",
+      "authors": [
+        "vishvesharma"
+      ],
+      "published_at": "2026-04-09T18:11:28Z",
+      "has_code": true,
+      "code_url": "https://github.com/vishvesharma/urbanscope"
+    },
+    {
+      "id": "gh:Sriti-28/Air-Quality-Prediction-Analysis",
+      "source": "github",
+      "title": "Sriti-28/Air-Quality-Prediction-Analysis",
+      "url": "https://github.com/Sriti-28/Air-Quality-Prediction-Analysis",
+      "abstract": "Air Quality Prediction using Machine Learning with EDA, regression modeling, and pollutant impact analysis",
+      "authors": [
+        "Sriti-28"
+      ],
+      "published_at": "2026-04-09T05:47:35Z",
+      "has_code": true,
+      "code_url": "https://github.com/Sriti-28/Air-Quality-Prediction-Analysis"
+    },
+    {
+      "id": "gh:saurav444-ctrl/rainfall-ml-project",
+      "source": "github",
+      "title": "saurav444-ctrl/rainfall-ml-project",
+      "url": "https://github.com/saurav444-ctrl/rainfall-ml-project",
+      "abstract": "Rainfall Prediction using Machine Learning | Python | Linear Regression",
+      "authors": [
+        "saurav444-ctrl"
+      ],
+      "published_at": "2026-04-09T06:46:14Z",
+      "has_code": true,
+      "code_url": "https://github.com/saurav444-ctrl/rainfall-ml-project"
+    },
+    {
+      "id": "blog:284df27bcb93",
+      "source": "blog",
+      "title": "CyberAgent moves faster with ChatGPT Enterprise and Codex",
+      "url": "https://openai.com/index/cyberagent",
+      "abstract": "CyberAgent uses ChatGPT Enterprise and Codex to securely scale AI adoption, improve quality, and accelerate decisions across advertising, media, and gaming.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-04-09T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:a3ef54c12f07",
+      "source": "blog",
+      "title": "Waypoint-1.5: Higher-Fidelity Interactive Worlds for Everyday GPUs",
+      "url": "https://huggingface.co/blog/waypoint-1-5",
+      "abstract": "",
+      "authors": [
+        "Hugging Face"
+      ],
+      "published_at": "2026-04-09T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:89c4c4ec4b95",
+      "source": "blog",
+      "title": "Multimodal Embedding & Reranker Models with Sentence Transformers",
+      "url": "https://huggingface.co/blog/multimodal-sentence-transformers",
+      "abstract": "",
+      "authors": [
+        "Hugging Face"
+      ],
+      "published_at": "2026-04-09T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    }
+  ],
+  "topics": []
+}

@@ -1,0 +1,137 @@
+{
+  "date": "2026-04-29",
+  "generated_at": "2026-06-11T04:11:45.115675+00:00",
+  "items": [
+    {
+      "id": "hn:47955789",
+      "source": "hackernews",
+      "title": "Eka\u2019s robotic claw feels like we're approaching a ChatGPT moment",
+      "url": "https://www.wired.com/story/when-robots-have-their-chatgpt-moment-remember-these-pincers/",
+      "abstract": "",
+      "authors": [
+        "zdw"
+      ],
+      "published_at": "2026-04-29T22:56:10Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47949066",
+      "source": "hackernews",
+      "title": "Show HN: DAC \u2013 open-source dashboard as code tool for agents and humans",
+      "url": "https://github.com/bruin-data/dac",
+      "abstract": "",
+      "authors": [
+        "karakanb"
+      ],
+      "published_at": "2026-04-29T14:37:20Z",
+      "has_code": true,
+      "code_url": "https://github.com/bruin-data/dac"
+    },
+    {
+      "id": "hn:47947525",
+      "source": "hackernews",
+      "title": "Letting AI play my game \u2013 building an agentic test harness to help play-testing",
+      "url": "https://blog.jeffschomay.com/letting-ai-play-my-game",
+      "abstract": "",
+      "authors": [
+        "jschomay"
+      ],
+      "published_at": "2026-04-29T12:43:12Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47942903",
+      "source": "hackernews",
+      "title": "We decreased our LLM costs with Opus",
+      "url": "https://www.mendral.com/blog/frontier-model-lower-costs",
+      "abstract": "",
+      "authors": [
+        "shad42"
+      ],
+      "published_at": "2026-04-29T00:57:12Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "gh:ml-from-scratch-book/code",
+      "source": "github",
+      "title": "ml-from-scratch-book/code",
+      "url": "https://github.com/ml-from-scratch-book/code",
+      "abstract": "Companion code for Machine Learning From Scratch \u2014 10 core ML algorithms built from scratch with NumPy, compared with Scikit-learn and PyTorch.",
+      "authors": [
+        "ml-from-scratch-book"
+      ],
+      "published_at": "2026-04-29T12:18:40Z",
+      "has_code": true,
+      "code_url": "https://github.com/ml-from-scratch-book/code"
+    },
+    {
+      "id": "blog:6ce07af346a4",
+      "source": "blog",
+      "title": "Where the goblins came from",
+      "url": "https://openai.com/index/where-the-goblins-came-from",
+      "abstract": "How goblin outputs spread in AI models: timeline, root cause, and fixes behind personality-driven quirks in GPT-5 behavior.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-04-29T20:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:0889e6f0be8e",
+      "source": "blog",
+      "title": "Building the compute infrastructure for the Intelligence Age",
+      "url": "https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age",
+      "abstract": "OpenAI scales Stargate to build the compute infrastructure powering AGI, adding new data center capacity to meet growing AI demand.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-04-29T15:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:6d737041e91d",
+      "source": "blog",
+      "title": "Cybersecurity in the Intelligence Age",
+      "url": "https://openai.com/index/cybersecurity-in-the-intelligence-age",
+      "abstract": "OpenAI outlines a five-part action plan for strengthening cybersecurity in the Intelligence Age, focused on democratizing AI-powered cyber defense and protecting critical systems.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-04-29T04:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:6af9b6a70003",
+      "source": "blog",
+      "title": "Granite 4.1 LLMs: How They\u2019re Built",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-4-1",
+      "abstract": "",
+      "authors": [
+        "Hugging Face"
+      ],
+      "published_at": "2026-04-29T15:01:48+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:a89e6f10b7ac",
+      "source": "blog",
+      "title": "DeepInfra on Hugging Face Inference Providers \ud83d\udd25",
+      "url": "https://huggingface.co/blog/inference-providers-deepinfra",
+      "abstract": "",
+      "authors": [
+        "Hugging Face"
+      ],
+      "published_at": "2026-04-29T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    }
+  ],
+  "topics": []
+}

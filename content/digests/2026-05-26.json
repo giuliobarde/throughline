@@ -1,0 +1,59 @@
+{
+  "date": "2026-05-26",
+  "generated_at": "2026-06-11T04:11:45.143307+00:00",
+  "items": [
+    {
+      "id": "hn:48281226",
+      "source": "hackernews",
+      "title": "A sleep-like consolidation mechanism for LLMs",
+      "url": "https://arxiv.org/abs/2605.26099",
+      "abstract": "",
+      "authors": [
+        "juxtapose"
+      ],
+      "published_at": "2026-05-26T15:36:24Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:48276429",
+      "source": "hackernews",
+      "title": "Investigating how prompt politeness affects LLM accuracy (2025)",
+      "url": "https://arxiv.org/abs/2510.04950",
+      "abstract": "",
+      "authors": [
+        "KnuthIsGod"
+      ],
+      "published_at": "2026-05-26T07:43:22Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "gh:FlashML-org/flashlib",
+      "source": "github",
+      "title": "FlashML-org/flashlib",
+      "url": "https://github.com/FlashML-org/flashlib",
+      "abstract": "Fast and memory-efficient classical machine learning operators",
+      "authors": [
+        "FlashML-org"
+      ],
+      "published_at": "2026-05-26T17:19:26Z",
+      "has_code": true,
+      "code_url": "https://github.com/FlashML-org/flashlib"
+    },
+    {
+      "id": "gh:georgebuilds/anneal",
+      "source": "github",
+      "title": "georgebuilds/anneal",
+      "url": "https://github.com/georgebuilds/anneal",
+      "abstract": "Machine learning compiler in Go. A from-scratch tinygrad port: graph-rewrite IR, autodiff as a compiler pass, zero-CGO WebGPU backend.",
+      "authors": [
+        "georgebuilds"
+      ],
+      "published_at": "2026-05-26T02:39:49Z",
+      "has_code": true,
+      "code_url": "https://github.com/georgebuilds/anneal"
+    }
+  ],
+  "topics": []
+}

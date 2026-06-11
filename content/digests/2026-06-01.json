@@ -1,0 +1,176 @@
+{
+  "date": "2026-06-01",
+  "generated_at": "2026-06-11T04:11:45.149769+00:00",
+  "items": [
+    {
+      "id": "hn:48364055",
+      "source": "hackernews",
+      "title": "Can the stockmarket swallow Anthropic, SpaceX and OpenAI?",
+      "url": "https://www.economist.com/finance-and-economics/2026/06/01/can-the-stockmarket-swallow-anthropic-spacex-and-openai",
+      "abstract": "",
+      "authors": [
+        "1vuio0pswjnm7"
+      ],
+      "published_at": "2026-06-01T23:45:46Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:48363132",
+      "source": "hackernews",
+      "title": "OpenAI frontier models and Codex are now available on AWS",
+      "url": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws/",
+      "abstract": "",
+      "authors": [
+        "typpo"
+      ],
+      "published_at": "2026-06-01T21:50:02Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:48359232",
+      "source": "hackernews",
+      "title": "AI Agent Guidelines for CS336 at Stanford",
+      "url": "https://github.com/stanford-cs336/assignment1-basics/blob/main/CLAUDE.md",
+      "abstract": "",
+      "authors": [
+        "prakashqwerty"
+      ],
+      "published_at": "2026-06-01T16:41:49Z",
+      "has_code": true,
+      "code_url": "https://github.com/stanford-cs336/assignment1-basics/blob/main/CLAUDE.md"
+    },
+    {
+      "id": "hn:48358667",
+      "source": "hackernews",
+      "title": "Florida sues OpenAI and Sam Altman over AI risks",
+      "url": "https://www.politico.com/news/2026/06/01/openai-hit-with-florida-lawsuit-00944215",
+      "abstract": "",
+      "authors": [
+        "cyunker"
+      ],
+      "published_at": "2026-06-01T16:02:04Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:48358646",
+      "source": "hackernews",
+      "title": "Anthropic confidentially submits draft S-1 to the SEC",
+      "url": "https://www.anthropic.com/news/confidential-draft-s1-sec",
+      "abstract": "",
+      "authors": [
+        "surprisetalk"
+      ],
+      "published_at": "2026-06-01T16:00:40Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "gh:ROssner/lol-match-predictor",
+      "source": "github",
+      "title": "ROssner/lol-match-predictor",
+      "url": "https://github.com/ROssner/lol-match-predictor",
+      "abstract": "Machine Learning model that predicts League of Legends match outcomes Python, Scikit-learn, IBM AI Engineering",
+      "authors": [
+        "ROssner"
+      ],
+      "published_at": "2026-06-01T03:11:25Z",
+      "has_code": true,
+      "code_url": "https://github.com/ROssner/lol-match-predictor"
+    },
+    {
+      "id": "gh:ZJU-LLMs/Machine-Learning-Paradiagms",
+      "source": "github",
+      "title": "ZJU-LLMs/Machine-Learning-Paradiagms",
+      "url": "https://github.com/ZJU-LLMs/Machine-Learning-Paradiagms",
+      "abstract": "Introduce forty machine learning paradiagms",
+      "authors": [
+        "ZJU-LLMs"
+      ],
+      "published_at": "2026-06-01T13:11:18Z",
+      "has_code": true,
+      "code_url": "https://github.com/ZJU-LLMs/Machine-Learning-Paradiagms"
+    },
+    {
+      "id": "blog:c8b9a6b007c1",
+      "source": "blog",
+      "title": "Our views on AI policy and political advocacy",
+      "url": "https://openai.com/index/our-views-on-ai-policy-and-political-advocacy",
+      "abstract": "Our approach to AI policy and political advocacy, transparency, support for thoughtful regulation and AI safety, and that no outside political group speaks on the company\u2019s behalf.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-06-01T17:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:dadd123def02",
+      "source": "blog",
+      "title": "Building the infrastructure for the Intelligence Age in Michigan",
+      "url": "https://openai.com/index/stargate-michigan-data-center",
+      "abstract": "OpenAI breaks ground on a 1GW data center project in Michigan as part of Stargate, building AI infrastructure to expand access, create jobs, and support communities.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-06-01T12:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:00ed5eb9be7b",
+      "source": "blog",
+      "title": "OpenAI frontier models and Codex are now available on AWS",
+      "url": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws",
+      "abstract": "OpenAI frontier models and Codex are now generally available on AWS, giving enterprises a new path to build with OpenAI through the AWS environments, controls, and procurement workflows they already use. Customers can get started with OpenAI on AWS and move faster from evaluation to production.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-06-01T10:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:4e4360776d53",
+      "source": "blog",
+      "title": "How we used Gemini to build Google I/O 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai/",
+      "abstract": "A collage of I/O-related images, including the Antigravity Coffee Co. pop-up, a colorful jellyfish and a still from the Timmy TPU video. The word AI repeats three times on the left of the image, and there are colorful icons, including a sparkle, as well.",
+      "authors": [
+        "Google AI"
+      ],
+      "published_at": "2026-06-01T16:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:2995ca1c3636",
+      "source": "blog",
+      "title": "Introducing Mellum2: A 12B Mixture-of-Experts Model by JetBrains",
+      "url": "https://huggingface.co/blog/JetBrains/mellum2-launch",
+      "abstract": "",
+      "authors": [
+        "Hugging Face"
+      ],
+      "published_at": "2026-06-01T15:45:17+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:65ae950e23b0",
+      "source": "blog",
+      "title": "Beyond LLMs: Why Scalable Enterprise AI Adoption Depends on Agent Logic",
+      "url": "https://huggingface.co/blog/ibm-research/agent-logic-and-scalable-ai-adoption",
+      "abstract": "",
+      "authors": [
+        "Hugging Face"
+      ],
+      "published_at": "2026-06-01T13:51:18+00:00",
+      "has_code": false,
+      "code_url": null
+    }
+  ],
+  "topics": []
+}

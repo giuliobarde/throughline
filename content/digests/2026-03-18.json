@@ -1,0 +1,98 @@
+{
+  "date": "2026-03-18",
+  "generated_at": "2026-06-11T04:11:45.077495+00:00",
+  "items": [
+    {
+      "id": "hn:47431671",
+      "source": "hackernews",
+      "title": "Show HN: Duplicate 3 layers in a 24B LLM, logical deduction .22\u2192.76. No training",
+      "url": "https://github.com/alainnothere/llm-circuit-finder",
+      "abstract": "",
+      "authors": [
+        "xlayn"
+      ],
+      "published_at": "2026-03-18T21:31:12Z",
+      "has_code": true,
+      "code_url": "https://github.com/alainnothere/llm-circuit-finder"
+    },
+    {
+      "id": "hn:47427647",
+      "source": "hackernews",
+      "title": "Google Engineers Launch \"Sashiko\" for Agentic AI Code Review of the Linux Kernel",
+      "url": "https://www.phoronix.com/news/Sashiko-Linux-AI-Code-Review",
+      "abstract": "",
+      "authors": [
+        "speckx"
+      ],
+      "published_at": "2026-03-18T16:17:44Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47425874",
+      "source": "hackernews",
+      "title": "LLMs predict my coffee",
+      "url": "https://dynomight.net/coffee/",
+      "abstract": "",
+      "authors": [
+        "surprisetalk"
+      ],
+      "published_at": "2026-03-18T13:56:37Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47423976",
+      "source": "hackernews",
+      "title": "OpenAI Has New Focus (on the IPO)",
+      "url": "https://om.co/2026/03/17/openai-has-new-focus-on-the-ipo/",
+      "abstract": "",
+      "authors": [
+        "aamederen"
+      ],
+      "published_at": "2026-03-18T10:49:19Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "gh:evelyyyyynnnnn/3.0-Financial-Ai-Systems",
+      "source": "github",
+      "title": "evelyyyyynnnnn/3.0-Financial-Ai-Systems",
+      "url": "https://github.com/evelyyyyynnnnn/3.0-Financial-Ai-Systems",
+      "abstract": "Machine learning and optimization models designed to enhance financial system stability through portfolio optimization, risk forecasting, and network-based financial risk analysis.",
+      "authors": [
+        "evelyyyyynnnnn"
+      ],
+      "published_at": "2026-03-18T16:25:20Z",
+      "has_code": true,
+      "code_url": "https://github.com/evelyyyyynnnnn/3.0-Financial-Ai-Systems"
+    },
+    {
+      "id": "gh:evelyyyyynnnnn/2.0-Healthcare-Ai-Systems",
+      "source": "github",
+      "title": "evelyyyyynnnnn/2.0-Healthcare-Ai-Systems",
+      "url": "https://github.com/evelyyyyynnnnn/2.0-Healthcare-Ai-Systems",
+      "abstract": "Machine learning and decision intelligence models designed to improve healthcare safety through clinical risk prediction and medical interaction analysis.",
+      "authors": [
+        "evelyyyyynnnnn"
+      ],
+      "published_at": "2026-03-18T16:25:47Z",
+      "has_code": true,
+      "code_url": "https://github.com/evelyyyyynnnnn/2.0-Healthcare-Ai-Systems"
+    },
+    {
+      "id": "gh:devaldaki3/CineMatch",
+      "source": "github",
+      "title": "devaldaki3/CineMatch",
+      "url": "https://github.com/devaldaki3/CineMatch",
+      "abstract": "Intelligent Movie Recommendation Engine powered by Machine Learning, NLP (Natural Language Processing), and real-time Sentiment Analysis via TMDb API.",
+      "authors": [
+        "devaldaki3"
+      ],
+      "published_at": "2026-03-18T12:58:14Z",
+      "has_code": true,
+      "code_url": "https://github.com/devaldaki3/CineMatch"
+    }
+  ],
+  "topics": []
+}

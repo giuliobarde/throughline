@@ -1,0 +1,111 @@
+{
+  "date": "2026-04-08",
+  "generated_at": "2026-06-11T04:11:45.095759+00:00",
+  "items": [
+    {
+      "id": "hn:47693679",
+      "source": "hackernews",
+      "title": "I've been waiting over a month for Anthropic to respond to my billing issue",
+      "url": "https://nickvecchioni.github.io/thoughts/2026/04/08/anthropic-support-doesnt-exist/",
+      "abstract": "",
+      "authors": [
+        "nickvec"
+      ],
+      "published_at": "2026-04-08T17:44:25Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47693047",
+      "source": "hackernews",
+      "title": "Claude Managed Agents",
+      "url": "https://claude.com/blog/claude-managed-agents",
+      "abstract": "",
+      "authors": [
+        "adocomplete"
+      ],
+      "published_at": "2026-04-08T17:04:40Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47689174",
+      "source": "hackernews",
+      "title": "MegaTrain: Full Precision Training of 100B+ Parameter LLMs on a Single GPU",
+      "url": "https://arxiv.org/abs/2604.05091",
+      "abstract": "",
+      "authors": [
+        "chrsw"
+      ],
+      "published_at": "2026-04-08T12:19:00Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47684326",
+      "source": "hackernews",
+      "title": "OpenAI says its new model GPT-2 is too dangerous to release (2019)",
+      "url": "https://slate.com/technology/2019/02/openai-gpt2-text-generating-algorithm-ai-dangerous.html",
+      "abstract": "",
+      "authors": [
+        "surprisetalk"
+      ],
+      "published_at": "2026-04-08T02:41:12Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "gh:lakshmimallesh-dev/hospital-data-analysis-ml",
+      "source": "github",
+      "title": "lakshmimallesh-dev/hospital-data-analysis-ml",
+      "url": "https://github.com/lakshmimallesh-dev/hospital-data-analysis-ml",
+      "abstract": "Hospital Patient Data Analysis using EDA and Machine Learning (Random Forest) to predict severity of illness with ~75% accuracy.",
+      "authors": [
+        "lakshmimallesh-dev"
+      ],
+      "published_at": "2026-04-08T16:19:50Z",
+      "has_code": true,
+      "code_url": "https://github.com/lakshmimallesh-dev/hospital-data-analysis-ml"
+    },
+    {
+      "id": "blog:1c7f2b6158ff",
+      "source": "blog",
+      "title": "The next phase of enterprise AI",
+      "url": "https://openai.com/index/next-phase-of-enterprise-ai",
+      "abstract": "OpenAI outlines the next phase of enterprise AI, as adoption accelerates across industries with Frontier, ChatGPT Enterprise, Codex, and company-wide AI agents.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-04-08T14:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:54bfe59297d4",
+      "source": "blog",
+      "title": "Introducing the Child Safety Blueprint",
+      "url": "https://openai.com/index/introducing-child-safety-blueprint",
+      "abstract": "Discover OpenAI\u2019s Child Safety Blueprint\u2014a roadmap for building AI responsibly with safeguards, age-appropriate design, and collaboration to protect and empower young people online.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-04-08T05:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:aa892ef06770",
+      "source": "blog",
+      "title": "Safetensors is Joining the PyTorch Foundation",
+      "url": "https://huggingface.co/blog/safetensors-joins-pytorch-foundation",
+      "abstract": "",
+      "authors": [
+        "Hugging Face"
+      ],
+      "published_at": "2026-04-08T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    }
+  ],
+  "topics": []
+}

@@ -1,0 +1,85 @@
+{
+  "date": "2026-02-14",
+  "generated_at": "2026-06-11T04:11:45.052947+00:00",
+  "items": [
+    {
+      "id": "hn:47012964",
+      "source": "hackernews",
+      "title": "YouTube as Storage",
+      "url": "https://github.com/PulseBeat02/yt-media-storage",
+      "abstract": "",
+      "authors": [
+        "saswatms"
+      ],
+      "published_at": "2026-02-14T09:10:15Z",
+      "has_code": true,
+      "code_url": "https://github.com/PulseBeat02/yt-media-storage"
+    },
+    {
+      "id": "hn:47012553",
+      "source": "hackernews",
+      "title": "OpenAI should build Slack",
+      "url": "https://www.latent.space/p/ainews-why-openai-should-build-slack",
+      "abstract": "",
+      "authors": [
+        "swyx"
+      ],
+      "published_at": "2026-02-14T07:50:13Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47009949",
+      "source": "hackernews",
+      "title": "An AI agent published a hit piece on me \u2013 more things have happened",
+      "url": "https://theshamblog.com/an-ai-agent-published-a-hit-piece-on-me-part-2/",
+      "abstract": "",
+      "authors": [
+        "scottshambaugh"
+      ],
+      "published_at": "2026-02-14T00:37:53Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "gh:InternScience/MLEvolve",
+      "source": "github",
+      "title": "InternScience/MLEvolve",
+      "url": "https://github.com/InternScience/MLEvolve",
+      "abstract": "MLEvolve is an open-source autonomous system for end-to-end machine learning algorithm design and optimization powered by progressive search and experience-driven memory.",
+      "authors": [
+        "InternScience"
+      ],
+      "published_at": "2026-02-14T15:10:12Z",
+      "has_code": true,
+      "code_url": "https://github.com/InternScience/MLEvolve"
+    },
+    {
+      "id": "gh:FedrerSchumacherjudeJ/Student-Performance-Prediction-using-Machine-Learning",
+      "source": "github",
+      "title": "FedrerSchumacherjudeJ/Student-Performance-Prediction-using-Machine-Learning",
+      "url": "https://github.com/FedrerSchumacherjudeJ/Student-Performance-Prediction-using-Machine-Learning",
+      "abstract": "This project uses Machine Learning to predict whether a student will pass or fail based on study hours, attendance, and marks.  Data preprocessing is performed to handle missing values, convert categorical data, and normalize features before training a Logistic Regression model.  The system helps identify students who need academic support.",
+      "authors": [
+        "FedrerSchumacherjudeJ"
+      ],
+      "published_at": "2026-02-14T18:54:04Z",
+      "has_code": true,
+      "code_url": "https://github.com/FedrerSchumacherjudeJ/Student-Performance-Prediction-using-Machine-Learning"
+    },
+    {
+      "id": "gh:xkiwilabs/Practical-AI-for-Behavioural-Science",
+      "source": "github",
+      "title": "xkiwilabs/Practical-AI-for-Behavioural-Science",
+      "url": "https://github.com/xkiwilabs/Practical-AI-for-Behavioural-Science",
+      "abstract": "A hands-on course introducing machine learning and AI tools to psychological and cognitive science research. No coding or technical background required.",
+      "authors": [
+        "xkiwilabs"
+      ],
+      "published_at": "2026-02-14T01:24:31Z",
+      "has_code": true,
+      "code_url": "https://github.com/xkiwilabs/Practical-AI-for-Behavioural-Science"
+    }
+  ],
+  "topics": []
+}

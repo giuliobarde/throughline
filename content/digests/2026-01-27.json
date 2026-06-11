@@ -1,0 +1,202 @@
+{
+  "date": "2026-01-27",
+  "generated_at": "2026-06-11T04:11:45.040753+00:00",
+  "items": [
+    {
+      "id": "hn:46786672",
+      "source": "hackernews",
+      "title": "CISA\u2019s acting head uploaded sensitive files into public version of ChatGPT",
+      "url": "https://www.politico.com/news/2026/01/27/cisa-madhu-gottumukkala-chatgpt-00749361",
+      "abstract": "",
+      "authors": [
+        "rurp"
+      ],
+      "published_at": "2026-01-27T21:02:36Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:46786618",
+      "source": "hackernews",
+      "title": "Show HN: I wrapped the Zorks with an LLM",
+      "url": "https://infocom.tambo.co/",
+      "abstract": "",
+      "authors": [
+        "alecf"
+      ],
+      "published_at": "2026-01-27T20:59:49Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:46783600",
+      "source": "hackernews",
+      "title": "Show HN: LemonSlice \u2013 Upgrade your voice agents to real-time video",
+      "url": "https://news.ycombinator.com/item?id=46783600",
+      "abstract": "",
+      "authors": [
+        "lcolucci"
+      ],
+      "published_at": "2026-01-27T17:55:15Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:46783017",
+      "source": "hackernews",
+      "title": "AI2: Open Coding Agents",
+      "url": "https://allenai.org/blog/open-coding-agents",
+      "abstract": "",
+      "authors": [
+        "publicmatt"
+      ],
+      "published_at": "2026-01-27T17:17:54Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:46782811",
+      "source": "hackernews",
+      "title": "Management as AI superpower: Thriving in a world of agentic AI",
+      "url": "https://www.oneusefulthing.org/p/management-as-ai-superpower",
+      "abstract": "",
+      "authors": [
+        "swolpers"
+      ],
+      "published_at": "2026-01-27T17:04:22Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:46779522",
+      "source": "hackernews",
+      "title": "Show HN: One Human + One Agent = One Browser From Scratch in 20K LOC",
+      "url": "https://emsh.cat/one-human-one-agent-one-browser/",
+      "abstract": "",
+      "authors": [
+        "embedding-shape"
+      ],
+      "published_at": "2026-01-27T13:13:56Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:46775961",
+      "source": "hackernews",
+      "title": "Kimi Released Kimi K2.5, Open-Source Visual SOTA-Agentic Model",
+      "url": "https://www.kimi.com/blog/kimi-k2-5.html",
+      "abstract": "",
+      "authors": [
+        "nekofneko"
+      ],
+      "published_at": "2026-01-27T05:42:27Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:46773655",
+      "source": "hackernews",
+      "title": "The engineer who invented the Mars rover suspension in his garage [video]",
+      "url": "https://www.youtube.com/watch?v=QKSPk_0N4Jc",
+      "abstract": "",
+      "authors": [
+        "UltraSane"
+      ],
+      "published_at": "2026-01-27T00:08:33Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "gh:SciML/Corleone.jl",
+      "source": "github",
+      "title": "SciML/Corleone.jl",
+      "url": "https://github.com/SciML/Corleone.jl",
+      "abstract": "Optimal Control meets Scientific Machine Learning",
+      "authors": [
+        "SciML"
+      ],
+      "published_at": "2026-01-27T07:19:00Z",
+      "has_code": true,
+      "code_url": "https://github.com/SciML/Corleone.jl"
+    },
+    {
+      "id": "blog:53560453084e",
+      "source": "blog",
+      "title": "PVH reimagines the future of fashion with OpenAI",
+      "url": "https://openai.com/index/pvh-future-of-fashion",
+      "abstract": "PVH Corp., parent company of Calvin Klein and Tommy Hilfiger, is adopting ChatGPT Enterprise to bring AI into fashion design, supply chain, and consumer engagement.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-01-27T06:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:42533aa4f8b5",
+      "source": "blog",
+      "title": "TRUSTBANK uses AI agents to personalize Furusato Nozei gifts",
+      "url": "https://openai.com/index/trustbank",
+      "abstract": "TRUSTBANK partnered with Recursive to build Choice AI using OpenAI models, enabling personalized conversational recommendations that simplify Furusato Nozei gift discovery.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-01-27T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:2c97344d1f84",
+      "source": "blog",
+      "title": "Introducing Prism",
+      "url": "https://openai.com/index/introducing-prism",
+      "abstract": "Prism is a free LaTeX-native workspace with GPT-5.2 built in, helping researchers write, collaborate, and reason in one place.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-01-27T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:c44613a2ec7f",
+      "source": "blog",
+      "title": "Architectural Choices in China's Open-Source AI Ecosystem: Building Beyond DeepSeek",
+      "url": "https://huggingface.co/blog/huggingface/one-year-since-the-deepseek-moment-blog-2",
+      "abstract": "",
+      "authors": [
+        "Hugging Face"
+      ],
+      "published_at": "2026-01-27T15:01:45+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:5ba81dd8abe4",
+      "source": "blog",
+      "title": "Alyah \u2b50\ufe0f: Toward Robust Evaluation of Emirati Dialect Capabilities in Arabic LLMs",
+      "url": "https://huggingface.co/blog/tiiuae/emirati-benchmarks",
+      "abstract": "",
+      "authors": [
+        "Hugging Face"
+      ],
+      "published_at": "2026-01-27T10:26:42+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:9268bf078797",
+      "source": "blog",
+      "title": "Unlocking Agentic RL Training for GPT-OSS: A Practical Retrospective",
+      "url": "https://huggingface.co/blog/LinkedIn/gpt-oss-agentic-rl",
+      "abstract": "",
+      "authors": [
+        "Hugging Face"
+      ],
+      "published_at": "2026-01-27T01:53:15+00:00",
+      "has_code": false,
+      "code_url": null
+    }
+  ],
+  "topics": []
+}

@@ -1,0 +1,72 @@
+{
+  "date": "2026-02-17",
+  "generated_at": "2026-06-11T04:11:45.055014+00:00",
+  "items": [
+    {
+      "id": "hn:47051956",
+      "source": "hackernews",
+      "title": "An AI Agent Published a Hit Piece on Me \u2013 Forensics and More Fallout",
+      "url": "https://theshamblog.com/an-ai-agent-published-a-hit-piece-on-me-part-3/",
+      "abstract": "",
+      "authors": [
+        "scottshambaugh"
+      ],
+      "published_at": "2026-02-17T19:31:45Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47049227",
+      "source": "hackernews",
+      "title": "Show HN: I taught LLMs to play Magic: The Gathering against each other",
+      "url": "https://mage-bench.com/",
+      "abstract": "",
+      "authors": [
+        "GregorStocks"
+      ],
+      "published_at": "2026-02-17T16:22:49Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47048731",
+      "source": "hackernews",
+      "title": "Sub-Millisecond RAG on Apple Silicon. No Server. No API. One File",
+      "url": "https://github.com/christopherkarani/Wax",
+      "abstract": "",
+      "authors": [
+        "ckarani"
+      ],
+      "published_at": "2026-02-17T15:43:37Z",
+      "has_code": true,
+      "code_url": "https://github.com/christopherkarani/Wax"
+    },
+    {
+      "id": "hn:47042396",
+      "source": "hackernews",
+      "title": "Dark web agent spotted bedroom wall clue to rescue girl from abuse",
+      "url": "https://www.bbc.com/news/articles/cx2gn239exlo",
+      "abstract": "",
+      "authors": [
+        "colinprince"
+      ],
+      "published_at": "2026-02-17T01:01:00Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:c1bd3327d906",
+      "source": "blog",
+      "title": "Accelerating discovery in India through AI-powered science and education",
+      "url": "https://deepmind.google/blog/accelerating-discovery-in-india-through-ai-powered-science-and-education/",
+      "abstract": "Google DeepMind brings National Partnerships for AI initiative to India, scaling AI for science and education",
+      "authors": [
+        "Google DeepMind"
+      ],
+      "published_at": "2026-02-17T13:42:20+00:00",
+      "has_code": false,
+      "code_url": null
+    }
+  ],
+  "topics": []
+}

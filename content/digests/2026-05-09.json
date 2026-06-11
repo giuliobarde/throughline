@@ -1,0 +1,59 @@
+{
+  "date": "2026-05-09",
+  "generated_at": "2026-06-11T04:11:45.125769+00:00",
+  "items": [
+    {
+      "id": "hn:48073246",
+      "source": "hackernews",
+      "title": "LLMs corrupt your documents when you delegate",
+      "url": "https://arxiv.org/abs/2604.15597",
+      "abstract": "",
+      "authors": [
+        "rbanffy"
+      ],
+      "published_at": "2026-05-09T08:44:34Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:48071262",
+      "source": "hackernews",
+      "title": "A recent experience with ChatGPT 5.5 Pro",
+      "url": "https://gowers.wordpress.com/2026/05/08/a-recent-experience-with-chatgpt-5-5-pro/",
+      "abstract": "",
+      "authors": [
+        "_alternator_"
+      ],
+      "published_at": "2026-05-09T02:41:42Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "gh:Alisha-21-cloud/DiamondPriceX",
+      "source": "github",
+      "title": "Alisha-21-cloud/DiamondPriceX",
+      "url": "https://github.com/Alisha-21-cloud/DiamondPriceX",
+      "abstract": "DiamondPriceX is a full-stack web application that predicts the market price of a diamond based on its physical and qualitative attributes. The platform combines a trained machine learning model with a clean, modern web interface to deliver real-time price estimates.",
+      "authors": [
+        "Alisha-21-cloud"
+      ],
+      "published_at": "2026-05-09T13:53:22Z",
+      "has_code": true,
+      "code_url": "https://github.com/Alisha-21-cloud/DiamondPriceX"
+    },
+    {
+      "id": "gh:DIDimov24/iForeSea-AquaSense-IoT-Hackathon",
+      "source": "github",
+      "title": "DIDimov24/iForeSea-AquaSense-IoT-Hackathon",
+      "url": "https://github.com/DIDimov24/iForeSea-AquaSense-IoT-Hackathon",
+      "abstract": "iForeSea is an early-warning web platform that uses machine learning to predict the risk of harmful algal blooms (HABs) in the coastal waters of Burgas Bay, Bulgaria, 3-5 days in advance.",
+      "authors": [
+        "DIDimov24"
+      ],
+      "published_at": "2026-05-09T17:53:49Z",
+      "has_code": true,
+      "code_url": "https://github.com/DIDimov24/iForeSea-AquaSense-IoT-Hackathon"
+    }
+  ],
+  "topics": []
+}

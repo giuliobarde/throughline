@@ -1,0 +1,46 @@
+{
+  "date": "2026-04-19",
+  "generated_at": "2026-06-11T04:11:45.105840+00:00",
+  "items": [
+    {
+      "id": "hn:47828249",
+      "source": "hackernews",
+      "title": "Banned by Anthropic?",
+      "url": "https://bannedbyanthropic.com/",
+      "abstract": "",
+      "authors": [
+        "gck1"
+      ],
+      "published_at": "2026-04-19T22:33:31Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "gh:ImmortalShubham/IPL-Intelligence-Engine",
+      "source": "github",
+      "title": "ImmortalShubham/IPL-Intelligence-Engine",
+      "url": "https://github.com/ImmortalShubham/IPL-Intelligence-Engine",
+      "abstract": "IPL Intelligence Engine : Data Analysis & Machine Learning Project with Interactive Website.",
+      "authors": [
+        "ImmortalShubham"
+      ],
+      "published_at": "2026-04-19T15:47:04Z",
+      "has_code": true,
+      "code_url": "https://github.com/ImmortalShubham/IPL-Intelligence-Engine"
+    },
+    {
+      "id": "gh:nikithakolipakula/Traffic-Crash-Analysis",
+      "source": "github",
+      "title": "nikithakolipakula/Traffic-Crash-Analysis",
+      "url": "https://github.com/nikithakolipakula/Traffic-Crash-Analysis",
+      "abstract": "Traffic crash analysis and prediction using data analysis, visualization and machine learning",
+      "authors": [
+        "nikithakolipakula"
+      ],
+      "published_at": "2026-04-19T19:26:16Z",
+      "has_code": true,
+      "code_url": "https://github.com/nikithakolipakula/Traffic-Crash-Analysis"
+    }
+  ],
+  "topics": []
+}

@@ -1,0 +1,111 @@
+{
+  "date": "2026-01-16",
+  "generated_at": "2026-06-11T04:11:45.033885+00:00",
+  "items": [
+    {
+      "id": "hn:46652944",
+      "source": "hackernews",
+      "title": "Install.md: A standard for LLM-executable installation",
+      "url": "https://www.mintlify.com/blog/install-md-standard-for-llm-executable-installation",
+      "abstract": "",
+      "authors": [
+        "npmipg"
+      ],
+      "published_at": "2026-01-16T22:15:20Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:46649853",
+      "source": "hackernews",
+      "title": "RTS for Agents",
+      "url": "https://www.getagentcraft.com/",
+      "abstract": "",
+      "authors": [
+        "summoned"
+      ],
+      "published_at": "2026-01-16T18:20:15Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "gh:TruongDat05/machine-learning-notes-and-code",
+      "source": "github",
+      "title": "TruongDat05/machine-learning-notes-and-code",
+      "url": "https://github.com/TruongDat05/machine-learning-notes-and-code",
+      "abstract": "Machine Learning Specialization - Study Notes & Labs",
+      "authors": [
+        "TruongDat05"
+      ],
+      "published_at": "2026-01-16T07:35:23Z",
+      "has_code": true,
+      "code_url": "https://github.com/TruongDat05/machine-learning-notes-and-code"
+    },
+    {
+      "id": "gh:goobolabs/feb-ds-ml-bootcamp-2026",
+      "source": "github",
+      "title": "goobolabs/feb-ds-ml-bootcamp-2026",
+      "url": "https://github.com/goobolabs/feb-ds-ml-bootcamp-2026",
+      "abstract": "Data Science and Machine Learning Bootcamp. (2026)",
+      "authors": [
+        "goobolabs"
+      ],
+      "published_at": "2026-01-16T01:34:55Z",
+      "has_code": true,
+      "code_url": "https://github.com/goobolabs/feb-ds-ml-bootcamp-2026"
+    },
+    {
+      "id": "gh:allianceai/endgame",
+      "source": "github",
+      "title": "allianceai/endgame",
+      "url": "https://github.com/allianceai/endgame",
+      "abstract": "A unified framework for tabular, time-series, and multimodal machine learning",
+      "authors": [
+        "allianceai"
+      ],
+      "published_at": "2026-01-16T06:28:02Z",
+      "has_code": true,
+      "code_url": "https://github.com/allianceai/endgame"
+    },
+    {
+      "id": "blog:61959f22e780",
+      "source": "blog",
+      "title": "Our approach to advertising and expanding access to ChatGPT",
+      "url": "https://openai.com/index/our-approach-to-advertising-and-expanding-access",
+      "abstract": "OpenAI plans to test advertising in the U.S. for ChatGPT\u2019s free and Go tiers to expand affordable access to AI worldwide, while protecting privacy, trust, and answer quality.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-01-16T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:0f1e6ca37d64",
+      "source": "blog",
+      "title": "Introducing ChatGPT Go, now available worldwide",
+      "url": "https://openai.com/index/introducing-chatgpt-go",
+      "abstract": "ChatGPT Go is now available worldwide, offering expanded access to GPT-5.2 Instant, higher usage limits, and longer memory\u2014making advanced AI more affordable globally.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-01-16T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:d24e0764a21c",
+      "source": "blog",
+      "title": "D4RT: Teaching AI to see the world in four dimensions",
+      "url": "https://deepmind.google/blog/d4rt-teaching-ai-to-see-the-world-in-four-dimensions/",
+      "abstract": "D4RT: Unified, efficient 4D reconstruction and tracking up to 300x faster than prior methods.",
+      "authors": [
+        "Google DeepMind"
+      ],
+      "published_at": "2026-01-16T10:39:00+00:00",
+      "has_code": false,
+      "code_url": null
+    }
+  ],
+  "topics": []
+}

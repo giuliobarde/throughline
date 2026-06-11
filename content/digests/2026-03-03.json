@@ -1,0 +1,98 @@
+{
+  "date": "2026-03-03",
+  "generated_at": "2026-06-11T04:11:45.065743+00:00",
+  "items": [
+    {
+      "id": "hn:47236169",
+      "source": "hackernews",
+      "title": "GPT\u20115.3 Instant",
+      "url": "https://openai.com/index/gpt-5-3-instant/",
+      "abstract": "",
+      "authors": [
+        "meetpateltech"
+      ],
+      "published_at": "2026-03-03T17:57:33Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "gh:apaz-cli/mlsweep",
+      "source": "github",
+      "title": "apaz-cli/mlsweep",
+      "url": "https://github.com/apaz-cli/mlsweep",
+      "abstract": "Machine Learning Experiment Tracker and Sweep Manager",
+      "authors": [
+        "apaz-cli"
+      ],
+      "published_at": "2026-03-03T06:53:11Z",
+      "has_code": true,
+      "code_url": "https://github.com/apaz-cli/mlsweep"
+    },
+    {
+      "id": "gh:pangxuan945/End-to-End_AI_Career_Coach",
+      "source": "github",
+      "title": "pangxuan945/End-to-End_AI_Career_Coach",
+      "url": "https://github.com/pangxuan945/End-to-End_AI_Career_Coach",
+      "abstract": "This is the official repository for Group \"Underfitted 4 (U4)\" for the Machine Learning Capstone Project. This is an End-to-end AI Career Coach: MLP surrogates + PPO reinforcement learning + LLM report generation for personalized, cost-aware campus placement advising.",
+      "authors": [
+        "pangxuan945"
+      ],
+      "published_at": "2026-03-03T17:08:23Z",
+      "has_code": true,
+      "code_url": "https://github.com/pangxuan945/End-to-End_AI_Career_Coach"
+    },
+    {
+      "id": "blog:dff56ece1971",
+      "source": "blog",
+      "title": "GPT-5.3 Instant: Smoother, more useful everyday conversations",
+      "url": "https://openai.com/index/gpt-5-3-instant",
+      "abstract": "",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-03-03T10:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:f44579b21e9e",
+      "source": "blog",
+      "title": "GPT-5.3 Instant System Card",
+      "url": "https://openai.com/index/gpt-5-3-instant-system-card",
+      "abstract": "",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-03-03T10:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:f27163a5c3a8",
+      "source": "blog",
+      "title": "Gemini 3.1 Flash-Lite: Built for intelligence at scale",
+      "url": "https://deepmind.google/blog/gemini-3-1-flash-lite-built-for-intelligence-at-scale/",
+      "abstract": "Gemini 3.1 Flash-Lite is our fastest and most cost-efficient Gemini 3 series model yet.",
+      "authors": [
+        "Google DeepMind"
+      ],
+      "published_at": "2026-03-03T16:35:55+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:0490fd40e37c",
+      "source": "blog",
+      "title": "PRX Part 3 \u2014 Training a Text-to-Image Model in 24h!",
+      "url": "https://huggingface.co/blog/Photoroom/prx-part3",
+      "abstract": "",
+      "authors": [
+        "Hugging Face"
+      ],
+      "published_at": "2026-03-03T16:50:49+00:00",
+      "has_code": false,
+      "code_url": null
+    }
+  ],
+  "topics": []
+}

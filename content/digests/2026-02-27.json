@@ -1,0 +1,254 @@
+{
+  "date": "2026-02-27",
+  "generated_at": "2026-06-11T04:11:45.062497+00:00",
+  "items": [
+    {
+      "id": "hn:47186677",
+      "source": "hackernews",
+      "title": "I am directing the Department of War to designate Anthropic a supply-chain risk",
+      "url": "https://twitter.com/secwar/status/2027507717469049070",
+      "abstract": "",
+      "authors": [
+        "jacobedawson"
+      ],
+      "published_at": "2026-02-27T22:31:18Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47186127",
+      "source": "hackernews",
+      "title": "Trump orders US Government to cut ties with Anthropic",
+      "url": "https://abcnews.com/Politics/anthropic-latest-pentagon-contract-bar-ai-autonomous-weapons/story?id=130558898",
+      "abstract": "",
+      "authors": [
+        "SunshineTheCat"
+      ],
+      "published_at": "2026-02-27T21:49:11Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47186031",
+      "source": "hackernews",
+      "title": "President Trump bans Anthropic from use in government systems",
+      "url": "https://www.npr.org/2026/02/27/nx-s1-5729118/trump-anthropic-pentagon-openai-ai-weapons-ban",
+      "abstract": "",
+      "authors": [
+        "pkress2"
+      ],
+      "published_at": "2026-02-27T21:40:40Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47182986",
+      "source": "hackernews",
+      "title": "747s and coding agents",
+      "url": "https://carlkolon.com/2026/02/27/engineering-747-coding-agents/",
+      "abstract": "",
+      "authors": [
+        "cckolon"
+      ],
+      "published_at": "2026-02-27T17:22:00Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47181944",
+      "source": "hackernews",
+      "title": "A Chinese official\u2019s use of ChatGPT revealed an intimidation operation",
+      "url": "https://www.cnn.com/2026/02/25/politics/chatgpt-china-intimidation-operation",
+      "abstract": "",
+      "authors": [
+        "cwwc"
+      ],
+      "published_at": "2026-02-27T15:52:27Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47181841",
+      "source": "hackernews",
+      "title": "ChatGPT Health fails to recognise medical emergencies \u2013\u00a0study",
+      "url": "https://www.theguardian.com/technology/2026/feb/26/chatgpt-health-fails-recognise-medical-emergencies",
+      "abstract": "",
+      "authors": [
+        "simonebrunozzi"
+      ],
+      "published_at": "2026-02-27T15:44:33Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47181801",
+      "source": "hackernews",
+      "title": "We gave terabytes of CI logs to an LLM",
+      "url": "https://www.mendral.com/blog/llms-are-good-at-sql",
+      "abstract": "",
+      "authors": [
+        "shad42"
+      ],
+      "published_at": "2026-02-27T15:41:13Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47181380",
+      "source": "hackernews",
+      "title": "The Pentagon is making a mistake by threatening Anthropic",
+      "url": "https://www.understandingai.org/p/the-pentagon-is-making-a-mistake",
+      "abstract": "",
+      "authors": [
+        "speckx"
+      ],
+      "published_at": "2026-02-27T15:08:29Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47181211",
+      "source": "hackernews",
+      "title": "OpenAI raises $110B on $730B pre-money valuation",
+      "url": "https://techcrunch.com/2026/02/27/openai-raises-110b-in-one-of-the-largest-private-funding-rounds-in-history/",
+      "abstract": "",
+      "authors": [
+        "zlatkov"
+      ],
+      "published_at": "2026-02-27T14:56:05Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47176239",
+      "source": "hackernews",
+      "title": "Parakeet.cpp \u2013 Parakeet ASR inference in pure C++ with Metal GPU acceleration",
+      "url": "https://github.com/Frikallo/parakeet.cpp",
+      "abstract": "",
+      "authors": [
+        "noahkay13"
+      ],
+      "published_at": "2026-02-27T03:48:05Z",
+      "has_code": true,
+      "code_url": "https://github.com/Frikallo/parakeet.cpp"
+    },
+    {
+      "id": "hn:47175931",
+      "source": "hackernews",
+      "title": "Google workers seek 'red lines' on military A.I., echoing Anthropic",
+      "url": "https://www.nytimes.com/2026/02/26/technology/google-deepmind-letter-pentagon.html",
+      "abstract": "",
+      "authors": [
+        "mikece"
+      ],
+      "published_at": "2026-02-27T03:08:09Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "gh:EncyclopediaWorld/howaiworks",
+      "source": "github",
+      "title": "EncyclopediaWorld/howaiworks",
+      "url": "https://github.com/EncyclopediaWorld/howaiworks",
+      "abstract": "How AI Works is a self-contained, static website that walks through the entire history of artificial intelligence and machine learning through 50 interactive model demos spanning over 200 years. ",
+      "authors": [
+        "EncyclopediaWorld"
+      ],
+      "published_at": "2026-02-27T02:11:55Z",
+      "has_code": true,
+      "code_url": "https://github.com/EncyclopediaWorld/howaiworks"
+    },
+    {
+      "id": "gh:ramkalapala/Federated",
+      "source": "github",
+      "title": "ramkalapala/Federated",
+      "url": "https://github.com/ramkalapala/Federated",
+      "abstract": "Federated-learning Healthcare privacy Machine Learning HIPAA workers-compensation",
+      "authors": [
+        "ramkalapala"
+      ],
+      "published_at": "2026-02-27T05:54:35Z",
+      "has_code": true,
+      "code_url": "https://github.com/ramkalapala/Federated"
+    },
+    {
+      "id": "gh:Cataldir/Materiais-MLET",
+      "source": "github",
+      "title": "Cataldir/Materiais-MLET",
+      "url": "https://github.com/Cataldir/Materiais-MLET",
+      "abstract": "Reposit\u00f3rio para consulta a c\u00f3digos do curso de Engenharia de Machine Learning da P\u00f3s-Tech da FIAP",
+      "authors": [
+        "Cataldir"
+      ],
+      "published_at": "2026-02-27T17:17:28Z",
+      "has_code": true,
+      "code_url": "https://github.com/Cataldir/Materiais-MLET"
+    },
+    {
+      "id": "blog:0b6632a60f07",
+      "source": "blog",
+      "title": "Introducing the Stateful Runtime Environment for Agents in Amazon Bedrock",
+      "url": "https://openai.com/index/introducing-the-stateful-runtime-environment-for-agents-in-amazon-bedrock",
+      "abstract": "Stateful Runtime for Agents in Amazon Bedrock brings persistent orchestration, memory, and secure execution to multi-step AI workflows powered by OpenAI.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-02-27T05:30:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:794d4515e722",
+      "source": "blog",
+      "title": "Scaling AI for everyone",
+      "url": "https://openai.com/index/scaling-ai-for-everyone",
+      "abstract": "Today we\u2019re announcing $110B in new investment at a $730B pre money valuation. This includes $30B from SoftBank, $30B from NVIDIA, and $50B from Amazon.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-02-27T05:30:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:11f28611545f",
+      "source": "blog",
+      "title": "OpenAI and Amazon announce strategic partnership",
+      "url": "https://openai.com/index/amazon-partnership",
+      "abstract": "OpenAI and Amazon announce a strategic partnership bringing OpenAI\u2019s Frontier platform to AWS, expanding AI infrastructure, custom models, and enterprise AI agents.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-02-27T05:30:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:8c87fa05a78c",
+      "source": "blog",
+      "title": "Joint Statement from OpenAI and Microsoft",
+      "url": "https://openai.com/index/continuing-microsoft-partnership",
+      "abstract": "Microsoft and OpenAI continue to work closely across research, engineering, and product development, building on years of deep collaboration and shared success.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-02-27T05:30:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:54ea56b76bba",
+      "source": "blog",
+      "title": "An update on our mental health-related work",
+      "url": "https://openai.com/index/update-on-mental-health-related-work",
+      "abstract": "OpenAI shares updates on its mental health safety work, including parental controls, trusted contacts, improved distress detection, and recent litigation developments.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-02-27T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    }
+  ],
+  "topics": []
+}

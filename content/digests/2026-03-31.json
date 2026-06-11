@@ -1,0 +1,124 @@
+{
+  "date": "2026-03-31",
+  "generated_at": "2026-06-11T04:11:45.088972+00:00",
+  "items": [
+    {
+      "id": "hn:47593422",
+      "source": "hackernews",
+      "title": "Show HN: 1-Bit Bonsai, the First Commercially Viable 1-Bit LLMs",
+      "url": "https://prismml.com/",
+      "abstract": "",
+      "authors": [
+        "PrismML"
+      ],
+      "published_at": "2026-03-31T21:01:18Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47592755",
+      "source": "hackernews",
+      "title": "OpenAI closes funding round at an $852B valuation",
+      "url": "https://www.cnbc.com/2026/03/31/openai-funding-round-ipo.html",
+      "abstract": "",
+      "authors": [
+        "surprisetalk"
+      ],
+      "published_at": "2026-03-31T20:07:30Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "gh:Srivardhini-S/quantum-noise-signal-classifier",
+      "source": "github",
+      "title": "Srivardhini-S/quantum-noise-signal-classifier",
+      "url": "https://github.com/Srivardhini-S/quantum-noise-signal-classifier",
+      "abstract": "Quantum Machine Learning project with noise filtering and signal classification",
+      "authors": [
+        "Srivardhini-S"
+      ],
+      "published_at": "2026-03-31T05:07:39Z",
+      "has_code": true,
+      "code_url": "https://github.com/Srivardhini-S/quantum-noise-signal-classifier"
+    },
+    {
+      "id": "gh:Pavithra-Jayapal/review-rating-predictor",
+      "source": "github",
+      "title": "Pavithra-Jayapal/review-rating-predictor",
+      "url": "https://github.com/Pavithra-Jayapal/review-rating-predictor",
+      "abstract": "Machine Learning project that predicts product review ratings using TF-IDF and Naive Bayes with a Streamlit web app interface.",
+      "authors": [
+        "Pavithra-Jayapal"
+      ],
+      "published_at": "2026-03-31T04:23:50Z",
+      "has_code": true,
+      "code_url": "https://github.com/Pavithra-Jayapal/review-rating-predictor"
+    },
+    {
+      "id": "gh:Srinivasan-03/loan-approval-fairness-check",
+      "source": "github",
+      "title": "Srinivasan-03/loan-approval-fairness-check",
+      "url": "https://github.com/Srinivasan-03/loan-approval-fairness-check",
+      "abstract": "Bias detection in loan approval using ensemble machine learning (MATLAB).",
+      "authors": [
+        "Srinivasan-03"
+      ],
+      "published_at": "2026-03-31T14:01:05Z",
+      "has_code": true,
+      "code_url": "https://github.com/Srinivasan-03/loan-approval-fairness-check"
+    },
+    {
+      "id": "blog:092ef1a3b234",
+      "source": "blog",
+      "title": "Accelerating the next phase of AI",
+      "url": "https://openai.com/index/accelerating-the-next-phase-ai",
+      "abstract": "OpenAI raises $122 billion in new funding to expand frontier AI globally, invest in next-generation compute, and meet growing demand for ChatGPT, Codex, and enterprise AI.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-03-31T13:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:3984d84784ef",
+      "source": "blog",
+      "title": "Granite 4.0 3B Vision: Compact Multimodal Intelligence for Enterprise Documents",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-4-vision",
+      "abstract": "",
+      "authors": [
+        "Hugging Face"
+      ],
+      "published_at": "2026-03-31T15:10:41+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:9a29ebd2d423",
+      "source": "blog",
+      "title": "Training mRNA Language Models Across 25 Species for $165",
+      "url": "https://huggingface.co/blog/OpenMed/training-mrna-models-25-species",
+      "abstract": "",
+      "authors": [
+        "Hugging Face"
+      ],
+      "published_at": "2026-03-31T08:23:44+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:1f5256fffe0b",
+      "source": "blog",
+      "title": "TRL v1.0: Post-Training Library Built to Move with the Field",
+      "url": "https://huggingface.co/blog/trl-v1",
+      "abstract": "",
+      "authors": [
+        "Hugging Face"
+      ],
+      "published_at": "2026-03-31T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    }
+  ],
+  "topics": []
+}

@@ -1,0 +1,46 @@
+{
+  "date": "2026-01-17",
+  "generated_at": "2026-06-11T04:11:45.034491+00:00",
+  "items": [
+    {
+      "id": "hn:46656897",
+      "source": "hackernews",
+      "title": "Provide agents with automated feedback",
+      "url": "https://banay.me/dont-waste-your-backpressure/",
+      "abstract": "",
+      "authors": [
+        "ghuntley"
+      ],
+      "published_at": "2026-01-17T10:26:18Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "gh:akrosmoke/SignatureVerify",
+      "source": "github",
+      "title": "akrosmoke/SignatureVerify",
+      "url": "https://github.com/akrosmoke/SignatureVerify",
+      "abstract": "Digital Transaction Authenticator leveraging Machine-Learning-Powered Real-Time Processing for Scalable Distributed Signature Verification.",
+      "authors": [
+        "akrosmoke"
+      ],
+      "published_at": "2026-01-17T13:25:33Z",
+      "has_code": true,
+      "code_url": "https://github.com/akrosmoke/SignatureVerify"
+    },
+    {
+      "id": "gh:mlsecdev/spam-detection-system",
+      "source": "github",
+      "title": "mlsecdev/spam-detection-system",
+      "url": "https://github.com/mlsecdev/spam-detection-system",
+      "abstract": "Machine learning-based spam detection system for classifying messages or emails as spam or non-spam using NLP techniques.",
+      "authors": [
+        "mlsecdev"
+      ],
+      "published_at": "2026-01-17T00:35:00Z",
+      "has_code": true,
+      "code_url": "https://github.com/mlsecdev/spam-detection-system"
+    }
+  ],
+  "topics": []
+}

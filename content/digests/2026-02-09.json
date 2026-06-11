@@ -1,0 +1,72 @@
+{
+  "date": "2026-02-09",
+  "generated_at": "2026-06-11T04:11:45.049407+00:00",
+  "items": [
+    {
+      "id": "hn:46949401",
+      "source": "hackernews",
+      "title": "Testing Ads in ChatGPT",
+      "url": "https://openai.com/index/testing-ads-in-chatgpt/",
+      "abstract": "",
+      "authors": [
+        "davidbarker"
+      ],
+      "published_at": "2026-02-09T19:04:16Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:46946593",
+      "source": "hackernews",
+      "title": "Show HN: AI agents play SimCity through a REST API",
+      "url": "https://hallucinatingsplines.com",
+      "abstract": "",
+      "authors": [
+        "aed"
+      ],
+      "published_at": "2026-02-09T15:54:33Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:3d72134cdaba",
+      "source": "blog",
+      "title": "Bringing ChatGPT to GenAI.mil",
+      "url": "https://openai.com/index/bringing-chatgpt-to-genaimil",
+      "abstract": "OpenAI for Government announces the deployment of a custom ChatGPT on GenAI.mil, bringing secure, safety-forward AI to U.S. defense teams.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-02-09T11:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:e3c5811ce40d",
+      "source": "blog",
+      "title": "Accelerating Mathematical and Scientific Discovery with Gemini Deep Think",
+      "url": "https://deepmind.google/blog/accelerating-mathematical-and-scientific-discovery-with-gemini-deep-think/",
+      "abstract": "Research papers point to the growing impact of Deep Think across fields",
+      "authors": [
+        "Google DeepMind"
+      ],
+      "published_at": "2026-02-09T16:12:06+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:3f12cf518fa5",
+      "source": "blog",
+      "title": "Transformers.js v4: Now Available on NPM!",
+      "url": "https://huggingface.co/blog/transformersjs-v4",
+      "abstract": "",
+      "authors": [
+        "Hugging Face"
+      ],
+      "published_at": "2026-02-09T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    }
+  ],
+  "topics": []
+}

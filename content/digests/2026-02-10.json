@@ -1,0 +1,85 @@
+{
+  "date": "2026-02-10",
+  "generated_at": "2026-06-11T04:11:45.050156+00:00",
+  "items": [
+    {
+      "id": "hn:46966182",
+      "source": "hackernews",
+      "title": "Tambo 1.0: Open-source toolkit for agents that render React components",
+      "url": "https://github.com/tambo-ai/tambo",
+      "abstract": "",
+      "authors": [
+        "grouchy"
+      ],
+      "published_at": "2026-02-10T20:16:12Z",
+      "has_code": true,
+      "code_url": "https://github.com/tambo-ai/tambo"
+    },
+    {
+      "id": "hn:46961345",
+      "source": "hackernews",
+      "title": "Ex-GitHub CEO launches a new developer platform for AI agents",
+      "url": "https://entire.io/blog/hello-entire-world/",
+      "abstract": "",
+      "authors": [
+        "meetpateltech"
+      ],
+      "published_at": "2026-02-10T15:44:47Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:46954920",
+      "source": "hackernews",
+      "title": "Frontier AI agents violate ethical constraints 30\u201350% of time, pressured by KPIs",
+      "url": "https://arxiv.org/abs/2512.20798",
+      "abstract": "",
+      "authors": [
+        "tiny-automates"
+      ],
+      "published_at": "2026-02-10T03:17:17Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:46954049",
+      "source": "hackernews",
+      "title": "Pure C, CPU-only inference with Mistral Voxtral Realtime 4B speech to text model",
+      "url": "https://github.com/antirez/voxtral.c",
+      "abstract": "",
+      "authors": [
+        "Curiositry"
+      ],
+      "published_at": "2026-02-10T01:17:35Z",
+      "has_code": true,
+      "code_url": "https://github.com/antirez/voxtral.c"
+    },
+    {
+      "id": "gh:SamithaSakthivel/Alexa_product_reviewer",
+      "source": "github",
+      "title": "SamithaSakthivel/Alexa_product_reviewer",
+      "url": "https://github.com/SamithaSakthivel/Alexa_product_reviewer",
+      "abstract": "Amazon Alexa Project Review analysis using the Machine learning Algorithm",
+      "authors": [
+        "SamithaSakthivel"
+      ],
+      "published_at": "2026-02-10T13:24:30Z",
+      "has_code": true,
+      "code_url": "https://github.com/SamithaSakthivel/Alexa_product_reviewer"
+    },
+    {
+      "id": "gh:Unizuka22/AyComp",
+      "source": "github",
+      "title": "Unizuka22/AyComp",
+      "url": "https://github.com/Unizuka22/AyComp",
+      "abstract": "Cloud-Agnostic A11yComp Orchestrator Module: Scalable, Intelligent Distributed Architecture with Embedded Machine Learning.",
+      "authors": [
+        "Unizuka22"
+      ],
+      "published_at": "2026-02-10T01:21:42Z",
+      "has_code": true,
+      "code_url": "https://github.com/Unizuka22/AyComp"
+    }
+  ],
+  "topics": []
+}

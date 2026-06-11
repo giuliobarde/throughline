@@ -1,0 +1,176 @@
+{
+  "date": "2026-01-20",
+  "generated_at": "2026-06-11T04:11:45.036358+00:00",
+  "items": [
+    {
+      "id": "hn:46697908",
+      "source": "hackernews",
+      "title": "Show HN: Agent Skills Leaderboard",
+      "url": "https://skills.sh",
+      "abstract": "",
+      "authors": [
+        "andrewqu"
+      ],
+      "published_at": "2026-01-20T21:22:19Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:46696300",
+      "source": "hackernews",
+      "title": "Without benchmarking LLMs, you're likely overpaying",
+      "url": "https://karllorey.com/posts/without-benchmarking-llms-youre-overpaying",
+      "abstract": "",
+      "authors": [
+        "lorey"
+      ],
+      "published_at": "2026-01-20T19:03:25Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:46695415",
+      "source": "hackernews",
+      "title": "Electricity use of AI coding agents",
+      "url": "https://www.simonpcouch.com/blog/2026-01-20-cc-impact/",
+      "abstract": "",
+      "authors": [
+        "linolevan"
+      ],
+      "published_at": "2026-01-20T18:02:02Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:46694618",
+      "source": "hackernews",
+      "title": "Internet Archive's Storage",
+      "url": "https://blog.dshr.org/2026/01/internet-archives-storage.html",
+      "abstract": "",
+      "authors": [
+        "zdw"
+      ],
+      "published_at": "2026-01-20T17:16:49Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:46693959",
+      "source": "hackernews",
+      "title": "Show HN: Mastra 1.0, open-source JavaScript agent framework from the Gatsby devs",
+      "url": "https://github.com/mastra-ai/mastra",
+      "abstract": "",
+      "authors": [
+        "calcsam"
+      ],
+      "published_at": "2026-01-20T16:38:56Z",
+      "has_code": true,
+      "code_url": "https://github.com/mastra-ai/mastra"
+    },
+    {
+      "id": "hn:46691243",
+      "source": "hackernews",
+      "title": "Ask HN: Do you have any evidence that agentic coding works?",
+      "url": "https://news.ycombinator.com/item?id=46691243",
+      "abstract": "",
+      "authors": [
+        "terabytest"
+      ],
+      "published_at": "2026-01-20T12:45:57Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:6ed9efa8b174",
+      "source": "blog",
+      "title": "Horizon 1000: Advancing AI for primary healthcare",
+      "url": "https://openai.com/index/horizon-1000",
+      "abstract": "OpenAI and the Gates Foundation launch Horizon 1000, a $50M pilot advancing AI capabilities for healthcare in Africa. The initiative aims to reach 1,000 clinics by 2028.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-01-20T21:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:90314fb861a5",
+      "source": "blog",
+      "title": "Stargate Community",
+      "url": "https://openai.com/index/stargate-community",
+      "abstract": "Stargate Community plans detail a community-first approach to AI infrastructure, using locally tailored plans shaped by community input, energy needs, and workforce priorities.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-01-20T19:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:8fe35db9d836",
+      "source": "blog",
+      "title": "ServiceNow powers actionable enterprise AI with OpenAI",
+      "url": "https://openai.com/index/servicenow-powers-actionable-enterprise-ai-with-openai",
+      "abstract": "ServiceNow expands access to OpenAI frontier models to power AI-driven enterprise workflows, summarization, search, and voice across the ServiceNow Platform.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-01-20T05:45:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:4628896343fc",
+      "source": "blog",
+      "title": "Our approach to age prediction",
+      "url": "https://openai.com/index/our-approach-to-age-prediction",
+      "abstract": "ChatGPT is rolling out age prediction to estimate if accounts are under or over 18, applying safeguards for teens and refining accuracy over time.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-01-20T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:4c66d465692b",
+      "source": "blog",
+      "title": "One Year Since the \u201cDeepSeek Moment\u201d",
+      "url": "https://huggingface.co/blog/huggingface/one-year-since-the-deepseek-moment",
+      "abstract": "",
+      "authors": [
+        "Hugging Face"
+      ],
+      "published_at": "2026-01-20T15:02:10+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:d6ae64ab3b5d",
+      "source": "blog",
+      "title": "Differential Transformer V2",
+      "url": "https://huggingface.co/blog/microsoft/diff-attn-v2",
+      "abstract": "",
+      "authors": [
+        "Hugging Face"
+      ],
+      "published_at": "2026-01-20T03:20:57+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:787dc2960702",
+      "source": "blog",
+      "title": "Introducing Waypoint-1: Real-time interactive video diffusion from Overworld",
+      "url": "https://huggingface.co/blog/waypoint-1",
+      "abstract": "",
+      "authors": [
+        "Hugging Face"
+      ],
+      "published_at": "2026-01-20T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    }
+  ],
+  "topics": []
+}

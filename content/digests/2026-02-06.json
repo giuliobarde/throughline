@@ -1,0 +1,59 @@
+{
+  "date": "2026-02-06",
+  "generated_at": "2026-06-11T04:11:45.047394+00:00",
+  "items": [
+    {
+      "id": "hn:46912781",
+      "source": "hackernews",
+      "title": "LLMs could be, but shouldn't be compilers",
+      "url": "https://alperenkeles.com/posts/llms-could-be-but-shouldnt-be-compilers/",
+      "abstract": "",
+      "authors": [
+        "alpaylan"
+      ],
+      "published_at": "2026-02-06T13:48:01Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "gh:romanyn36/agentic-ai-roadmap",
+      "source": "github",
+      "title": "romanyn36/agentic-ai-roadmap",
+      "url": "https://github.com/romanyn36/agentic-ai-roadmap",
+      "abstract": "A comprehensive AI learning roadmap covering Python fundamentals, mathematics, machine learning, deep learning, LLMs, and agentic systems \u2014 focused on hands-on projects, practical tools, and real-world deployment.",
+      "authors": [
+        "romanyn36"
+      ],
+      "published_at": "2026-02-06T17:07:31Z",
+      "has_code": true,
+      "code_url": "https://github.com/romanyn36/agentic-ai-roadmap"
+    },
+    {
+      "id": "gh:Zhanarik/Machine-Learning",
+      "source": "github",
+      "title": "Zhanarik/Machine-Learning",
+      "url": "https://github.com/Zhanarik/Machine-Learning",
+      "abstract": "Hands-on Jupyter Notebook for learning Machine Learning ",
+      "authors": [
+        "Zhanarik"
+      ],
+      "published_at": "2026-02-06T21:51:25Z",
+      "has_code": true,
+      "code_url": "https://github.com/Zhanarik/Machine-Learning"
+    },
+    {
+      "id": "blog:8f4bb7dd8ed5",
+      "source": "blog",
+      "title": "Making AI work for everyone, everywhere: our approach to localization",
+      "url": "https://openai.com/index/our-approach-to-localization",
+      "abstract": "OpenAI shares its approach to AI localization, showing how globally shared frontier models can be adapted to local languages, laws, and cultures without compromising safety.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-02-06T10:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    }
+  ],
+  "topics": []
+}

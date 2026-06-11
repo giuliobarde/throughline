@@ -1,0 +1,72 @@
+{
+  "date": "2026-04-26",
+  "generated_at": "2026-06-11T04:11:45.112756+00:00",
+  "items": [
+    {
+      "id": "hn:47911524",
+      "source": "hackernews",
+      "title": "An AI agent deleted our production database. The agent's confession is below",
+      "url": "https://twitter.com/lifeof_jer/status/2048103471019434248",
+      "abstract": "",
+      "authors": [
+        "jeremyccrane"
+      ],
+      "published_at": "2026-04-26T16:27:29Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "gh:manal312/ml-library-from-scratch",
+      "source": "github",
+      "title": "manal312/ml-library-from-scratch",
+      "url": "https://github.com/manal312/ml-library-from-scratch",
+      "abstract": "A machine learning library from scratch.",
+      "authors": [
+        "manal312"
+      ],
+      "published_at": "2026-04-26T19:12:13Z",
+      "has_code": true,
+      "code_url": "https://github.com/manal312/ml-library-from-scratch"
+    },
+    {
+      "id": "gh:vuhung16au/ai-agent-skills",
+      "source": "github",
+      "title": "vuhung16au/ai-agent-skills",
+      "url": "https://github.com/vuhung16au/ai-agent-skills",
+      "abstract": "Reusable SKILL.md and policy files for AI coding agents (Claude, Copilot, Cursor...) across domains: figures, .NET, Java, machine learning, and more.",
+      "authors": [
+        "vuhung16au"
+      ],
+      "published_at": "2026-04-26T02:56:08Z",
+      "has_code": true,
+      "code_url": "https://github.com/vuhung16au/ai-agent-skills"
+    },
+    {
+      "id": "gh:Withoutbytes/acoustic-esp",
+      "source": "github",
+      "title": "Withoutbytes/acoustic-esp",
+      "url": "https://github.com/Withoutbytes/acoustic-esp",
+      "abstract": "Experimental acoustic radar and audio-based wallhack for FPS games. Uses Machine Learning to detect footsteps without memory access (Fully external and undetectable)",
+      "authors": [
+        "Withoutbytes"
+      ],
+      "published_at": "2026-04-26T18:27:21Z",
+      "has_code": true,
+      "code_url": "https://github.com/Withoutbytes/acoustic-esp"
+    },
+    {
+      "id": "blog:e1e83761f7ea",
+      "source": "blog",
+      "title": "Our principles",
+      "url": "https://openai.com/index/our-principles",
+      "abstract": "Our mission is to ensure that AGI benefits all of humanity. Sam Altman shares five principles that guide our work.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-04-26T16:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    }
+  ],
+  "topics": []
+}

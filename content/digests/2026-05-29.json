@@ -1,0 +1,176 @@
+{
+  "date": "2026-05-29",
+  "generated_at": "2026-06-11T04:11:45.146565+00:00",
+  "items": [
+    {
+      "id": "hn:48328184",
+      "source": "hackernews",
+      "title": "Show HN: Tiny-vLLM \u2013 high performance LLM inference engine in C++ and CUDA",
+      "url": "https://github.com/jmaczan/tiny-vllm",
+      "abstract": "",
+      "authors": [
+        "yu3zhou4"
+      ],
+      "published_at": "2026-05-29T19:38:27Z",
+      "has_code": true,
+      "code_url": "https://github.com/jmaczan/tiny-vllm"
+    },
+    {
+      "id": "hn:48326659",
+      "source": "hackernews",
+      "title": "Robinhood now lets your AI agents trade stocks",
+      "url": "https://techcrunch.com/2026/05/27/robinhood-now-lets-your-ai-agents-trade-stocks/",
+      "abstract": "",
+      "authors": [
+        "wapasta"
+      ],
+      "published_at": "2026-05-29T17:46:27Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:48321076",
+      "source": "hackernews",
+      "title": "Real-time LLM Inference on Standard GPUs: 3k tokens/s per request",
+      "url": "https://blog.kog.ai/real-time-llm-inference-on-standard-gpus-3-000-tokens-s-per-request/",
+      "abstract": "",
+      "authors": [
+        "NicoConstant"
+      ],
+      "published_at": "2026-05-29T09:47:23Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:48319524",
+      "source": "hackernews",
+      "title": "Show HN: Zot \u2013 Yet another coding agent harness",
+      "url": "https://www.zot.sh",
+      "abstract": "",
+      "authors": [
+        "patriceckhart"
+      ],
+      "published_at": "2026-05-29T05:48:21Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:48317294",
+      "source": "hackernews",
+      "title": "The mysterious Hy3 LLM is topping OpenRouter Model Rankings by a large margin",
+      "url": "https://minimaxir.com/2026/05/openrouter-hy3/",
+      "abstract": "",
+      "authors": [
+        "freediver"
+      ],
+      "published_at": "2026-05-29T00:09:35Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:e63fa88b5624",
+      "source": "blog",
+      "title": "Boston Children\u2019s uses AI to unlock new diagnoses",
+      "url": "https://openai.com/index/boston-childrens-hospital",
+      "abstract": "Boston Children\u2019s Hospital uses OpenAI technology to improve patient care, reduce operational burden, and help diagnose more than 40 rare disease cases.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-05-29T12:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:507ec0fdf629",
+      "source": "blog",
+      "title": "How Braintrust turns customer requests into code with Codex",
+      "url": "https://openai.com/index/braintrust",
+      "abstract": "How Braintrust engineers use Codex with GPT-5.5 to run experiments and code faster.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-05-29T12:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:8337eeb248ea",
+      "source": "blog",
+      "title": "Strengthening societal resilience with Rosalind Biodefense",
+      "url": "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense",
+      "abstract": "OpenAI launches Rosalind Biodefense, expanding trusted access to GPT-Rosalind for vetted developers and U.S. government partners advancing biodefense, public health, and pandemic preparedness through frontier AI.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-05-29T03:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:33e1df4abe4e",
+      "source": "blog",
+      "title": "A shared playbook for trustworthy third party evaluations",
+      "url": "https://openai.com/index/trustworthy-third-party-evaluations-foundations",
+      "abstract": "OpenAI shares guidance on third-party AI evaluations, covering how to assess model capabilities, safeguards, and validity for frontier systems.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-05-29T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:944dd86b3cac",
+      "source": "blog",
+      "title": "Take our I/O 2026 quiz, vibe coded in Google AI Studio.",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-vibe-coded-quiz/",
+      "abstract": "We used Google AI Studio to vibe code a quiz about our top I/O 2026 announcements.",
+      "authors": [
+        "Google AI"
+      ],
+      "published_at": "2026-05-29T19:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:bf7abda633b2",
+      "source": "blog",
+      "title": "9 demos of Gemini Omni and Gemini 3.5 in action",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/",
+      "abstract": "Gemini Omni & Gemini 3.5 hero",
+      "authors": [
+        "Google AI"
+      ],
+      "published_at": "2026-05-29T17:30:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:daac52c1ca42",
+      "source": "blog",
+      "title": "Check out real-life AI prototypes from the Futures Lab.",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/university-waterloo-labs/",
+      "abstract": "University of Waterloo students develop AI prototypes like sign language tutors to reshape the future of education and work.",
+      "authors": [
+        "Google AI"
+      ],
+      "published_at": "2026-05-29T12:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:357d064be869",
+      "source": "blog",
+      "title": "Profiling in PyTorch (Part 1): A Beginner's Guide to torch.profiler",
+      "url": "https://huggingface.co/blog/torch-profiler",
+      "abstract": "",
+      "authors": [
+        "Hugging Face"
+      ],
+      "published_at": "2026-05-29T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    }
+  ],
+  "topics": []
+}

@@ -1,0 +1,176 @@
+{
+  "date": "2026-04-22",
+  "generated_at": "2026-06-11T04:11:45.108856+00:00",
+  "items": [
+    {
+      "id": "hn:47866860",
+      "source": "hackernews",
+      "title": "Workspace Agents in ChatGPT",
+      "url": "https://openai.com/index/introducing-workspace-agents-in-chatgpt/",
+      "abstract": "",
+      "authors": [
+        "mfiguiere"
+      ],
+      "published_at": "2026-04-22T17:47:07Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47866750",
+      "source": "hackernews",
+      "title": "Parallel agents in Zed",
+      "url": "https://zed.dev/blog/parallel-agents",
+      "abstract": "",
+      "authors": [
+        "ajeetdsouza"
+      ],
+      "published_at": "2026-04-22T17:38:57Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47865822",
+      "source": "hackernews",
+      "title": "Show HN: Agent Vault \u2013 Open-source credential proxy and vault for agents",
+      "url": "https://github.com/Infisical/agent-vault",
+      "abstract": "",
+      "authors": [
+        "dangtony98"
+      ],
+      "published_at": "2026-04-22T16:25:28Z",
+      "has_code": true,
+      "code_url": "https://github.com/Infisical/agent-vault"
+    },
+    {
+      "id": "hn:47864056",
+      "source": "hackernews",
+      "title": "Iliad fragment found in Roman-era mummy",
+      "url": "https://www.thehistoryblog.com/archives/75877",
+      "abstract": "",
+      "authors": [
+        "wise_blood"
+      ],
+      "published_at": "2026-04-22T14:18:35Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47862626",
+      "source": "hackernews",
+      "title": "Columnar Storage Is Normalization",
+      "url": "https://buttondown.com/jaffray/archive/columnar-storage-is-normalization/",
+      "abstract": "",
+      "authors": [
+        "ibobev"
+      ],
+      "published_at": "2026-04-22T12:30:14Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47862497",
+      "source": "hackernews",
+      "title": "Our eighth generation TPUs: two chips for the agentic era",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/eighth-generation-tpu-agentic-era/",
+      "abstract": "",
+      "authors": [
+        "xnx"
+      ],
+      "published_at": "2026-04-22T12:15:29Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47862230",
+      "source": "hackernews",
+      "title": "Kernel code removals driven by LLM-created security reports",
+      "url": "https://lwn.net/Articles/1068928/",
+      "abstract": "",
+      "authors": [
+        "edward"
+      ],
+      "published_at": "2026-04-22T11:48:07Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:b9cfd90c4451",
+      "source": "blog",
+      "title": "Making ChatGPT better for clinicians",
+      "url": "https://openai.com/index/making-chatgpt-better-for-clinicians",
+      "abstract": "OpenAI makes ChatGPT for Clinicians free for verified U.S. physicians, nurse practitioners, and pharmacists, supporting clinical care, documentation, and research.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-04-22T15:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:1b162ea8d4aa",
+      "source": "blog",
+      "title": "Workspace agents",
+      "url": "https://openai.com/academy/workspace-agents",
+      "abstract": "Learn how to build, use, and scale workspace agents in ChatGPT to automate repeatable workflows, connect tools, and streamline team operations.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-04-22T10:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:5278705df0e5",
+      "source": "blog",
+      "title": "Speeding up agentic workflows with WebSockets in the Responses API",
+      "url": "https://openai.com/index/speeding-up-agentic-workflows-with-websockets",
+      "abstract": "A deep dive into the Codex agent loop, showing how WebSockets and connection-scoped caching reduced API overhead and improved model latency.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-04-22T10:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:c30ec7b01482",
+      "source": "blog",
+      "title": "Introducing workspace agents in ChatGPT",
+      "url": "https://openai.com/index/introducing-workspace-agents-in-chatgpt",
+      "abstract": "Workspace agents in ChatGPT are Codex-powered agents that automate complex workflows, run in the cloud, and help teams scale work across tools securely.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-04-22T10:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:e2bf2733d05a",
+      "source": "blog",
+      "title": "Introducing OpenAI Privacy Filter",
+      "url": "https://openai.com/index/introducing-openai-privacy-filter",
+      "abstract": "OpenAI Privacy Filter is an open-weight model for detecting and redacting personally identifiable information (PII) in text with state-of-the-art accuracy",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-04-22T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:bdf480e0ad99",
+      "source": "blog",
+      "title": "Decoupled DiLoCo: A new frontier for resilient, distributed AI training",
+      "url": "https://deepmind.google/blog/decoupled-diloco/",
+      "abstract": "",
+      "authors": [
+        "Google DeepMind"
+      ],
+      "published_at": "2026-04-22T10:20:03+00:00",
+      "has_code": false,
+      "code_url": null
+    }
+  ],
+  "topics": []
+}

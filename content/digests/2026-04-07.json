@@ -1,0 +1,72 @@
+{
+  "date": "2026-04-07",
+  "generated_at": "2026-06-11T04:11:45.094899+00:00",
+  "items": [
+    {
+      "id": "hn:47680309",
+      "source": "hackernews",
+      "title": "Show HN: Gemma 4 Multimodal Fine-Tuner for Apple Silicon",
+      "url": "https://github.com/mattmireles/gemma-tuner-multimodal",
+      "abstract": "",
+      "authors": [
+        "MediaSquirrel"
+      ],
+      "published_at": "2026-04-07T19:37:05Z",
+      "has_code": true,
+      "code_url": "https://github.com/mattmireles/gemma-tuner-multimodal"
+    },
+    {
+      "id": "hn:47678844",
+      "source": "hackernews",
+      "title": "Show HN: Marimo pair \u2013 Reactive Python notebooks as environments for agents",
+      "url": "https://github.com/marimo-team/marimo-pair",
+      "abstract": "",
+      "authors": [
+        "manzt"
+      ],
+      "published_at": "2026-04-07T17:47:46Z",
+      "has_code": true,
+      "code_url": "https://github.com/marimo-team/marimo-pair"
+    },
+    {
+      "id": "hn:47677241",
+      "source": "hackernews",
+      "title": "Taste in the age of AI and LLMs",
+      "url": "https://rajnandan.com/posts/taste-in-the-age-of-ai-and-llms/",
+      "abstract": "",
+      "authors": [
+        "speckx"
+      ],
+      "published_at": "2026-04-07T15:54:16Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47675213",
+      "source": "hackernews",
+      "title": "Google open-sources experimental agent orchestration testbed Scion",
+      "url": "https://www.infoq.com/news/2026/04/google-agent-testbed-scion/",
+      "abstract": "",
+      "authors": [
+        "timbilt"
+      ],
+      "published_at": "2026-04-07T13:39:15Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47674894",
+      "source": "hackernews",
+      "title": "Model-Based Testing for Dungeons & Dragons",
+      "url": "https://www.loskutoff.com/blog/model-based-testing-dnd/",
+      "abstract": "",
+      "authors": [
+        "Firfi"
+      ],
+      "published_at": "2026-04-07T13:15:41Z",
+      "has_code": false,
+      "code_url": null
+    }
+  ],
+  "topics": []
+}

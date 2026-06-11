@@ -1,0 +1,202 @@
+{
+  "date": "2026-05-07",
+  "generated_at": "2026-06-11T04:11:45.123782+00:00",
+  "items": [
+    {
+      "id": "hn:48053623",
+      "source": "hackernews",
+      "title": "Dirty Frag: Universal Linux LPE",
+      "url": "https://www.openwall.com/lists/oss-security/2026/05/07/8",
+      "abstract": "",
+      "authors": [
+        "flipped"
+      ],
+      "published_at": "2026-05-07T19:21:32Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:48052333",
+      "source": "hackernews",
+      "title": "Principles for agent-native CLIs",
+      "url": "https://twitter.com/trevin/status/2051316002730991795",
+      "abstract": "",
+      "authors": [
+        "blumpy22"
+      ],
+      "published_at": "2026-05-07T17:40:05Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:48051951",
+      "source": "hackernews",
+      "title": "OpenAI\u2019s WebRTC problem",
+      "url": "https://moq.dev/blog/webrtc-is-the-problem/",
+      "abstract": "",
+      "authors": [
+        "atgctg"
+      ],
+      "published_at": "2026-05-07T17:11:59Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:48051562",
+      "source": "hackernews",
+      "title": "Agents need control flow, not more prompts",
+      "url": "https://bsuh.bearblog.dev/agents-need-control-flow/",
+      "abstract": "",
+      "authors": [
+        "bsuh"
+      ],
+      "published_at": "2026-05-07T16:43:35Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:48050751",
+      "source": "hackernews",
+      "title": "DeepSeek 4 Flash local inference engine for Metal",
+      "url": "https://github.com/antirez/ds4",
+      "abstract": "",
+      "authors": [
+        "tamnd"
+      ],
+      "published_at": "2026-05-07T15:40:24Z",
+      "has_code": true,
+      "code_url": "https://github.com/antirez/ds4"
+    },
+    {
+      "id": "hn:48050278",
+      "source": "hackernews",
+      "title": "AlphaEvolve: Gemini-powered coding agent scaling impact across fields",
+      "url": "https://deepmind.google/blog/alphaevolve-impact/",
+      "abstract": "",
+      "authors": [
+        "berlianta"
+      ],
+      "published_at": "2026-05-07T15:02:20Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:48046397",
+      "source": "hackernews",
+      "title": "Making LLM Training Faster with Unsloth and NVIDIA",
+      "url": "https://unsloth.ai/blog/nvidia-collab",
+      "abstract": "",
+      "authors": [
+        "segmenta"
+      ],
+      "published_at": "2026-05-07T07:15:11Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "gh:TorMatzAndren/ChronoGit",
+      "source": "github",
+      "title": "TorMatzAndren/ChronoGit",
+      "url": "https://github.com/TorMatzAndren/ChronoGit",
+      "abstract": "Deterministic Git Time Machine UI focused on truth, safety, learning, and local-first workflows.",
+      "authors": [
+        "TorMatzAndren"
+      ],
+      "published_at": "2026-05-07T19:18:56Z",
+      "has_code": true,
+      "code_url": "https://github.com/TorMatzAndren/ChronoGit"
+    },
+    {
+      "id": "gh:enzo-going/international-conflict-risk-ml",
+      "source": "github",
+      "title": "enzo-going/international-conflict-risk-ml",
+      "url": "https://github.com/enzo-going/international-conflict-risk-ml",
+      "abstract": "Machine Learning project for predictive analysis of international conflict risk using heterogeneous country-year data.",
+      "authors": [
+        "enzo-going"
+      ],
+      "published_at": "2026-05-07T22:57:32Z",
+      "has_code": true,
+      "code_url": "https://github.com/enzo-going/international-conflict-risk-ml"
+    },
+    {
+      "id": "blog:288ea344bbe0",
+      "source": "blog",
+      "title": "Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber",
+      "url": "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber",
+      "abstract": "OpenAI expands Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber, helping verified defenders accelerate vulnerability research and protect critical infrastructure.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-05-07T13:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:e41b9b9c2133",
+      "source": "blog",
+      "title": "Parloa builds service agents customers want to talk to",
+      "url": "https://openai.com/index/parloa",
+      "abstract": "Parloa leverages OpenAI models to power scalable, voice-driven AI customer service agents, enabling enterprises to design, simulate, and deploy reliable, real-time interactions.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-05-07T11:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:4ba89a634a8b",
+      "source": "blog",
+      "title": "Advancing voice intelligence with new models in the API",
+      "url": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api",
+      "abstract": "Explore new realtime voice models in the OpenAI API that can reason, translate, and transcribe speech, enabling more natural and intelligent voice experiences.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-05-07T10:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:fe948365c4d6",
+      "source": "blog",
+      "title": "Introducing Trusted Contact in ChatGPT",
+      "url": "https://openai.com/index/introducing-trusted-contact-in-chatgpt",
+      "abstract": "Introducing Trusted Contact in ChatGPT, an optional safety feature that notifies someone you trust if serious self-harm concerns are detected.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-05-07T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:de2ca3d7578d",
+      "source": "blog",
+      "title": "Testing ads in ChatGPT",
+      "url": "https://openai.com/index/testing-ads-in-chatgpt",
+      "abstract": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-05-07T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:eed85cf61ed4",
+      "source": "blog",
+      "title": "Simplex rethinks software development with Codex",
+      "url": "https://openai.com/index/simplex",
+      "abstract": "Simplex boosts software development with ChatGPT Enterprise and Codex, reducing design, build, and testing time while scaling AI-driven workflows.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-05-07T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    }
+  ],
+  "topics": []
+}

@@ -1,0 +1,228 @@
+{
+  "date": "2026-03-05",
+  "generated_at": "2026-06-11T04:11:45.067374+00:00",
+  "items": [
+    {
+      "id": "hn:47266084",
+      "source": "hackernews",
+      "title": "Pentagon formally labels Anthropic supply-chain risk",
+      "url": "https://www.wsj.com/politics/national-security/pentagon-formally-labels-anthropic-supply-chain-risk-escalating-conflict-ebdf0523",
+      "abstract": "",
+      "authors": [
+        "klausa"
+      ],
+      "published_at": "2026-03-05T19:24:35Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47265045",
+      "source": "hackernews",
+      "title": "GPT-5.4",
+      "url": "https://openai.com/index/introducing-gpt-5-4/",
+      "abstract": "",
+      "authors": [
+        "mudkipdev"
+      ],
+      "published_at": "2026-03-05T18:08:10Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47265005",
+      "source": "hackernews",
+      "title": "GPT-5.4",
+      "url": "https://openai.com/index/introducing-gpt-5-4/",
+      "abstract": "",
+      "authors": [
+        "meetpateltech"
+      ],
+      "published_at": "2026-03-05T18:05:16Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47264138",
+      "source": "hackernews",
+      "title": "Show HN: PageAgent, A GUI agent that lives inside your web app",
+      "url": "https://alibaba.github.io/page-agent/",
+      "abstract": "",
+      "authors": [
+        "simon_luv_pho"
+      ],
+      "published_at": "2026-03-05T17:01:47Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47263036",
+      "source": "hackernews",
+      "title": "Show HN: Jido 2.0, Elixir Agent Framework",
+      "url": "https://jido.run/blog/jido-2-0-is-here",
+      "abstract": "",
+      "authors": [
+        "mikehostetler"
+      ],
+      "published_at": "2026-03-05T15:48:52Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47257394",
+      "source": "hackernews",
+      "title": "The L in \"LLM\" Stands for Lying",
+      "url": "https://acko.net/blog/the-l-in-llm-stands-for-lying/",
+      "abstract": "",
+      "authors": [
+        "LorenDB"
+      ],
+      "published_at": "2026-03-05T04:02:32Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47256781",
+      "source": "hackernews",
+      "title": "Jensen Huang says Nvidia is pulling back from OpenAI and Anthropic",
+      "url": "https://techcrunch.com/2026/03/04/jensen-huang-says-nvidia-is-pulling-back-from-openai-and-anthropic-but-his-explanation-raises-more-questions-than-it-answers/",
+      "abstract": "",
+      "authors": [
+        "jnord"
+      ],
+      "published_at": "2026-03-05T02:33:58Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:778534f65631",
+      "source": "blog",
+      "title": "Introducing GPT-5.4",
+      "url": "https://openai.com/index/introducing-gpt-5-4",
+      "abstract": "Introducing GPT-5.4, OpenAI\u2019s most most capable and efficient frontier model for professional work, with state-of-the-art coding, computer use, tool search, and 1M-token context.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-03-05T10:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:cb4caaecf3d1",
+      "source": "blog",
+      "title": "GPT-5.4 Thinking System Card",
+      "url": "https://openai.com/index/gpt-5-4-thinking-system-card",
+      "abstract": "",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-03-05T10:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:70d73a6e0656",
+      "source": "blog",
+      "title": "Reasoning models struggle to control their chains of thought, and that\u2019s good",
+      "url": "https://openai.com/index/reasoning-models-chain-of-thought-controllability",
+      "abstract": "OpenAI introduces CoT-Control and finds reasoning models struggle to control their chains of thought, reinforcing monitorability as an AI safety safeguard.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-03-05T10:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:e535c691836b",
+      "source": "blog",
+      "title": "Ensuring AI use in education leads to opportunity",
+      "url": "https://openai.com/index/ai-education-opportunity",
+      "abstract": "OpenAI shares new tools, certifications, and measurement resources to help schools and universities close AI capability gaps and expand opportunity.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-03-05T09:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:fe905f44e7a8",
+      "source": "blog",
+      "title": "The five AI value models driving business reinvention",
+      "url": "https://openai.com/index/the-five-ai-value-models-driving-business-reinvention",
+      "abstract": "Five AI value models show how leaders can sequence AI from workforce fluency to process reinvention and build durable business advantage.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-03-05T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:2e8458dbf71d",
+      "source": "blog",
+      "title": "VfL Wolfsburg turns ChatGPT into a club-wide capability",
+      "url": "https://openai.com/index/vfl-wolfsburg",
+      "abstract": "By focusing on people, not pilots, the Bundesliga club is scaling efficiency, creativity, and knowledge\u2014without losing its football identity.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-03-05T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:4ceb74685037",
+      "source": "blog",
+      "title": "Introducing the Adoption news channel",
+      "url": "https://openai.com/index/introducing-the-adoption-news-channel",
+      "abstract": "Practical insights and frameworks to turn AI progress into business advantage",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-03-05T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:70299260bcc5",
+      "source": "blog",
+      "title": "Introducing ChatGPT for Excel and new financial data integrations",
+      "url": "https://openai.com/index/chatgpt-for-excel",
+      "abstract": "OpenAI introduces ChatGPT for Excel and new financial app integrations, powered by GPT-5.4 to accelerate modeling, research, and analysis in regulated environments.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-03-05T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:e8788bf50532",
+      "source": "blog",
+      "title": "Bringing Robotics AI to Embedded Platforms: Dataset Recording, VLA Fine\u2011Tuning, and On\u2011Device Optimizations",
+      "url": "https://huggingface.co/blog/nxp/bringing-robotics-ai-to-embedded-platforms",
+      "abstract": "",
+      "authors": [
+        "Hugging Face"
+      ],
+      "published_at": "2026-03-05T14:16:49+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:41daf44b6dc9",
+      "source": "blog",
+      "title": "Introducing Modular Diffusers - Composable Building Blocks for Diffusion Pipelines",
+      "url": "https://huggingface.co/blog/modular-diffusers",
+      "abstract": "",
+      "authors": [
+        "Hugging Face"
+      ],
+      "published_at": "2026-03-05T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    }
+  ],
+  "topics": []
+}

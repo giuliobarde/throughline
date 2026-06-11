@@ -1,0 +1,98 @@
+{
+  "date": "2026-03-15",
+  "generated_at": "2026-06-11T04:11:45.075130+00:00",
+  "items": [
+    {
+      "id": "hn:47391803",
+      "source": "hackernews",
+      "title": "LLMs can be exhausting",
+      "url": "https://tomjohnell.com/llms-can-be-absolutely-exhausting/",
+      "abstract": "",
+      "authors": [
+        "tjohnell"
+      ],
+      "published_at": "2026-03-15T20:56:21Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47388676",
+      "source": "hackernews",
+      "title": "LLM Architecture Gallery",
+      "url": "https://sebastianraschka.com/llm-architecture-gallery/",
+      "abstract": "",
+      "authors": [
+        "tzury"
+      ],
+      "published_at": "2026-03-15T16:01:09Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47386116",
+      "source": "hackernews",
+      "title": "A Visual Introduction to Machine Learning (2015)",
+      "url": "https://r2d3.us/visual-intro-to-machine-learning-part-1/",
+      "abstract": "",
+      "authors": [
+        "vismit2000"
+      ],
+      "published_at": "2026-03-15T10:47:35Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47382739",
+      "source": "hackernews",
+      "title": "FCC chairman threatens TV broadcast licenses over news coverage",
+      "url": "https://fortune.com/2026/03/14/fcc-brendan-carr-tv-broadcast-licenses-news-coverage-us-war-iran-trump/",
+      "abstract": "",
+      "authors": [
+        "geox"
+      ],
+      "published_at": "2026-03-15T00:08:22Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "gh:rzru/nightingale",
+      "source": "github",
+      "title": "rzru/nightingale",
+      "url": "https://github.com/rzru/nightingale",
+      "abstract": "Machine learning powered Karaoke app (with scores!) ",
+      "authors": [
+        "rzru"
+      ],
+      "published_at": "2026-03-15T14:48:09Z",
+      "has_code": true,
+      "code_url": "https://github.com/rzru/nightingale"
+    },
+    {
+      "id": "gh:paudley/ai-notes",
+      "source": "github",
+      "title": "paudley/ai-notes",
+      "url": "https://github.com/paudley/ai-notes",
+      "abstract": "Random AI notes for working with local models or playing around with random machine learning bits.",
+      "authors": [
+        "paudley"
+      ],
+      "published_at": "2026-03-15T05:22:18Z",
+      "has_code": true,
+      "code_url": "https://github.com/paudley/ai-notes"
+    },
+    {
+      "id": "gh:Mpumlwana/movie-recommendation-system",
+      "source": "github",
+      "title": "Mpumlwana/movie-recommendation-system",
+      "url": "https://github.com/Mpumlwana/movie-recommendation-system",
+      "abstract": "A data science system that recommends movies to users based on ratings, genres, and watch history using machine learning techniques.",
+      "authors": [
+        "Mpumlwana"
+      ],
+      "published_at": "2026-03-15T22:51:43Z",
+      "has_code": true,
+      "code_url": "https://github.com/Mpumlwana/movie-recommendation-system"
+    }
+  ],
+  "topics": []
+}

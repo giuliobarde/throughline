@@ -1,0 +1,72 @@
+{
+  "date": "2026-03-08",
+  "generated_at": "2026-06-11T04:11:45.069675+00:00",
+  "items": [
+    {
+      "id": "hn:47301085",
+      "source": "hackernews",
+      "title": "Agent Safehouse \u2013 macOS-native sandboxing for local agents",
+      "url": "https://agent-safehouse.dev/",
+      "abstract": "",
+      "authors": [
+        "atombender"
+      ],
+      "published_at": "2026-03-08T20:30:18Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47300747",
+      "source": "hackernews",
+      "title": "We should revisit literate programming in the agent era",
+      "url": "https://silly.business/blog/we-should-revisit-literate-programming-in-the-agent-era/",
+      "abstract": "",
+      "authors": [
+        "horseradish"
+      ],
+      "published_at": "2026-03-08T19:58:15Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47298997",
+      "source": "hackernews",
+      "title": "Claude struggles to cope with ChatGPT exodus",
+      "url": "https://www.forbes.com/sites/barrycollins/2026/03/06/claude-struggles-to-cope-with-chatgpt-exodus/",
+      "abstract": "",
+      "authors": [
+        "perakojotgenije"
+      ],
+      "published_at": "2026-03-08T17:14:53Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47295537",
+      "source": "hackernews",
+      "title": "SWE-CI: Evaluating Agent Capabilities in Maintaining Codebases via CI",
+      "url": "https://arxiv.org/abs/2603.03823",
+      "abstract": "",
+      "authors": [
+        "mpweiher"
+      ],
+      "published_at": "2026-03-08T08:11:50Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "gh:ledmaster/ml-mania-2026",
+      "source": "github",
+      "title": "ledmaster/ml-mania-2026",
+      "url": "https://github.com/ledmaster/ml-mania-2026",
+      "abstract": "An experiment in turning years of machine learning experience into a research loop that could run on its own",
+      "authors": [
+        "ledmaster"
+      ],
+      "published_at": "2026-03-08T15:36:35Z",
+      "has_code": true,
+      "code_url": "https://github.com/ledmaster/ml-mania-2026"
+    }
+  ],
+  "topics": []
+}

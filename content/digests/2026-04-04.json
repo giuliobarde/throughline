@@ -1,0 +1,46 @@
+{
+  "date": "2026-04-04",
+  "generated_at": "2026-06-11T04:11:45.092370+00:00",
+  "items": [
+    {
+      "id": "hn:47640875",
+      "source": "hackernews",
+      "title": "LLM Wiki \u2013 example of an \"idea file\"",
+      "url": "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f",
+      "abstract": "",
+      "authors": [
+        "tamnd"
+      ],
+      "published_at": "2026-04-04T16:57:45Z",
+      "has_code": true,
+      "code_url": "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f"
+    },
+    {
+      "id": "hn:47639779",
+      "source": "hackernews",
+      "title": "Show HN: sllm \u2013 Split a GPU node with other developers, unlimited tokens",
+      "url": "https://sllm.cloud",
+      "abstract": "",
+      "authors": [
+        "jrandolf"
+      ],
+      "published_at": "2026-04-04T15:18:58Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47638810",
+      "source": "hackernews",
+      "title": "Components of a Coding Agent",
+      "url": "https://magazine.sebastianraschka.com/p/components-of-a-coding-agent",
+      "abstract": "",
+      "authors": [
+        "MindGods"
+      ],
+      "published_at": "2026-04-04T13:16:33Z",
+      "has_code": false,
+      "code_url": null
+    }
+  ],
+  "topics": []
+}

@@ -1,0 +1,137 @@
+{
+  "date": "2026-02-24",
+  "generated_at": "2026-06-11T04:11:45.060148+00:00",
+  "items": [
+    {
+      "id": "hn:47144464",
+      "source": "hackernews",
+      "title": "Mercury 2: Fast reasoning LLM powered by diffusion",
+      "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-2",
+      "abstract": "",
+      "authors": [
+        "fittingopposite"
+      ],
+      "published_at": "2026-02-24T22:46:23Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47142587",
+      "source": "hackernews",
+      "title": "Hegseth gives Anthropic until Friday to back down on AI safeguards",
+      "url": "https://www.cnn.com/2026/02/24/tech/hegseth-anthropic-ai-military-amodei",
+      "abstract": "",
+      "authors": [
+        "i4i"
+      ],
+      "published_at": "2026-02-24T20:35:41Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47140632",
+      "source": "hackernews",
+      "title": "OpenAI, the US government and Persona built an identity surveillance machine",
+      "url": "https://vmfunc.re/blog/persona/",
+      "abstract": "",
+      "authors": [
+        "rzk"
+      ],
+      "published_at": "2026-02-24T18:23:03Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47140623",
+      "source": "hackernews",
+      "title": "OpenAI resets spending expectations, from $1.4T to $600B",
+      "url": "https://www.cnbc.com/2026/02/20/openai-resets-spend-expectations-targets-around-600-billion-by-2030.html",
+      "abstract": "",
+      "authors": [
+        "randycupertino"
+      ],
+      "published_at": "2026-02-24T18:22:31Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47140322",
+      "source": "hackernews",
+      "title": "Show HN: Emdash \u2013 Open-source agentic development environment",
+      "url": "https://github.com/generalaction/emdash",
+      "abstract": "",
+      "authors": [
+        "onecommit"
+      ],
+      "published_at": "2026-02-24T18:00:37Z",
+      "has_code": true,
+      "code_url": "https://github.com/generalaction/emdash"
+    },
+    {
+      "id": "hn:47139902",
+      "source": "hackernews",
+      "title": "Hugging Face Skills",
+      "url": "https://github.com/huggingface/skills",
+      "abstract": "",
+      "authors": [
+        "armcat"
+      ],
+      "published_at": "2026-02-24T17:30:19Z",
+      "has_code": true,
+      "code_url": "https://github.com/huggingface/skills"
+    },
+    {
+      "id": "hn:47139716",
+      "source": "hackernews",
+      "title": "Large-Scale Online Deanonymization with LLMs",
+      "url": "https://simonlermen.substack.com/p/large-scale-online-deanonymization",
+      "abstract": "",
+      "authors": [
+        "DalasNoin"
+      ],
+      "published_at": "2026-02-24T17:18:17Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "gh:blessantjosh/Vireonix",
+      "source": "github",
+      "title": "blessantjosh/Vireonix",
+      "url": "https://github.com/blessantjosh/Vireonix",
+      "abstract": "Vireonix is an AI-powered early clinical deterioration prediction system that analyzes patient vital signs to identify risk patterns and provide proactive hospital alerts using machine learning.",
+      "authors": [
+        "blessantjosh"
+      ],
+      "published_at": "2026-02-24T09:13:22Z",
+      "has_code": true,
+      "code_url": "https://github.com/blessantjosh/Vireonix"
+    },
+    {
+      "id": "gh:Hassanmahmood4/CustomerScope",
+      "source": "github",
+      "title": "Hassanmahmood4/CustomerScope",
+      "url": "https://github.com/Hassanmahmood4/CustomerScope",
+      "abstract": "CustomerScope is a machine learning project for customer segmentation using clustering techniques. It helps analyze customer behavior and visualize meaningful customer groups.",
+      "authors": [
+        "Hassanmahmood4"
+      ],
+      "published_at": "2026-02-24T19:37:40Z",
+      "has_code": true,
+      "code_url": "https://github.com/Hassanmahmood4/CustomerScope"
+    },
+    {
+      "id": "blog:2ef2d61adeb4",
+      "source": "blog",
+      "title": "Arvind KC appointed Chief People Officer",
+      "url": "https://openai.com/index/arvind-kc-chief-people-officer",
+      "abstract": "OpenAI appoints Arvind KC as Chief People Officer to help scale the company, strengthen its culture, and lead how work evolves in the age of AI.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-02-24T13:40:00+00:00",
+      "has_code": false,
+      "code_url": null
+    }
+  ],
+  "topics": []
+}

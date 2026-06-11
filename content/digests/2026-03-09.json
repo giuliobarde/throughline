@@ -1,0 +1,98 @@
+{
+  "date": "2026-03-09",
+  "generated_at": "2026-06-11T04:11:45.070417+00:00",
+  "items": [
+    {
+      "id": "hn:47317132",
+      "source": "hackernews",
+      "title": "No, it doesn't cost Anthropic $5k per Claude Code user",
+      "url": "https://martinalderson.com/posts/no-it-doesnt-cost-anthropic-5k-per-claude-code-user/",
+      "abstract": "",
+      "authors": [
+        "jnord"
+      ],
+      "published_at": "2026-03-09T23:22:06Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47315128",
+      "source": "hackernews",
+      "title": "OpenAI is walking away from expanding its Stargate data center with Oracle",
+      "url": "https://www.cnbc.com/2026/03/09/oracle-is-building-yesterdays-data-centers-with-tomorrows-debt.html",
+      "abstract": "",
+      "authors": [
+        "spenvo"
+      ],
+      "published_at": "2026-03-09T20:36:43Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:47311657",
+      "source": "hackernews",
+      "title": "Launch HN: Terminal Use (YC W26) \u2013 Vercel for filesystem-based agents",
+      "url": "https://news.ycombinator.com/item?id=47311657",
+      "abstract": "",
+      "authors": [
+        "filipbalucha"
+      ],
+      "published_at": "2026-03-09T16:53:52Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:bdffd4a95bf1",
+      "source": "blog",
+      "title": "OpenAI to acquire Promptfoo",
+      "url": "https://openai.com/index/openai-to-acquire-promptfoo",
+      "abstract": "OpenAI is acquiring Promptfoo, an AI security platform that helps enterprises identify and remediate vulnerabilities in AI systems during development.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-03-09T10:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:3cea6fc26854",
+      "source": "blog",
+      "title": "From games to biology and beyond: 10 years of AlphaGo\u2019s impact",
+      "url": "https://deepmind.google/blog/10-years-of-alphago/",
+      "abstract": "Ten years since AlphaGo, we explore how it is catalyzing scientific discovery and paving a path to AGI.",
+      "authors": [
+        "Google DeepMind"
+      ],
+      "published_at": "2026-03-09T13:52:36+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:59a06e2a252a",
+      "source": "blog",
+      "title": "Ulysses Sequence Parallelism: Training with Million-Token Contexts",
+      "url": "https://huggingface.co/blog/ulysses-sp",
+      "abstract": "",
+      "authors": [
+        "Hugging Face"
+      ],
+      "published_at": "2026-03-09T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:96b2284ecdf3",
+      "source": "blog",
+      "title": "LeRobot v0.5.0: Scaling Every Dimension",
+      "url": "https://huggingface.co/blog/lerobot-release-v050",
+      "abstract": "",
+      "authors": [
+        "Hugging Face"
+      ],
+      "published_at": "2026-03-09T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    }
+  ],
+  "topics": []
+}

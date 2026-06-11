@@ -1,0 +1,85 @@
+{
+  "date": "2026-05-18",
+  "generated_at": "2026-06-11T04:11:45.134926+00:00",
+  "items": [
+    {
+      "id": "hn:48183748",
+      "source": "hackernews",
+      "title": "Agora-1: The Multi-Agent World Model",
+      "url": "https://odyssey.ml/introducing-agora-1",
+      "abstract": "",
+      "authors": [
+        "olivercameron"
+      ],
+      "published_at": "2026-05-18T18:43:30Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:48182754",
+      "source": "hackernews",
+      "title": "Elon Musk has lost his lawsuit against Sam Altman and OpenAI",
+      "url": "https://techcrunch.com/2026/05/18/elon-musk-has-lost-his-lawsuit-against-sam-altman-and-openai/",
+      "abstract": "",
+      "authors": [
+        "nycdatasci"
+      ],
+      "published_at": "2026-05-18T17:38:22Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:48182281",
+      "source": "hackernews",
+      "title": "Anthropic acquires Stainless",
+      "url": "https://www.anthropic.com/news/anthropic-acquires-stainless",
+      "abstract": "",
+      "authors": [
+        "tomeraberbach"
+      ],
+      "published_at": "2026-05-18T17:01:21Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:210c7a7c7826",
+      "source": "blog",
+      "title": "OpenAI and Dell partner to bring Codex to hybrid and on-premise enterprise environments",
+      "url": "https://openai.com/index/dell-codex-enterprise-partnership",
+      "abstract": "OpenAI and Dell partner to bring Codex to hybrid and on-premise environments, helping enterprises deploy AI coding agents securely across data and workflows.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-05-18T10:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:2758b59a9d96",
+      "source": "blog",
+      "title": "Fast-tracking genetic leads to reverse cellular aging",
+      "url": "https://deepmind.google/blog/fast-tracking-genetic-leads-to-reverse-cellular-aging/",
+      "abstract": "Biologists use Co-Scientist to find novel factors that successfully rejuvenate human cells.",
+      "authors": [
+        "Google DeepMind"
+      ],
+      "published_at": "2026-05-18T18:21:39+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:905a332eca99",
+      "source": "blog",
+      "title": "PaddleOCR 3.5: Running OCR and Document Parsing Tasks with a Transformers Backend",
+      "url": "https://huggingface.co/blog/PaddlePaddle/paddleocr-transformers",
+      "abstract": "",
+      "authors": [
+        "Hugging Face"
+      ],
+      "published_at": "2026-05-18T15:12:46+00:00",
+      "has_code": false,
+      "code_url": null
+    }
+  ],
+  "topics": []
+}

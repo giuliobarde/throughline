@@ -1,0 +1,33 @@
+{
+  "date": "2026-02-22",
+  "generated_at": "2026-06-11T04:11:45.058735+00:00",
+  "items": [
+    {
+      "id": "gh:ankush850/ShopIQ-AI-Retail-Intelligence-Platform",
+      "source": "github",
+      "title": "ankush850/ShopIQ-AI-Retail-Intelligence-Platform",
+      "url": "https://github.com/ankush850/ShopIQ-AI-Retail-Intelligence-Platform",
+      "abstract": "ShopIQ is an AI-powered retail intelligence platform built for  analyzes shopping data to predict trends, discover shopper behavior patterns, segment customers, and uncover product affinities using machine learning and an interactive AI analytics assistant.",
+      "authors": [
+        "ankush850"
+      ],
+      "published_at": "2026-02-22T10:14:27Z",
+      "has_code": true,
+      "code_url": "https://github.com/ankush850/ShopIQ-AI-Retail-Intelligence-Platform"
+    },
+    {
+      "id": "gh:Agent-A345/AxionCura",
+      "source": "github",
+      "title": "Agent-A345/AxionCura",
+      "url": "https://github.com/Agent-A345/AxionCura",
+      "abstract": "AxionCura is a machine learning\u2013based early stroke prediction system that analyzes patient health attributes to estimate stroke risk. It includes a trained pipeline model and a simple Python interface for running predictions locally.",
+      "authors": [
+        "Agent-A345"
+      ],
+      "published_at": "2026-02-22T10:46:49Z",
+      "has_code": true,
+      "code_url": "https://github.com/Agent-A345/AxionCura"
+    }
+  ],
+  "topics": []
+}

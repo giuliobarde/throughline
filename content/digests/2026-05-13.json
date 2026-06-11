@@ -1,0 +1,85 @@
+{
+  "date": "2026-05-13",
+  "generated_at": "2026-06-11T04:11:45.129734+00:00",
+  "items": [
+    {
+      "id": "hn:48126000",
+      "source": "hackernews",
+      "title": "\"Not Medically Necessary\": Helping America's Health Insurers Deny Coverage",
+      "url": "https://www.propublica.org/article/evicore-health-insurance-denials-cigna-unitedhealthcare-aetna-prior-authorizations",
+      "abstract": "",
+      "authors": [
+        "ceejayoz"
+      ],
+      "published_at": "2026-05-13T19:01:54Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "gh:justxor/MachineLearningRoadmap",
+      "source": "github",
+      "title": "justxor/MachineLearningRoadmap",
+      "url": "https://github.com/justxor/MachineLearningRoadmap",
+      "abstract": "\u041f\u043e\u043b\u043d\u044b\u0439 Roadmap \u043f\u043e \u043c\u0430\u0448\u0438\u043d\u043d\u043e\u043c\u0443 \u043e\u0431\u0443\u0447\u0435\u043d\u0438\u044e 2026 ",
+      "authors": [
+        "justxor"
+      ],
+      "published_at": "2026-05-13T15:00:31Z",
+      "has_code": true,
+      "code_url": "https://github.com/justxor/MachineLearningRoadmap"
+    },
+    {
+      "id": "gh:aguptaaditya/HarvestPitch",
+      "source": "github",
+      "title": "aguptaaditya/HarvestPitch",
+      "url": "https://github.com/aguptaaditya/HarvestPitch",
+      "abstract": "Real-Time HarvestPitch platform featuring data-stream-processing technology and advanced machine-learning-integration for modern Service",
+      "authors": [
+        "aguptaaditya"
+      ],
+      "published_at": "2026-05-13T10:44:24Z",
+      "has_code": true,
+      "code_url": "https://github.com/aguptaaditya/HarvestPitch"
+    },
+    {
+      "id": "gh:olienath/ParlerT",
+      "source": "github",
+      "title": "olienath/ParlerT",
+      "url": "https://github.com/olienath/ParlerT",
+      "abstract": "Machine-learning augmented contextual-intelligence platform leveraging natural-language-processing for intelligent, scalable, distributed integrations as a master system integrator.",
+      "authors": [
+        "olienath"
+      ],
+      "published_at": "2026-05-13T10:04:34Z",
+      "has_code": true,
+      "code_url": "https://github.com/olienath/ParlerT"
+    },
+    {
+      "id": "blog:5502a50a46d6",
+      "source": "blog",
+      "title": "Building a safe, effective sandbox to enable Codex on Windows",
+      "url": "https://openai.com/index/building-codex-windows-sandbox",
+      "abstract": "Learn how OpenAI built a safe, effective sandbox to enable Codex on Windows with controlled file access and network limits.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-05-13T11:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:49432bd70e08",
+      "source": "blog",
+      "title": "Our response to the TanStack npm supply chain attack",
+      "url": "https://openai.com/index/our-response-to-the-tanstack-npm-supply-chain-attack",
+      "abstract": "OpenAI details its response to the TanStack \u201cMini Shai-Hulud\u201d supply chain attack, outlines protections taken to secure systems and signing certificates, and explains why macOS users must update OpenAI apps by June 12, 2026. Learn what happened, what was affected, and how OpenAI is strengthening defenses against evolving software supply chain threats.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-05-13T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    }
+  ],
+  "topics": []
+}

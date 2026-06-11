@@ -1,0 +1,20 @@
+{
+  "date": "2026-04-03",
+  "generated_at": "2026-06-11T04:11:45.091573+00:00",
+  "items": [
+    {
+      "id": "hn:47633396",
+      "source": "hackernews",
+      "title": "Tell HN: Anthropic no longer allowing Claude Code subscriptions to use OpenClaw",
+      "url": "https://news.ycombinator.com/item?id=47633396",
+      "abstract": "",
+      "authors": [
+        "firloop"
+      ],
+      "published_at": "2026-04-03T22:55:24Z",
+      "has_code": false,
+      "code_url": null
+    }
+  ],
+  "topics": []
+}

@@ -1,0 +1,98 @@
+{
+  "date": "2026-01-18",
+  "generated_at": "2026-06-11T04:11:45.035066+00:00",
+  "items": [
+    {
+      "id": "hn:46670279",
+      "source": "hackernews",
+      "title": "Flux 2 Klein pure C inference",
+      "url": "https://github.com/antirez/flux2.c",
+      "abstract": "",
+      "authors": [
+        "antirez"
+      ],
+      "published_at": "2026-01-18T18:01:58Z",
+      "has_code": true,
+      "code_url": "https://github.com/antirez/flux2.c"
+    },
+    {
+      "id": "hn:46668021",
+      "source": "hackernews",
+      "title": "Predicting OpenAI's ad strategy",
+      "url": "https://ossa-ma.github.io/blog/openads",
+      "abstract": "",
+      "authors": [
+        "calcifer"
+      ],
+      "published_at": "2026-01-18T14:25:49Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:46666963",
+      "source": "hackernews",
+      "title": "Starting from scratch: Training a 30M Topological Transformer",
+      "url": "https://www.tuned.org.uk/posts/013_the_topological_transformer_training_tauformer",
+      "abstract": "",
+      "authors": [
+        "tuned"
+      ],
+      "published_at": "2026-01-18T11:39:14Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:46666777",
+      "source": "hackernews",
+      "title": "Agent Psychosis: Are We Going Insane?",
+      "url": "https://lucumr.pocoo.org/2026/1/18/agent-psychosis/",
+      "abstract": "",
+      "authors": [
+        "todsacerdoti"
+      ],
+      "published_at": "2026-01-18T11:04:44Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:46665169",
+      "source": "hackernews",
+      "title": "Show HN: Figma-use \u2013 CLI to control Figma for AI agents",
+      "url": "https://github.com/dannote/figma-use",
+      "abstract": "",
+      "authors": [
+        "dannote"
+      ],
+      "published_at": "2026-01-18T05:55:48Z",
+      "has_code": true,
+      "code_url": "https://github.com/dannote/figma-use"
+    },
+    {
+      "id": "hn:46664631",
+      "source": "hackernews",
+      "title": "Erdos 281 solved with ChatGPT 5.2 Pro",
+      "url": "https://twitter.com/neelsomani/status/2012695714187325745",
+      "abstract": "",
+      "authors": [
+        "nl"
+      ],
+      "published_at": "2026-01-18T03:48:03Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:68ceabf8f6bf",
+      "source": "blog",
+      "title": "A business that scales with the value of intelligence",
+      "url": "https://openai.com/index/a-business-that-scales-with-the-value-of-intelligence",
+      "abstract": "OpenAI\u2019s business model scales with intelligence\u2014spanning subscriptions, API, ads, commerce, and compute\u2014driven by deepening ChatGPT adoption.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-01-18T10:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    }
+  ],
+  "topics": []
+}

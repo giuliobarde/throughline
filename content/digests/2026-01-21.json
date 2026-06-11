@@ -1,0 +1,124 @@
+{
+  "date": "2026-01-21",
+  "generated_at": "2026-06-11T04:11:45.037032+00:00",
+  "items": [
+    {
+      "id": "hn:46712678",
+      "source": "hackernews",
+      "title": "Your brain on ChatGPT: Accumulation of cognitive debt when using an AI assistant",
+      "url": "https://www.media.mit.edu/publications/your-brain-on-chatgpt/",
+      "abstract": "",
+      "authors": [
+        "misswaterfairy"
+      ],
+      "published_at": "2026-01-21T22:41:45Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:46711649",
+      "source": "hackernews",
+      "title": "TerabyteDeals \u2013 Compare storage prices by $/TB",
+      "url": "https://terabytedeals.com",
+      "abstract": "",
+      "authors": [
+        "vektor888"
+      ],
+      "published_at": "2026-01-21T21:13:59Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:46711574",
+      "source": "hackernews",
+      "title": "eBay explicitly bans AI \"buy for me\" agents in user agreement update",
+      "url": "https://www.valueaddedresource.net/ebay-bans-ai-agents-updates-arbitration-user-agreement-feb-2026/",
+      "abstract": "",
+      "authors": [
+        "bdcravens"
+      ],
+      "published_at": "2026-01-21T21:07:47Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:46701969",
+      "source": "hackernews",
+      "title": "The Agentic AI Handbook: Production-Ready Patterns",
+      "url": "https://www.nibzard.com/agentic-handbook",
+      "abstract": "",
+      "authors": [
+        "SouravInsights"
+      ],
+      "published_at": "2026-01-21T06:48:56Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:46700594",
+      "source": "hackernews",
+      "title": "Anthropic's original take home assignment open sourced",
+      "url": "https://github.com/anthropics/original_performance_takehome",
+      "abstract": "",
+      "authors": [
+        "myahio"
+      ],
+      "published_at": "2026-01-21T02:54:32Z",
+      "has_code": true,
+      "code_url": "https://github.com/anthropics/original_performance_takehome"
+    },
+    {
+      "id": "blog:71c27c70d137",
+      "source": "blog",
+      "title": "How Higgsfield turns simple ideas into cinematic social videos",
+      "url": "https://openai.com/index/higgsfield",
+      "abstract": "Discover how Higgsfield gives creators cinematic, social-first video output from simple inputs using OpenAI GPT-4.1, GPT-5, and Sora 2.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-01-21T10:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:03d0ef228762",
+      "source": "blog",
+      "title": "Introducing Edu for Countries",
+      "url": "https://openai.com/index/edu-for-countries",
+      "abstract": "Edu for Countries is a new OpenAI initiative helping governments use AI to modernize education systems and build future-ready workforces.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-01-21T01:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:aca3ad17ccab",
+      "source": "blog",
+      "title": "How countries can end the capability overhang",
+      "url": "https://openai.com/index/how-countries-can-end-the-capability-overhang",
+      "abstract": "Our latest report reveals stark differences in advanced AI adoption across countries and outlines new initiatives to help nations capture productivity gains from AI.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-01-21T01:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:b3e55251abd8",
+      "source": "blog",
+      "title": "AssetOpsBench: Bridging the Gap Between AI Agent Benchmarks and Industrial Reality",
+      "url": "https://huggingface.co/blog/ibm-research/assetopsbench-playground-on-hugging-face",
+      "abstract": "",
+      "authors": [
+        "Hugging Face"
+      ],
+      "published_at": "2026-01-21T06:25:31+00:00",
+      "has_code": false,
+      "code_url": null
+    }
+  ],
+  "topics": []
+}

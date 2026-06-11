@@ -1,0 +1,72 @@
+{
+  "date": "2026-01-01",
+  "generated_at": "2026-06-11T04:11:45.025615+00:00",
+  "items": [
+    {
+      "id": "hn:46454587",
+      "source": "hackernews",
+      "title": "Build a Deep Learning Library",
+      "url": "https://zekcrates.quarto.pub/deep-learning-library/",
+      "abstract": "",
+      "authors": [
+        "butanyways"
+      ],
+      "published_at": "2026-01-01T14:53:50Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "gh:ZiadFrancis/MachineLearningIndicator_Classifier",
+      "source": "github",
+      "title": "ZiadFrancis/MachineLearningIndicator_Classifier",
+      "url": "https://github.com/ZiadFrancis/MachineLearningIndicator_Classifier",
+      "abstract": "",
+      "authors": [
+        "ZiadFrancis"
+      ],
+      "published_at": "2026-01-01T23:05:53Z",
+      "has_code": true,
+      "code_url": "https://github.com/ZiadFrancis/MachineLearningIndicator_Classifier"
+    },
+    {
+      "id": "gh:Krishna-Murthy897/Rainfall-Prediction-ML",
+      "source": "github",
+      "title": "Krishna-Murthy897/Rainfall-Prediction-ML",
+      "url": "https://github.com/Krishna-Murthy897/Rainfall-Prediction-ML",
+      "abstract": "Rainfall prediction using machine learning with regression models",
+      "authors": [
+        "Krishna-Murthy897"
+      ],
+      "published_at": "2026-01-01T08:55:52Z",
+      "has_code": true,
+      "code_url": "https://github.com/Krishna-Murthy897/Rainfall-Prediction-ML"
+    },
+    {
+      "id": "gh:MOHAMEDAFZAL1/Bank-Customer-Churn-Prediction",
+      "source": "github",
+      "title": "MOHAMEDAFZAL1/Bank-Customer-Churn-Prediction",
+      "url": "https://github.com/MOHAMEDAFZAL1/Bank-Customer-Churn-Prediction",
+      "abstract": "Predicts whether a bank customer will churn using machine learning algorithms.",
+      "authors": [
+        "MOHAMEDAFZAL1"
+      ],
+      "published_at": "2026-01-01T15:50:44Z",
+      "has_code": true,
+      "code_url": "https://github.com/MOHAMEDAFZAL1/Bank-Customer-Churn-Prediction"
+    },
+    {
+      "id": "gh:mofisha03/Bank-Customer-Churn-Prediction",
+      "source": "github",
+      "title": "mofisha03/Bank-Customer-Churn-Prediction",
+      "url": "https://github.com/mofisha03/Bank-Customer-Churn-Prediction",
+      "abstract": "Predicts whether a bank customer will churn using machine learning algorithms",
+      "authors": [
+        "mofisha03"
+      ],
+      "published_at": "2026-01-01T18:07:50Z",
+      "has_code": true,
+      "code_url": "https://github.com/mofisha03/Bank-Customer-Churn-Prediction"
+    }
+  ],
+  "topics": []
+}

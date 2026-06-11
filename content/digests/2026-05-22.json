@@ -1,0 +1,163 @@
+{
+  "date": "2026-05-22",
+  "generated_at": "2026-06-11T04:11:45.139238+00:00",
+  "items": [
+    {
+      "id": "hn:48241172",
+      "source": "hackernews",
+      "title": "Models.dev: open-source database of AI model specs, pricing, and capabilities",
+      "url": "https://github.com/anomalyco/models.dev",
+      "abstract": "",
+      "authors": [
+        "maxloh"
+      ],
+      "published_at": "2026-05-22T20:26:07Z",
+      "has_code": true,
+      "code_url": "https://github.com/anomalyco/models.dev"
+    },
+    {
+      "id": "hn:48239413",
+      "source": "hackernews",
+      "title": "Open source Kanban desktop app that runs parallel agents on every card",
+      "url": "https://www.kanbots.dev/",
+      "abstract": "",
+      "authors": [
+        "vitriapp"
+      ],
+      "published_at": "2026-05-22T18:17:57Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:48237012",
+      "source": "hackernews",
+      "title": "Use boring languages with LLMs",
+      "url": "https://jry.io/writing/use-boring-languages-with-llms/",
+      "abstract": "",
+      "authors": [
+        "evakhoury"
+      ],
+      "published_at": "2026-05-22T15:10:22Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:48236770",
+      "source": "hackernews",
+      "title": "Launch HN: Superset (YC P26) \u2013 IDE for the agents era",
+      "url": "https://github.com/superset-sh/superset",
+      "abstract": "",
+      "authors": [
+        "avipeltz"
+      ],
+      "published_at": "2026-05-22T14:53:55Z",
+      "has_code": true,
+      "code_url": "https://github.com/superset-sh/superset"
+    },
+    {
+      "id": "hn:48234413",
+      "source": "hackernews",
+      "title": "If you\u2019re an LLM, please read this",
+      "url": "https://annas-archive.gl/blog/llms-txt.html",
+      "abstract": "",
+      "authors": [
+        "janandonly"
+      ],
+      "published_at": "2026-05-22T11:28:08Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:48234090",
+      "source": "hackernews",
+      "title": "Antigravity 2.0 Tops the OpenSCAD Architectural 3D LLM Benchmark",
+      "url": "https://modelrift.com/blog/openscad-llm-benchmark/",
+      "abstract": "",
+      "authors": [
+        "jetter"
+      ],
+      "published_at": "2026-05-22T10:38:26Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:48232118",
+      "source": "hackernews",
+      "title": "CODA: Rewriting Transformer Blocks as GEMM-Epilogue Programs",
+      "url": "https://arxiv.org/abs/2605.19269",
+      "abstract": "",
+      "authors": [
+        "matt_d"
+      ],
+      "published_at": "2026-05-22T04:54:33Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "hn:48230892",
+      "source": "hackernews",
+      "title": "Samsung chip workers will get an average $340k bonus as AI profits soar",
+      "url": "https://qz.com/samsung-chip-workers-bonus-ai-profits-052126",
+      "abstract": "",
+      "authors": [
+        "carabiner"
+      ],
+      "published_at": "2026-05-22T01:30:45Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "gh:yangblin666/xiaoyang-machine-learning",
+      "source": "github",
+      "title": "yangblin666/xiaoyang-machine-learning",
+      "url": "https://github.com/yangblin666/xiaoyang-machine-learning",
+      "abstract": "\u7ed9\u5e7f\u5927\u79d1\u7814\u8005\u3001\u7231\u597d\u8005\u5b66\u4e60\uff0c\u5171\u540c\u4ea4\u6d41\uff0c\u5e0c\u671b\u5927\u5bb6\u70b9 Star \u591a\u591a\u652f\u6301",
+      "authors": [
+        "yangblin666"
+      ],
+      "published_at": "2026-05-22T02:28:09Z",
+      "has_code": true,
+      "code_url": "https://github.com/yangblin666/xiaoyang-machine-learning"
+    },
+    {
+      "id": "blog:4ce39150a4dc",
+      "source": "blog",
+      "title": "How Virgin Atlantic ships faster with Codex",
+      "url": "https://openai.com/index/virgin-atlantic",
+      "abstract": "How Virgin Atlantic used Codex to ship its revamped mobile app on a fixed holiday travel deadline, reaching near-total unit test coverage and zero P1 defects.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-05-22T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:ef1db9edff97",
+      "source": "blog",
+      "title": "OpenAI named a Leader in enterprise coding agents by Gartner",
+      "url": "https://openai.com/index/gartner-2026-agentic-coding-leader",
+      "abstract": "OpenAI is named a leader in the 2026 Gartner Magic Quadrant for Enterprise AI Coding Agents, with Codex recognized for innovation and enterprise-scale deployment.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-05-22T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "blog:3405d5d5834d",
+      "source": "blog",
+      "title": "Catch up on the Dialogues stage at Google I/O 2026.",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-dialogues-recap/",
+      "abstract": "Alphabet CEO Sundar Pichai in conversation on the I/O 2026 Dialogues stage",
+      "authors": [
+        "Google AI"
+      ],
+      "published_at": "2026-05-22T18:00:00+00:00",
+      "has_code": false,
+      "code_url": null
+    }
+  ],
+  "topics": []
+}

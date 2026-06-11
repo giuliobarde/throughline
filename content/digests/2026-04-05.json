@@ -1,0 +1,59 @@
+{
+  "date": "2026-04-05",
+  "generated_at": "2026-06-11T04:11:45.093187+00:00",
+  "items": [
+    {
+      "id": "hn:47655058",
+      "source": "hackernews",
+      "title": "OpenAI's fall from grace as investors race to Anthropic",
+      "url": "https://www.latimes.com/business/story/2026-04-01/openais-shocking-fall-from-grace-as-investors-race-to-anthropic",
+      "abstract": "",
+      "authors": [
+        "1vuio0pswjnm7"
+      ],
+      "published_at": "2026-04-05T23:33:01Z",
+      "has_code": false,
+      "code_url": null
+    },
+    {
+      "id": "gh:tilakkm20225-maker/Neuro-Symbolic-AI-for-Automated-Cyber-Threat-Intelligence-Generation",
+      "source": "github",
+      "title": "tilakkm20225-maker/Neuro-Symbolic-AI-for-Automated-Cyber-Threat-Intelligence-Generation",
+      "url": "https://github.com/tilakkm20225-maker/Neuro-Symbolic-AI-for-Automated-Cyber-Threat-Intelligence-Generation",
+      "abstract": "Neuro-Symbolic AI framework for automated cyber threat intelligence generation using hybrid reasoning, machine learning, and knowledge graphs.",
+      "authors": [
+        "tilakkm20225-maker"
+      ],
+      "published_at": "2026-04-05T17:26:05Z",
+      "has_code": true,
+      "code_url": "https://github.com/tilakkm20225-maker/Neuro-Symbolic-AI-for-Automated-Cyber-Threat-Intelligence-Generation"
+    },
+    {
+      "id": "gh:Suraj-G-Rao/Complete-MLOPS",
+      "source": "github",
+      "title": "Suraj-G-Rao/Complete-MLOPS",
+      "url": "https://github.com/Suraj-G-Rao/Complete-MLOPS",
+      "abstract": "Learned comprehensive MLOps practices covering the complete machine learning lifecycle from development to production deployment and monitoring.",
+      "authors": [
+        "Suraj-G-Rao"
+      ],
+      "published_at": "2026-04-05T16:33:27Z",
+      "has_code": true,
+      "code_url": "https://github.com/Suraj-G-Rao/Complete-MLOPS"
+    },
+    {
+      "id": "gh:Suraj-G-Rao/Complete-Data-Science",
+      "source": "github",
+      "title": "Suraj-G-Rao/Complete-Data-Science",
+      "url": "https://github.com/Suraj-G-Rao/Complete-Data-Science",
+      "abstract": "This repository showcases my learning journey through various machine learning algorithms, deep learning concepts, and complete end-to-end data science projects.",
+      "authors": [
+        "Suraj-G-Rao"
+      ],
+      "published_at": "2026-04-05T16:29:06Z",
+      "has_code": true,
+      "code_url": "https://github.com/Suraj-G-Rao/Complete-Data-Science"
+    }
+  ],
+  "topics": []
+}
