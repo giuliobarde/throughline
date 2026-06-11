@@ -1,25 +1,17 @@
-import json
-from pathlib import Path
-
 from pipeline.synthesize import recent_summaries, iso_week
 
 
-def _write_digest(content: Path, date: str, items: list[dict]) -> None:
-    d = content / "digests"
-    d.mkdir(parents=True, exist_ok=True)
-    (d / f"{date}.json").write_text(json.dumps({"date": date, "items": items, "topics": []}))
-
-
-def test_recent_summaries_collects_only_summarized(tmp_path: Path):
-    content = tmp_path / "content"
-    _write_digest(content, "2026-06-07", [
-        {"title": "A", "summary": "sumA", "topic": "t1"},
-        {"title": "B"},  # no summary -> skipped
-    ])
-    _write_digest(content, "2026-06-06", [
-        {"title": "C", "summary": "sumC", "topic": "t2"},
-    ])
-    out = recent_summaries(content, "2026-06-07", days=3)
+def test_recent_summaries_collects_only_summarized():
+    digests = {
+        "2026-06-07": {"date": "2026-06-07", "items": [
+            {"title": "A", "summary": "sumA", "topic": "t1"},
+            {"title": "B"},  # no summary -> skipped
+        ], "topics": []},
+        "2026-06-06": {"date": "2026-06-06", "items": [
+            {"title": "C", "summary": "sumC", "topic": "t2"},
+        ], "topics": []},
+    }
+    out = recent_summaries("2026-06-07", days=3, fetch_digest=digests.get)
     titles = {s["title"] for s in out}
     assert titles == {"A", "C"}
     assert all("summary" in s for s in out)
@@ -29,7 +21,7 @@ def test_iso_week_format():
     assert iso_week("2026-06-07") == "2026-23"
 
 
-from pipeline.synthesize import synthesize_week, write_synthesis
+from pipeline.synthesize import synthesize_week, synthesis_record
 
 
 def test_synthesize_week_with_stub():
@@ -54,12 +46,11 @@ def test_synthesize_week_no_key_returns_empty(monkeypatch):
     assert synthesize_week([{"title": "A", "summary": "s", "topic": None}], llm=None) == ""
 
 
-def test_write_synthesis_creates_mdx(tmp_path: Path):
-    content = tmp_path / "content"
-    path = write_synthesis("2026-06-07", "Body text here.", content)
-    assert path.name == "2026-23.mdx"
-    text = path.read_text()
-    assert 'week: "2026-23"' in text
-    assert 'date: "2026-06-07"' in text
-    assert "Body text here." in text
-    assert text.startswith("---")
+def test_synthesis_record_shape():
+    rec = synthesis_record("2026-06-14", "essay body")
+    assert rec == {
+        "week": "2026-24",
+        "title": "The Throughline - Week 2026-24",
+        "date": "2026-06-14",
+        "body": "essay body",
+    }

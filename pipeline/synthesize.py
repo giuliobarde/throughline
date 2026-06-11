@@ -1,17 +1,14 @@
 from __future__ import annotations
 
-import json
 import logging
 import os
 from datetime import date, timedelta
-from pathlib import Path
 from typing import Callable, Optional
-
-from pipeline.digest import DEFAULT_CONTENT_DIR
 
 log = logging.getLogger("throughline")
 
 LLMText = Callable[[str, str], str]
+FetchDigest = Callable[[str], Optional[dict]]
 
 MODEL = os.environ.get("ANTHROPIC_MODEL", "claude-haiku-4-5")
 
@@ -23,15 +20,20 @@ SYNTH_SYSTEM = (
 )
 
 
-def recent_summaries(content_dir: Path, date_str: str, days: int = 7) -> list[dict]:
+def recent_summaries(
+    date_str: str, days: int = 7, fetch_digest: Optional[FetchDigest] = None
+) -> list[dict]:
+    if fetch_digest is None:
+        from pipeline import store
+
+        fetch_digest = store.fetch_digest
     end = date.fromisoformat(date_str)
     out: list[dict] = []
     for i in range(days):
         d = (end - timedelta(days=i)).isoformat()
-        path = content_dir / "digests" / f"{d}.json"
-        if not path.exists():
+        digest = fetch_digest(d)
+        if not digest:
             continue
-        digest = json.loads(path.read_text())
         for item in digest.get("items", []):
             if item.get("summary"):
                 out.append(
@@ -90,19 +92,11 @@ def synthesize_week(summaries: list[dict], llm: Optional[LLMText] = None) -> str
         return ""
 
 
-def write_synthesis(
-    date_str: str, essay: str, content_dir: Path = DEFAULT_CONTENT_DIR
-) -> Path:
+def synthesis_record(date_str: str, essay: str) -> dict:
     week = iso_week(date_str)
-    out_dir = content_dir / "synthesis"
-    out_dir.mkdir(parents=True, exist_ok=True)
-    out = out_dir / f"{week}.mdx"
-    front = (
-        "---\n"
-        f'title: "The Throughline - Week {week}"\n'
-        f'week: "{week}"\n'
-        f'date: "{date_str}"\n'
-        "---\n\n"
-    )
-    out.write_text(front + essay + "\n")
-    return out
+    return {
+        "week": week,
+        "title": f"The Throughline - Week {week}",
+        "date": date_str,
+        "body": essay,
+    }
