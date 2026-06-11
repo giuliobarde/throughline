@@ -36,7 +36,7 @@ export function PostCard({ item, initialNet }: { item: FeedItem; initialNet: num
           <span className="font-mono text-xs text-neutral-500">{domain(item.url)}</span>
           <time className="font-mono text-xs text-neutral-500">{postDate(item)}</time>
         </div>
-        <h2 className="mt-1.5 text-base font-semibold leading-snug tracking-tight">
+        <h2 className="mt-1.5 wrap-break-word text-base font-semibold leading-snug tracking-tight">
           <a
             href={item.url}
             target="_blank"
@@ -55,7 +55,7 @@ export function PostCard({ item, initialNet }: { item: FeedItem; initialNet: num
               href={`https://news.ycombinator.com/item?id=${item.id.replace(/^hn:/, "")}`}
               target="_blank"
               rel="noreferrer"
-              className="font-mono text-xs text-neutral-500 transition-colors hover:text-neutral-300"
+              className="py-1 font-mono text-xs text-neutral-500 transition-colors hover:text-neutral-300"
             >
               discuss
             </a>

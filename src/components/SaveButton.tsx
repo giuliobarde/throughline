@@ -16,7 +16,7 @@ export function SaveButton({ item }: { item: SavedItem }) {
       type="button"
       aria-label={saved ? "Unsave" : "Save"}
       onClick={() => setSaved(toggleSave(item))}
-      className={`font-mono text-xs transition-colors ${saved ? "text-amber-400" : "text-neutral-500 hover:text-neutral-300"}`}
+      className={`py-1 font-mono text-xs transition-colors ${saved ? "text-amber-400" : "text-neutral-500 hover:text-neutral-300"}`}
     >
       {saved ? "✓ saved" : "save"}
     </button>

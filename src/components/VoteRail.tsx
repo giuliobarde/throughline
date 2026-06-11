@@ -49,9 +49,9 @@ export function VoteRail({
     }
   }
 
-  const btn = "leading-none transition-colors disabled:opacity-50";
+  const btn = "px-2 py-1 leading-none transition-colors disabled:opacity-50";
   return (
-    <div className="flex w-8 shrink-0 flex-col items-center gap-0.5 pt-0.5 font-mono text-xs">
+    <div className="flex w-9 shrink-0 flex-col items-center pt-0.5 font-mono text-xs">
       <button
         type="button"
         aria-label="Upvote"

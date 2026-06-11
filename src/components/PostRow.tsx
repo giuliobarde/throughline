@@ -11,7 +11,7 @@ export function PostRow({ item, initialNet }: { item: FeedItem; initialNet: numb
     <article className="flex gap-3 border-b border-neutral-800/80 py-2.5">
       <VoteRail itemKey={key} initialNet={initialNet} />
       <div className="min-w-0 flex-1">
-        <h2 className="text-sm font-semibold leading-snug">
+        <h2 className="wrap-break-word text-sm font-semibold leading-snug">
           <a
             href={item.url}
             target="_blank"

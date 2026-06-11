@@ -28,7 +28,7 @@ export function ShareButton({ url, title }: { url: string; title: string }) {
       type="button"
       aria-label="Share"
       onClick={share}
-      className="font-mono text-xs text-neutral-500 transition-colors hover:text-neutral-300"
+      className="py-1 font-mono text-xs text-neutral-500 transition-colors hover:text-neutral-300"
     >
       {copied ? "copied!" : "share"}
     </button>
