@@ -3,7 +3,7 @@ import { clientIp, createRateLimiter } from "@/lib/ratelimit";
 
 describe("createRateLimiter", () => {
   it("allows up to limit within window, then blocks", () => {
-    let t = 0;
+    const t = 0;
     const rl = createRateLimiter(2, 1000, () => t);
     expect(rl.allow("a")).toBe(true);
     expect(rl.allow("a")).toBe(true);
@@ -20,7 +20,7 @@ describe("createRateLimiter", () => {
   });
 
   it("isolates keys", () => {
-    let t = 0;
+    const t = 0;
     const rl = createRateLimiter(1, 1000, () => t);
     expect(rl.allow("a")).toBe(true);
     expect(rl.allow("a")).toBe(false);

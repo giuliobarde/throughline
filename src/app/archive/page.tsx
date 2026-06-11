@@ -1,5 +1,7 @@
 import { getIndex } from "@/lib/content";
 
+export const metadata = { title: "Archive — Throughline" };
+
 export const revalidate = 3600;
 
 export default async function ArchivePage() {

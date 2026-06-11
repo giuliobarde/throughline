@@ -5,6 +5,16 @@ import { itemKey, mergeDigests } from "@/lib/feed";
 import { searchItems } from "@/lib/search";
 import { getVoteCounts } from "@/lib/votes";
 
+export async function generateMetadata({
+  searchParams,
+}: {
+  searchParams: Promise<{ q?: string }>;
+}) {
+  const { q = "" } = await searchParams;
+  const query = q.trim();
+  return { title: query ? `"${query}" — Throughline` : "Search — Throughline" };
+}
+
 export default async function SearchPage({
   searchParams,
 }: {

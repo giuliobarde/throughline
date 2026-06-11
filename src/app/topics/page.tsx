@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { getLatestTopics } from "@/lib/content";
 
+export const metadata = { title: "Topics — Throughline" };
+
 export const revalidate = 3600;
 
 export default async function TopicsPage() {

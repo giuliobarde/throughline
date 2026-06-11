@@ -14,9 +14,24 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const DESCRIPTION =
+  "The tech wire, ranked daily — AI research & engineering, voted and ranked.";
+
 export const metadata: Metadata = {
+  metadataBase: new URL("https://throughline-theta.vercel.app"),
   title: "Throughline",
-  description: "The tech wire, ranked daily — AI research & engineering, voted and ranked.",
+  description: DESCRIPTION,
+  openGraph: {
+    title: "Throughline",
+    description: DESCRIPTION,
+    siteName: "Throughline",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Throughline",
+    description: DESCRIPTION,
+  },
 };
 
 export default function RootLayout({
