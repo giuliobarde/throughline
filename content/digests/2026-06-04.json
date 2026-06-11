@@ -1,6 +1,6 @@
 {
   "date": "2026-06-04",
-  "generated_at": "2026-06-11T04:11:45.153173+00:00",
+  "generated_at": "2026-06-11T10:26:19.556639+00:00",
   "items": [
     {
       "id": "hn:48405931",
@@ -144,6 +144,19 @@
       "published_at": "2026-06-04T00:00:00+00:00",
       "has_code": false,
       "code_url": null
+    },
+    {
+      "id": "gh:REHXZ/AUTOML",
+      "source": "github",
+      "title": "REHXZ/AUTOML",
+      "url": "https://github.com/REHXZ/AUTOML",
+      "abstract": "A Agentic Machine Learning, local-first tabular ML discovery workspace. Hand a goal to the AI Autopilot a multi-agent system that runs the full CRISP-DM lifecycle.",
+      "authors": [
+        "REHXZ"
+      ],
+      "published_at": "2026-06-04T04:26:50Z",
+      "has_code": true,
+      "code_url": "https://github.com/REHXZ/AUTOML"
     }
   ],
   "topics": []

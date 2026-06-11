@@ -1,6 +1,6 @@
 {
   "date": "2026-03-28",
-  "generated_at": "2026-06-11T04:11:45.086471+00:00",
+  "generated_at": "2026-06-11T10:26:19.472491+00:00",
   "items": [
     {
       "id": "hn:47558733",
@@ -66,6 +66,19 @@
       "published_at": "2026-03-28T15:22:18Z",
       "has_code": true,
       "code_url": "https://github.com/z-fab/FIAP"
+    },
+    {
+      "id": "gh:Himanshu49Gaur/PhishDefender-PhishingResponseSystem",
+      "source": "github",
+      "title": "Himanshu49Gaur/PhishDefender-PhishingResponseSystem",
+      "url": "https://github.com/Himanshu49Gaur/PhishDefender-PhishingResponseSystem",
+      "abstract": "An end-to-end AI-powered phishing detection and response platform built as a Chrome browser extension. Combines machine learning, threat intelligence APIs, and rule-based automation to detect, analyze, and respond to phishing emails in real time directly inside Gmail.",
+      "authors": [
+        "Himanshu49Gaur"
+      ],
+      "published_at": "2026-03-28T18:45:35Z",
+      "has_code": true,
+      "code_url": "https://github.com/Himanshu49Gaur/PhishDefender-PhishingResponseSystem"
     }
   ],
   "topics": []
