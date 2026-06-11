@@ -2,7 +2,7 @@ name: daily-digest
 
 on:
   schedule:
-    - cron: "0 12 * * *" # ~daily at 12:00 UTC
+    - cron: "0 */3 * * *" # every 3 hours UTC; same-day runs merge into one digest
   workflow_dispatch: {}
 
 permissions:
