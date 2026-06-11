@@ -12,7 +12,7 @@ from pipeline.digest import DEFAULT_CONTENT_DIR, write_digest
 from pipeline.embed import embed_items
 from pipeline.rank import compute_scores, fetch_feedback
 from pipeline.summarize import label_topics, select_for_summary, summarize_items
-from pipeline.synthesize import recent_summaries, synthesize_week, write_synthesis
+from pipeline.synthesize import iso_week, recent_summaries, synthesize_week, write_synthesis
 from pipeline.models import Item
 from pipeline.sources.arxiv import ArxivSource
 from pipeline.sources.blogs import BlogSource
@@ -107,9 +107,14 @@ def main() -> None:
         print(json.dumps([it.to_dict() for it in items], indent=2))
         return
 
+    existing = load_existing_digest(args.date, DEFAULT_CONTENT_DIR)
+    items, carried_summaries = merge_run_items(existing, items)
+    if existing:
+        log.info("merged with earlier run: %d items in pool", len(items))
+
     topics: list[dict] = []
     topic_by_key: dict[str, str] = {}
-    summaries: dict[str, dict] = {}
+    summaries: dict[str, dict] = dict(carried_summaries)
     scores: dict[str, float] = {}
     if items:
         try:
@@ -117,7 +122,7 @@ def main() -> None:
             topics, topic_by_key = cluster_items(items, embeddings)
             log.info("clustered into %d topics", len(topics))
             selected = select_for_summary(items, topic_by_key)
-            summaries = summarize_items(selected)
+            summaries = {**carried_summaries, **summarize_items(selected)}
             log.info("summarized %d items", len(summaries))
             topics = label_topics(topics, items)
             scores = compute_scores(items, embeddings, fetch_feedback())
@@ -136,7 +141,8 @@ def main() -> None:
     log.info("wrote %s", out)
 
     is_sunday = date_cls.fromisoformat(args.date).weekday() == 6
-    if is_sunday or args.synthesize:
+    week_file = DEFAULT_CONTENT_DIR / "synthesis" / f"{iso_week(args.date)}.mdx"
+    if (is_sunday and not week_file.exists()) or args.synthesize:
         try:
             week_summaries = recent_summaries(DEFAULT_CONTENT_DIR, args.date)
             essay = synthesize_week(week_summaries)
@@ -146,6 +152,8 @@ def main() -> None:
                 log.info("no synthesis written (empty essay)")
         except Exception:
             log.exception("synthesis step failed; digest already written")
+    elif is_sunday:
+        log.info("synthesis for %s already exists; skipping", iso_week(args.date))
 
 
 if __name__ == "__main__":
