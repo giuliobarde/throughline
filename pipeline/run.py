@@ -4,16 +4,16 @@ import argparse
 import json
 import logging
 from datetime import date as date_cls
-from pathlib import Path
 from typing import Optional
 
 from pipeline.cluster import cluster_items
-from pipeline.digest import DEFAULT_CONTENT_DIR, write_digest
+from pipeline.digest import build_digest
 from pipeline.embed import embed_items
 from pipeline.rank import compute_scores, fetch_feedback
 from pipeline.summarize import label_topics, select_for_summary, summarize_items
-from pipeline.synthesize import iso_week, recent_summaries, synthesize_week, write_synthesis
+from pipeline.synthesize import iso_week, recent_summaries, synthesis_record, synthesize_week
 from pipeline.models import Item
+from pipeline import store
 from pipeline.sources.arxiv import ArxivSource
 from pipeline.sources.blogs import BlogSource
 from pipeline.sources.github import GitHubSource
@@ -48,15 +48,6 @@ def dedupe(items: list[Item]) -> list[Item]:
         seen.add(key)
         out.append(it)
     return out
-
-
-def load_existing_digest(date: str, content_dir: Path) -> Optional[dict]:
-    """Today's digest from an earlier run, or None (absent/corrupt → fresh build)."""
-    path = content_dir / "digests" / f"{date}.json"
-    try:
-        return json.loads(path.read_text())
-    except (OSError, ValueError):
-        return None
 
 
 def merge_run_items(
@@ -117,7 +108,7 @@ def main() -> None:
         print(json.dumps([it.to_dict() for it in items], indent=2))
         return
 
-    existing = load_existing_digest(args.date, DEFAULT_CONTENT_DIR)
+    existing = store.fetch_digest(args.date)
     items, carried_summaries, carried_topics = merge_run_items(existing, items)
     if existing:
         log.info("merged with earlier run: %d items in pool", len(items))
@@ -140,7 +131,7 @@ def main() -> None:
         except Exception:  # ML/LLM/ranking failure must not lose the digest
             log.exception("ml/summarize/rank step failed; writing with what we have")
 
-    out = write_digest(
+    payload = build_digest(
         args.date,
         items,
         topics=topics,
@@ -148,16 +139,19 @@ def main() -> None:
         summaries=summaries,
         scores=scores,
     )
-    log.info("wrote %s", out)
+    store.upsert_digest(args.date, payload)
+    log.info("upserted digest %s (%d items)", args.date, len(items))
 
     is_sunday = date_cls.fromisoformat(args.date).weekday() == 6
-    week_file = DEFAULT_CONTENT_DIR / "synthesis" / f"{iso_week(args.date)}.mdx"
-    if (is_sunday and not week_file.exists()) or args.synthesize:
+    already = store.synthesis_exists(iso_week(args.date))
+    if (is_sunday and not already) or args.synthesize:
         try:
-            week_summaries = recent_summaries(DEFAULT_CONTENT_DIR, args.date)
+            week_summaries = recent_summaries(args.date)
             essay = synthesize_week(week_summaries)
             if essay:
-                log.info("wrote synthesis %s", write_synthesis(args.date, essay))
+                rec = synthesis_record(args.date, essay)
+                store.upsert_synthesis(**rec)
+                log.info("upserted synthesis %s", rec["week"])
             else:
                 log.info("no synthesis written (empty essay)")
         except Exception:

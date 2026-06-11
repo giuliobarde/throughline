@@ -1,9 +1,7 @@
 from __future__ import annotations
 
-import json
-
 from pipeline.models import Item
-from pipeline.run import load_existing_digest, merge_run_items
+from pipeline.run import merge_run_items
 
 
 def _item(id: str, source: str = "arxiv", title: str = "fresh") -> Item:
@@ -80,15 +78,3 @@ def test_merge_none_existing_is_passthrough():
     assert carried_topics == {}
 
 
-def test_load_existing_digest_roundtrip(tmp_path):
-    digests = tmp_path / "digests"
-    digests.mkdir()
-    (digests / "2026-06-10.json").write_text(json.dumps({"date": "2026-06-10", "items": [], "topics": []}))
-    assert load_existing_digest("2026-06-10", tmp_path) == {
-        "date": "2026-06-10",
-        "items": [],
-        "topics": [],
-    }
-    assert load_existing_digest("2026-06-09", tmp_path) is None
-    (digests / "bad.json").write_text("{not json")
-    assert load_existing_digest("bad", tmp_path) is None

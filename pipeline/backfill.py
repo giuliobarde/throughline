@@ -1,16 +1,14 @@
 from __future__ import annotations
 
 import argparse
-import json
 import logging
 import time
 from datetime import date, datetime, timedelta, timezone
-from pathlib import Path
 from typing import Optional
 
 import httpx
 
-from pipeline.digest import DEFAULT_CONTENT_DIR, _update_index
+from pipeline import store
 from pipeline.models import Item
 from pipeline.summarize import LLMJson, _default_llm, summarize_items
 
@@ -190,29 +188,12 @@ def main() -> None:
 
     summaries = summarize_items(milestones, llm=llm) if milestones else {}
 
-    digests_dir = DEFAULT_CONTENT_DIR / "digests"
-    digests_dir.mkdir(parents=True, exist_ok=True)
-    index_path = DEFAULT_CONTENT_DIR / "index.json"
-    prior_synthesis = {}
-    if index_path.exists():
-        prior_synthesis = {
-            e["date"]: e.get("has_synthesis", False)
-            for e in json.loads(index_path.read_text())
-        }
-
     for day in sorted(buckets):
-        path = digests_dir / f"{day}.json"
-        existing = json.loads(path.read_text()) if path.exists() else None
+        existing = store.fetch_digest(day)
         merged = merge_digest_dict(existing, day, buckets[day])
         merged = apply_summaries_to_digest(merged, summaries)
-        path.write_text(json.dumps(merged, indent=2) + "\n")
-        _update_index(
-            DEFAULT_CONTENT_DIR,
-            day,
-            len(merged["items"]),
-            prior_synthesis.get(day, False),
-        )
-        log.info("wrote %s (%d items)", path, len(merged["items"]))
+        store.upsert_digest(day, merged)
+        log.info("upserted %s (%d items)", day, len(merged["items"]))
 
 
 if __name__ == "__main__":
