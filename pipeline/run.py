@@ -143,9 +143,11 @@ def main() -> None:
     log.info("upserted digest %s (%d items)", args.date, len(items))
 
     is_sunday = date_cls.fromisoformat(args.date).weekday() == 6
-    already = store.synthesis_exists(iso_week(args.date))
-    if (is_sunday and not already) or args.synthesize:
+    if is_sunday or args.synthesize:
         try:
+            if is_sunday and not args.synthesize and store.synthesis_exists(iso_week(args.date)):
+                log.info("synthesis for %s already exists; skipping", iso_week(args.date))
+                return
             week_summaries = recent_summaries(args.date)
             essay = synthesize_week(week_summaries)
             if essay:
@@ -156,8 +158,6 @@ def main() -> None:
                 log.info("no synthesis written (empty essay)")
         except Exception:
             log.exception("synthesis step failed; digest already written")
-    elif is_sunday:
-        log.info("synthesis for %s already exists; skipping", iso_week(args.date))
 
 
 if __name__ == "__main__":
