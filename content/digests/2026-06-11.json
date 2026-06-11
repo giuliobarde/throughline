@@ -1,6 +1,6 @@
 {
   "date": "2026-06-11",
-  "generated_at": "2026-06-11T16:16:03.245393+00:00",
+  "generated_at": "2026-06-11T20:30:50.434257+00:00",
   "items": [
     {
       "id": "2606.12412",
@@ -17,7 +17,7 @@
       "has_code": true,
       "code_url": null,
       "topic": "learning-optimization",
-      "for_you_score": 1.0572164948453608
+      "for_you_score": 1.0212871287128713
     },
     {
       "id": "2606.12411",
@@ -39,7 +39,7 @@
       "has_code": false,
       "code_url": null,
       "topic": "learning-optimization",
-      "for_you_score": 0.9469072164948454
+      "for_you_score": 0.9113861386138614
     },
     {
       "id": "2606.12406",
@@ -61,7 +61,7 @@
       "has_code": true,
       "code_url": null,
       "topic": "learning-optimization",
-      "for_you_score": 1.03659793814433
+      "for_you_score": 1.0014851485148515
     },
     {
       "id": "2606.12402",
@@ -85,7 +85,7 @@
       "has_code": true,
       "code_url": null,
       "topic": "learning-optimization",
-      "for_you_score": 1.0262886597938146
+      "for_you_score": 0.9915841584158416
     },
     {
       "id": "2606.12400",
@@ -105,7 +105,7 @@
       "has_code": false,
       "code_url": null,
       "topic": "learning-optimization",
-      "for_you_score": 0.915979381443299
+      "for_you_score": 0.8816831683168317
     },
     {
       "id": "2606.12397",
@@ -123,7 +123,7 @@
       "has_code": false,
       "code_url": null,
       "topic": "learning-optimization",
-      "for_you_score": 0.9056701030927836
+      "for_you_score": 0.8717821782178219
     },
     {
       "id": "2606.12392",
@@ -138,7 +138,7 @@
       "has_code": false,
       "code_url": null,
       "topic": "learning-optimization",
-      "for_you_score": 0.8953608247422681
+      "for_you_score": 0.861881188118812
     },
     {
       "id": "2606.12387",
@@ -155,7 +155,7 @@
       "has_code": false,
       "code_url": null,
       "topic": "learning-optimization",
-      "for_you_score": 0.8850515463917527
+      "for_you_score": 0.8519801980198021
     },
     {
       "id": "2606.12386",
@@ -173,7 +173,7 @@
       "has_code": false,
       "code_url": null,
       "topic": "learning-optimization",
-      "for_you_score": 0.8747422680412371
+      "for_you_score": 0.8420792079207922
     },
     {
       "id": "2606.12385",
@@ -190,7 +190,7 @@
       "has_code": false,
       "code_url": null,
       "topic": "learning-optimization",
-      "for_you_score": 0.8644329896907217
+      "for_you_score": 0.8321782178217823
     },
     {
       "id": "2606.12384",
@@ -212,7 +212,7 @@
       "has_code": false,
       "code_url": null,
       "topic": "learning-optimization",
-      "for_you_score": 0.8541237113402063
+      "for_you_score": 0.8222772277227723
     },
     {
       "id": "2606.12382",
@@ -229,7 +229,7 @@
       "has_code": false,
       "code_url": null,
       "topic": "learning-optimization",
-      "for_you_score": 0.8438144329896908
+      "for_you_score": 0.8123762376237624
     },
     {
       "id": "2606.12378",
@@ -245,7 +245,7 @@
       "has_code": false,
       "code_url": null,
       "topic": "learning-optimization",
-      "for_you_score": 0.8335051546391753
+      "for_you_score": 0.8024752475247525
     },
     {
       "id": "2606.12373",
@@ -270,7 +270,7 @@
       "has_code": false,
       "code_url": null,
       "topic": "learning-optimization",
-      "for_you_score": 0.8231958762886599
+      "for_you_score": 0.7925742574257426
     },
     {
       "id": "2606.12372",
@@ -290,7 +290,7 @@
       "has_code": false,
       "code_url": null,
       "topic": "learning-optimization",
-      "for_you_score": 0.8128865979381443
+      "for_you_score": 0.7826732673267327
     },
     {
       "id": "2606.12370",
@@ -321,7 +321,7 @@
       "has_code": true,
       "code_url": null,
       "topic": "learning-optimization",
-      "for_you_score": 0.9025773195876289
+      "for_you_score": 0.8727722772277228
     },
     {
       "id": "2606.12365",
@@ -342,7 +342,7 @@
       "has_code": false,
       "code_url": null,
       "topic": "learning-optimization",
-      "for_you_score": 0.7922680412371135
+      "for_you_score": 0.7628712871287129
     },
     {
       "id": "2606.12364",
@@ -365,7 +365,7 @@
       "has_code": true,
       "code_url": null,
       "topic": "learning-optimization",
-      "for_you_score": 0.881958762886598
+      "for_you_score": 0.852970297029703
     },
     {
       "id": "2606.12362",
@@ -385,7 +385,7 @@
       "has_code": false,
       "code_url": null,
       "topic": "learning-optimization",
-      "for_you_score": 0.7716494845360825
+      "for_you_score": 0.7430693069306931
     },
     {
       "id": "2606.12360",
@@ -416,7 +416,7 @@
       "has_code": false,
       "code_url": null,
       "topic": "learning-optimization",
-      "for_you_score": 0.7613402061855671
+      "for_you_score": 0.7331683168316832
     },
     {
       "id": "2606.12352",
@@ -435,7 +435,7 @@
       "has_code": false,
       "code_url": null,
       "topic": "learning-optimization",
-      "for_you_score": 0.7510309278350515
+      "for_you_score": 0.7232673267326732
     },
     {
       "id": "2606.12350",
@@ -451,7 +451,7 @@
       "has_code": false,
       "code_url": null,
       "topic": "ai-claude",
-      "for_you_score": 0.7407216494845361
+      "for_you_score": 0.7133663366336633
     },
     {
       "id": "2606.12346",
@@ -493,7 +493,7 @@
       "has_code": false,
       "code_url": null,
       "topic": "learning-optimization",
-      "for_you_score": 0.7304123711340207
+      "for_you_score": 0.7034653465346535
     },
     {
       "id": "2606.12344",
@@ -523,7 +523,7 @@
       "has_code": true,
       "code_url": null,
       "topic": "learning-optimization",
-      "for_you_score": 0.8201030927835052
+      "for_you_score": 0.7935643564356436
     },
     {
       "id": "2606.12342",
@@ -540,7 +540,7 @@
       "has_code": false,
       "code_url": null,
       "topic": "learning-optimization",
-      "for_you_score": 0.7097938144329897
+      "for_you_score": 0.6836633663366337
     },
     {
       "id": "2606.12337",
@@ -557,7 +557,7 @@
       "has_code": false,
       "code_url": null,
       "topic": "learning-optimization",
-      "for_you_score": 0.6994845360824743
+      "for_you_score": 0.6737623762376238
     },
     {
       "id": "2606.12334",
@@ -579,7 +579,7 @@
       "has_code": true,
       "code_url": null,
       "topic": "learning-optimization",
-      "for_you_score": 0.7891752577319587
+      "for_you_score": 0.7638613861386139
     },
     {
       "id": "2606.12332",
@@ -596,7 +596,7 @@
       "has_code": false,
       "code_url": null,
       "topic": "learning-optimization",
-      "for_you_score": 0.6788659793814433
+      "for_you_score": 0.653960396039604
     },
     {
       "id": "2606.12329",
@@ -612,7 +612,7 @@
       "has_code": true,
       "code_url": null,
       "topic": "learning-optimization",
-      "for_you_score": 0.7685567010309279
+      "for_you_score": 0.744059405940594
     },
     {
       "id": "2606.12320",
@@ -627,7 +627,7 @@
       "has_code": true,
       "code_url": null,
       "topic": "ai-claude",
-      "for_you_score": 0.7582474226804125
+      "for_you_score": 0.7341584158415843
     },
     {
       "id": "2606.12318",
@@ -644,7 +644,7 @@
       "has_code": false,
       "code_url": null,
       "topic": "learning-optimization",
-      "for_you_score": 0.6479381443298969
+      "for_you_score": 0.6242574257425744
     },
     {
       "id": "2606.12300",
@@ -660,7 +660,7 @@
       "has_code": false,
       "code_url": null,
       "topic": "learning-optimization",
-      "for_you_score": 0.627319587628866
+      "for_you_score": 0.6044554455445545
     },
     {
       "id": "2606.12299",
@@ -677,7 +677,7 @@
       "has_code": false,
       "code_url": null,
       "topic": "learning-optimization",
-      "for_you_score": 0.6170103092783505
+      "for_you_score": 0.5945544554455446
     },
     {
       "id": "2606.12295",
@@ -701,7 +701,7 @@
       "has_code": false,
       "code_url": null,
       "topic": "learning-optimization",
-      "for_you_score": 0.6067010309278351
+      "for_you_score": 0.5846534653465347
     },
     {
       "id": "2606.12291",
@@ -737,7 +737,7 @@
       "has_code": false,
       "code_url": null,
       "topic": "learning-optimization",
-      "for_you_score": 0.5963917525773197
+      "for_you_score": 0.5747524752475248
     },
     {
       "id": "2606.12289",
@@ -759,7 +759,7 @@
       "has_code": false,
       "code_url": null,
       "topic": "learning-optimization",
-      "for_you_score": 0.5860824742268042
+      "for_you_score": 0.5648514851485149
     },
     {
       "id": "2606.12287",
@@ -776,7 +776,7 @@
       "has_code": true,
       "code_url": null,
       "topic": "learning-optimization",
-      "for_you_score": 0.6654639175257732
+      "for_you_score": 0.6450495049504951
     },
     {
       "id": "2606.12282",
@@ -791,7 +791,7 @@
       "has_code": true,
       "code_url": null,
       "topic": "learning-optimization",
-      "for_you_score": 0.6551546391752577
+      "for_you_score": 0.6351485148514852
     },
     {
       "id": "2606.12281",
@@ -813,7 +813,7 @@
       "has_code": true,
       "code_url": null,
       "topic": "learning-optimization",
-      "for_you_score": 0.6448453608247423
+      "for_you_score": 0.6252475247524752
     },
     {
       "id": "2606.12280",
@@ -830,7 +830,7 @@
       "has_code": false,
       "code_url": null,
       "topic": "learning-optimization",
-      "for_you_score": 0.5345360824742269
+      "for_you_score": 0.5153465346534654
     },
     {
       "id": "2606.12279",
@@ -847,7 +847,7 @@
       "has_code": false,
       "code_url": null,
       "topic": "learning-optimization",
-      "for_you_score": 0.5242268041237114
+      "for_you_score": 0.5054455445544555
     },
     {
       "id": "2606.12278",
@@ -865,7 +865,7 @@
       "has_code": false,
       "code_url": null,
       "topic": "learning-optimization",
-      "for_you_score": 0.5139175257731959
+      "for_you_score": 0.4955445544554455
     },
     {
       "id": "2606.12277",
@@ -881,7 +881,7 @@
       "has_code": false,
       "code_url": null,
       "topic": "learning-optimization",
-      "for_you_score": 0.5036082474226805
+      "for_you_score": 0.4856435643564357
     },
     {
       "id": "2606.12273",
@@ -901,7 +901,7 @@
       "has_code": false,
       "code_url": null,
       "topic": "learning-optimization",
-      "for_you_score": 0.4932989690721649
+      "for_you_score": 0.4757425742574258
     },
     {
       "id": "2606.12268",
@@ -920,7 +920,7 @@
       "has_code": false,
       "code_url": null,
       "topic": "ai-claude",
-      "for_you_score": 0.4829896907216495
+      "for_you_score": 0.46584158415841587
     },
     {
       "id": "2606.12260",
@@ -938,7 +938,7 @@
       "has_code": false,
       "code_url": null,
       "topic": "ai-claude",
-      "for_you_score": 0.4623711340206185
+      "for_you_score": 0.44603960396039605
     },
     {
       "id": "2606.12252",
@@ -956,7 +956,7 @@
       "has_code": true,
       "code_url": null,
       "topic": "learning-optimization",
-      "for_you_score": 0.5417525773195877
+      "for_you_score": 0.5262376237623763
     },
     {
       "id": "2606.12251",
@@ -976,7 +976,7 @@
       "has_code": false,
       "code_url": null,
       "topic": "learning-optimization",
-      "for_you_score": 0.43144329896907213
+      "for_you_score": 0.4163366336633663
     },
     {
       "id": "2606.12250",
@@ -1000,7 +1000,7 @@
       "has_code": false,
       "code_url": null,
       "topic": "learning-optimization",
-      "for_you_score": 0.4211340206185567
+      "for_you_score": 0.4064356435643564
     },
     {
       "id": "2606.12247",
@@ -1019,7 +1019,7 @@
       "has_code": false,
       "code_url": null,
       "topic": "learning-optimization",
-      "for_you_score": 0.4108247422680413
+      "for_you_score": 0.3965346534653465
     },
     {
       "id": "news:918121c45d59",
@@ -1031,7 +1031,7 @@
       "published_at": "2026-05-28T16:51:43+00:00",
       "has_code": false,
       "code_url": null,
-      "topic": "learning-optimization",
+      "topic": "ai-claude",
       "for_you_score": 0.1
     },
     {
@@ -1045,7 +1045,7 @@
       "has_code": false,
       "code_url": null,
       "topic": "ai-claude",
-      "for_you_score": 0.32680412371134016
+      "for_you_score": 0.31782178217821777
     },
     {
       "id": "news:147a989f3e59",
@@ -1058,7 +1058,7 @@
       "has_code": false,
       "code_url": null,
       "topic": "ai-claude",
-      "for_you_score": 0.31649484536082473
+      "for_you_score": 0.30792079207920786
     },
     {
       "id": "news:f960cd958280",
@@ -1071,7 +1071,7 @@
       "has_code": false,
       "code_url": null,
       "topic": "ai-claude",
-      "for_you_score": 0.21340206185567015
+      "for_you_score": 0.2089108910891089
     },
     {
       "id": "news:607d4bdd3317",
@@ -1084,7 +1084,7 @@
       "has_code": false,
       "code_url": null,
       "topic": "learning-optimization",
-      "for_you_score": 0.12061855670103097
+      "for_you_score": 0.11980198019801983
     },
     {
       "id": "news:359e2bc82723",
@@ -1097,7 +1097,7 @@
       "has_code": false,
       "code_url": null,
       "topic": "ai-claude",
-      "for_you_score": 1.0381443298969073
+      "for_you_score": 1.000990099009901
     },
     {
       "id": "hn:48484584",
@@ -1112,7 +1112,7 @@
       "has_code": false,
       "code_url": null,
       "topic": "ai-claude",
-      "for_you_score": 1.1
+      "for_you_score": 1.0801980198019803
     },
     {
       "id": "hn:48480852",
@@ -1127,7 +1127,7 @@
       "has_code": false,
       "code_url": null,
       "topic": "ai-claude",
-      "for_you_score": 1.0175257731958762
+      "for_you_score": 0.9811881188118812
     },
     {
       "id": "hn:48478969",
@@ -1142,7 +1142,7 @@
       "has_code": false,
       "code_url": null,
       "topic": "ai-claude",
-      "for_you_score": 0.6876288659793814
+      "for_you_score": 0.6643564356435644
     },
     {
       "id": "hn:48478471",
@@ -1157,7 +1157,7 @@
       "has_code": false,
       "code_url": null,
       "topic": "learning-optimization",
-      "for_you_score": 0.522680412371134
+      "for_you_score": 0.505940594059406
     },
     {
       "id": "hn:48478148",
@@ -1172,7 +1172,7 @@
       "has_code": true,
       "code_url": "https://github.com/HelixDB/helix-db/tree/main",
       "topic": "learning-optimization",
-      "for_you_score": 0.5505154639175257
+      "for_you_score": 0.5366336633663366
     },
     {
       "id": "hn:48477400",
@@ -1187,7 +1187,7 @@
       "has_code": false,
       "code_url": null,
       "topic": "ai-claude",
-      "for_you_score": 0.4402061855670103
+      "for_you_score": 0.42673267326732667
     },
     {
       "id": "hn:48476136",
@@ -1202,7 +1202,7 @@
       "has_code": false,
       "code_url": null,
       "topic": "ai-claude",
-      "for_you_score": 0.4298969072164949
+      "for_you_score": 0.41683168316831676
     },
     {
       "id": "hn:48473166",
@@ -1217,7 +1217,7 @@
       "has_code": false,
       "code_url": null,
       "topic": "ai-claude",
-      "for_you_score": 0.3989690721649485
+      "for_you_score": 0.38712871287128714
     },
     {
       "id": "hn:48466812",
@@ -1232,7 +1232,7 @@
       "has_code": false,
       "code_url": null,
       "topic": "ai-claude",
-      "for_you_score": 0.3680412371134021
+      "for_you_score": 0.3574257425742574
     },
     {
       "id": "hn:48466277",
@@ -1247,7 +1247,7 @@
       "has_code": false,
       "code_url": null,
       "topic": "learning-optimization",
-      "for_you_score": 0.3474226804123711
+      "for_you_score": 0.3376237623762376
     },
     {
       "id": "hn:48465269",
@@ -1262,7 +1262,7 @@
       "has_code": false,
       "code_url": null,
       "topic": "ai-claude",
-      "for_you_score": 0.3371134020618557
+      "for_you_score": 0.3277227722772277
     },
     {
       "id": "gh:saileaxh/iida-dfs",
@@ -1277,7 +1277,7 @@
       "has_code": true,
       "code_url": "https://github.com/saileaxh/iida-dfs",
       "topic": "learning-optimization",
-      "for_you_score": 0.2912371134020618
+      "for_you_score": 0.28960396039603964
     },
     {
       "id": "gh:philtomson/KAN_LUT",
@@ -1292,7 +1292,7 @@
       "has_code": true,
       "code_url": "https://github.com/philtomson/KAN_LUT",
       "topic": "learning-optimization",
-      "for_you_score": 0.5283505154639175
+      "for_you_score": 0.5173267326732673
     },
     {
       "id": "gh:mohammadmehdimasoumi/mohammadmehdimasoumi",
@@ -1307,7 +1307,7 @@
       "has_code": true,
       "code_url": "https://github.com/mohammadmehdimasoumi/mohammadmehdimasoumi",
       "topic": "ai-claude",
-      "for_you_score": 1.2087628865979383
+      "for_you_score": 1.170792079207921
     },
     {
       "id": "gh:mohammadmehdimasoumi/hybrid-movie-recommender",
@@ -1322,7 +1322,7 @@
       "has_code": true,
       "code_url": "https://github.com/mohammadmehdimasoumi/hybrid-movie-recommender",
       "topic": "ai-claude",
-      "for_you_score": 0.6520618556701031
+      "for_you_score": 0.6361386138613861
     },
     {
       "id": "gh:Noor-Sabah05/CodeRush-GDC-ITU-2026-Machine-Learning-Competition",
@@ -1337,7 +1337,7 @@
       "has_code": true,
       "code_url": "https://github.com/Noor-Sabah05/CodeRush-GDC-ITU-2026-Machine-Learning-Competition",
       "topic": "ai-claude",
-      "for_you_score": 0.3118556701030928
+      "for_you_score": 0.30940594059405946
     },
     {
       "id": "gh:Wadan3/smart-cloud-optimizer",
@@ -1352,7 +1352,7 @@
       "has_code": true,
       "code_url": "https://github.com/Wadan3/smart-cloud-optimizer",
       "topic": "ai-claude",
-      "for_you_score": 0.33247422680412375
+      "for_you_score": 0.32920792079207917
     },
     {
       "id": "gh:RisingGhost/Machine-Learning-from-scratch",
@@ -1367,7 +1367,7 @@
       "has_code": true,
       "code_url": "https://github.com/RisingGhost/Machine-Learning-from-scratch",
       "topic": "learning-optimization",
-      "for_you_score": 0.39432989690721654
+      "for_you_score": 0.3886138613861386
     },
     {
       "id": "gh:Wadan3/ai-api-firewall",
@@ -1382,7 +1382,7 @@
       "has_code": true,
       "code_url": "https://github.com/Wadan3/ai-api-firewall",
       "topic": "ai-claude",
-      "for_you_score": 0.3221649484536082
+      "for_you_score": 0.31930693069306926
     },
     {
       "id": "gh:LiboniX-2/Retail-Commerce-ML",
@@ -1396,8 +1396,8 @@
       "published_at": "2026-06-05T08:48:14Z",
       "has_code": true,
       "code_url": "https://github.com/LiboniX-2/Retail-Commerce-ML",
-      "topic": "learning-optimization",
-      "for_you_score": 0.2809278350515464
+      "topic": "ai-claude",
+      "for_you_score": 0.27970297029702973
     },
     {
       "id": "gh:REHXZ/AUTOML",
@@ -1411,8 +1411,8 @@
       "published_at": "2026-06-04T04:26:50Z",
       "has_code": true,
       "code_url": "https://github.com/REHXZ/AUTOML",
-      "topic": "learning-optimization",
-      "for_you_score": 0.2603092783505154
+      "topic": "ai-claude",
+      "for_you_score": 0.2599009900990099
     },
     {
       "id": "blog:436a674e3bf2",
@@ -1427,7 +1427,7 @@
       "has_code": false,
       "code_url": null,
       "topic": "ai-claude",
-      "for_you_score": 1.1096907216494847
+      "for_you_score": 1.0902970297029704
     },
     {
       "id": "blog:8875a0080dac",
@@ -1442,7 +1442,7 @@
       "has_code": false,
       "code_url": null,
       "topic": "ai-claude",
-      "for_you_score": 1.099381443298969
+      "for_you_score": 1.0803960396039605
     },
     {
       "id": "blog:4600462b11c1",
@@ -1457,7 +1457,7 @@
       "has_code": false,
       "code_url": null,
       "topic": "ai-claude",
-      "for_you_score": 1.0684536082474225
+      "for_you_score": 1.030891089108911
     },
     {
       "id": "blog:c71f854be1a8",
@@ -1472,7 +1472,7 @@
       "has_code": false,
       "code_url": null,
       "topic": "ai-claude",
-      "for_you_score": 0.43958762886597935
+      "for_you_score": 0.426930693069307
     },
     {
       "id": "blog:2be94cf79940",
@@ -1487,7 +1487,7 @@
       "has_code": false,
       "code_url": null,
       "topic": "ai-claude",
-      "for_you_score": 0.40865979381443296
+      "for_you_score": 0.39722772277227725
     },
     {
       "id": "blog:d9665153cdf2",
@@ -1502,7 +1502,7 @@
       "has_code": false,
       "code_url": null,
       "topic": "learning-optimization",
-      "for_you_score": 0.6457731958762887
+      "for_you_score": 0.624950495049505
     },
     {
       "id": "blog:8065dada88d8",
@@ -1516,8 +1516,8 @@
       "published_at": "2026-06-09T15:16:25+00:00",
       "has_code": false,
       "code_url": null,
-      "topic": "learning-optimization",
-      "for_you_score": 0.2952577319587629
+      "topic": "ai-claude",
+      "for_you_score": 0.28831683168316835
     },
     {
       "id": "blog:9be096effcbb",
@@ -1532,7 +1532,7 @@
       "has_code": false,
       "code_url": null,
       "topic": "learning-optimization",
-      "for_you_score": 0.2849484536082474
+      "for_you_score": 0.27841584158415844
     },
     {
       "id": "blog:89b36a5b3c5b",
@@ -1547,7 +1547,7 @@
       "has_code": false,
       "code_url": null,
       "topic": "ai-claude",
-      "for_you_score": 0.27463917525773196
+      "for_you_score": 0.26851485148514853
     },
     {
       "id": "blog:e28e77d243e8",
@@ -1562,7 +1562,7 @@
       "has_code": false,
       "code_url": null,
       "topic": "ai-claude",
-      "for_you_score": 0.2230927835051546
+      "for_you_score": 0.21900990099009898
     },
     {
       "id": "blog:7707fdb288e4",
@@ -1577,7 +1577,7 @@
       "has_code": false,
       "code_url": null,
       "topic": "ai-claude",
-      "for_you_score": 0.17154639175257735
+      "for_you_score": 0.16950495049504954
     },
     {
       "id": "blog:7a24901e2115",
@@ -1591,8 +1591,8 @@
       "published_at": "2026-06-09T19:38:28+00:00",
       "has_code": false,
       "code_url": null,
-      "topic": "learning-optimization",
-      "for_you_score": 0.37773195876288657
+      "topic": "ai-claude",
+      "for_you_score": 0.3675247524752475
     },
     {
       "id": "blog:3b631680ec0a",
@@ -1607,7 +1607,7 @@
       "has_code": false,
       "code_url": null,
       "topic": "ai-claude",
-      "for_you_score": 0.30556701030927835
+      "for_you_score": 0.29821782178217826
     },
     {
       "id": "blog:92ae8342b636",
@@ -1622,7 +1622,7 @@
       "has_code": false,
       "code_url": null,
       "topic": "ai-claude",
-      "for_you_score": 0.254020618556701
+      "for_you_score": 0.2487128712871287
     },
     {
       "id": "blog:eb987eaf1883",
@@ -1637,7 +1637,7 @@
       "has_code": false,
       "code_url": null,
       "topic": "ai-claude",
-      "for_you_score": 0.24371134020618557
+      "for_you_score": 0.2388118811881188
     },
     {
       "id": "blog:fbaf22fcf62f",
@@ -1652,7 +1652,7 @@
       "has_code": false,
       "code_url": null,
       "topic": "ai-claude",
-      "for_you_score": 0.21278350515463917
+      "for_you_score": 0.20910891089108907
     },
     {
       "id": "blog:2173f9d465a3",
@@ -1667,7 +1667,7 @@
       "has_code": false,
       "code_url": null,
       "topic": "ai-claude",
-      "for_you_score": 0.3261855670103093
+      "for_you_score": 0.31801980198019797
     },
     {
       "id": "blog:147a989f3e59",
@@ -1682,7 +1682,7 @@
       "has_code": false,
       "code_url": null,
       "topic": "ai-claude",
-      "for_you_score": 0.3158762886597938
+      "for_you_score": 0.30811881188118806
     },
     {
       "id": "blog:359e2bc82723",
@@ -1697,7 +1697,7 @@
       "has_code": false,
       "code_url": null,
       "topic": "ai-claude",
-      "for_you_score": 1.0478350515463917
+      "for_you_score": 1.011089108910891
     },
     {
       "id": "blog:90b62352ebbd",
@@ -1712,7 +1712,7 @@
       "has_code": false,
       "code_url": null,
       "topic": "ai-claude",
-      "for_you_score": 0.4292783505154639
+      "for_you_score": 0.41702970297029707
     },
     {
       "id": "blog:47d05adaf3b5",
@@ -1727,7 +1727,67 @@
       "has_code": false,
       "code_url": null,
       "topic": "learning-optimization",
-      "for_you_score": 1.0890721649484536
+      "for_you_score": 1.0704950495049506
+    },
+    {
+      "id": "hn:48489229",
+      "source": "hackernews",
+      "title": "Anthropic apologizes for invisible Claude Fable guardrails",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/948280/anthropic-claude-fable-invisible-distillation-guardrail",
+      "abstract": "",
+      "authors": [
+        "rarisma"
+      ],
+      "published_at": "2026-06-11T12:05:02Z",
+      "has_code": false,
+      "code_url": null,
+      "topic": "ai-claude",
+      "for_you_score": 1.0900990099009902
+    },
+    {
+      "id": "blog:6600f3e4b964",
+      "source": "blog",
+      "title": "OpenAI to acquire Ona",
+      "url": "https://openai.com/index/openai-to-acquire-ona",
+      "abstract": "OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-06-11T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null,
+      "topic": "ai-claude",
+      "for_you_score": 1.0605940594059406
+    },
+    {
+      "id": "blog:a9f0898c4190",
+      "source": "blog",
+      "title": "BBVA puts AI at the core of banking with OpenAI",
+      "url": "https://openai.com/index/bbva",
+      "abstract": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-06-11T00:00:00+00:00",
+      "has_code": false,
+      "code_url": null,
+      "topic": "ai-claude",
+      "for_you_score": 1.0506930693069307
+    },
+    {
+      "id": "blog:03724ebf28de",
+      "source": "blog",
+      "title": "Our new community investments in Virginia support local jobs and expand energy affordability.",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/virginia-community-investments/",
+      "abstract": "We\u2019re helping build the state\u2019s next-generation workforce and investing in energy programs.",
+      "authors": [
+        "Google AI"
+      ],
+      "published_at": "2026-06-11T20:00:00+00:00",
+      "has_code": false,
+      "code_url": null,
+      "topic": "ai-claude",
+      "for_you_score": 1.12
     }
   ],
   "topics": [
@@ -1739,6 +1799,7 @@
         "arxiv:2606.12320",
         "arxiv:2606.12268",
         "arxiv:2606.12260",
+        "news:news:918121c45d59",
         "news:news:2173f9d465a3",
         "news:news:147a989f3e59",
         "news:news:f960cd958280",
@@ -1756,14 +1817,18 @@
         "github:gh:Noor-Sabah05/CodeRush-GDC-ITU-2026-Machine-Learning-Competition",
         "github:gh:Wadan3/smart-cloud-optimizer",
         "github:gh:Wadan3/ai-api-firewall",
+        "github:gh:LiboniX-2/Retail-Commerce-ML",
+        "github:gh:REHXZ/AUTOML",
         "blog:blog:436a674e3bf2",
         "blog:blog:8875a0080dac",
         "blog:blog:4600462b11c1",
         "blog:blog:c71f854be1a8",
         "blog:blog:2be94cf79940",
+        "blog:blog:8065dada88d8",
         "blog:blog:89b36a5b3c5b",
         "blog:blog:e28e77d243e8",
         "blog:blog:7707fdb288e4",
+        "blog:blog:7a24901e2115",
         "blog:blog:3b631680ec0a",
         "blog:blog:92ae8342b636",
         "blog:blog:eb987eaf1883",
@@ -1771,7 +1836,11 @@
         "blog:blog:2173f9d465a3",
         "blog:blog:147a989f3e59",
         "blog:blog:359e2bc82723",
-        "blog:blog:90b62352ebbd"
+        "blog:blog:90b62352ebbd",
+        "hackernews:hn:48489229",
+        "blog:blog:6600f3e4b964",
+        "blog:blog:a9f0898c4190",
+        "blog:blog:03724ebf28de"
       ]
     },
     {
@@ -1824,7 +1893,6 @@
         "arxiv:2606.12251",
         "arxiv:2606.12250",
         "arxiv:2606.12247",
-        "news:news:918121c45d59",
         "news:news:607d4bdd3317",
         "hackernews:hn:48478471",
         "hackernews:hn:48478148",
@@ -1832,12 +1900,8 @@
         "github:gh:saileaxh/iida-dfs",
         "github:gh:philtomson/KAN_LUT",
         "github:gh:RisingGhost/Machine-Learning-from-scratch",
-        "github:gh:LiboniX-2/Retail-Commerce-ML",
-        "github:gh:REHXZ/AUTOML",
         "blog:blog:d9665153cdf2",
-        "blog:blog:8065dada88d8",
         "blog:blog:9be096effcbb",
-        "blog:blog:7a24901e2115",
         "blog:blog:47d05adaf3b5"
       ]
     }
