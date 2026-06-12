@@ -12,7 +12,7 @@ on:
         required: true
 
 permissions:
-  contents: write
+  contents: read
 
 concurrency:
   group: daily-digest # share the daily pipeline's group: never write content concurrently
@@ -38,19 +38,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           ANTHROPIC_MODEL: claude-haiku-4-5
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
         run: python -m pipeline.backfill --from "${{ inputs.from }}" --to "${{ inputs.to }}"
 
-      - name: Commit backfill if changed
-        run: |
-          if [ -z "$(git status --porcelain content data)" ]; then
-            echo "No content changes; nothing to commit."
-            exit 0
-          fi
-          # Author as the repo owner via the verified GitHub noreply email so the
-          # commit counts toward the contribution graph. Real timestamp; never backdated.
-          git config user.name "Giulio"
-          git config user.email "giuliobarde@users.noreply.github.com"
-          git add content data
-          git commit -m "chore(backfill): ${{ inputs.from }}..${{ inputs.to }}"
-          git pull --rebase origin main
-          git push

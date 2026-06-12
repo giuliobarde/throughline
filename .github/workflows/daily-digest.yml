@@ -6,7 +6,7 @@ on:
   workflow_dispatch: {}
 
 permissions:
-  contents: write
+  contents: read
 
 concurrency:
   group: daily-digest
@@ -43,16 +43,3 @@ jobs:
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
         run: python -m pipeline.run
 
-      - name: Commit digest if changed
-        run: |
-          if [ -z "$(git status --porcelain content data)" ]; then
-            echo "No content changes; nothing to commit."
-            exit 0
-          fi
-          # Author as the repo owner via the verified GitHub noreply email so the
-          # commit counts toward the contribution graph. Real timestamp; never backdated.
-          git config user.name "Giulio"
-          git config user.email "giuliobarde@users.noreply.github.com"
-          git add content data
-          git commit -m "chore(digest): $(date -u +%Y-%m-%d)"
-          git push
