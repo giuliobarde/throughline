@@ -3,6 +3,7 @@ from __future__ import annotations
 import argparse
 import json
 import logging
+import re
 from datetime import date as date_cls
 from typing import Optional
 
@@ -24,6 +25,12 @@ logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
 log = logging.getLogger("throughline")
 
 SOURCES = [ArxivSource(), TavilySource(), HackerNewsSource(), GitHubSource(), BlogSource()]
+
+SOURCE_PRIORITY = {"blog": 5, "hackernews": 4, "news": 3, "arxiv": 2, "github": 1}
+
+
+def _norm_title(title: str) -> str:
+    return re.sub(r"[^a-z0-9]+", " ", title.lower()).strip()
 
 
 def collect() -> list[Item]:
@@ -47,7 +54,15 @@ def dedupe(items: list[Item]) -> list[Item]:
             continue
         seen.add(key)
         out.append(it)
-    return out
+    best: dict[str, Item] = {}
+    for it in out:
+        t = _norm_title(it.title)
+        if not t:
+            continue
+        prev = best.get(t)
+        if prev is None or SOURCE_PRIORITY.get(it.source, 0) > SOURCE_PRIORITY.get(prev.source, 0):
+            best[t] = it
+    return [it for it in out if not _norm_title(it.title) or best.get(_norm_title(it.title)) is it]
 
 
 def merge_run_items(

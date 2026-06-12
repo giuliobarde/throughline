@@ -28,12 +28,20 @@ describe("itemKey", () => {
 
 describe("mergeDigests", () => {
   it("dedupes across digests keeping the newest occurrence and tags digestDate", () => {
-    const newest = digest("2026-06-08", [item("1", "arxiv", { summary: "new" })]);
-    const older = digest("2026-06-07", [item("1", "arxiv", { summary: "old" }), item("2", "github")]);
+    const newest = digest("2026-06-08", [item("1", "arxiv", { summary: "new", title: "Alpha paper" })]);
+    const older = digest("2026-06-07", [item("1", "arxiv", { summary: "old", title: "Alpha paper" }), item("2", "github", { title: "Beta repo" })]);
     const merged = mergeDigests([newest, older]); // newest first, as loaded
     expect(merged).toHaveLength(2);
     expect(merged[0]).toMatchObject({ id: "1", summary: "new", digestDate: "2026-06-08" });
     expect(merged[1]).toMatchObject({ id: "2", digestDate: "2026-06-07" });
+  });
+
+  it("drops cross-source duplicates of the same title, keeping first-party blog", () => {
+    const hnVersion = item("h", "hackernews", { title: "DiffusionGemma: 4x faster" });
+    const blogVersion = item("b", "blog", { title: "DiffusionGemma: 4x Faster!" });
+    const merged = mergeDigests([digest("2026-06-10", [hnVersion, blogVersion])]);
+    expect(merged).toHaveLength(1);
+    expect(merged[0].source).toBe("blog");
   });
 });
 

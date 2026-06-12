@@ -4,6 +4,18 @@ export type FeedItem = Item & { digestDate: string };
 export type FeedSort = "hot" | "new" | "foryou" | "top";
 export type VoteCounts = Record<string, number>;
 
+const SOURCE_PRIORITY: Record<string, number> = {
+  blog: 5,        // first-party announcement wins
+  hackernews: 4,  // has discussion
+  news: 3,
+  arxiv: 2,
+  github: 1,
+};
+
+function normTitle(title: string): string {
+  return title.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+}
+
 export function itemKey(i: Pick<Item, "source" | "id">): string {
   return `${i.source}:${i.id}`;
 }
@@ -20,7 +32,19 @@ export function mergeDigests(digests: Digest[]): FeedItem[] {
       out.push({ ...item, digestDate: d.date });
     }
   }
-  return out;
+  const byTitle = new Map<string, FeedItem>();
+  for (const item of out) {
+    const t = normTitle(item.title);
+    if (!t) continue;
+    const prev = byTitle.get(t);
+    if (!prev || (SOURCE_PRIORITY[item.source] ?? 0) > (SOURCE_PRIORITY[prev.source] ?? 0)) {
+      byTitle.set(t, item);
+    }
+  }
+  return out.filter((item) => {
+    const t = normTitle(item.title);
+    return !t || byTitle.get(t) === item;
+  });
 }
 
 /** Gravity-style: votes push up, age pulls down. */

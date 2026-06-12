@@ -15,12 +15,12 @@ const TABS: { id: FeedSort; label: string }[] = [
 
 export function Feed({
   initialItems,
-  votes,
+  initialVotes,
   initialBefore,
   nowMs,
 }: {
   initialItems: FeedItem[];
-  votes: VoteCounts;
+  initialVotes: VoteCounts;
   initialBefore: string | null;
   nowMs: number;
 }) {
@@ -29,11 +29,29 @@ export function Feed({
   const [pool, setPool] = useState<FeedItem[]>(initialItems);
   const [before, setBefore] = useState<string | null>(initialBefore);
   const [loading, setLoading] = useState(false);
+  const [votes, setVotes] = useState<VoteCounts>(initialVotes);
   const sentinel = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     // eslint-disable-next-line react-hooks/set-state-in-effect
     setDens(getDensity());
+  }, []);
+
+  useEffect(() => {
+    let cancelled = false;
+    (async () => {
+      try {
+        const res = await fetch("/api/votes");
+        if (!res.ok || cancelled) return;
+        const data = (await res.json()) as { counts: VoteCounts };
+        setVotes((prev) => ({ ...prev, ...data.counts }));
+      } catch {
+        // offline — keep server-rendered counts
+      }
+    })();
+    return () => {
+      cancelled = true;
+    };
   }, []);
 
   useEffect(() => {

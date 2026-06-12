@@ -37,7 +37,7 @@ export default async function TopicPage({
         <span className="font-mono text-lg text-sky-400">t/{tag}</span> · {topic.label}
       </h1>
       <p className="mb-6 mt-1 font-mono text-xs text-neutral-500">{items.length} posts</p>
-      <Feed initialItems={items} votes={votes} initialBefore={null} nowMs={nowMs} />
+      <Feed initialItems={items} initialVotes={votes} initialBefore={null} nowMs={nowMs} />
     </main>
   );
 }

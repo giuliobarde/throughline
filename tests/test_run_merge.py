@@ -78,3 +78,12 @@ def test_merge_none_existing_is_passthrough():
     assert carried_topics == {}
 
 
+def test_dedupe_drops_cross_source_title_duplicates():
+    from pipeline.run import dedupe
+
+    hn = _item("h", source="hackernews", title="DiffusionGemma: 4x faster")
+    blog = _item("b", source="blog", title="diffusiongemma 4X FASTER")
+    kept = dedupe([hn, blog])
+    assert [i.source for i in kept] == ["blog"]
+
+

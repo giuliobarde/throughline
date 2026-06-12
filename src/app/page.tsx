@@ -31,7 +31,7 @@ export default async function HomePage() {
         <div className="grid min-w-0 gap-8 lg:grid-cols-[minmax(0,1fr)_240px]">
           <Feed
             initialItems={initialItems}
-            votes={votes}
+            initialVotes={votes}
             initialBefore={initialBefore}
             nowMs={nowMs}
           />
