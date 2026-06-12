@@ -1,34 +1,79 @@
-import { promises as fs } from "fs";
-import path from "path";
-import type { Digest, Item, IndexEntry, Topic } from "./types";
+import "server-only";
+import type { Digest, IndexEntry, Item, Topic } from "./types";
+import { getServiceClient } from "./supabase";
 
-const CONTENT = path.join(process.cwd(), "content");
+function isoWeek(dateStr: string): string {
+  const d = new Date(`${dateStr}T00:00:00Z`);
+  const day = d.getUTCDay() || 7;
+  d.setUTCDate(d.getUTCDate() + 4 - day);
+  const yearStart = Date.UTC(d.getUTCFullYear(), 0, 1);
+  const week = Math.ceil(((d.getTime() - yearStart) / 86400000 + 1) / 7);
+  return `${d.getUTCFullYear()}-${String(week).padStart(2, "0")}`;
+}
 
 export async function getIndex(): Promise<IndexEntry[]> {
+  const client = getServiceClient();
+  if (!client) return [];
   try {
-    const raw = await fs.readFile(path.join(CONTENT, "index.json"), "utf-8");
-    return JSON.parse(raw) as IndexEntry[];
+    const [idx, syn] = await Promise.all([
+      client
+        .from("digest_index")
+        .select("date, item_count")
+        .order("date", { ascending: false }),
+      client.from("syntheses").select("week"),
+    ]);
+    if (idx.error || !idx.data) return [];
+    const weeks = new Set((syn.data ?? []).map((w) => w.week as string));
+    return idx.data.map((r) => ({
+      date: r.date as string,
+      item_count: (r.item_count as number) ?? 0,
+      has_synthesis: weeks.has(isoWeek(r.date as string)),
+    }));
   } catch {
     return [];
   }
 }
 
 export async function getDigest(date: string): Promise<Digest | null> {
+  const client = getServiceClient();
+  if (!client) return null;
   try {
-    const raw = await fs.readFile(
-      path.join(CONTENT, "digests", `${date}.json`),
-      "utf-8",
-    );
-    return JSON.parse(raw) as Digest;
+    const { data, error } = await client
+      .from("digests")
+      .select("payload")
+      .eq("date", date)
+      .maybeSingle();
+    if (error || !data) return null;
+    return data.payload as Digest;
   } catch {
     return null;
   }
 }
 
+async function digestsQuery(
+  before: string | null,
+  count: number | null,
+): Promise<Digest[]> {
+  const client = getServiceClient();
+  if (!client) return [];
+  try {
+    let q = client
+      .from("digests")
+      .select("payload")
+      .order("date", { ascending: false });
+    if (before) q = q.lt("date", before);
+    if (count !== null) q = q.limit(count);
+    const { data, error } = await q;
+    if (error || !data) return [];
+    return data.map((r) => r.payload as Digest);
+  } catch {
+    return [];
+  }
+}
+
 export async function getLatestDigest(): Promise<Digest | null> {
-  const index = await getIndex();
-  if (index.length === 0) return null;
-  return getDigest(index[0].date);
+  const [d] = await digestsQuery(null, 1);
+  return d ?? null;
 }
 
 export async function getLatestTopics(): Promise<Topic[]> {
@@ -52,38 +97,32 @@ export async function getTopic(
 }
 
 export async function getRecentDigests(count = 7): Promise<Digest[]> {
-  const index = await getIndex();
-  const digests = await Promise.all(index.slice(0, count).map((e) => getDigest(e.date)));
-  return digests.filter((d): d is Digest => Boolean(d));
+  return digestsQuery(null, count);
 }
 
 export async function getDigestsBefore(
   date: string,
   count = 7,
 ): Promise<{ digests: Digest[]; nextBefore: string | null }> {
-  const index = await getIndex();
-  const older = index.filter((e) => e.date < date);
-  const page = older.slice(0, count);
-  const digests = (
-    await Promise.all(page.map((e) => getDigest(e.date)))
-  ).filter((d): d is Digest => Boolean(d));
-  const nextBefore = older.length > count ? page[page.length - 1].date : null;
+  const page = await digestsQuery(date, count + 1);
+  const digests = page.slice(0, count);
+  const nextBefore =
+    page.length > count && digests.length > 0
+      ? digests[digests.length - 1].date
+      : null;
   return { digests, nextBefore };
 }
 
 let allDigestsCache: { key: string; digests: Digest[] } | null = null;
 
-/** Every digest in the archive, newest first. Cached per server instance;
- *  invalidates when the index head or length changes (new daily digest). */
+/** Every digest, newest first. Cached per instance; invalidates on new head/length. */
 export async function getAllDigests(): Promise<Digest[]> {
-  const index = await getIndex();
-  const cacheKey = `${index[0]?.date ?? ""}:${index.length}`;
-  if (allDigestsCache && allDigestsCache.key === cacheKey) {
+  const probe = await digestsQuery(null, 1);
+  const head = probe[0]?.date ?? "";
+  if (allDigestsCache && allDigestsCache.key.startsWith(`${head}:`)) {
     return allDigestsCache.digests;
   }
-  const digests = (
-    await Promise.all(index.map((e) => getDigest(e.date)))
-  ).filter((d): d is Digest => Boolean(d));
-  allDigestsCache = { key: cacheKey, digests };
+  const digests = await digestsQuery(null, null);
+  allDigestsCache = { key: `${head}:${digests.length}`, digests };
   return digests;
 }
