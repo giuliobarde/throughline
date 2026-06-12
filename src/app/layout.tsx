@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import Link from "next/link";
+import { Analytics } from "@vercel/analytics/next";
 import { SearchBox } from "@/components/SearchBox";
+import { SITE_URL } from "@/lib/site";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -18,7 +20,7 @@ const DESCRIPTION =
   "The tech wire, ranked daily — AI research & engineering, voted and ranked.";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://throughline-theta.vercel.app"),
+  metadataBase: new URL(SITE_URL),
   title: "Throughline",
   description: DESCRIPTION,
   openGraph: {
@@ -76,6 +78,7 @@ export default function RootLayout({
           </div>
         </nav>
         {children}
+        <Analytics />
       </body>
     </html>
   );

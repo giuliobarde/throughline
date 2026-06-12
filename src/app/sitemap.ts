@@ -1,7 +1,6 @@
 import type { MetadataRoute } from "next";
 import { getLatestTopics } from "@/lib/content";
-
-const BASE = "https://throughline-theta.vercel.app";
+import { SITE_URL as BASE } from "@/lib/site";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const topics = await getLatestTopics();
